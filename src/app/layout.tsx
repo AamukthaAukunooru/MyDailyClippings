@@ -21,6 +21,9 @@ export const metadata: Metadata = {
     default: 'My Daily Clippings',
   },
   description: 'Personally curated daily news across Physics, AI, Geopolitics, and Astronomy, drafted fresh every morning.',
+  icons: {
+    icon: '/mydailyclippings/logo.png',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

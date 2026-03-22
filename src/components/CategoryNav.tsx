@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 import { CATEGORIES } from '@/lib/categories'
@@ -13,11 +14,8 @@ export default function CategoryNav() {
     <header className="sticky top-0 z-50 border-b border-surface-border bg-surface/90 backdrop-blur-sm">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 md:px-8">
         {/* Masthead */}
-        <Link
-          href="/"
-          className="font-serif-display text-lg font-bold tracking-tight text-white md:text-xl"
-        >
-          My Daily Clippings
+        <Link href="/" className="flex items-center">
+          <Image src="/mydailyclippings/logo.png" alt="My Daily Clippings" width={140} height={40} className="h-8 w-auto" priority />
         </Link>
 
         {/* Desktop nav */}
