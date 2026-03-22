@@ -20,13 +20,13 @@ export default function AboutPage() {
 
       <div className="space-y-6 text-base leading-relaxed text-gray-300">
         <p>
-          <strong className="text-white">My Daily Clippings</strong> is a personal newspaper — built for
+          <strong className="text-white">My Daily Clippings</strong> is a personal newspaper built for
           one reader. Every morning at 6AM, an AI agent scans the latest developments across science,
           technology, and world affairs, then drafts a curated briefing in the style of a personal journal.
         </p>
         <p>
           Not a news aggregator. Not a social feed. Think of it as a brilliant correspondent who reads
-          everything so you don&apos;t have to — then writes it up in language worth reading.
+          everything so you don&apos;t have to, then writes it up in language worth reading.
         </p>
         <p>
           Powered by{' '}

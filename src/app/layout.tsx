@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     template: '%s · My Daily Clippings',
     default: 'My Daily Clippings',
   },
-  description: 'Personally curated daily news across Physics, AI, Geopolitics, and Astronomy — drafted fresh every morning.',
+  description: 'Personally curated daily news across Physics, AI, Geopolitics, and Astronomy, drafted fresh every morning.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

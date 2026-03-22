@@ -25,7 +25,7 @@ export default function HomePage() {
           Today&apos;s Clippings
         </h1>
         <p className="mt-3 max-w-xl text-gray-400">
-          Your daily briefing across science, technology, and world affairs — curated and drafted fresh every morning.
+          Your daily briefing across science, technology, and world affairs, curated and drafted fresh every morning.
         </p>
       </div>
 
