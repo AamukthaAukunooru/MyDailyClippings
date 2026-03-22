@@ -111,8 +111,8 @@ async function main() {
       console.error(`[${category.slug}] ERROR:`, err)
       // Continue with other categories
     }
-    // Polite delay between API calls
-    await new Promise((r) => setTimeout(r, 3000))
+    // 60s delay to stay within free tier RPM limit (5 RPM)
+    await new Promise((r) => setTimeout(r, 60000))
   }
 
   console.log('\nDone.')
