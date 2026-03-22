@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '30 0 * * *'   # 6:00 AM IST (UTC+5:30) daily
   workflow_dispatch:        # Manual trigger for testing
+    inputs:
+      force:
+        description: 'Force regenerate even if today already exists'
+        type: boolean
+        default: false
 
 permissions:
   contents: write           # Required to commit and push generated files
@@ -34,6 +39,7 @@ jobs:
       - name: Generate newsletters
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          FORCE: ${{ inputs.force }}
         run: npx tsx scripts/generate-newsletter.ts
 
       - name: Commit and push new newsletters

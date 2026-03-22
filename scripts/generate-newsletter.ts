@@ -54,7 +54,7 @@ async function generateForCategory(category: (typeof CATEGORIES)[0]) {
   console.log(`\n[${category.slug}] Generating...`)
 
   const outputPath = path.join(NEWSLETTERS_DIR, category.slug, `${today}.md`)
-  if (fs.existsSync(outputPath)) {
+  if (fs.existsSync(outputPath) && process.env.FORCE !== 'true') {
     console.log(`[${category.slug}] Already exists, skipping.`)
     return
   }
