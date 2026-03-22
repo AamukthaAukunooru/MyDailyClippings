@@ -19,8 +19,8 @@ export default function HomePage() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-10 md:px-8">
       {/* Page header */}
-      <div className="mb-10 border-b border-surface-border pb-8">
-        <p className="mb-2 text-xs uppercase tracking-widest text-gray-500">{today}</p>
+      <div className="mb-10 flex flex-col items-center border-b border-surface-border pb-8 text-center">
+        <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-amber-400">{today}</p>
         <h1 className="font-serif-display text-4xl font-bold text-white md:text-6xl">
           Today&apos;s Clippings
         </h1>

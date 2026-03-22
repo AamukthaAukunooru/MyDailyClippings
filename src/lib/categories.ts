@@ -38,13 +38,13 @@ export function getCategoryBySlug(slug: string): CategoryMeta | undefined {
 }
 
 // Accent color → Tailwind classes map
-export const ACCENT_CLASSES: Record<string, { text: string; border: string; bg: string }> = {
-  violet: { text: 'text-violet-400', border: 'border-violet-500', bg: 'bg-violet-500/10' },
-  blue:   { text: 'text-blue-400',   border: 'border-blue-500',   bg: 'bg-blue-500/10' },
-  amber:  { text: 'text-amber-400',  border: 'border-amber-500',  bg: 'bg-amber-500/10' },
-  indigo: { text: 'text-indigo-400', border: 'border-indigo-500', bg: 'bg-indigo-500/10' },
-  green:  { text: 'text-green-400',  border: 'border-green-500',  bg: 'bg-green-500/10' },
-  rose:   { text: 'text-rose-400',   border: 'border-rose-500',   bg: 'bg-rose-500/10' },
-  teal:   { text: 'text-teal-400',   border: 'border-teal-500',   bg: 'bg-teal-500/10' },
-  orange: { text: 'text-orange-400', border: 'border-orange-500', bg: 'bg-orange-500/10' },
+export const ACCENT_CLASSES: Record<string, { text: string; border: string; bg: string; btnBg: string }> = {
+  violet: { text: 'text-violet-400', border: 'border-violet-500', bg: 'bg-violet-500/10', btnBg: 'bg-violet-500' },
+  blue:   { text: 'text-blue-400',   border: 'border-blue-500',   bg: 'bg-blue-500/10',   btnBg: 'bg-blue-500' },
+  amber:  { text: 'text-amber-400',  border: 'border-amber-500',  bg: 'bg-amber-500/10',  btnBg: 'bg-amber-500' },
+  indigo: { text: 'text-indigo-400', border: 'border-indigo-500', bg: 'bg-indigo-500/10', btnBg: 'bg-indigo-500' },
+  green:  { text: 'text-green-400',  border: 'border-green-500',  bg: 'bg-green-500/10',  btnBg: 'bg-green-500' },
+  rose:   { text: 'text-rose-400',   border: 'border-rose-500',   bg: 'bg-rose-500/10',   btnBg: 'bg-rose-500' },
+  teal:   { text: 'text-teal-400',   border: 'border-teal-500',   bg: 'bg-teal-500/10',   btnBg: 'bg-teal-500' },
+  orange: { text: 'text-orange-400', border: 'border-orange-500', bg: 'bg-orange-500/10', btnBg: 'bg-orange-500' },
 }

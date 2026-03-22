@@ -2,7 +2,6 @@ import Link from 'next/link'
 import type { Newsletter } from '@/lib/types'
 import type { CategoryMeta } from '@/lib/types'
 import { ACCENT_CLASSES } from '@/lib/categories'
-import ArticleImage from './ArticleImage'
 
 interface DigestCardProps {
   newsletter: Newsletter | null
@@ -14,56 +13,41 @@ export default function DigestCard({ newsletter, category }: DigestCardProps) {
 
   if (!newsletter) {
     return (
-      <div className="flex flex-col overflow-hidden rounded-xl border border-surface-border bg-surface-card">
-        <div className={`h-1 w-full ${accent.border} border-t-2`} />
-        <div className="flex flex-1 flex-col p-5">
-          <span className={`mb-2 self-start text-xs font-semibold uppercase tracking-wider ${accent.text}`}>
-            {category.label}
-          </span>
-          <p className="text-sm text-gray-500">No clippings yet. Check back tomorrow.</p>
-        </div>
+      <div className={`flex min-h-[240px] flex-col rounded-xl border-2 ${accent.border} bg-surface-card p-5`}>
+        <span className={`mb-3 self-start text-xs font-semibold uppercase tracking-wider ${accent.text}`}>
+          {category.label}
+        </span>
+        <p className="text-sm text-gray-500">No clippings yet. Check back tomorrow.</p>
       </div>
     )
   }
 
   const story = newsletter.frontmatter.topStories?.[0]
-  const image = story?.image ?? null
 
   return (
     <Link
       href={newsletter.href}
-      className="group flex flex-col overflow-hidden rounded-xl border border-surface-border bg-surface-card transition-colors hover:border-gray-600"
+      className={`group flex min-h-[240px] flex-col justify-between rounded-xl border-2 ${accent.border} bg-surface-card p-5 transition-opacity hover:opacity-90`}
     >
-      {/* Accent top line */}
-      <div className={`h-0.5 w-full ${accent.bg} border-t-2 ${accent.border}`} />
-
-      {/* Image */}
-      {image && (
-        <div className="relative h-44 overflow-hidden">
-          <ArticleImage
-            src={image}
-            alt={story?.headline ?? newsletter.frontmatter.title}
-            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-            fallbackClassName="h-full w-full bg-gradient-to-br from-gray-700 to-gray-800"
-          />
-          <div className="card-overlay absolute inset-0" />
-        </div>
-      )}
-
-      <div className="flex flex-1 flex-col p-5">
-        <span className={`mb-3 self-start text-xs font-semibold uppercase tracking-wider ${accent.text}`}>
+      {/* Top */}
+      <div>
+        <span className={`mb-3 inline-block text-xs font-semibold uppercase tracking-wider ${accent.text}`}>
           {category.label}
         </span>
-        <h3 className="font-serif-display flex-1 text-lg font-bold leading-snug text-white group-hover:text-gray-200">
+        <h3 className="font-serif-display text-lg font-bold leading-snug text-white">
           {story?.headline ?? newsletter.frontmatter.title}
         </h3>
         {newsletter.frontmatter.summary && (
-          <p className="mt-2 line-clamp-2 text-sm text-gray-400">{newsletter.frontmatter.summary}</p>
+          <p className="mt-2 line-clamp-3 text-sm text-gray-400">{newsletter.frontmatter.summary}</p>
         )}
-        <div className="mt-4 flex items-center justify-between text-xs text-gray-500">
-          <span>{newsletter.frontmatter.date}</span>
-          <span className="group-hover:text-gray-300">Read →</span>
-        </div>
+      </div>
+
+      {/* Bottom */}
+      <div className="mt-4 flex items-center justify-between">
+        <span className={`text-xs font-medium ${accent.text}`}>{newsletter.frontmatter.date}</span>
+        <span className={`rounded-md px-3 py-1.5 text-xs font-semibold text-white ${accent.btnBg}`}>
+          Read →
+        </span>
       </div>
     </Link>
   )
