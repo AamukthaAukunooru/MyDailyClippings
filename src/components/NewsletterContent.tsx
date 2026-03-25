@@ -27,6 +27,10 @@ export default async function NewsletterContent({ newsletter }: NewsletterConten
   const cat = getCategoryBySlug(category)
   const accent = ACCENT_CLASSES[cat?.accentColor ?? 'violet']
   const html = await markdownToHtml(content)
+  // Strip trailing date from title (e.g. "Physics — 2026-03-25" → "Physics")
+  const displayTitle = frontmatter.title
+    .replace(/\s*[—–-]+\s*\d{4}-\d{2}-\d{2}\s*$/, '')
+    .trim()
 
   return (
     <article className="mx-auto max-w-3xl px-4 py-8 md:px-0">
@@ -48,7 +52,7 @@ export default async function NewsletterContent({ newsletter }: NewsletterConten
           <span className="text-xs text-gray-500">{frontmatter.date}</span>
         </div>
         <h1 className="font-serif-display text-4xl font-bold leading-tight text-white md:text-5xl">
-          {frontmatter.title}
+          {displayTitle}
         </h1>
         {frontmatter.summary && (
           <p className="mt-4 text-lg leading-relaxed text-gray-400">{frontmatter.summary}</p>
