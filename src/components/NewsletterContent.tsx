@@ -45,17 +45,15 @@ export default async function NewsletterContent({ newsletter }: NewsletterConten
 
       {/* Header */}
       <header className="mb-8">
-        <div className="mb-3 flex items-center gap-3">
-          <span className={`text-xs font-semibold uppercase tracking-widest ${accent.text}`}>
-            {cat?.label} · Daily Clipping
-          </span>
-          <span className="text-xs text-gray-500">{frontmatter.date}</span>
-        </div>
+        <span className={`mb-3 inline-block text-xs font-semibold uppercase tracking-widest ${accent.text}`}>
+          {cat?.label} · Daily Clipping
+        </span>
         <h1 className="font-serif-display text-4xl font-bold leading-tight text-white md:text-5xl">
           {displayTitle}
         </h1>
+        <p className="mt-2 text-xs text-gray-500">{frontmatter.date}</p>
         {frontmatter.summary && (
-          <p className="mt-4 text-lg leading-relaxed text-gray-400">{frontmatter.summary}</p>
+          <p className="mt-3 text-lg leading-relaxed text-gray-400">{frontmatter.summary}</p>
         )}
       </header>
 
