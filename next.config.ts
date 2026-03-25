@@ -2,7 +2,7 @@ import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: '/mydailyclippings',
+  basePath: '/MyDailyClippings',
   trailingSlash: true,
   images: {
     unoptimized: true,
