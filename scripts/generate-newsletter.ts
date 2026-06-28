@@ -12,6 +12,57 @@ const ist = new Date(Date.now() + 5.5 * 60 * 60 * 1000)
 const today = ist.toISOString().split('T')[0]
 const NEWSLETTERS_DIR = path.join(process.cwd(), 'newsletters')
 
+// Resolve redirect URLs (e.g. vertexaisearch grounding-api-redirect) to their final destination
+async function resolveRedirect(url: string): Promise<string> {
+  try {
+    const controller = new AbortController()
+    const timeout = setTimeout(() => controller.abort(), 8000)
+    // Use HEAD first for speed; fall back to GET if HEAD isn't supported
+    const res = await fetch(url, {
+      method: 'HEAD',
+      signal: controller.signal,
+      redirect: 'follow',
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; MyDailyClippings/1.0)' },
+    })
+    clearTimeout(timeout)
+    return res.url // After redirects, this is the final URL
+  } catch {
+    // If HEAD fails, try GET (some servers reject HEAD)
+    try {
+      const controller = new AbortController()
+      const timeout = setTimeout(() => controller.abort(), 8000)
+      const res = await fetch(url, {
+        signal: controller.signal,
+        redirect: 'follow',
+        headers: { 'User-Agent': 'Mozilla/5.0 (compatible; MyDailyClippings/1.0)' },
+      })
+      clearTimeout(timeout)
+      return res.url
+    } catch {
+      console.warn(`  ⚠ Could not resolve redirect: ${url.substring(0, 80)}...`)
+      return url // Fall back to original
+    }
+  }
+}
+
+// Resolve all source URLs, filtering out ones that failed to resolve
+async function resolveAllUrls(urls: string[]): Promise<string[]> {
+  const resolved = await Promise.all(
+    urls.map(async (url) => {
+      const final = await resolveRedirect(url)
+      // Consider it resolved if the domain changed (i.e. no longer vertexaisearch)
+      const didResolve = !final.includes('vertexaisearch.cloud.google.com')
+      if (didResolve) {
+        console.log(`  ✓ ${new URL(final).hostname}`)
+      } else {
+        console.log(`  ✗ unresolved: ${url.substring(0, 60)}...`)
+      }
+      return final
+    }),
+  )
+  return resolved
+}
+
 // Fetch OG image and title from a URL
 async function fetchOgData(url: string): Promise<{ image: string | null; title: string | null }> {
   try {
@@ -72,8 +123,12 @@ async function generateForCategory(category: (typeof CATEGORIES)[0]) {
 
   console.log(`[${category.slug}] Got ${sourceUrls.length} sources from Gemini`)
 
-  // 2. Fetch OG data for top 3 source URLs
-  const topUrls = sourceUrls.slice(0, 3)
+  // 2. Resolve redirect URLs to actual source URLs
+  console.log(`[${category.slug}] Resolving source URLs...`)
+  const resolvedUrls = await resolveAllUrls(sourceUrls)
+
+  // 3. Fetch OG data for top 3 resolved source URLs
+  const topUrls = resolvedUrls.slice(0, 3)
   const ogResults = await Promise.all(topUrls.map(fetchOgData))
 
   const topStories = topUrls.map((url, i) => ({
@@ -83,20 +138,20 @@ async function generateForCategory(category: (typeof CATEGORIES)[0]) {
     image: ogResults[i].image ?? undefined,
   }))
 
-  // 3. Build frontmatter
+  // 4. Build frontmatter
   const frontmatterObj = {
     title: `${category.label} — ${today}`,
     date: today,
     category: category.slug,
     summary: extractSummary(text),
     topStories,
-    sources: sourceUrls,
+    sources: resolvedUrls,
   }
 
   const frontmatterYaml = yaml.dump(frontmatterObj, { lineWidth: 120 })
   const markdown = `---\n${frontmatterYaml}---\n\n${text.trim()}\n`
 
-  // 4. Write file
+  // 5. Write file
   const dir = path.join(NEWSLETTERS_DIR, category.slug)
   fs.mkdirSync(dir, { recursive: true })
   fs.writeFileSync(outputPath, markdown, 'utf-8')
