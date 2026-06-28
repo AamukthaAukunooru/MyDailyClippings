@@ -31,6 +31,7 @@ Structure: brief overview paragraph, then 2-3 sections with ## headers.
 Use bold for key model names, companies, and technical terms.
 Do NOT include a top-level # title.
 Do NOT include YAML frontmatter.
+Do NOT use em dashes (—); use commas or restructure the sentence instead.
 Aim for ~600-800 words.`,
   },
   {
@@ -43,6 +44,7 @@ Structure: brief situation overview paragraph, then 2-3 sections with ## headers
 Use bold for country names, key figures, and agreements.
 Do NOT include a top-level # title.
 Do NOT include YAML frontmatter.
+Do NOT use em dashes (—); use commas or restructure the sentence instead.
 Aim for ~600-800 words.`,
   },
   {
@@ -55,6 +57,7 @@ Structure: brief overview paragraph, then 2-3 sections with ## headers.
 Include scale, context, and why each discovery matters.
 Do NOT include a top-level # title.
 Do NOT include YAML frontmatter.
+Do NOT use em dashes (—); use commas or restructure the sentence instead.
 Aim for ~600-800 words.`,
   },
 ]
