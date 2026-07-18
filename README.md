@@ -10,8 +10,9 @@ In an age where algorithms decide what you see based on what keeps you scrolling
 
 ## How it works
 
-1. **Generate** — A GitHub Actions workflow runs daily at 6 AM IST, calling Gemini 2.5 Flash with real-time web search to write newsletters for each category. Results are committed to the `newsletters/` folder.
-2. **Deploy** — Every push to `master` triggers a second workflow that builds the Next.js static site and publishes it to GitHub Pages.
+1. **Gather** — For each category, the pipeline fetches curated RSS feeds from trusted sources (Quanta, NASA, BBC, NYT, OpenAI, DeepMind and more — see `feeds` in `scripts/categories.ts`) and collects stories published in the last 48 hours.
+2. **Generate** — A GitHub Actions workflow runs daily at 6 AM IST, passing the candidate stories to Gemini 2.5 Flash, which selects the most significant ones and writes each newsletter (using web search only to add depth). If feeds are unavailable, it falls back to pure search grounding. Results are committed to the `newsletters/` folder.
+3. **Deploy** — Every push to `master` triggers a second workflow that builds the Next.js static site and publishes it to GitHub Pages.
 
 ## Tech stack
 
@@ -33,7 +34,7 @@ In an age where algorithms decide what you see based on what keeps you scrolling
 
 Edit two files:
 
-**`scripts/categories.ts`** — add generation config (system prompt, search query)
+**`scripts/categories.ts`** — add generation config (system prompt, search query, curated RSS feeds)
 
 **`src/lib/categories.ts`** — add display config (label, accent color, tagline)
 

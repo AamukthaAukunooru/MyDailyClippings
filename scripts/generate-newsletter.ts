@@ -2,7 +2,8 @@ import fs from 'fs'
 import path from 'path'
 import * as yaml from 'js-yaml'
 import { generateWithSearch } from './gemini'
-import { CATEGORIES } from './categories'
+import { CATEGORIES, type ScriptCategory } from './categories'
+import { fetchArticles } from './rss'
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY
 if (!GEMINI_API_KEY) throw new Error('GEMINI_API_KEY environment variable is not set')
@@ -105,16 +106,69 @@ function extractSummary(text: string): string {
   return (para?.trim() ?? '').substring(0, 220)
 }
 
-async function generateForCategory(category: (typeof CATEGORIES)[0]) {
-  console.log(`\n[${category.slug}] Generating...`)
+interface NewsletterDraft {
+  text: string
+  sources: string[]
+  topStories: { headline: string; source: string; url: string; image?: string }[]
+}
 
-  const outputPath = path.join(NEWSLETTERS_DIR, category.slug, `${today}.md`)
-  if (fs.existsSync(outputPath) && process.env.FORCE !== 'true') {
-    console.log(`[${category.slug}] Already exists, skipping.`)
-    return
-  }
+// Minimum fresh RSS articles needed to skip the search-grounding fallback
+const MIN_ARTICLES = 5
 
-  // 1. Generate with Gemini + Google Search grounding
+// Primary path: candidate stories come from curated RSS feeds; Gemini selects
+// and writes, using search only to add depth on the selected stories.
+async function generateFromFeeds(category: ScriptCategory): Promise<NewsletterDraft | null> {
+  console.log(`[${category.slug}] Fetching ${category.feeds.length} RSS feeds...`)
+  const articles = await fetchArticles(category.feeds)
+  console.log(`[${category.slug}] ${articles.length} fresh candidate articles`)
+  if (articles.length < MIN_ARTICLES) return null
+
+  const articleList = articles
+    .map(
+      (a, i) =>
+        `[${i + 1}] (${a.source}, ${a.publishedAt.toISOString().slice(0, 10)}) ${a.title}` +
+        (a.summary ? `\n    ${a.summary}` : ''),
+    )
+    .join('\n')
+
+  const userPrompt = `Today is ${today}. Below is a numbered list of candidate stories published in the last 48 hours by hand-picked, trusted sources.
+
+${articleList}
+
+Select the most significant stories (roughly 4-8, favoring important developments over incremental updates) and write today's newsletter around them. You may use Google Search to gather additional detail on the stories you select, but do NOT introduce stories that are not in the list above.
+At the very end of your response, on its own line, write "USED:" followed by the numbers of the articles you drew from, e.g. "USED: 1, 4, 7".`
+
+  const { text: rawText } = await generateWithSearch(category.systemPrompt, userPrompt, GEMINI_API_KEY!)
+
+  // Parse the USED: line to know which curated articles the newsletter cites
+  const usedLine = rawText
+    .split('\n')
+    .reverse()
+    .find((l) => /^\s*USED:/i.test(l))
+  const usedNums = usedLine
+    ? [...new Set((usedLine.match(/\d+/g) ?? []).map(Number))].filter((n) => n >= 1 && n <= articles.length)
+    : []
+  const used = usedNums.length > 0 ? usedNums.map((n) => articles[n - 1]) : articles.slice(0, 8)
+  const text = rawText
+    .split('\n')
+    .filter((l) => !/^\s*USED:/i.test(l))
+    .join('\n')
+    .trim()
+
+  const top = used.slice(0, 3)
+  const ogResults = await Promise.all(top.map((a) => fetchOgData(a.url)))
+  const topStories = top.map((a, i) => ({
+    headline: a.title,
+    source: new URL(a.url).hostname.replace('www.', ''),
+    url: a.url,
+    image: ogResults[i].image ?? undefined,
+  }))
+
+  return { text, sources: used.map((a) => a.url), topStories }
+}
+
+// Fallback path: Gemini free search with grounding (used when feeds are down or quiet)
+async function generateFromSearch(category: ScriptCategory): Promise<NewsletterDraft> {
   const { text, sourceUrls } = await generateWithSearch(
     category.systemPrompt,
     `Today is ${today}. Search for the latest ${category.label} news from the past 24-48 hours and write today's newsletter. Focus on the most significant and recent developments.`,
@@ -123,11 +177,9 @@ async function generateForCategory(category: (typeof CATEGORIES)[0]) {
 
   console.log(`[${category.slug}] Got ${sourceUrls.length} sources from Gemini`)
 
-  // 2. Resolve redirect URLs to actual source URLs
   console.log(`[${category.slug}] Resolving source URLs...`)
   const resolvedUrls = await resolveAllUrls(sourceUrls)
 
-  // 3. Fetch OG data for top 3 resolved source URLs
   const topUrls = resolvedUrls.slice(0, 3)
   const ogResults = await Promise.all(topUrls.map(fetchOgData))
 
@@ -138,20 +190,36 @@ async function generateForCategory(category: (typeof CATEGORIES)[0]) {
     image: ogResults[i].image ?? undefined,
   }))
 
-  // 4. Build frontmatter
+  return { text, sources: resolvedUrls, topStories }
+}
+
+async function generateForCategory(category: ScriptCategory) {
+  console.log(`\n[${category.slug}] Generating...`)
+
+  const outputPath = path.join(NEWSLETTERS_DIR, category.slug, `${today}.md`)
+  if (fs.existsSync(outputPath) && process.env.FORCE !== 'true') {
+    console.log(`[${category.slug}] Already exists, skipping.`)
+    return
+  }
+
+  let draft = await generateFromFeeds(category)
+  if (!draft) {
+    console.log(`[${category.slug}] Too few RSS articles, falling back to search grounding`)
+    draft = await generateFromSearch(category)
+  }
+
   const frontmatterObj = {
     title: `${category.label} — ${today}`,
     date: today,
     category: category.slug,
-    summary: extractSummary(text),
-    topStories,
-    sources: resolvedUrls,
+    summary: extractSummary(draft.text),
+    topStories: draft.topStories,
+    sources: draft.sources,
   }
 
   const frontmatterYaml = yaml.dump(frontmatterObj, { lineWidth: 120 })
-  const markdown = `---\n${frontmatterYaml}---\n\n${text.trim()}\n`
+  const markdown = `---\n${frontmatterYaml}---\n\n${draft.text.trim()}\n`
 
-  // 5. Write file
   const dir = path.join(NEWSLETTERS_DIR, category.slug)
   fs.mkdirSync(dir, { recursive: true })
   fs.writeFileSync(outputPath, markdown, 'utf-8')

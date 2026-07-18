@@ -1,10 +1,15 @@
 // Standalone copy - does NOT import from src/ to avoid Next.js resolution in Node scripts
 
+import type { FeedSource } from './rss'
+
 export interface ScriptCategory {
   slug: string
   label: string
   searchQuery: string
   systemPrompt: string
+  // Curated RSS/Atom feeds; generation draws candidate stories from these
+  // (all URLs verified working 2026-07-18)
+  feeds: FeedSource[]
 }
 
 export const CATEGORIES: ScriptCategory[] = [
@@ -20,6 +25,13 @@ Do NOT include a top-level # title (it will be added separately).
 Do NOT include YAML frontmatter.
 Do NOT use em dashes (—); use commas or restructure the sentence instead.
 Aim for ~600-800 words.`,
+    feeds: [
+      { name: 'Quanta Magazine', url: 'https://www.quantamagazine.org/feed/' },
+      { name: 'APS Physics Magazine', url: 'http://feeds.aps.org/rss/recent/physics.xml' },
+      { name: 'Phys.org Physics', url: 'https://phys.org/rss-feed/physics-news/' },
+      { name: 'ScienceDaily Physics', url: 'https://www.sciencedaily.com/rss/matter_energy/physics.xml' },
+      { name: 'New Scientist Physics', url: 'https://www.newscientist.com/subject/physics/feed/' },
+    ],
   },
   {
     slug: 'ai',
@@ -33,6 +45,17 @@ Do NOT include a top-level # title.
 Do NOT include YAML frontmatter.
 Do NOT use em dashes (—); use commas or restructure the sentence instead.
 Aim for ~600-800 words.`,
+    feeds: [
+      { name: 'Ars Technica AI', url: 'https://arstechnica.com/ai/feed/' },
+      { name: 'The Verge AI', url: 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml' },
+      { name: 'MIT Technology Review', url: 'https://www.technologyreview.com/feed/' },
+      { name: 'OpenAI News', url: 'https://openai.com/news/rss.xml' },
+      { name: 'Google DeepMind', url: 'https://deepmind.google/blog/rss.xml' },
+      { name: 'Google Research', url: 'https://research.google/blog/rss/' },
+      { name: 'Hugging Face', url: 'https://huggingface.co/blog/feed.xml' },
+      { name: 'Simon Willison', url: 'https://simonwillison.net/atom/everything/' },
+      { name: 'Hacker News (150+ points)', url: 'https://hnrss.org/frontpage?points=150' },
+    ],
   },
   {
     slug: 'geopolitics',
@@ -46,6 +69,16 @@ Do NOT include a top-level # title.
 Do NOT include YAML frontmatter.
 Do NOT use em dashes (—); use commas or restructure the sentence instead.
 Aim for ~600-800 words.`,
+    feeds: [
+      { name: 'BBC World', url: 'http://feeds.bbci.co.uk/news/world/rss.xml' },
+      { name: 'The Guardian World', url: 'https://www.theguardian.com/world/rss' },
+      { name: 'Al Jazeera', url: 'https://www.aljazeera.com/xml/rss/all.xml' },
+      { name: 'NYT World', url: 'https://rss.nytimes.com/services/xml/rss/nyt/World.xml' },
+      { name: 'Foreign Policy', url: 'https://foreignpolicy.com/feed/' },
+      { name: 'Foreign Affairs', url: 'https://www.foreignaffairs.com/rss.xml' },
+      { name: 'The Diplomat', url: 'https://thediplomat.com/feed/' },
+      { name: 'DW World', url: 'https://rss.dw.com/rdf/rss-en-world' },
+    ],
   },
   {
     slug: 'astronomy',
@@ -59,5 +92,13 @@ Do NOT include a top-level # title.
 Do NOT include YAML frontmatter.
 Do NOT use em dashes (—); use commas or restructure the sentence instead.
 Aim for ~600-800 words.`,
+    feeds: [
+      { name: 'NASA News Releases', url: 'https://www.nasa.gov/news-release/feed/' },
+      { name: 'SpaceNews', url: 'https://spacenews.com/feed/' },
+      { name: 'Universe Today', url: 'https://www.universetoday.com/feed/' },
+      { name: 'EarthSky', url: 'https://earthsky.org/feed/' },
+      { name: 'Space.com', url: 'https://www.space.com/feeds/all' },
+      { name: 'Phys.org Space', url: 'https://phys.org/rss-feed/space-news/' },
+    ],
   },
 ]
