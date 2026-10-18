@@ -10,21 +10,39 @@
       "title": "Clippings · Physics",
       "description": "Daily physics news from My Daily Clippings, read aloud.",
       "color": "#0891b2",
-      "sources": [{ "dir": "physics", "kind": "news", "label": "Physics" }]
+      "sources": [
+        {
+          "dir": "physics",
+          "kind": "news",
+          "label": "Physics"
+        }
+      ]
     },
     {
       "slug": "ai",
       "title": "Clippings · AI & Technology",
       "description": "Daily AI and technology news from My Daily Clippings, read aloud.",
       "color": "#2563eb",
-      "sources": [{ "dir": "ai", "kind": "news", "label": "AI and Technology" }]
+      "sources": [
+        {
+          "dir": "ai",
+          "kind": "news",
+          "label": "AI and Technology"
+        }
+      ]
     },
     {
       "slug": "geopolitics",
       "title": "Clippings · Geopolitics",
       "description": "Daily geopolitics briefing from My Daily Clippings, read aloud.",
       "color": "#d97706",
-      "sources": [{ "dir": "geopolitics", "kind": "news", "label": "Geopolitics" }]
+      "sources": [
+        {
+          "dir": "geopolitics",
+          "kind": "news",
+          "label": "Geopolitics"
+        }
+      ]
     },
     {
       "slug": "astronomy",
@@ -32,8 +50,16 @@
       "description": "Daily astronomy news plus a daily explainer, from My Daily Clippings.",
       "color": "#ea580c",
       "sources": [
-        { "dir": "astronomy", "kind": "news", "label": "Astronomy" },
-        { "dir": "astronomy-explained", "kind": "explainer", "label": "Astronomy" }
+        {
+          "dir": "astronomy",
+          "kind": "news",
+          "label": "Astronomy"
+        },
+        {
+          "dir": "astronomy-explained",
+          "kind": "explainer",
+          "label": "Astronomy"
+        }
       ]
     },
     {
@@ -42,8 +68,16 @@
       "description": "Daily math news plus a daily explainer, from My Daily Clippings.",
       "color": "#7c3aed",
       "sources": [
-        { "dir": "math", "kind": "news", "label": "Math" },
-        { "dir": "math-explained", "kind": "explainer", "label": "Math" }
+        {
+          "dir": "math",
+          "kind": "news",
+          "label": "Math"
+        },
+        {
+          "dir": "math-explained",
+          "kind": "explainer",
+          "label": "Math"
+        }
       ]
     },
     {
@@ -52,8 +86,16 @@
       "description": "Daily neuroscience news plus a daily explainer, from My Daily Clippings.",
       "color": "#db2777",
       "sources": [
-        { "dir": "neuroscience", "kind": "news", "label": "Neuroscience" },
-        { "dir": "neuroscience-explained", "kind": "explainer", "label": "Neuroscience" }
+        {
+          "dir": "neuroscience",
+          "kind": "news",
+          "label": "Neuroscience"
+        },
+        {
+          "dir": "neuroscience-explained",
+          "kind": "explainer",
+          "label": "Neuroscience"
+        }
       ]
     },
     {
@@ -61,21 +103,52 @@
       "title": "Clippings · History",
       "description": "One history topic explained every day, from My Daily Clippings.",
       "color": "#65a30d",
-      "sources": [{ "dir": "history", "kind": "explainer", "label": "History" }]
+      "sources": [
+        {
+          "dir": "history",
+          "kind": "explainer",
+          "label": "History"
+        }
+      ]
     },
     {
       "slug": "system-design",
       "title": "Clippings · System Design",
       "description": "One system design or software engineering topic explained every day.",
       "color": "#0d9488",
-      "sources": [{ "dir": "system-design", "kind": "explainer", "label": "System Design" }]
+      "sources": [
+        {
+          "dir": "system-design",
+          "kind": "explainer",
+          "label": "System Design"
+        }
+      ]
     },
     {
       "slug": "curious",
       "title": "Clippings · Curious Questions",
       "description": "Short answers to the questions I wonder about.",
       "color": "#4f46e5",
-      "sources": [{ "dir": "questions", "kind": "question", "label": "Curious Questions" }]
+      "sources": [
+        {
+          "dir": "questions",
+          "kind": "question",
+          "label": "Curious Questions"
+        }
+      ]
+    },
+    {
+      "slug": "watchlist",
+      "title": "Clippings · Watchlist",
+      "description": "News about the specific things I follow, only on days when something new happens.",
+      "color": "#be123c",
+      "sources": [
+        {
+          "dir": "watchlist",
+          "kind": "news",
+          "label": "Watchlist"
+        }
+      ]
     }
   ]
 }

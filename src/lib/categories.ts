@@ -79,6 +79,13 @@ export const CATEGORIES: CategoryMeta[] = [
     searchQuery: '',
   },
   {
+    slug: 'watchlist',
+    label: 'Watchlist',
+    tagline: 'News about the specific things I follow, only when something new happens.',
+    accentColor: 'rose',
+    searchQuery: '',
+  },
+  {
     slug: 'questions',
     label: 'Curious Questions',
     tagline: 'Short answers to the questions I wonder about.',

@@ -12,6 +12,7 @@ question in the title, and add the label for the show it belongs to:
 | `history` | a full explainer | History |
 | `system-design` | a full explainer | System Design |
 | `next` (extra) | jumps the queue for its show | |
+| `watch` | a standing news subscription (stays open) | Watchlist |
 
 - The issue body is optional: use it for the angle you want ("focus on cache lines").
 - Every morning each show takes its oldest open issue (issues labelled `next` first),
@@ -19,6 +20,15 @@ question in the title, and add the label for the show it belongs to:
   explainer per show per day.
 - Only issues opened by the repo owner are used.
 - Closed issues are your history of everything you asked about.
+
+## Watchlist
+
+Open an issue with the `watch` label to follow something specific, for example
+"Marvel new comics app". The body can say what you care about ("launch date, pricing,
+India availability"). Every morning the run searches Google News for each open watch
+issue, skips links it has already reported, and writes one combined Watchlist episode
+covering only the topics with something new. No news means no episode. The issue stays
+open as your subscription; close it to stop following the topic.
 
 ## Bulk queue files
 

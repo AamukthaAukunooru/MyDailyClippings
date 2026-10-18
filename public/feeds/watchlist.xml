@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clippings · Watchlist</title>
+    <link>https://aamukthaaukunooru.github.io/MyDailyClippings/watchlist/</link>
+    <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/watchlist.xml" rel="self" type="application/rss+xml"/>
+    <description>News about the specific things I follow, only on days when something new happens.</description>
+    <language>en</language>
+    <lastBuildDate>Sun, 18 Oct 2026 14:55:21 +0000</lastBuildDate>
+    <itunes:author>My Daily Clippings</itunes:author>
+    <itunes:summary>News about the specific things I follow, only on days when something new happens.</itunes:summary>
+    <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/watchlist.png"/>
+    <image><url>https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/watchlist.png</url><title>Clippings · Watchlist</title><link>https://aamukthaaukunooru.github.io/MyDailyClippings/watchlist/</link></image>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:category text="News"/>
+  </channel>
+</rss>
