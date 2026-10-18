@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/ai.xml" rel="self" type="application/rss+xml"/>
     <description>Daily AI and technology news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 17:16:44 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 17:34:24 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily AI and technology news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/ai.png"/>
@@ -322,6 +322,26 @@
       <description><![CDATA[The AI landscape continues its rapid, multi-faceted evolution, marked by significant product launches, critical underlying research, and increasingly vocal public and industry debates. This past day has seen major player<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-16/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/ai-2026-09-16.mp3" length="1844790" type="audio/mpeg"/>
       <itunes:duration>5:07</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 15 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-09-15</guid>
+      <pubDate>Tue, 15 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-15/</link>
+      <description><![CDATA[The AI world is currently grappling with a significant philosophical and practical inflection point, as calls for a slowdown in development intensify amidst rapid technological advancements. This "doomer turn" is juxtapo<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-15/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/ai-2026-09-15.mp3" length="1781223" type="audio/mpeg"/>
+      <itunes:duration>4:56</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 14 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-09-14</guid>
+      <pubDate>Mon, 14 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-14/</link>
+      <description><![CDATA[The past 48 hours have delivered a fascinating, if somewhat unsettling, snapshot of the artificial intelligence landscape. We're witnessing a period of unprecedented intellectual triumph, with frontier models tackling pr<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-14/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/ai-2026-09-14.mp3" length="5007021" type="audio/mpeg"/>
+      <itunes:duration>13:53</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>

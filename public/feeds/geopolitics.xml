@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/geopolitics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily geopolitics briefing from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 17:16:44 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 17:34:24 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily geopolitics briefing from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/geopolitics.png"/>
@@ -292,6 +292,46 @@
       <description><![CDATA[The past 48 hours have seen significant developments across global economics and international relations. In the **United States**, the Federal Reserve implemented its first interest rate hike in three years, a decision<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-17/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/geopolitics-2026-09-17.mp3" length="1361177" type="audio/mpeg"/>
       <itunes:duration>3:46</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 16 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-09-16</guid>
+      <pubDate>Wed, 16 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-16/</link>
+      <description><![CDATA[The global geopolitical landscape continues to be shaped by ongoing conflicts in the Middle East, intensifying strategic competition between major powers, and evolving security dynamics across Europe and the Americas. Di<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-16/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/geopolitics-2026-09-16.mp3" length="1856744" type="audio/mpeg"/>
+      <itunes:duration>5:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 15 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-09-15</guid>
+      <pubDate>Tue, 15 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-15/</link>
+      <description><![CDATA[The geopolitical landscape remains dynamic, with significant developments impacting domestic governance, regional conflicts, and international security. In the **United States**, recent judicial rulings and reports on de<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-15/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/geopolitics-2026-09-15.mp3" length="1789285" type="audio/mpeg"/>
+      <itunes:duration>4:58</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 14 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-09-14</guid>
+      <pubDate>Mon, 14 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-14/</link>
+      <description><![CDATA[The global geopolitical landscape continues to be marked by ongoing regional conflicts, shifting diplomatic engagements, and emerging technological debates. In Europe, the conflict in **Ukraine** remains a focal point, w<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-14/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/geopolitics-2026-09-14.mp3" length="1572060" type="audio/mpeg"/>
+      <itunes:duration>4:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 13 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-09-13</guid>
+      <pubDate>Sun, 13 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-13/</link>
+      <description><![CDATA[The geopolitical landscape continues to be shaped by evolving alliances, persistent regional conflicts, and the rapid advancement of technology. Recent days have seen significant diplomatic statements challenging long-st<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-13/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/geopolitics-2026-09-13.mp3" length="1712456" type="audio/mpeg"/>
+      <itunes:duration>4:45</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
