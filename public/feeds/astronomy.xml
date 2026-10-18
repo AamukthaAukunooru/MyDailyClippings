@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 16:41:55 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 16:57:42 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -272,6 +272,16 @@
       <description><![CDATA[Today's "My Daily Clippings" brings us a fascinating collection of dispatches from the frontiers of astronomical discovery. We're venturing far beyond our solar system to listen for whispers from distant exoplanets, delv<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-09-23/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/astronomy-2026-09-23.mp3" length="2727802" type="audio/mpeg"/>
       <itunes:duration>7:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 21 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-09-21</guid>
+      <pubDate>Mon, 21 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-09-21/</link>
+      <description><![CDATA[What a dynamic universe we inhabit, constantly revealing its secrets, from the colossal forces shaping galaxies to the subtle dance of our own celestial neighbors. This week, we're delving into some truly mind-bending di<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-09-21/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/astronomy-2026-09-21.mp3" length="2306614" type="audio/mpeg"/>
+      <itunes:duration>6:24</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>

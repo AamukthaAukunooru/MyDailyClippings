@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/ai.xml" rel="self" type="application/rss+xml"/>
     <description>Daily AI and technology news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 16:41:55 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 16:57:42 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily AI and technology news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/ai.png"/>
@@ -252,6 +252,46 @@
       <description><![CDATA[The AI landscape shifted dramatically in the last 48 hours, marked by a rapid-fire release of new frontier models from both **Anthropic** and **OpenAI**, signaling an intensifying price war and a focus on both capability<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-23/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/ai-2026-09-23.mp3" length="1849979" type="audio/mpeg"/>
       <itunes:duration>5:08</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 22 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-09-22</guid>
+      <pubDate>Tue, 22 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-22/</link>
+      <description><![CDATA[The past 48 hours have delivered a potent cocktail of innovation, vulnerability, and escalating regulatory pressure in the AI and machine learning spheres. We're seeing a push beyond traditional large language models wit<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-22/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/ai-2026-09-22.mp3" length="1982592" type="audio/mpeg"/>
+      <itunes:duration>5:30</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 21 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-09-21</guid>
+      <pubDate>Mon, 21 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-21/</link>
+      <description><![CDATA[The past 48 hours have delivered a stark reminder of the multifaceted challenges and rapid advancements characterizing the AI and machine learning landscape. From critical security breaches involving leading models to si<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-21/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/ai-2026-09-21.mp3" length="2241907" type="audio/mpeg"/>
+      <itunes:duration>6:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 20 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-09-20</guid>
+      <pubDate>Sun, 20 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-20/</link>
+      <description><![CDATA[The past 48 hours have been a stark reminder of the accelerating pace and inherent risks within the AI and machine learning landscape. We've seen major security breaches attributed to sophisticated models, further revela<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-20/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/ai-2026-09-20.mp3" length="2210916" type="audio/mpeg"/>
+      <itunes:duration>6:08</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 19 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-09-19</guid>
+      <pubDate>Sat, 19 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-19/</link>
+      <description><![CDATA[This week has seen a dramatic escalation in discussions around AI's inherent risks, moving from theoretical concerns to tangible incidents impacting national security, corporate integrity, and the foundational structure<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-19/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/ai-2026-09-19.mp3" length="2049763" type="audio/mpeg"/>
+      <itunes:duration>5:41</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
