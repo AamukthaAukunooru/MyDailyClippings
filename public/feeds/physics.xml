@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/physics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily physics news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 18:48:53 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 19:05:50 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily physics news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/physics.png"/>
@@ -482,6 +482,36 @@
       <description><![CDATA[Today, the world of physics continues to push the boundaries of our understanding, from the fundamental fabric of spacetime to the grand narrative of cosmic expansion. We're seeing theoretical breakthroughs that challeng<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-08-31/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/physics-2026-08-31.mp3" length="1490178" type="audio/mpeg"/>
       <itunes:duration>4:08</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 30 · Physics news</title>
+      <guid isPermaLink="false">physics/2026-08-30</guid>
+      <pubDate>Sun, 30 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-08-30/</link>
+      <description><![CDATA[Today, we dive into some truly profound physics, spanning the grandest scales of the cosmos to the intricate dance of electrons in quantum materials, and even to the cutting edge of precision timekeeping. We'll explore n<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-08-30/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/physics-2026-08-30.mp3" length="1978538" type="audio/mpeg"/>
+      <itunes:duration>5:29</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 29 · Physics news</title>
+      <guid isPermaLink="false">physics/2026-08-29</guid>
+      <pubDate>Sat, 29 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-08-29/</link>
+      <description><![CDATA[Here are today's clippings, offering a glimpse into the cutting edge of physics, from the elusive hunt for new fundamental particles to the surprising ways artificial intelligence is accelerating discovery, and even how<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-08-29/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/physics-2026-08-29.mp3" length="1963259" type="audio/mpeg"/>
+      <itunes:duration>5:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 28 · Physics news</title>
+      <guid isPermaLink="false">physics/2026-08-28</guid>
+      <pubDate>Fri, 28 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-08-28/</link>
+      <description><![CDATA[Physics continues its relentless march forward, revealing secrets from the fundamental fabric of spacetime to the universe's most extreme environments, all while leveraging increasingly sophisticated tools, including art<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-08-28/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/physics-2026-08-28.mp3" length="1843331" type="audio/mpeg"/>
+      <itunes:duration>5:07</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>

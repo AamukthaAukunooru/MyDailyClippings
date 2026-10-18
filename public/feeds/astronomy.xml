@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 18:48:53 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 19:05:50 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -452,6 +452,46 @@
       <description><![CDATA[What a weekend for space exploration! The cosmos continues to reveal its secrets, and humanity's reach further extends into the unknown. From the spectacular launch of a new flagship observatory poised to unravel the uni<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-08-31/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/astronomy-2026-08-31.mp3" length="2262361" type="audio/mpeg"/>
       <itunes:duration>6:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 30 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-08-30</guid>
+      <pubDate>Sun, 30 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-08-30/</link>
+      <description><![CDATA[Today, we're on the cusp of a new era in astronomy with the launch of a groundbreaking space telescope, poised to unveil some of the universe's deepest secrets. We'll also dive into the extreme physics of ice giants, whe<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-08-30/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/astronomy-2026-08-30.mp3" length="2575298" type="audio/mpeg"/>
+      <itunes:duration>7:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 29 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-08-29</guid>
+      <pubDate>Sat, 29 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-08-29/</link>
+      <description><![CDATA[The universe continues to unveil its secrets at a breathtaking pace, reminding us daily of the sheer wonder and intricate science at play beyond our home planet. This week, we're on the cusp of launching a new eye into t<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-08-29/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/astronomy-2026-08-29.mp3" length="2126289" type="audio/mpeg"/>
+      <itunes:duration>5:54</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 28 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-08-28</guid>
+      <pubDate>Fri, 28 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-08-28/</link>
+      <description><![CDATA[Today's "My Daily Clippings" brings us a fantastic blend of cutting-edge discoveries, from the frantic dash of planet formation in distant star systems to the deep mysteries of our own galaxy's past. We're also looking a<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-08-28/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/astronomy-2026-08-28.mp3" length="1685497" type="audio/mpeg"/>
+      <itunes:duration>4:40</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 27 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-08-27</guid>
+      <pubDate>Thu, 27 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-08-27/</link>
+      <description><![CDATA[Today's clippings bring a delightful mix of groundbreaking technology, profound cosmic quandaries, and fascinating insights into our solar system and beyond. From a new space telescope with a spy satellite heritage ready<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-08-27/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/astronomy-2026-08-27.mp3" length="2465460" type="audio/mpeg"/>
+      <itunes:duration>6:50</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>

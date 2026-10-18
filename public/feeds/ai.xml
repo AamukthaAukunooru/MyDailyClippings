@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/ai.xml" rel="self" type="application/rss+xml"/>
     <description>Daily AI and technology news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 18:48:53 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 19:05:50 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily AI and technology news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/ai.png"/>
@@ -472,6 +472,36 @@
       <description><![CDATA[Today's AI landscape continues its rapid evolution, marked by significant strides in open-weight models, critical legal precedents, and strategic industry realignments. **Tencent** has thrown its hat into the ring with a<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-08-30/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/ai-2026-08-30.mp3" length="1956069" type="audio/mpeg"/>
       <itunes:duration>5:25</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 29 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-08-29</guid>
+      <pubDate>Sat, 29 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-08-29/</link>
+      <description><![CDATA[The past 48 hours have delivered a potent mix of industry consolidation, significant legal rulings, and critical advancements in AI model capabilities and safety. From a major acquisition reshaping the open-source landsc<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-08-29/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/ai-2026-08-29.mp3" length="2026844" type="audio/mpeg"/>
+      <itunes:duration>5:37</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 28 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-08-28</guid>
+      <pubDate>Fri, 28 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-08-28/</link>
+      <description><![CDATA[The past 48 hours have delivered a potent mix of legal battles, significant industry consolidation, and critical advancements, alongside unsettling ethical concerns, underscoring the rapid, often chaotic evolution of the<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-08-28/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/ai-2026-08-28.mp3" length="2286592" type="audio/mpeg"/>
+      <itunes:duration>6:21</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 27 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-08-27</guid>
+      <pubDate>Thu, 27 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-08-27/</link>
+      <description><![CDATA[The AI landscape continues its relentless expansion and evolution, with the past 48 hours delivering a potent mix of market consolidation, critical safety revelations, and significant product advancements. From billion-d<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-08-27/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/ai-2026-08-27.mp3" length="2623744" type="audio/mpeg"/>
+      <itunes:duration>7:17</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
