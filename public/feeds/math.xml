@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clippings · Math</title>
+    <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/</link>
+    <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
+    <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
+    <language>en</language>
+    <lastBuildDate>Sun, 18 Oct 2026 12:57:59 +0000</lastBuildDate>
+    <itunes:author>My Daily Clippings</itunes:author>
+    <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
+    <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
+    <image><url>https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png</url><title>Clippings · Math</title><link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/</link></image>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:category text="News"/>
+  </channel>
+</rss>

@@ -20,6 +20,10 @@ const MAX_TOTAL = 40
 const MAX_AGE_HOURS = 48
 const FETCH_TIMEOUT_MS = 20000
 
+// Items that are never news: quizzes, games, newsletters, podcasts, sponsored posts
+const NOISE_TITLE =
+  /\b(news ?quiz|quiz|crossword|wordle|podcast:|newsletter:|sponsored|deals?:|giveaway|horoscope|this week in pictures)\b/i
+
 function decodeEntities(s: string): string {
   return s
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
@@ -110,6 +114,7 @@ export async function fetchArticles(feeds: FeedSource[]): Promise<Article[]> {
     }
     const fresh = result.value
       .filter((a) => a.publishedAt.getTime() >= cutoff)
+      .filter((a) => !NOISE_TITLE.test(a.title))
       .sort((a, b) => b.publishedAt.getTime() - a.publishedAt.getTime())
       .slice(0, MAX_PER_FEED)
     console.log(`  ✓ ${feeds[i].name}: ${fresh.length} fresh (of ${result.value.length})`)

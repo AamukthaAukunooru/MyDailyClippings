@@ -70,6 +70,15 @@ export default function CategoryNav() {
           </div>
 
           <Link
+            href="/listen"
+            className={`text-sm transition-colors hover:text-white ${
+              pathname === '/listen' || pathname === '/listen/' ? 'text-white' : 'text-gray-400'
+            }`}
+          >
+            Listen
+          </Link>
+
+          <Link
             href="/about"
             className={`text-sm transition-colors hover:text-white ${
               pathname === '/about' ? 'text-white' : 'text-gray-400'
@@ -110,6 +119,9 @@ export default function CategoryNav() {
               </Link>
             ))}
           </div>
+          <Link href="/listen" className="mt-2 block border-t border-surface-border pt-2 text-sm text-gray-300 hover:text-white" onClick={() => setMenuOpen(false)}>
+            Listen
+          </Link>
           <Link href="/about" className="mt-2 block border-t border-surface-border pt-2 text-sm text-gray-300 hover:text-white" onClick={() => setMenuOpen(false)}>
             About
           </Link>

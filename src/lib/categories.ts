@@ -29,6 +29,62 @@ export const CATEGORIES: CategoryMeta[] = [
     accentColor: 'orange',
     searchQuery: 'astronomy space telescope discovery exoplanet NASA ESA latest news',
   },
+  {
+    slug: 'math',
+    label: 'Math',
+    tagline: 'New results, solved problems and the ideas behind them, without the notation.',
+    accentColor: 'violet',
+    searchQuery: 'mathematics research proof theorem news latest',
+  },
+  {
+    slug: 'neuroscience',
+    label: 'Neuroscience',
+    tagline: 'What the latest research says about how brains work, minus the hype.',
+    accentColor: 'rose',
+    searchQuery: 'neuroscience brain research study news latest',
+  },
+  {
+    slug: 'astronomy-explained',
+    label: 'Astronomy Explained',
+    tagline: 'One idea about the cosmos each day, built up from first principles.',
+    accentColor: 'orange',
+    searchQuery: '',
+  },
+  {
+    slug: 'math-explained',
+    label: 'Math Explained',
+    tagline: 'One mathematical idea each day, with intuition first.',
+    accentColor: 'violet',
+    searchQuery: '',
+  },
+  {
+    slug: 'neuroscience-explained',
+    label: 'Neuroscience Explained',
+    tagline: 'One piece of how the brain works, explained each day.',
+    accentColor: 'rose',
+    searchQuery: '',
+  },
+  {
+    slug: 'history',
+    label: 'History Explained',
+    tagline: 'One event, person or era each day, told as a story with cause and effect.',
+    accentColor: 'green',
+    searchQuery: '',
+  },
+  {
+    slug: 'system-design',
+    label: 'System Design Explained',
+    tagline: 'One system design or software engineering topic each day, with real numbers and trade-offs.',
+    accentColor: 'teal',
+    searchQuery: '',
+  },
+  {
+    slug: 'questions',
+    label: 'Curious Questions',
+    tagline: 'Short answers to the questions I wonder about.',
+    accentColor: 'indigo',
+    searchQuery: '',
+  },
 ]
 
 export const CATEGORY_SLUGS = CATEGORIES.map((c) => c.slug)
