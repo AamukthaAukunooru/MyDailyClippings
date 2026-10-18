@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 18:12:47 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 18:30:31 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -402,6 +402,26 @@
       <description><![CDATA[What a monumental week it's been for our understanding of the cosmos, both near and far. From unprecedented maps of the universe to mysterious cosmic clouds, and from the challenging exploration of our inner solar system<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-09-06/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/astronomy-2026-09-06.mp3" length="2172270" type="audio/mpeg"/>
       <itunes:duration>6:01</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 5 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-09-05</guid>
+      <pubDate>Sat, 05 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-09-05/</link>
+      <description><![CDATA[Recent days have brought a cascade of astronomical insights, painting an ever more detailed picture of our universe, from its earliest moments to the intricate processes shaping celestial bodies today. We're witnessing a<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-09-05/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/astronomy-2026-09-05.mp3" length="1968595" type="audio/mpeg"/>
+      <itunes:duration>5:28</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 4 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-09-04</guid>
+      <pubDate>Fri, 04 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-09-04/</link>
+      <description><![CDATA[What a week it's been, fellow stargazers! From an ambitious mission finally reaching its destination in our solar system to the ongoing hunt for the universe's most elusive particles, the cosmos continues to reveal its s<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-09-04/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/astronomy-2026-09-04.mp3" length="1970469" type="audio/mpeg"/>
+      <itunes:duration>5:28</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>

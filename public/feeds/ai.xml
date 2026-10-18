@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/ai.xml" rel="self" type="application/rss+xml"/>
     <description>Daily AI and technology news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 18:12:47 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 18:30:31 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily AI and technology news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/ai.png"/>
@@ -402,6 +402,36 @@
       <description><![CDATA[This past week has delivered a flurry of developments across the AI landscape, from significant model releases and critical safety incidents to major industry financial moves and the continuing evolution of generative ap<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-06/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/ai-2026-09-06.mp3" length="3582733" type="audio/mpeg"/>
       <itunes:duration>9:56</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 5 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-09-05</guid>
+      <pubDate>Sat, 05 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-05/</link>
+      <description><![CDATA[The past 48 hours have delivered a potent mix of seismic industry shifts, critical safety concerns, and notable product advancements in the AI and machine learning landscape. We've seen a major consolidation move that re<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-05/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/ai-2026-09-05.mp3" length="2237293" type="audio/mpeg"/>
+      <itunes:duration>6:12</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 4 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-09-04</guid>
+      <pubDate>Fri, 04 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-04/</link>
+      <description><![CDATA[The AI landscape saw a flurry of activity in the past 48 hours, headlined by OpenAI's ambitious release of **GPT-6 Astra**, a model the company claims ushers in a new era of artificial general intelligence. This signific<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-04/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/ai-2026-09-04.mp3" length="1865546" type="audio/mpeg"/>
+      <itunes:duration>5:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 3 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-09-03</guid>
+      <pubDate>Thu, 03 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-03/</link>
+      <description><![CDATA[The past 48 hours have been a whirlwind in the AI sector, marked by aggressive product iteration from tech giants and a deepening legal quagmire for one of the industry's leaders. Google continued its rapid-fire releases<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-03/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/ai-2026-09-03.mp3" length="2225185" type="audio/mpeg"/>
+      <itunes:duration>6:10</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
