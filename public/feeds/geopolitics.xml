@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/geopolitics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily geopolitics briefing from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 16:17:30 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 16:41:55 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily geopolitics briefing from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/geopolitics.png"/>
@@ -212,6 +212,26 @@
       <description><![CDATA[The geopolitical landscape remains active with significant developments across several regions. Tensions in the Middle East have escalated following the rejection of a key proposal, while **Canada** is actively pursuing<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-27/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/geopolitics-2026-09-27.mp3" length="1708997" type="audio/mpeg"/>
       <itunes:duration>4:44</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 26 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-09-26</guid>
+      <pubDate>Sat, 26 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-26/</link>
+      <description><![CDATA[The geopolitical landscape remains dynamic, with a significant diplomatic overture from **Iran** regarding the **Strait of Hormuz** and a concerning re-escalation of conflict in **Ethiopia's Tigray** region. Concurrently<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-26/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/geopolitics-2026-09-26.mp3" length="1427339" type="audio/mpeg"/>
+      <itunes:duration>3:57</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 25 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-09-25</guid>
+      <pubDate>Fri, 25 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-25/</link>
+      <description><![CDATA[The past 48 hours have been marked by significant diplomatic engagements and ongoing geopolitical tensions. A high-profile summit between the **United States** and **China** in **Washington, D.C.** aimed at stabilizing r<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-25/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/geopolitics-2026-09-25.mp3" length="1747195" type="audio/mpeg"/>
+      <itunes:duration>4:51</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
