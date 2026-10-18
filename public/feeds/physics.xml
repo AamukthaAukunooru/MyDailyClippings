@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/physics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily physics news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 14:33:52 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 14:55:31 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily physics news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/physics.png"/>
@@ -42,6 +42,36 @@
       <description><![CDATA[It's Friday, October 16, 2026, and the world of physics continues its relentless march forward, delivering breakthroughs that push the boundaries of technology and deepen our understanding of the cosmos. This week, we've<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-16/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-16.mp3" length="1975223" type="audio/mpeg"/>
       <itunes:duration>5:29</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 15 · Physics news</title>
+      <guid isPermaLink="false">physics/2026-10-15</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-15/</link>
+      <description><![CDATA[The past 48 hours have delivered a fascinating blend of cosmic revelations, quantum advancements, and engineering marvels. From probing the fundamental nature of dark matter and challenging our understanding of the early<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-15/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-15.mp3" length="1764916" type="audio/mpeg"/>
+      <itunes:duration>4:54</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 14 · Physics news</title>
+      <guid isPermaLink="false">physics/2026-10-14</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-14/</link>
+      <description><![CDATA[Greetings, fellow travelers through the cosmos of scientific discovery.<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-14/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-14.mp3" length="1922178" type="audio/mpeg"/>
+      <itunes:duration>5:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 13 · Physics news</title>
+      <guid isPermaLink="false">physics/2026-10-13</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-13/</link>
+      <description><![CDATA[Today's clippings bring us a fascinating array of breakthroughs, from the very fabric of spacetime to the cutting edge of quantum technology. We're seeing fundamental connections between gravity and quantum information e<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-13/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-13.mp3" length="4471364" type="audio/mpeg"/>
+      <itunes:duration>12:24</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>

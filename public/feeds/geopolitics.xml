@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/geopolitics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily geopolitics briefing from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 14:33:52 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 14:55:31 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily geopolitics briefing from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/geopolitics.png"/>
@@ -42,6 +42,36 @@
       <description><![CDATA[Global geopolitical developments over the past 48 hours have highlighted persistent conflicts and evolving international dynamics. Escalations in the **Middle East**, particularly in **Yemen** and concerning **Gaza**, un<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-16/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/geopolitics-2026-10-16.mp3" length="1724132" type="audio/mpeg"/>
       <itunes:duration>4:47</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 15 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-10-15</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-15/</link>
+      <description><![CDATA[The geopolitical landscape continues to exhibit a complex interplay of regional conflicts, evolving energy strategies, and domestic political shifts. Tensions in the **Middle East** have seen further escalation, while th<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-15/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/geopolitics-2026-10-15.mp3" length="1694871" type="audio/mpeg"/>
+      <itunes:duration>4:42</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 14 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-10-14</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-14/</link>
+      <description><![CDATA[The global geopolitical landscape continues to be marked by ongoing regional conflicts and evolving diplomatic alignments. Tensions in the Middle East persist with renewed attacks in **Yemen** and **Gaza**, while **US**<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-14/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/geopolitics-2026-10-14.mp3" length="3706688" type="audio/mpeg"/>
+      <itunes:duration>10:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 13 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-10-13</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-13/</link>
+      <description><![CDATA[The global geopolitical landscape continues to be shaped by a confluence of regional conflicts, economic uncertainties, and evolving security threats. Tensions in the Middle East have escalated with renewed Houthi attack<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-13/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/geopolitics-2026-10-13.mp3" length="1799375" type="audio/mpeg"/>
+      <itunes:duration>4:59</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>

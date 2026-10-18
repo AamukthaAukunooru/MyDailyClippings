@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/ai.xml" rel="self" type="application/rss+xml"/>
     <description>Daily AI and technology news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 14:33:52 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 14:55:31 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily AI and technology news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/ai.png"/>
@@ -42,6 +42,36 @@
       <description><![CDATA[The past 48 hours have delivered a potent mix of significant product launches, advanced research applications, and crucial industry insights, underscoring the rapid, multifaceted evolution of AI. We're seeing major playe<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-16/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-16.mp3" length="2173871" type="audio/mpeg"/>
       <itunes:duration>6:02</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 15 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-10-15</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-15/</link>
+      <description><![CDATA[The AI landscape continues its rapid, often tumultuous, evolution. This past week saw major advancements in foundational models, alongside a stark reminder of the ethical and regulatory quagmires still plaguing the indus<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-15/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-15.mp3" length="2542447" type="audio/mpeg"/>
+      <itunes:duration>7:03</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 14 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-10-14</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-14/</link>
+      <description><![CDATA[The past 48 hours have delivered a potent mix of major model releases, critical security incidents, and intriguing developments in AI infrastructure and application. Google DeepMind officially unveiled **Gemini 4 Argon**<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-14/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-14.mp3" length="1973367" type="audio/mpeg"/>
+      <itunes:duration>5:28</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 13 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-10-13</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-13/</link>
+      <description><![CDATA[The AI landscape continues its relentless expansion, marked by significant advancements in model capabilities, a burgeoning hardware ecosystem, and increasingly complex real-world implications. This past day saw major an<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-13/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-13.mp3" length="1933727" type="audio/mpeg"/>
+      <itunes:duration>5:22</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
