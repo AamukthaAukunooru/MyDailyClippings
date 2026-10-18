@@ -1,6 +1,6 @@
 # My Daily Clippings
 
-Your personal AI newspaper, delivering fresh daily briefings across Physics, AI, Geopolitics, Astronomy, and more — every morning.
+Your personal AI newspaper and podcast: daily news for Physics, AI, Geopolitics, Astronomy, Math and Neuroscience, daily explainers for Astronomy, Math, Neuroscience, History and System Design, plus answers to your own curious questions. Every page is also an episode you can play in Android Auto.
 
 ## What it is
 
@@ -13,6 +13,33 @@ In an age where algorithms decide what you see based on what keeps you scrolling
 1. **Gather** — For each category, the pipeline fetches curated RSS feeds from trusted sources (Quanta, NASA, BBC, NYT, OpenAI, DeepMind and more — see `feeds` in `scripts/categories.ts`) and collects stories published in the last 48 hours.
 2. **Generate** — A GitHub Actions workflow runs daily at 6 AM IST, passing the candidate stories to Gemini 2.5 Flash, which selects the most significant ones and writes each newsletter (using web search only to add depth). If feeds are unavailable, it falls back to pure search grounding. Results are committed to the `newsletters/` folder.
 3. **Deploy** — Every push to `master` triggers a second workflow that builds the Next.js static site and publishes it to GitHub Pages.
+
+## Listening (podcast feeds)
+
+Every page becomes one MP3, published in one podcast feed per show:
+Physics, AI & Technology, Geopolitics, Astronomy, Math, Neuroscience, History,
+System Design and Curious Questions. The site's **Listen** page lists every feed URL.
+
+1. Install **AntennaPod** (free) on your phone.
+2. Add each feed: *Add podcast → Add podcast by RSS address*, paste a URL from the Listen page.
+3. Settings: skip forward/back to 15s/10s, auto-add new episodes to the queue, auto-download on Wi-Fi.
+4. Connect to Android Auto. Play the queue for today, open a show to go back by date,
+   filter by unplayed to catch up.
+
+How it works: after generation, `python -m podcast.build` cleans each page's Markdown into
+spoken text, voices it with edge-tts, uploads the MP3 to a monthly GitHub Release
+(`audio-YYYY-MM`), records it in `podcast/episodes.json`, and writes `public/feeds/<show>.xml`.
+Feeds are deployed with the site. MP3s never go into git.
+
+- **Backfill:** Actions → *Backfill Podcast Audio* → Run (defaults to the last 100 days).
+- **Explainer topics:** edit the queues in `topics/` (see `topics/README.md`).
+- **Curious questions:** open an issue with the `question` label; the next run answers it.
+- **Reading List:** add article URLs to `reading-list.txt`. Needs Cloudflare R2 secrets
+  (`R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`, `R2_PUBLIC_URL`,
+  `READING_LIST_PREFIX`) so saved articles are not republished from this public repo. The feed
+  is at `<R2_PUBLIC_URL>/<READING_LIST_PREFIX>/reading-list.xml`. Skipped when not configured.
+- **Failures:** a GitHub issue is opened automatically when a category or audio step fails.
+- **Dry run without network:** `python -m podcast.build --tts stub --storage local`.
 
 ## Tech stack
 
@@ -32,11 +59,13 @@ In an age where algorithms decide what you see based on what keeps you scrolling
 
 ## Adding categories
 
-Edit two files:
+Edit three files:
 
-**`scripts/categories.ts`** — add generation config (system prompt, search query, curated RSS feeds)
+**`scripts/categories.ts`** — generation config: a news category (prompt, curated RSS feeds) or an explainer series
 
-**`src/lib/categories.ts`** — add display config (label, accent color, tagline)
+**`src/lib/categories.ts`** — display config (label, accent color, tagline)
+
+**`podcast/shows.json`** — which podcast show the folder belongs to (then run `python -m podcast.artwork` for its cover)
 
 ## Local development
 

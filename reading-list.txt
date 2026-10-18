@@ -1,0 +1,5 @@
+# Reading List: one article URL per line. Lines starting with # are ignored.
+# Each new link becomes an episode in the "Clippings · Reading List" podcast feed
+# on the next daily run. Removing a line drops that episode from the feed.
+# Add links from the GitHub mobile app: open this file, tap edit, paste, commit.
+https://www.paulgraham.com/vb.html

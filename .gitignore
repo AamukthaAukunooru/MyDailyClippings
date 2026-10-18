@@ -16,3 +16,9 @@ out/
 .DS_Store
 *.pem
 npm-debug.log*
+
+# podcast build scratch
+.audio-work/
+.generation-failures.txt
+.answered-issues.txt
+__pycache__/

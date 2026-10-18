@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clippings · Geopolitics</title>
+    <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/</link>
+    <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/geopolitics.xml" rel="self" type="application/rss+xml"/>
+    <description>Daily geopolitics briefing from My Daily Clippings, read aloud.</description>
+    <language>en</language>
+    <lastBuildDate>Sun, 18 Oct 2026 12:57:59 +0000</lastBuildDate>
+    <itunes:author>My Daily Clippings</itunes:author>
+    <itunes:summary>Daily geopolitics briefing from My Daily Clippings, read aloud.</itunes:summary>
+    <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/geopolitics.png"/>
+    <image><url>https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/geopolitics.png</url><title>Clippings · Geopolitics</title><link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/</link></image>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:category text="News"/>
+  </channel>
+</rss>
