@@ -11,6 +11,7 @@ from __future__ import annotations
 import os
 import shutil
 import subprocess
+import threading
 from pathlib import Path
 
 from .config import WORK_DIR
@@ -22,8 +23,13 @@ class GitHubReleases:
     def __init__(self, repo: str):
         self.repo = repo
         self._known_tags: set[str] = set()
+        self._lock = threading.Lock()  # uploads run in parallel threads
 
     def _ensure_release(self, tag: str) -> None:
+        with self._lock:
+            self._ensure_release_locked(tag)
+
+    def _ensure_release_locked(self, tag: str) -> None:
         if tag in self._known_tags:
             return
         view = subprocess.run(

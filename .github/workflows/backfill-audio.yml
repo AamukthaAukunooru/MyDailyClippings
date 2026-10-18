@@ -18,7 +18,11 @@ on:
       batch:
         description: 'Episodes per batch (commit after each)'
         type: number
-        default: 40
+        default: 12
+      workers:
+        description: 'Episodes voiced in parallel'
+        type: number
+        default: 4
 
 permissions:
   contents: write
@@ -52,10 +56,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          for round in $(seq 1 40); do
+          for round in $(seq 1 80); do
             set +e
             python -m podcast.build --days "${{ inputs.days }}" --dirs "${{ inputs.dirs }}" \
-              --limit "${{ inputs.batch }}" --exit-code-when-done
+              --limit "${{ inputs.batch }}" --workers "${{ inputs.workers }}" --exit-code-when-done
             code=$?
             set -e
             git add podcast/episodes.json public/feeds/
@@ -66,6 +70,6 @@ jobs:
             fi
             if [ "$code" = "3" ]; then echo "Backfill complete."; exit 0; fi
             if [ "$code" != "0" ]; then echo "Batch $round had failures; pausing 60s before continuing."; sleep 60; fi
-            sleep 10   # be gentle with the TTS service between batches
+            sleep 5    # be gentle with the TTS service between batches
           done
-          echo "Stopped after 40 rounds; run the workflow again to continue."
+          echo "Stopped after 80 rounds; run the workflow again to continue."
