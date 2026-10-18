@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 12:57:59 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 14:33:52 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -14,5 +14,35 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 18 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-10-18</guid>
+      <pubDate>Sun, 18 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-18/</link>
+      <description><![CDATA[What an incredible past 48 hours it has been for those of us gazing at the cosmos and contemplating humanity's place within it. From the tantalizing possibility of life in the distant reaches of our solar system to the e<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-18/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-18.mp3" length="1973497" type="audio/mpeg"/>
+      <itunes:duration>5:28</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 17 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-10-17</guid>
+      <pubDate>Sat, 17 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-17/</link>
+      <description><![CDATA[What an incredible week it has been for peering into the deepest mysteries of the cosmos and charting our future among the stars. From ambitious new missions designed to unravel the very fabric of the early universe and<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-17/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-17.mp3" length="2408668" type="audio/mpeg"/>
+      <itunes:duration>6:41</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 16 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-10-16</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-16/</link>
+      <description><![CDATA[Today, our cosmic journey takes us from the familiar glow of our Moon, now known to be subtly shrinking, to the farthest reaches of the galaxy where stars can surprisingly appear green, and planetary systems arrange them<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-16/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-16.mp3" length="2001028" type="audio/mpeg"/>
+      <itunes:duration>5:33</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>

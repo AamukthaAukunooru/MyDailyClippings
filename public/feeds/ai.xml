@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/ai.xml" rel="self" type="application/rss+xml"/>
     <description>Daily AI and technology news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 12:57:59 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 14:33:52 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily AI and technology news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/ai.png"/>
@@ -14,5 +14,35 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 18 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-10-18</guid>
+      <pubDate>Sun, 18 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-18/</link>
+      <description><![CDATA[This past weekend brought a stark reminder of the rapidly evolving landscape in AI, with a particular focus on data access, ethical boundaries, and the practical implications of autonomous agents. From major platform pro<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-18/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-18.mp3" length="4455238" type="audio/mpeg"/>
+      <itunes:duration>12:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 17 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-10-17</guid>
+      <pubDate>Sat, 17 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-17/</link>
+      <description><![CDATA[The past 48 hours have underscored the accelerating, often contradictory, trajectory of artificial intelligence. We're seeing AI agents push the boundaries of autonomous action, for better and for worse, while the indust<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-17/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-17.mp3" length="2099637" type="audio/mpeg"/>
+      <itunes:duration>5:49</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 16 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-10-16</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-16/</link>
+      <description><![CDATA[The past 48 hours have delivered a potent mix of significant product launches, advanced research applications, and crucial industry insights, underscoring the rapid, multifaceted evolution of AI. We're seeing major playe<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-16/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-16.mp3" length="2173871" type="audio/mpeg"/>
+      <itunes:duration>6:02</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>
