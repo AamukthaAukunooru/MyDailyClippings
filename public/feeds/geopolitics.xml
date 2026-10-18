@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/geopolitics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily geopolitics briefing from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 14:55:31 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 15:15:11 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily geopolitics briefing from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/geopolitics.png"/>
@@ -72,6 +72,26 @@
       <description><![CDATA[The global geopolitical landscape continues to be shaped by a confluence of regional conflicts, economic uncertainties, and evolving security threats. Tensions in the Middle East have escalated with renewed Houthi attack<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-13/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/geopolitics-2026-10-13.mp3" length="1799375" type="audio/mpeg"/>
       <itunes:duration>4:59</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 11 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-10-11</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-11/</link>
+      <description><![CDATA[The geopolitical landscape remains highly volatile, marked by escalating conflicts in the Middle East, significant shifts in global energy policy, and ongoing challenges to international legal frameworks. Recent events h<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-11/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/geopolitics-2026-10-11.mp3" length="1961969" type="audio/mpeg"/>
+      <itunes:duration>5:26</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 10 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-10-10</guid>
+      <pubDate>Sat, 10 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-10/</link>
+      <description><![CDATA[The past 48 hours have seen significant developments across the globe, marked by shifts in international relations, ongoing regional conflicts, and natural disasters. A controversial decision by the **United States** to<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-10/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/geopolitics-2026-10-10.mp3" length="1526510" type="audio/mpeg"/>
+      <itunes:duration>4:14</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>

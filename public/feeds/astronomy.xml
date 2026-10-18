@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 14:55:31 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 15:15:11 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -72,6 +72,36 @@
       <description><![CDATA[What a whirlwind of discoveries the past 48 hours have brought! From the deep cosmic ballet of black holes feasting and burping, to the fundamental confirmation of our universe's birth, and even the intricate challenges<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-13/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-13.mp3" length="2865460" type="audio/mpeg"/>
       <itunes:duration>7:57</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 12 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-10-12</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-12/</link>
+      <description><![CDATA[It's Monday, October 12th, and the universe continues to unveil its secrets with breathtaking regularity. From new insights into our Moon from the recent Artemis II mission to the surprising persistence of planets around<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-12/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-12.mp3" length="2094578" type="audio/mpeg"/>
+      <itunes:duration>5:49</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 11 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-10-11</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-11/</link>
+      <description><![CDATA[Today's edition of My Daily Clippings brings us a rich tapestry of discoveries, from the intricate dance of exoplanet atmospheres to the fundamental limits of stellar death, and the ambitious blueprints for humanity's fu<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-11/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-11.mp3" length="4900485" type="audio/mpeg"/>
+      <itunes:duration>13:36</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 10 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-10-10</guid>
+      <pubDate>Sat, 10 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-10/</link>
+      <description><![CDATA[What a week for peeling back the layers of the cosmos! From the swirling, cloudy atmospheres of distant exoplanets to the very fabric of spacetime vibrating with gravitational waves, our universe continues to reveal its<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-10/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-10.mp3" length="2305316" type="audio/mpeg"/>
+      <itunes:duration>6:24</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
