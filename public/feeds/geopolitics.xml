@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/geopolitics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily geopolitics briefing from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 16:57:42 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 17:16:44 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily geopolitics briefing from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/geopolitics.png"/>
@@ -262,6 +262,36 @@
       <description><![CDATA[A significant escalation in the **Middle East** has seen **Iran** outline peace terms amidst intensified **Houthi** attacks on **Saudi Arabia**, prompting an offer of support from **Turkiye**. Meanwhile, a controversial<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-20/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/geopolitics-2026-09-20.mp3" length="2787482" type="audio/mpeg"/>
       <itunes:duration>7:44</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 19 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-09-19</guid>
+      <pubDate>Sat, 19 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-19/</link>
+      <description><![CDATA[Global geopolitical developments remain dynamic, with significant movements in Arctic security, persistent tensions in the Middle East, and evolving dynamics in the Asia-Pacific region. Negotiations and agreements are sh<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-19/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/geopolitics-2026-09-19.mp3" length="2262798" type="audio/mpeg"/>
+      <itunes:duration>6:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 18 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-09-18</guid>
+      <pubDate>Fri, 18 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-18/</link>
+      <description><![CDATA[The global geopolitical landscape continues to be shaped by a complex interplay of regional conflicts, shifting alliances, and domestic political developments. Tensions in the Middle East remain high, with the ongoing co<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-18/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/geopolitics-2026-09-18.mp3" length="4567084" type="audio/mpeg"/>
+      <itunes:duration>12:40</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 17 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-09-17</guid>
+      <pubDate>Thu, 17 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-17/</link>
+      <description><![CDATA[The past 48 hours have seen significant developments across global economics and international relations. In the **United States**, the Federal Reserve implemented its first interest rate hike in three years, a decision<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-17/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/geopolitics-2026-09-17.mp3" length="1361177" type="audio/mpeg"/>
+      <itunes:duration>3:46</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
