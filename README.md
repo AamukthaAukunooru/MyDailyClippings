@@ -32,9 +32,8 @@ spoken text, voices it with edge-tts, uploads the MP3 to a monthly GitHub Releas
 Feeds are deployed with the site. MP3s never go into git.
 
 - **Backfill:** Actions → *Backfill Podcast Audio* → Run (defaults to the last 100 days).
-- **Explainer topics:** edit the queues in `topics/` (see `topics/README.md`).
-- **Curious questions:** open an issue with the `question` label; the next run answers it.
-- **Reading List:** add article URLs to `reading-list.txt`. Needs Cloudflare R2 secrets
+- **Topics and questions:** open a GitHub issue with a show's label (`question`, `astronomy`, `math`, `neuroscience`, `history`, `system-design`; add `next` to jump the queue). The next run turns it into an episode and closes the issue. Bulk queue files live in `topics/`. See `topics/README.md`.
+- **Reading List:** add article URLs to `reading-list.txt` (edit on github.com in the phone browser). Needs Cloudflare R2 secrets
   (`R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`, `R2_PUBLIC_URL`,
   `READING_LIST_PREFIX`) so saved articles are not republished from this public repo. The feed
   is at `<R2_PUBLIC_URL>/<READING_LIST_PREFIX>/reading-list.xml`. Skipped when not configured.

@@ -30,11 +30,18 @@ export interface NewsCategory {
   minArticles?: number // fresh articles needed before falling back to search grounding
 }
 
+// An explainer series. Topics come, in order, from: open GitHub issues carrying
+// `issueLabel` (those also labelled `next` first, then oldest first), then the
+// topics/<slug>.md queue file, then the model's own pick (if modelPicks).
 export interface ExplainerCategory {
   kind: 'explainer'
   slug: string // content dir, e.g. 'history' or 'astronomy-explained'
   label: string // spoken/display label, e.g. 'History'
   subject: string // what the series covers, used in prompts
+  issueLabel: string // GitHub issue label that feeds this series
+  format: 'long' | 'short' // long = 10-15 min explainer, short = 3-6 min answer
+  perDay: number // max episodes per day
+  modelPicks: boolean // when nothing is queued, let the model choose a topic
   extraGuidance?: string
 }
 
@@ -167,6 +174,10 @@ export const EXPLAINER_CATEGORIES: ExplainerCategory[] = [
     slug: 'astronomy-explained',
     label: 'Astronomy',
     subject: 'astronomy, astrophysics and space exploration',
+    issueLabel: 'astronomy',
+    format: 'long',
+    perDay: 1,
+    modelPicks: true,
   },
   {
     kind: 'explainer',
@@ -174,12 +185,20 @@ export const EXPLAINER_CATEGORIES: ExplainerCategory[] = [
     label: 'Math',
     subject: 'mathematics: ideas, theorems, famous problems and the intuition behind them',
     extraGuidance: 'Describe formulas in words. Build intuition with small worked examples a listener can follow without paper.',
+    issueLabel: 'math',
+    format: 'long',
+    perDay: 1,
+    modelPicks: true,
   },
   {
     kind: 'explainer',
     slug: 'neuroscience-explained',
     label: 'Neuroscience',
     subject: 'neuroscience and how the brain and nervous system work',
+    issueLabel: 'neuroscience',
+    format: 'long',
+    perDay: 1,
+    modelPicks: true,
   },
   {
     kind: 'explainer',
@@ -187,6 +206,10 @@ export const EXPLAINER_CATEGORIES: ExplainerCategory[] = [
     label: 'History',
     subject: 'world history, including Indian history: events, people, eras and turning points',
     extraGuidance: 'Tell it as a story with clear cause and effect. Give dates and places. Note where historians disagree.',
+    issueLabel: 'history',
+    format: 'long',
+    perDay: 1,
+    modelPicks: true,
   },
   {
     kind: 'explainer',
@@ -195,8 +218,25 @@ export const EXPLAINER_CATEGORIES: ExplainerCategory[] = [
     subject: 'system design and software engineering: distributed systems, databases, performance, architecture and engineering practice',
     extraGuidance:
       'Pitch it at a senior software engineer. Use concrete numbers and trade-offs, mention real systems that use the idea, and end with how it might come up in a design interview.',
+    issueLabel: 'system-design',
+    format: 'long',
+    perDay: 1,
+    modelPicks: true,
+  },
+  {
+    kind: 'explainer',
+    slug: 'questions',
+    label: 'Curious Questions',
+    subject: 'any question I am curious about',
+    issueLabel: 'question',
+    format: 'short',
+    perDay: 5,
+    modelPicks: false,
   },
 ]
+
+// Labels that change ordering rather than choosing a series.
+export const PRIORITY_LABEL = 'next'
 
 // Back-compat name used by older code paths.
 export const CATEGORIES: ScriptCategory[] = [...NEWS_CATEGORIES, ...EXPLAINER_CATEGORIES]

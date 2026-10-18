@@ -1,23 +1,35 @@
-# Explainer topic queues
+# Topics and questions inbox
 
-Each file here is the queue for one daily explainer series:
+The main inbox is **GitHub issues**. Open an issue from the GitHub app, put the topic or
+question in the title, and add the label for the show it belongs to:
 
-| File | Series |
-| --- | --- |
-| `astronomy-explained.md` | Astronomy Explained |
-| `math-explained.md` | Math Explained |
-| `neuroscience-explained.md` | Neuroscience Explained |
-| `history.md` | History Explained |
-| `system-design.md` | System Design Explained |
+| Label | Becomes | Show |
+| --- | --- | --- |
+| `question` | a short answer, 3 to 6 minutes | Curious Questions |
+| `astronomy` | a full explainer, 10 to 15 minutes | Astronomy |
+| `math` | a full explainer | Math |
+| `neuroscience` | a full explainer | Neuroscience |
+| `history` | a full explainer | History |
+| `system-design` | a full explainer | System Design |
+| `next` (extra) | jumps the queue for its show | |
 
-- One topic per line (a leading `- ` is fine). Lines starting with `#` are ignored.
-- Every morning the run takes the first topic, writes the episode, and deletes that line.
-- If a queue is empty, the model picks a fresh topic that the series has not covered yet
-  (covered topics are read from the `topic:` field of past episodes).
-- Edit these files from the GitHub mobile app whenever you think of something.
+- The issue body is optional: use it for the angle you want ("focus on cache lines").
+- Every morning each show takes its oldest open issue (issues labelled `next` first),
+  writes the episode, and closes the issue with a link. Up to 5 questions a day; one
+  explainer per show per day.
+- Only issues opened by the repo owner are used.
+- Closed issues are your history of everything you asked about.
 
-## Curious questions
+## Bulk queue files
 
-For one-off questions ("why is the sky blue?"), open a GitHub issue on this repo and add the
-`question` label. The next morning's run answers it as a short episode in the Curious Questions
-show and closes the issue with a link. Only issues opened by the repo owner are answered.
+For pasting many topics at once, each explainer show also has a queue file here
+(`astronomy-explained.md`, `math-explained.md`, `neuroscience-explained.md`, `history.md`,
+`system-design.md`): one topic per line, top line first. Edit them on github.com in the
+phone browser. Issues are used first, then these files, then the model picks a topic it
+has not covered yet.
+
+## Adding a new show
+
+Add an entry to `EXPLAINER_CATEGORIES` in `scripts/categories.ts` with its `issueLabel`,
+add the display entry in `src/lib/categories.ts`, add the show in `podcast/shows.json`,
+run `python -m podcast.artwork`, and create the label on GitHub.
