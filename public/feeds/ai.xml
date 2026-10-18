@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/ai.xml" rel="self" type="application/rss+xml"/>
     <description>Daily AI and technology news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 19:05:50 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 19:22:23 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily AI and technology news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/ai.png"/>
@@ -502,6 +502,36 @@
       <description><![CDATA[The AI landscape continues its relentless expansion and evolution, with the past 48 hours delivering a potent mix of market consolidation, critical safety revelations, and significant product advancements. From billion-d<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-08-27/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/ai-2026-08-27.mp3" length="2623744" type="audio/mpeg"/>
       <itunes:duration>7:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 26 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-08-26</guid>
+      <pubDate>Wed, 26 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-08-26/</link>
+      <description><![CDATA[The past 48 hours have delivered a potent mix of strategic hardware plays, foundational research advancements, and critical discussions surrounding AI's societal implications. We're seeing major players like OpenAI and A<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-08-26/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/ai-2026-08-26.mp3" length="2128754" type="audio/mpeg"/>
+      <itunes:duration>5:54</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 25 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-08-25</guid>
+      <pubDate>Tue, 25 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-08-25/</link>
+      <description><![CDATA[The past 48 hours have brought a sharp focus to the multifaceted impact of artificial intelligence, spanning its societal ramifications on employment, the evolving competitive landscape among major **large language model<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-08-25/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/ai-2026-08-25.mp3" length="1672106" type="audio/mpeg"/>
+      <itunes:duration>4:38</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 24 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-08-24</guid>
+      <pubDate>Mon, 24 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-08-24/</link>
+      <description><![CDATA[The past 48 hours in AI and machine learning paint a picture of a maturing, yet still volatile, industry. We're seeing a clear divergence between the cutting edge of **frontier models** and the practical realities of dep<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-08-24/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/ai-2026-08-24.mp3" length="1870015" type="audio/mpeg"/>
+      <itunes:duration>5:11</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
