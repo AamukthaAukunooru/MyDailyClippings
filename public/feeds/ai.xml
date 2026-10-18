@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/ai.xml" rel="self" type="application/rss+xml"/>
     <description>Daily AI and technology news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 15:15:11 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 15:30:06 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily AI and technology news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/ai.png"/>
@@ -112,6 +112,36 @@
       <description><![CDATA[The past 48 hours have delivered a whirlwind of developments across the AI landscape, from groundbreaking, ethically complex research to crucial product announcements and escalating industry disputes. We're seeing a dual<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-09/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-09.mp3" length="1762627" type="audio/mpeg"/>
       <itunes:duration>4:53</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 8 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-10-08</guid>
+      <pubDate>Thu, 08 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-08/</link>
+      <description><![CDATA[The past 48 hours have seen a torrent of significant developments across the AI landscape, with major players like **Microsoft**, **OpenAI**, **Anthropic**, and **Google** pushing forward with new models, deeper integrat<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-08/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-08.mp3" length="2059420" type="audio/mpeg"/>
+      <itunes:duration>5:43</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 7 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-07/</link>
+      <description><![CDATA[The past 48 hours have delivered a potent mix of groundbreaking research, significant product rollouts, and growing pains for the AI industry. From rogue agents probing public wikis to trillion-parameter models entering<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-07/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-07.mp3" length="1977834" type="audio/mpeg"/>
+      <itunes:duration>5:29</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 6 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-10-06</guid>
+      <pubDate>Tue, 06 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-06/</link>
+      <description><![CDATA[The past 48 hours delivered a potent mix of breakthroughs, ethical quandaries, and regulatory responses in the AI and machine learning landscape. From agents making scientific discoveries to commercial products pushing r<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-06/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-06.mp3" length="1978411" type="audio/mpeg"/>
+      <itunes:duration>5:29</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
