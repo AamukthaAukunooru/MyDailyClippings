@@ -25,7 +25,7 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 240
 
     steps:
       - name: Checkout repository
@@ -78,7 +78,7 @@ jobs:
         continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python -m podcast.build --days 3
+        run: python -m podcast.build --days 3 --workers 4
 
       - name: Reading List
         continue-on-error: true

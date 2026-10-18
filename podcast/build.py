@@ -16,6 +16,7 @@ from __future__ import annotations
 import argparse
 import re
 import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta
 
 from .config import NEWSLETTERS_DIR, WORK_DIR, load_config, load_manifest, save_manifest
@@ -94,6 +95,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--days", type=int, default=3, help="look back this many days (default 3)")
     ap.add_argument("--dirs", default="", help="comma-separated content dirs to limit to")
     ap.add_argument("--limit", type=int, default=0, help="max episodes to synthesize this run (0 = no limit)")
+    ap.add_argument("--workers", type=int, default=4, help="episodes synthesized in parallel (default 4)")
     ap.add_argument("--tts", default="edge", choices=["edge", "stub"])
     ap.add_argument("--storage", default="github", choices=["github", "local"])
     ap.add_argument("--feeds-only", action="store_true")
@@ -112,7 +114,9 @@ def main(argv: list[str] | None = None) -> int:
     pages = collect_pages(cfg, args.days, only)
     store = make_store(args.storage, cfg.repo)
 
-    made = failed = pending = 0
+    # 1) decide what needs (re)making
+    jobs = []
+    pending = 0
     day_index: dict[tuple, int] = {}
     for show, src, page in pages:
         key = (show.slug, page.date, src.kind)
@@ -124,25 +128,26 @@ def main(argv: list[str] | None = None) -> int:
         existing = manifest["episodes"].get(page.guid)
         if existing and existing.get("hash") == digest:
             continue
-        if args.limit and made >= args.limit:
+        if args.limit and len(jobs) >= args.limit:
             pending += 1
             continue
+        jobs.append((show, src, page, idx, text, digest))
 
+    # 2) make them in parallel: the free TTS service runs about real-time per
+    #    connection, so several connections at once is what makes this fast
+    def make(job):
+        show, src, page, idx, text, digest = job
         title = episode_title(page, src)
         name = asset_name(page.guid)
         local = WORK_DIR / name
-        print(f"[{page.guid}] {title} ({len(text.split())} words)")
         try:
             synthesize(args.tts, text, cfg.voice, cfg.rate, local)
             duration = tag_mp3(local, title, show.title, cfg.author, page.date.isoformat())
             url = store.upload(local, name, page.date.strftime("%Y-%m"))
-        except Exception as exc:
-            failed += 1
-            print(f"    FAILED: {exc}", file=sys.stderr)
+            size = local.stat().st_size
+        finally:
             local.unlink(missing_ok=True)
-            continue
-
-        manifest["episodes"][page.guid] = {
+        return {
             "guid": page.guid,
             "show": show.slug,
             "kind": src.kind,
@@ -152,23 +157,39 @@ def main(argv: list[str] | None = None) -> int:
             "summary": page.summary,
             "page": f"{cfg.site_url}/{page.dir}/{page.slug}/",
             "url": url,
-            "bytes": local.stat().st_size,
+            "bytes": size,
             "duration": duration,
             "hash": digest,
             "voice": cfg.voice,
         }
-        save_manifest(manifest)
-        local.unlink(missing_ok=True)
-        made += 1
-        print(f"    done: {duration // 60}m{duration % 60:02d}s")
+
+    made = failed = 0
+    print(f"{len(jobs)} episode(s) to make with {args.workers} worker(s); {pending} left for a later run")
+    with ThreadPoolExecutor(max_workers=max(1, args.workers)) as pool:
+        futures = {pool.submit(make, job): job for job in jobs}
+        for fut in as_completed(futures):
+            page = futures[fut][2]
+            try:
+                episode = fut.result()
+            except Exception as exc:
+                failed += 1
+                print(f"[{page.guid}] FAILED: {exc}", file=sys.stderr)
+                continue
+            # only this thread touches the manifest
+            manifest["episodes"][page.guid] = episode
+            save_manifest(manifest)
+            made += 1
+            d = episode["duration"]
+            print(f"[{page.guid}] done: {episode['title']} ({d // 60}m{d % 60:02d}s) [{made}/{len(jobs)}]")
 
     feeds_changed = write_feeds(cfg, manifest)
     print(f"\nAudio: {made} made, {failed} failed, {pending} left for a later run. Feeds changed: {feeds_changed}")
 
+    if args.exit_code_when_done and pending == 0:
+        # nothing left beyond this batch; failures get retried on the next run
+        return EXIT_NOTHING_LEFT
     if failed:
         return 1
-    if args.exit_code_when_done and pending == 0:
-        return EXIT_NOTHING_LEFT
     return 0
 
 
