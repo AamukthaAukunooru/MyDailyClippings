@@ -26,7 +26,7 @@ const TOPICS_DIR = path.join(ROOT, 'topics')
 const FORCE = process.env.FORCE === 'true'
 const EDITOR_PASS = process.env.EDITOR_PASS !== 'false'
 // Which parts to run: comma list of news,explainers,questions (default all)
-const ONLY = new Set((process.env.ONLY || 'news,explainers,questions').split(',').map((s) => s.trim()))
+const ONLY = new Set((process.env.ONLY || 'news,explainers,questions,watchlist').split(',').map((s) => s.trim()))
 
 const failures: string[] = []
 const answeredIssues: string[] = []
@@ -421,6 +421,139 @@ async function generateSeries(cat: ExplainerCategory, issues: Issue[], used: Set
   }
 }
 
+// ---------- watchlist (open issues labelled "watch") ----------
+// Each open watch issue is a standing subscription to news about its title.
+// Daily: search Google News for each, drop links already reported, and write
+// one combined episode only if something new and relevant turned up.
+
+const WATCH_LABEL = 'watch'
+const WATCH_DIR = 'watchlist'
+const WATCH_SEEN_FILE = path.join(ROOT, 'watchlist', 'seen.json')
+const MAX_SEEN_PER_TOPIC = 300
+
+type SeenMap = Record<string, string[]> // issue number -> links already considered
+
+function loadSeen(): SeenMap {
+  try {
+    return JSON.parse(fs.readFileSync(WATCH_SEEN_FILE, 'utf-8')) as SeenMap
+  } catch {
+    return {}
+  }
+}
+
+function saveSeen(seen: SeenMap) {
+  fs.mkdirSync(path.dirname(WATCH_SEEN_FILE), { recursive: true })
+  fs.writeFileSync(WATCH_SEEN_FILE, JSON.stringify(seen, null, 1) + '\n', 'utf-8')
+}
+
+function googleNewsFeed(query: string): string {
+  const q = encodeURIComponent(`${query} when:2d`)
+  return `https://news.google.com/rss/search?q=${q}&hl=en-IN&gl=IN&ceid=IN:en`
+}
+
+async function generateWatchlist(issues: Issue[]) {
+  console.log('\n[watchlist] Checking watched topics...')
+  const watches = issues.filter((i) => hasLabel(i, WATCH_LABEL))
+  if (watches.length === 0) {
+    console.log('[watchlist] No open watch issues')
+    return
+  }
+  const outputPath = path.join(NEWSLETTERS_DIR, WATCH_DIR, `${today}.md`)
+  if (fs.existsSync(outputPath) && !FORCE) {
+    console.log('[watchlist] Already exists, skipping.')
+    return
+  }
+
+  const seen = loadSeen()
+  const found: { issue: Issue; articles: Article[] }[] = []
+  for (const issue of watches) {
+    const query = issue.title.trim()
+    const articles = await fetchArticles([{ name: 'Google News', url: googleNewsFeed(query) }])
+    const already = new Set(seen[String(issue.number)] ?? [])
+    const fresh = articles.filter((a) => !already.has(a.url))
+    console.log(`[watchlist] #${issue.number} "${query}": ${fresh.length} new of ${articles.length}`)
+    if (fresh.length) found.push({ issue, articles: fresh })
+  }
+  if (found.length === 0) {
+    console.log('[watchlist] Nothing new today, no episode.')
+    return
+  }
+
+  let n = 0
+  const numbered: Article[] = []
+  const blocks = found.map(({ issue, articles }) => {
+    const focus = (issue.body ?? '').trim().slice(0, 500)
+    const lines = articles.map((a) => {
+      numbered.push(a)
+      n++
+      return `[${n}] (${a.source}, ${a.publishedAt.toISOString().slice(0, 10)}) ${a.title}${a.summary ? `\n    ${a.summary}` : ''}`
+    })
+    return `### Watched topic: ${issue.title.trim()}${focus ? `\nWhat I care about: ${focus}` : ''}\n${lines.join('\n')}`
+  })
+  const candidateList = blocks.join('\n\n')
+
+  const prompt = `You write a short personal "Watchlist" news update for My Daily Clippings. The listener follows a few specific topics and wants to hear only genuinely new, relevant developments.
+
+Today is ${today}. Below are candidate news items from the last two days, grouped by watched topic.
+
+${candidateList}
+
+Instructions:
+- For each watched topic, keep only items that are really about that topic (search results can be loosely related) and that contain actual news. Ignore rumours presented without a source, duplicates and tangential mentions.
+- For each topic with real news, write a section with a ## heading (the topic name) and a short, specific summary of what is new: about 80 to 200 words. You may use Google Search to confirm details of these items, but do NOT add news that is not in the list.
+- Skip topics with nothing real. Do not mention skipped topics.
+- If NO topic has real news, reply with exactly: NO_NEWS
+- Start with one sentence saying which topics have updates today.
+${STYLE_RULES}
+At the very end, on its own line, write "USED:" followed by the numbers of the items you drew from.`
+
+  const { text: raw } = await generate(prompt, GEMINI_API_KEY!, { search: true, temperature: 0.3 })
+
+  // Everything we looked at counts as seen, so tomorrow only brings new links.
+  for (const { issue, articles } of found) {
+    const key = String(issue.number)
+    seen[key] = [...(seen[key] ?? []), ...articles.map((a) => a.url)].slice(-MAX_SEEN_PER_TOPIC)
+  }
+  saveSeen(seen)
+
+  if (/^\s*NO_NEWS\s*$/i.test(stripFences(raw).replace(/^\s*USED:.*$/gim, '').trim())) {
+    console.log('[watchlist] Model found nothing relevant, no episode.')
+    return
+  }
+  const usedLine = raw.split('\n').reverse().find((l) => /^\s*USED:/i.test(l))
+  const usedNums = usedLine
+    ? [...new Set((usedLine.match(/\d+/g) ?? []).map(Number))].filter((x) => x >= 1 && x <= numbered.length)
+    : []
+  const used = usedNums.map((x) => numbered[x - 1])
+  const draft = stripFences(raw)
+    .split('\n')
+    .filter((l) => !/^\s*USED:/i.test(l))
+    .join('\n')
+    .trim()
+  const text = await editorPass(draft, candidateList, 'news')
+  const topics = found.map((f) => f.issue.title.trim())
+  writePage(
+    WATCH_DIR,
+    today,
+    {
+      title: `Watchlist — ${today}`,
+      date: today,
+      category: WATCH_DIR,
+      topics,
+      summary: extractSummary(text),
+      topStories: used.slice(0, 3).map((a) => {
+        // Google News titles end with " - Publisher"
+        const cut = a.title.lastIndexOf(' - ')
+        return cut > 0
+          ? { headline: a.title.slice(0, cut), source: a.title.slice(cut + 3), url: a.url }
+          : { headline: a.title, source: a.source, url: a.url }
+      }),
+      sources: used.map((a) => a.url),
+    },
+    text,
+  )
+}
+
 // ---------- main ----------
 
 async function main() {
@@ -429,8 +562,9 @@ async function main() {
   if (ONLY.has('news')) {
     for (const category of NEWS_CATEGORIES) await withRetry(category.slug, () => generateNews(category))
   }
+  const needIssues = ONLY.has('explainers') || ONLY.has('questions') || ONLY.has('watchlist')
+  const issues = needIssues ? ((await withRetry('issues', ownerIssues)) ?? []) : []
   if (ONLY.has('explainers') || ONLY.has('questions')) {
-    const issues = (await withRetry('issues', ownerIssues)) ?? []
     console.log(`\n[issues] ${issues.length} open issue(s) from the owner`)
     const used = new Set<number>()
     for (const cat of EXPLAINER_CATEGORIES) {
@@ -439,6 +573,7 @@ async function main() {
       await generateSeries(cat, issues, used)
     }
   }
+  if (ONLY.has('watchlist')) await withRetry('watchlist', () => generateWatchlist(issues))
 
   fs.writeFileSync(path.join(ROOT, '.generation-failures.txt'), failures.join('\n'), 'utf-8')
   fs.writeFileSync(path.join(ROOT, '.answered-issues.txt'), answeredIssues.join('\n'), 'utf-8')

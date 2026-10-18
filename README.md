@@ -18,7 +18,7 @@ In an age where algorithms decide what you see based on what keeps you scrolling
 
 Every page becomes one MP3, published in one podcast feed per show:
 Physics, AI & Technology, Geopolitics, Astronomy, Math, Neuroscience, History,
-System Design and Curious Questions. The site's **Listen** page lists every feed URL.
+System Design, Curious Questions and Watchlist. The site's **Listen** page lists every feed URL.
 
 1. Install **AntennaPod** (free) on your phone.
 2. Add each feed: *Add podcast → Add podcast by RSS address*, paste a URL from the Listen page.
@@ -33,6 +33,7 @@ Feeds are deployed with the site. MP3s never go into git.
 
 - **Backfill:** Actions → *Backfill Podcast Audio* → Run (defaults to the last 100 days).
 - **Topics and questions:** open a GitHub issue with a show's label (`question`, `astronomy`, `math`, `neuroscience`, `history`, `system-design`; add `next` to jump the queue). The next run turns it into an episode and closes the issue. Bulk queue files live in `topics/`. See `topics/README.md`.
+- **Watchlist:** open an issue with the `watch` label to follow a specific thing (a product, a person, an event). On days with new news, one combined Watchlist episode covers it. Close the issue to unsubscribe.
 - **Reading List:** add article URLs to `reading-list.txt` (edit on github.com in the phone browser). Needs Cloudflare R2 secrets
   (`R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`, `R2_PUBLIC_URL`,
   `READING_LIST_PREFIX`) so saved articles are not republished from this public repo. The feed
