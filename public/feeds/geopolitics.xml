@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/geopolitics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily geopolitics briefing from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 19:37:54 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 19:54:56 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily geopolitics briefing from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/geopolitics.png"/>
@@ -512,6 +512,36 @@
       <description><![CDATA[The geopolitical landscape today reflects a complex interplay of ongoing conflicts, diplomatic tensions, and domestic political shifts. From critical trade negotiations impacting **North American** economies to escalatin<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-08-21/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/geopolitics-2026-08-21.mp3" length="1811771" type="audio/mpeg"/>
       <itunes:duration>5:01</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 20 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-08-20</guid>
+      <pubDate>Thu, 20 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-08-20/</link>
+      <description><![CDATA[The geopolitical landscape remains dynamic, with significant developments emerging from the Middle East, North America, and in the realm of international law and technological competition. Diplomatic tensions are escalat<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-08-20/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/geopolitics-2026-08-20.mp3" length="2422077" type="audio/mpeg"/>
+      <itunes:duration>6:43</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 19 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-08-19</guid>
+      <pubDate>Wed, 19 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-08-19/</link>
+      <description><![CDATA[Today's geopolitical landscape is marked by intensifying diplomatic efforts and military actions across several key regions. In North America, trade tensions between the **United States** and **Canada** are reaching a cr<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-08-19/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/geopolitics-2026-08-19.mp3" length="1409898" type="audio/mpeg"/>
+      <itunes:duration>3:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 18 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-08-18</guid>
+      <pubDate>Tue, 18 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-08-18/</link>
+      <description><![CDATA[The geopolitical landscape remains dynamic with notable shifts in **United States** foreign policy, escalating regional tensions, and evolving global economic and technological trends. **President Trump** has signaled a<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-08-18/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/geopolitics-2026-08-18.mp3" length="1757285" type="audio/mpeg"/>
+      <itunes:duration>4:52</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>

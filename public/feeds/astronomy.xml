@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 19:37:54 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 19:54:56 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -552,6 +552,36 @@
       <description><![CDATA[Today's celestial bulletin brings us a fascinating tapestry of human endeavor and cosmic wonder. From the subtle scars left by our machines on the Moon to ambitious plans for sample returns from Martian moons, and even t<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-08-21/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/astronomy-2026-08-21.mp3" length="1926794" type="audio/mpeg"/>
       <itunes:duration>5:21</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 20 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-08-20</guid>
+      <pubDate>Thu, 20 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-08-20/</link>
+      <description><![CDATA[The cosmos continues to unveil its secrets, offering us glimpses into both the extreme physics governing our galactic core and the subtle, yet profound, processes shaping distant icy worlds and the early universe. Today,<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-08-20/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/astronomy-2026-08-20.mp3" length="2328668" type="audio/mpeg"/>
+      <itunes:duration>6:28</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 19 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-08-19</guid>
+      <pubDate>Wed, 19 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-08-19/</link>
+      <description><![CDATA[What a day it has been in the universe! From the very tangible impact of human-made objects on our Moon to revolutionary insights into the birth of stars and the most ancient galaxies, the cosmos continues to reveal its<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-08-19/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/astronomy-2026-08-19.mp3" length="2111154" type="audio/mpeg"/>
+      <itunes:duration>5:51</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 18 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-08-18</guid>
+      <pubDate>Tue, 18 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-08-18/</link>
+      <description><![CDATA[What an incredible 48 hours it has been for peering into the cosmos, both near and far! From the intimate history of our own Milky Way to the mind-bending possibilities of planets orbiting supermassive black holes, and t<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-08-18/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/astronomy-2026-08-18.mp3" length="2281388" type="audio/mpeg"/>
+      <itunes:duration>6:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
