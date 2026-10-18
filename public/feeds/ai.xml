@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/ai.xml" rel="self" type="application/rss+xml"/>
     <description>Daily AI and technology news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 15:45:13 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 16:01:19 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily AI and technology news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/ai.png"/>
@@ -162,6 +162,36 @@
       <description><![CDATA[The past 48 hours have underscored a critical juncture in the maturation of AI, particularly concerning the proliferation and security of AI agents. We’re witnessing a rapid expansion of agent capabilities, from consumer<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-03/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-03.mp3" length="1809762" type="audio/mpeg"/>
       <itunes:duration>5:01</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 2 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-10-02</guid>
+      <pubDate>Fri, 02 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-02/</link>
+      <description><![CDATA[The last 48 hours have delivered a potent mix of advancements and challenges across the artificial intelligence landscape. From the unveiling of powerful new frontier models to critical legal rulings shaping the future o<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-02/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-02.mp3" length="1896825" type="audio/mpeg"/>
+      <itunes:duration>5:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 1 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-10-01</guid>
+      <pubDate>Thu, 01 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-01/</link>
+      <description><![CDATA[The past 48 hours have delivered a potent mix of frontier model advancements and critical industry introspection, painting a picture of an AI landscape both rapidly innovating and grappling with its growing pains. Google<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-01/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-01.mp3" length="1931420" type="audio/mpeg"/>
+      <itunes:duration>5:21</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 30 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-09-30</guid>
+      <pubDate>Wed, 30 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-30/</link>
+      <description><![CDATA[The AI landscape is buzzing this week, largely dominated by OpenAI's annual DevDay, which served as a platform for significant product announcements, but also inadvertently amplified ongoing concerns about model safety a<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-09-30/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/ai-2026-09-30.mp3" length="2172285" type="audio/mpeg"/>
+      <itunes:duration>6:01</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>

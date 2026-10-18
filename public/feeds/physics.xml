@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/physics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily physics news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 15:45:13 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 16:01:19 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily physics news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/physics.png"/>
@@ -162,6 +162,36 @@
       <description><![CDATA[It has been a truly remarkable few days in physics, with a flurry of discoveries pushing the boundaries of our understanding across multiple domains. From unlocking new secrets of superconductivity and observing elusive<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-04/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-04.mp3" length="1749636" type="audio/mpeg"/>
       <itunes:duration>4:51</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 3 · Physics news</title>
+      <guid isPermaLink="false">physics/2026-10-03</guid>
+      <pubDate>Sat, 03 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-03/</link>
+      <description><![CDATA[Welcome back to "My Daily Clippings," your daily dive into the most compelling developments across the world of physics. This week has been particularly vibrant, with groundbreaking discoveries challenging long-held assu<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-03/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-03.mp3" length="1935582" type="audio/mpeg"/>
+      <itunes:duration>5:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 2 · Physics news</title>
+      <guid isPermaLink="false">physics/2026-10-02</guid>
+      <pubDate>Fri, 02 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-02/</link>
+      <description><![CDATA[Greetings, physics enthusiasts, and welcome to another edition of My Daily Clippings!<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-02/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-02.mp3" length="1826465" type="audio/mpeg"/>
+      <itunes:duration>5:04</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 1 · Physics news</title>
+      <guid isPermaLink="false">physics/2026-10-01</guid>
+      <pubDate>Thu, 01 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-01/</link>
+      <description><![CDATA[Good morning, physics enthusiasts. Today, October 1st, brings a fresh wave of captivating discoveries that underscore the dynamic nature of our field. From groundbreaking advancements in quantum control and entanglement<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-01/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-01.mp3" length="1509925" type="audio/mpeg"/>
+      <itunes:duration>4:11</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
