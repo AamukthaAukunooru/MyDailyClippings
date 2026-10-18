@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/physics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily physics news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 18:30:31 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 18:48:53 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily physics news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/physics.png"/>
@@ -462,6 +462,26 @@
       <description><![CDATA[Welcome to My Daily Clippings, your regular dose of the most compelling physics news. Today, we're diving into a remarkable collection of discoveries that push the boundaries of fundamental understanding, from witnessing<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-09-03/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/physics-2026-09-03.mp3" length="2041816" type="audio/mpeg"/>
       <itunes:duration>5:40</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 1 · Physics news</title>
+      <guid isPermaLink="false">physics/2026-09-01</guid>
+      <pubDate>Tue, 01 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-09-01/</link>
+      <description><![CDATA[Welcome back to "My Daily Clippings," where we dive into the most intriguing developments at the frontiers of physics. This week has delivered a fascinating blend of experimental validations of long-held quantum theories<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-09-01/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/physics-2026-09-01.mp3" length="1805132" type="audio/mpeg"/>
+      <itunes:duration>5:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 31 · Physics news</title>
+      <guid isPermaLink="false">physics/2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-08-31/</link>
+      <description><![CDATA[Today, the world of physics continues to push the boundaries of our understanding, from the fundamental fabric of spacetime to the grand narrative of cosmic expansion. We're seeing theoretical breakthroughs that challeng<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-08-31/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/physics-2026-08-31.mp3" length="1490178" type="audio/mpeg"/>
+      <itunes:duration>4:08</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
