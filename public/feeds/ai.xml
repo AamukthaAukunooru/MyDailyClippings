@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/ai.xml" rel="self" type="application/rss+xml"/>
     <description>Daily AI and technology news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 19:22:23 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 19:37:54 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily AI and technology news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/ai.png"/>
@@ -532,6 +532,36 @@
       <description><![CDATA[The past 48 hours in AI and machine learning paint a picture of a maturing, yet still volatile, industry. We're seeing a clear divergence between the cutting edge of **frontier models** and the practical realities of dep<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-08-24/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/ai-2026-08-24.mp3" length="1870015" type="audio/mpeg"/>
       <itunes:duration>5:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 23 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-08-23</guid>
+      <pubDate>Sun, 23 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-08-23/</link>
+      <description><![CDATA[The past 48 hours have delivered a fascinating cross-section of the AI landscape, from the deeply technical insights of seasoned developers leveraging AI for intricate debugging, to the burgeoning ethical and practical c<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-08-23/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/ai-2026-08-23.mp3" length="1826916" type="audio/mpeg"/>
+      <itunes:duration>5:04</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 22 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-08-22</guid>
+      <pubDate>Sat, 22 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-08-22/</link>
+      <description><![CDATA[Today's AI landscape is a swirling vortex of shifting power dynamics, a relentless push for product integration, and an increasingly critical examination of ethical boundaries. We're seeing major foundational model devel<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-08-22/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/ai-2026-08-22.mp3" length="2090700" type="audio/mpeg"/>
+      <itunes:duration>5:48</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 21 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-08-21</guid>
+      <pubDate>Fri, 21 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-08-21/</link>
+      <description><![CDATA[The AI landscape continues its rapid, if occasionally fraught, expansion. This week, we're seeing significant internal shifts at **OpenAI**, signaling a renewed focus on stability and enterprise offerings. Concurrently,<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-08-21/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/ai-2026-08-21.mp3" length="2424249" type="audio/mpeg"/>
+      <itunes:duration>6:43</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>

@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/geopolitics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily geopolitics briefing from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 19:22:23 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 19:37:54 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily geopolitics briefing from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/geopolitics.png"/>
@@ -492,6 +492,26 @@
       <description><![CDATA[A range of geopolitical and economic developments have captured attention over the past 48 hours, signaling potential shifts in international relations and humanitarian landscapes. Tensions in the Middle East are escalat<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-08-24/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/geopolitics-2026-08-24.mp3" length="1604204" type="audio/mpeg"/>
       <itunes:duration>4:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 22 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-08-22</guid>
+      <pubDate>Sat, 22 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-08-22/</link>
+      <description><![CDATA[The geopolitical landscape remains dynamic, with notable developments across several regions. In North America, a significant settlement regarding child privacy laws has been reached between a major social media platform<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-08-22/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/geopolitics-2026-08-22.mp3" length="1387267" type="audio/mpeg"/>
+      <itunes:duration>3:51</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Aug 21 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-08-21</guid>
+      <pubDate>Fri, 21 Aug 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-08-21/</link>
+      <description><![CDATA[The geopolitical landscape today reflects a complex interplay of ongoing conflicts, diplomatic tensions, and domestic political shifts. From critical trade negotiations impacting **North American** economies to escalatin<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-08-21/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-08/geopolitics-2026-08-21.mp3" length="1811771" type="audio/mpeg"/>
+      <itunes:duration>5:01</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
