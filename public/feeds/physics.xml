@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/physics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily physics news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 15:30:06 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 15:45:13 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily physics news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/physics.png"/>
@@ -132,6 +132,36 @@
       <description><![CDATA[The scientific world is abuzz this week, particularly with the announcement of the 2026 Nobel Prize in Physics, recognizing groundbreaking work that has opened a new window into the cosmos. Beyond this momentous award, r<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-07/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-07.mp3" length="1915258" type="audio/mpeg"/>
       <itunes:duration>5:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 6 · Physics news</title>
+      <guid isPermaLink="false">physics/2026-10-06</guid>
+      <pubDate>Tue, 06 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-06/</link>
+      <description><![CDATA[Happy Tuesday, everyone. It's October 6, 2026, and the world of physics continues to deliver fascinating insights, from the fundamental nature of quantum memory to groundbreaking advancements in energy and materials scie<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-06/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-06.mp3" length="1888735" type="audio/mpeg"/>
+      <itunes:duration>5:14</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 5 · Physics news</title>
+      <guid isPermaLink="false">physics/2026-10-05</guid>
+      <pubDate>Mon, 05 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-05/</link>
+      <description><![CDATA[The universe continues to surprise us, with new insights emerging into its earliest moments and the fundamental forces governing its expansion. This week, physicists are tackling one of cosmology's most persistent puzzle<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-05/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-05.mp3" length="1859906" type="audio/mpeg"/>
+      <itunes:duration>5:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 4 · Physics news</title>
+      <guid isPermaLink="false">physics/2026-10-04</guid>
+      <pubDate>Sun, 04 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-04/</link>
+      <description><![CDATA[It has been a truly remarkable few days in physics, with a flurry of discoveries pushing the boundaries of our understanding across multiple domains. From unlocking new secrets of superconductivity and observing elusive<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-04/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-04.mp3" length="1749636" type="audio/mpeg"/>
+      <itunes:duration>4:51</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
