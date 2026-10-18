@@ -6,6 +6,7 @@ import {
   EXPLAINER_CATEGORIES,
   NEWS_CATEGORIES,
   NEWS_SELECTION_RULES,
+  PRIORITY_LABEL,
   STYLE_RULES,
   type ExplainerCategory,
   type NewsCategory,
@@ -26,7 +27,6 @@ const FORCE = process.env.FORCE === 'true'
 const EDITOR_PASS = process.env.EDITOR_PASS !== 'false'
 // Which parts to run: comma list of news,explainers,questions (default all)
 const ONLY = new Set((process.env.ONLY || 'news,explainers,questions').split(',').map((s) => s.trim()))
-const MAX_QUESTIONS_PER_RUN = Number(process.env.MAX_QUESTIONS_PER_RUN ?? 5)
 
 const failures: string[] = []
 const answeredIssues: string[] = []
@@ -207,9 +207,72 @@ async function generateNews(category: NewsCategory) {
   )
 }
 
-// ---------- explainers ----------
+// ---------- explainer series (topics from issues, queue files, or the model) ----------
 
-// Topics already covered in this series, from the explainer pages' frontmatter.
+interface Issue {
+  number: number
+  title: string
+  body: string | null
+  html_url: string
+  created_at: string
+  user: { login: string }
+  labels: { name: string }[]
+  pull_request?: unknown
+}
+
+interface Topic {
+  title: string
+  details?: string
+  issue?: number
+  queueLine?: string // set when the topic came from topics/<slug>.md
+}
+
+const SITE_URL = 'https://aamukthaaukunooru.github.io/MyDailyClippings'
+
+function slugify(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, 60)
+}
+
+// The repo owner's open issues, oldest first. Anyone can open issues on a public
+// repo, so only the owner's count.
+async function ownerIssues(): Promise<Issue[]> {
+  const repo = process.env.GITHUB_REPOSITORY
+  const token = process.env.GITHUB_TOKEN
+  if (!repo || !token) {
+    console.log('[issues] GITHUB_REPOSITORY/GITHUB_TOKEN not set, skipping issue inbox')
+    return []
+  }
+  const owner = repo.split('/')[0].toLowerCase()
+  const all: Issue[] = []
+  for (let page = 1; page <= 5; page++) {
+    const res = await fetch(
+      `https://api.github.com/repos/${repo}/issues?state=open&sort=created&direction=asc&per_page=100&page=${page}`,
+      { headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json' } },
+    )
+    if (!res.ok) throw new Error(`GitHub issues API: HTTP ${res.status}`)
+    const batch = (await res.json()) as Issue[]
+    all.push(...batch)
+    if (batch.length < 100) break
+  }
+  return all.filter((i) => !i.pull_request && i.user.login.toLowerCase() === owner)
+}
+
+function hasLabel(issue: Issue, name: string): boolean {
+  return issue.labels.some((l) => l.name.toLowerCase() === name.toLowerCase())
+}
+
+// Issues for one series: those labelled `next` first, then oldest first.
+function issuesFor(cat: ExplainerCategory, issues: Issue[], used: Set<number>): Issue[] {
+  return issues
+    .filter((i) => hasLabel(i, cat.issueLabel) && !used.has(i.number))
+    .sort((a, b) => Number(hasLabel(b, PRIORITY_LABEL)) - Number(hasLabel(a, PRIORITY_LABEL)))
+}
+
+// Topics already covered in this series, from the pages' frontmatter.
 function coveredTopics(slug: string): string[] {
   const dir = path.join(NEWSLETTERS_DIR, slug)
   if (!fs.existsSync(dir)) return []
@@ -222,15 +285,15 @@ function coveredTopics(slug: string): string[] {
 }
 
 // Queue file: topics/<slug>.md, one topic per line ("- " bullets optional, # lines ignored).
-function nextQueuedTopic(slug: string, covered: string[]): { topic: string; line: string } | null {
+function nextQueuedTopic(slug: string, covered: string[]): Topic | null {
   const file = path.join(TOPICS_DIR, `${slug}.md`)
   if (!fs.existsSync(file)) return null
   const seen = new Set(covered.map((t) => t.toLowerCase()))
   for (const line of fs.readFileSync(file, 'utf-8').split('\n')) {
-    const topic = line.replace(/^\s*[-*]\s*(\[[ x]\]\s*)?/, '').trim()
-    if (!topic || line.trim().startsWith('#')) continue
-    if (seen.has(topic.toLowerCase())) continue
-    return { topic, line }
+    if (line.trim().startsWith('#')) continue
+    const title = line.replace(/^\s*[-*]\s*(\[[ x]\]\s*)?/, '').trim()
+    if (!title || seen.has(title.toLowerCase())) continue
+    return { title, queueLine: line }
   }
   return null
 }
@@ -245,9 +308,9 @@ function removeQueuedLine(slug: string, line: string) {
   }
 }
 
-function explainerPrompt(cat: ExplainerCategory, topic: string | null, covered: string[]): string {
+function longPrompt(cat: ExplainerCategory, topic: Topic | null, covered: string[]): string {
   const choose = topic
-    ? `Today's topic: ${topic}`
+    ? `Today's topic: ${topic.title}${topic.details ? `\nWhat I want from it: ${topic.details}` : ''}`
     : `Choose today's topic yourself: something in ${cat.subject} that a curious engineer would love to understand, and that is NOT already covered. Already covered (do not repeat or closely overlap):
 ${covered.slice(-200).map((t) => `- ${t}`).join('\n') || '- (nothing yet)'}`
   return `You write a daily learning series called "${cat.label} Explained" for My Daily Clippings. Each episode explains one topic in ${cat.subject} from first principles, for a curious software engineer listening during a commute.
@@ -266,116 +329,96 @@ ${STYLE_RULES}
 On the very first line, write "TOPIC:" followed by a short title for the topic (under 80 characters), then a blank line, then the episode.`
 }
 
-async function generateExplainer(cat: ExplainerCategory) {
-  console.log(`\n[${cat.slug}] Explainer...`)
-  const outputPath = path.join(NEWSLETTERS_DIR, cat.slug, `${today}.md`)
-  if (fs.existsSync(outputPath) && !FORCE) {
-    console.log(`[${cat.slug}] Already exists, skipping.`)
-    return
-  }
-  const covered = coveredTopics(cat.slug)
-  const queued = nextQueuedTopic(cat.slug, covered)
-  console.log(`[${cat.slug}] ${queued ? `Queued topic: ${queued.topic}` : 'Queue empty, model picks a topic'}`)
+function shortPrompt(topic: Topic): string {
+  return `You answer curious questions for a personal audio series called "Curious Questions". The listener is a software engineer who loves understanding things from first principles.
 
-  const { text: raw } = await generate(explainerPrompt(cat, queued?.topic ?? null, covered), GEMINI_API_KEY!, {
-    temperature: 0.5,
-  })
-  const lines = stripFences(raw).split('\n')
-  const topicIdx = lines.findIndex((l) => /^\s*TOPIC:/i.test(l))
-  const topic =
-    (topicIdx >= 0 ? lines[topicIdx].replace(/^\s*TOPIC:\s*/i, '').replace(/\*+/g, '').trim() : '') ||
-    queued?.topic ||
-    `${cat.label} explainer`
-  const draft = lines.filter((_, i) => i !== topicIdx).join('\n').trim()
-  if (draft.split(/\s+/).length < 600) throw new Error(`Explainer too short (${draft.split(/\s+/).length} words)`)
-
-  const text = await editorPass(draft, `Topic: ${topic}`, 'explainer')
-  writePage(
-    cat.slug,
-    today,
-    {
-      title: `${cat.label} Explained: ${topic}`,
-      date: today,
-      category: cat.slug,
-      topic,
-      summary: extractSummary(text),
-      topStories: [],
-      sources: [],
-    },
-    text,
-  )
-  if (queued) removeQueuedLine(cat.slug, queued.line)
-}
-
-// ---------- curious questions (GitHub issues labelled "question") ----------
-
-interface Issue {
-  number: number
-  title: string
-  body: string | null
-  html_url: string
-  user: { login: string }
-  pull_request?: unknown
-}
-
-function slugify(text: string): string {
-  return text
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-    .slice(0, 60)
-}
-
-async function openQuestions(): Promise<Issue[]> {
-  const repo = process.env.GITHUB_REPOSITORY
-  const token = process.env.GITHUB_TOKEN
-  if (!repo || !token) {
-    console.log('[questions] GITHUB_REPOSITORY/GITHUB_TOKEN not set, skipping')
-    return []
-  }
-  const owner = repo.split('/')[0].toLowerCase()
-  const res = await fetch(`https://api.github.com/repos/${repo}/issues?state=open&labels=question&per_page=50`, {
-    headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json' },
-  })
-  if (!res.ok) throw new Error(`GitHub issues API: HTTP ${res.status}`)
-  const issues = (await res.json()) as Issue[]
-  // Only the repo owner's own questions: anyone can open issues on a public repo.
-  return issues.filter((i) => !i.pull_request && i.user.login.toLowerCase() === owner)
-}
-
-async function answerQuestion(issue: Issue) {
-  const question = issue.title.trim()
-  const details = (issue.body ?? '').trim().slice(0, 1500)
-  const prompt = `You answer curious questions for a personal audio series called "Curious Questions". The listener is a software engineer who loves understanding things from first principles.
-
-Question: ${question}
-${details ? `Extra context from the listener: ${details}\n` : ''}
+Question: ${topic.title}
+${topic.details ? `Extra context from the listener: ${topic.details}\n` : ''}
 Write a clear, accurate answer of about 500 to 900 words (3 to 6 minutes spoken).
 - Start with the short answer in one or two sentences, then explain why, building up from basics.
 - Use one everyday analogy or example. Mention a common misconception if there is one.
 - Use 2 to 4 sections with ## headings.
 - If the question has no settled answer, say what is known and what is debated.
 ${STYLE_RULES}`
-  const { text: raw } = await generate(prompt, GEMINI_API_KEY!, { temperature: 0.4 })
-  const text = await editorPass(stripFences(raw), `Question: ${question}`, 'question')
-  const slug = `${today}-${slugify(question) || `q${issue.number}`}`
+}
+
+async function writeEpisode(cat: ExplainerCategory, topic: Topic | null, covered: string[], slug: string) {
+  let title: string
+  let text: string
+  if (cat.format === 'short') {
+    if (!topic) throw new Error('short format needs a topic')
+    const { text: raw } = await generate(shortPrompt(topic), GEMINI_API_KEY!, { temperature: 0.4 })
+    title = topic.title
+    text = await editorPass(stripFences(raw), `Question: ${topic.title}`, 'question')
+  } else {
+    const { text: raw } = await generate(longPrompt(cat, topic, covered), GEMINI_API_KEY!, { temperature: 0.5 })
+    const lines = stripFences(raw).split('\n')
+    const topicIdx = lines.findIndex((l) => /^\s*TOPIC:/i.test(l))
+    title =
+      (topicIdx >= 0 ? lines[topicIdx].replace(/^\s*TOPIC:\s*/i, '').replace(/\*+/g, '').trim() : '') ||
+      topic?.title ||
+      `${cat.label} explainer`
+    const draft = lines.filter((_, i) => i !== topicIdx).join('\n').trim()
+    const words = draft.split(/\s+/).length
+    if (words < 600) throw new Error(`Explainer too short (${words} words)`)
+    text = await editorPass(draft, `Topic: ${title}`, 'explainer')
+  }
+
   writePage(
-    'questions',
+    cat.slug,
     slug,
     {
-      title: question,
+      title: cat.format === 'short' ? title : `${cat.label} Explained: ${title}`,
       date: today,
-      category: 'questions',
-      question,
-      issue: issue.number,
+      category: cat.slug,
+      topic: title,
+      ...(cat.format === 'short' ? { question: title } : {}),
+      ...(topic?.issue ? { issue: topic.issue } : {}),
       summary: extractSummary(text),
       topStories: [],
       sources: [],
     },
     text,
   )
-  const siteUrl = 'https://aamukthaaukunooru.github.io/MyDailyClippings'
-  answeredIssues.push(`${issue.number} ${siteUrl}/questions/${slug}/`)
+  covered.push(title)
+  if (topic?.queueLine !== undefined) removeQueuedLine(cat.slug, topic.queueLine)
+  if (topic?.issue) answeredIssues.push(`${topic.issue} ${SITE_URL}/${cat.slug}/${slug}/`)
+}
+
+async function generateSeries(cat: ExplainerCategory, issues: Issue[], used: Set<number>) {
+  console.log(`\n[${cat.slug}] ${cat.format === 'short' ? 'Questions' : 'Explainer'}...`)
+  const covered = coveredTopics(cat.slug)
+  const fromIssues = issuesFor(cat, issues, used).slice(0, cat.perDay)
+
+  for (let n = 0; n < cat.perDay; n++) {
+    // One-a-day long series keep the familiar <date>.md page name.
+    const daily = cat.format === 'long' && cat.perDay === 1
+    if (daily && fs.existsSync(path.join(NEWSLETTERS_DIR, cat.slug, `${today}.md`)) && !FORCE) {
+      console.log(`[${cat.slug}] Already exists, skipping.`)
+      return
+    }
+
+    let topic: Topic | null = null
+    const issue = fromIssues[n]
+    if (issue) {
+      used.add(issue.number)
+      topic = { title: issue.title.trim(), details: (issue.body ?? '').trim().slice(0, 1500) || undefined, issue: issue.number }
+      console.log(`[${cat.slug}] Issue #${issue.number}: ${topic.title}`)
+    } else if (cat.format === 'long') {
+      topic = nextQueuedTopic(cat.slug, covered)
+      if (topic) console.log(`[${cat.slug}] Queued topic: ${topic.title}`)
+      else if (!cat.modelPicks) return
+      else console.log(`[${cat.slug}] Nothing queued, model picks a topic`)
+    } else {
+      if (n === 0) console.log(`[${cat.slug}] Nothing queued`)
+      return
+    }
+
+    const slug = daily ? today : `${today}-${slugify(topic?.title ?? '') || `n${n + 1}`}`
+    const label = topic?.issue ? `${cat.slug} #${topic.issue}` : cat.slug
+    await withRetry(label, () => writeEpisode(cat, topic, covered, slug))
+    if (!topic) return // model-picked: one per day
+  }
 }
 
 // ---------- main ----------
@@ -386,14 +429,14 @@ async function main() {
   if (ONLY.has('news')) {
     for (const category of NEWS_CATEGORIES) await withRetry(category.slug, () => generateNews(category))
   }
-  if (ONLY.has('explainers')) {
-    for (const cat of EXPLAINER_CATEGORIES) await withRetry(cat.slug, () => generateExplainer(cat))
-  }
-  if (ONLY.has('questions')) {
-    const questions = (await withRetry('questions', openQuestions)) ?? []
-    console.log(`\n[questions] ${questions.length} open question(s)`)
-    for (const issue of questions.slice(0, MAX_QUESTIONS_PER_RUN)) {
-      await withRetry(`question #${issue.number}`, () => answerQuestion(issue))
+  if (ONLY.has('explainers') || ONLY.has('questions')) {
+    const issues = (await withRetry('issues', ownerIssues)) ?? []
+    console.log(`\n[issues] ${issues.length} open issue(s) from the owner`)
+    const used = new Set<number>()
+    for (const cat of EXPLAINER_CATEGORIES) {
+      const isQuestions = cat.format === 'short'
+      if (isQuestions ? !ONLY.has('questions') : !ONLY.has('explainers')) continue
+      await generateSeries(cat, issues, used)
     }
   }
 
