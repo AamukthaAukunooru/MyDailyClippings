@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/geopolitics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily geopolitics briefing from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 17:54:34 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 18:12:47 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily geopolitics briefing from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/geopolitics.png"/>
@@ -362,6 +362,26 @@
       <description><![CDATA[The geopolitical landscape remains active with notable developments across several key regions. Tensions continue to escalate in the Middle East, particularly concerning **Iran** and its nuclear program, alongside ongoin<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-10/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/geopolitics-2026-09-10.mp3" length="1951735" type="audio/mpeg"/>
       <itunes:duration>5:25</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 9 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-09-09</guid>
+      <pubDate>Wed, 09 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-09/</link>
+      <description><![CDATA[The geopolitical landscape has seen a notable escalation in several key regions over the past 48 hours. Tensions in the Middle East have intensified following direct military actions between the **United States** and **I<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-09/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/geopolitics-2026-09-09.mp3" length="1362762" type="audio/mpeg"/>
+      <itunes:duration>3:47</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Sep 8 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-09-08</guid>
+      <pubDate>Tue, 08 Sep 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-08/</link>
+      <description><![CDATA[Global attention is currently drawn to several significant developments across different regions. Tensions in the Middle East have escalated, particularly around the **Strait of Hormuz**, impacting global energy markets.<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-09-08/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-09/geopolitics-2026-09-08.mp3" length="3134291" type="audio/mpeg"/>
+      <itunes:duration>8:42</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
