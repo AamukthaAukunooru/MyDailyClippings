@@ -39,7 +39,7 @@ Feeds are deployed with the site. MP3s never go into git.
   `READING_LIST_PREFIX`) so saved articles are not republished from this public repo. The feed
   is at `<R2_PUBLIC_URL>/<READING_LIST_PREFIX>/reading-list.xml`. Skipped when not configured.
 - **Failures:** a GitHub issue is opened automatically when a category or audio step fails (the 2 PM catch-up run adds to the same issue).
-- **Gemini quota:** free-tier limits are per model, so work is spread: writing on `gemini-2.5-flash`, the fact-check pass on `gemini-2.5-flash-lite`, and any model that runs out of daily quota falls back to the other. A 2 PM IST catch-up run (after the quota resets at midnight Pacific) fills in anything the 4 AM run missed. Override models with repo variables `GEMINI_MODEL`, `GEMINI_EDITOR_MODEL`, `GEMINI_EXPLAINER_MODEL`, `GEMINI_FALLBACK_MODELS`; set `EDITOR_PASS` to `false` to skip the fact-check pass.
+- **Gemini quota:** the free tier allows 20 requests a day on `gemini-2.5-flash` (Flash-Lite has no free quota), and a full day needs about 12 plus one per curious question. So everything runs on Flash and the fact-check pass is off by default. A model that runs out of daily quota is skipped for the rest of the run, and a 2 PM IST catch-up run (after the quota resets at midnight Pacific) fills in anything missed. With billing enabled, set repo variables `EDITOR_PASS=true` and `GEMINI_FALLBACK_MODELS=gemini-2.5-flash-lite`; models can be changed with `GEMINI_MODEL`, `GEMINI_EDITOR_MODEL`, `GEMINI_EXPLAINER_MODEL`.
 - **Dry run without network:** `python -m podcast.build --tts stub --storage local`.
 
 ## Tech stack

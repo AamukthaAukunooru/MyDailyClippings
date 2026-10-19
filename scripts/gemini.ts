@@ -16,6 +16,15 @@ export interface GenerateOptions {
   fallback?: boolean // try other models when this one is out of daily quota (default true)
 }
 
+// Free tier for this project, from the AI Studio rate-limit page (Oct 2026):
+//   gemini-2.5-flash       5 RPM, 250K TPM, 20 RPD
+//   gemini-2.5-flash-lite  not available (limit 0)
+//   Google Search grounding 1,500 RPD
+// Daily quotas reset at midnight Pacific. A full day needs about 12 Flash calls
+// plus 1 per curious question, so everything runs on Flash with no fallback, and
+// the fact-check pass (an extra call per page) is off unless EDITOR_PASS=true.
+// With billing enabled: set EDITOR_PASS=true and
+// GEMINI_FALLBACK_MODELS=gemini-2.5-flash-lite (repo variables) to use more models.
 const FLASH = 'gemini-2.5-flash'
 const FLASH_LITE = 'gemini-2.5-flash-lite'
 
@@ -26,7 +35,7 @@ const ROLE_MODEL: Record<Role, string> = {
   watchlist: process.env.GEMINI_MODEL || FLASH,
 }
 // Tried in order when a role's model has used up its daily quota.
-const FALLBACKS = (process.env.GEMINI_FALLBACK_MODELS || `${FLASH},${FLASH_LITE}`)
+const FALLBACKS = (process.env.GEMINI_FALLBACK_MODELS || '')
   .split(',')
   .map((m) => m.trim())
   .filter(Boolean)
