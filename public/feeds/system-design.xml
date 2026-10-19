@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
     <description>One system design or software engineering topic explained every day.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 12:57:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 14:58:20 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One system design or software engineering topic explained every day.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
@@ -14,5 +14,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 19 · Explainer: Idempotency: Making Operations Safe to Repeat</title>
+      <guid isPermaLink="false">system-design/2026-10-19</guid>
+      <pubDate>Mon, 19 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-19/</link>
+      <description><![CDATA[Have you ever clicked "submit" on an online form, seen a spinner, and then your internet connection blipped? You're left wondering: did my request go through? Is it safe to click "submit" again? Or imagine a payment syst<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-19/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/system-design-2026-10-19.mp3" length="5634800" type="audio/mpeg"/>
+      <itunes:duration>15:38</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>

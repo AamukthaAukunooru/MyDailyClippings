@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 19:54:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 14:58:20 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 19 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-10-19</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-19/</link>
+      <description><![CDATA[What a day it is for pushing the boundaries of our understanding, both near and far. Today, we witnessed Japan embark on an ambitious journey to Mars' enigmatic moon Phobos, a mission that promises to unlock secrets abou<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-19/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-19.mp3" length="1685785" type="audio/mpeg"/>
+      <itunes:duration>4:40</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 19 · Explainer: Gravitational Waves: Ripples in Spacetime</title>
+      <guid isPermaLink="false">astronomy-explained/2026-10-19</guid>
+      <pubDate>Mon, 19 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-10-19/</link>
+      <description><![CDATA[Imagine a universe where you could "hear" gravity. For millennia, humanity has explored the cosmos almost exclusively through light – from the visible glow of stars to the invisible whispers of radio waves and X-rays. Bu<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-10-19/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-explained-2026-10-19.mp3" length="5011226" type="audio/mpeg"/>
+      <itunes:duration>13:54</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 18 · Astronomy news</title>
       <guid isPermaLink="false">astronomy/2026-10-18</guid>

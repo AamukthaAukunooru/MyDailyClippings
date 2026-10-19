@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/history.xml" rel="self" type="application/rss+xml"/>
     <description>One history topic explained every day, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 12:57:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 14:58:20 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One history topic explained every day, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/history.png"/>
@@ -14,5 +14,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 19 · Explainer: Zero and the Decimal System: India's Mathematical Revolution</title>
+      <guid isPermaLink="false">history/2026-10-19</guid>
+      <pubDate>Mon, 19 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-10-19/</link>
+      <description><![CDATA[Imagine trying to do complex calculations without the number zero. No, not just without a symbol for "nothing," but without the *concept* of zero as a placeholder, as a numerical value, as the starting point of a number<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-10-19/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/history-2026-10-19.mp3" length="4797189" type="audio/mpeg"/>
+      <itunes:duration>13:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>

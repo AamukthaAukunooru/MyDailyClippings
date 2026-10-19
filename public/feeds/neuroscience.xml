@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 12:57:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 14:58:20 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,5 +14,25 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 19 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-10-19</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-10-19/</link>
+      <description><![CDATA[Greetings, fellow brain enthusiasts. Today's clippings bring us a truly monumental announcement from Stockholm, alongside fascinating new insights into Alzheimer's disease, from genetic protection to lifestyle interventi<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-10-19/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-2026-10-19.mp3" length="1607089" type="audio/mpeg"/>
+      <itunes:duration>4:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 19 · Explainer: Neural Plasticity: How Your Brain Rewires Itself</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-10-19</guid>
+      <pubDate>Mon, 19 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-10-19/</link>
+      <description><![CDATA[Have you ever wondered how you learn a new skill, like a new programming language or a musical instrument? Or how someone recovers from a stroke and relearns to speak or move? For a long time, scientists believed that af<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-10-19/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-explained-2026-10-19.mp3" length="4770227" type="audio/mpeg"/>
+      <itunes:duration>13:14</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>

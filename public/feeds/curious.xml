@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/curious.xml" rel="self" type="application/rss+xml"/>
     <description>Short answers to the questions I wonder about.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 12:50:58 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 14:58:20 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Short answers to the questions I wonder about.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/curious.png"/>
@@ -14,5 +14,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 19 · Why Sky is Blue?</title>
+      <guid isPermaLink="false">questions/2026-10-19-why-sky-is-blue</guid>
+      <pubDate>Mon, 19 Oct 2026 06:10:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/questions/2026-10-19-why-sky-is-blue/</link>
+      <description><![CDATA[The sky is blue because of how sunlight interacts with Earth's atmosphere. Specifically, tiny gas molecules in the air scatter blue light more efficiently than other colors, spreading it across the sky.<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/questions/2026-10-19-why-sky-is-blue/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/questions-2026-10-19-why-sky-is-blue.mp3" length="1730768" type="audio/mpeg"/>
+      <itunes:duration>4:48</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>

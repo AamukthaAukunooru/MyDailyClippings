@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/watchlist.xml" rel="self" type="application/rss+xml"/>
     <description>News about the specific things I follow, only on days when something new happens.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 14:55:21 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 14:58:20 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>News about the specific things I follow, only on days when something new happens.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/watchlist.png"/>
@@ -14,5 +14,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 19 · Watchlist news</title>
+      <guid isPermaLink="false">watchlist/2026-10-19</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/watchlist/2026-10-19/</link>
+      <description><![CDATA[Today, there is an update on The next era of Marvel Digital Comics Webtoons.<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/watchlist/2026-10-19/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/watchlist-2026-10-19.mp3" length="305318" type="audio/mpeg"/>
+      <itunes:duration>0:51</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>
