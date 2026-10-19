@@ -3,6 +3,9 @@ name: Generate Daily Newsletters
 on:
   schedule:
     - cron: '30 22 * * *'   # 4:00 AM IST (UTC+5:30) daily — accounts for GitHub scheduler delay
+    - cron: '30 8 * * *'    # 2:00 PM IST catch-up: fills anything the morning run missed.
+                            # Gemini's daily quota resets at midnight Pacific (12:30/13:30 IST),
+                            # so this run gets a fresh quota. Pages that exist are skipped.
   workflow_dispatch:        # Manual trigger for testing
     inputs:
       force:
@@ -46,6 +49,12 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional repo variables (Settings → Secrets and variables → Actions → Variables)
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GEMINI_EDITOR_MODEL: ${{ vars.GEMINI_EDITOR_MODEL }}
+          GEMINI_EXPLAINER_MODEL: ${{ vars.GEMINI_EXPLAINER_MODEL }}
+          GEMINI_FALLBACK_MODELS: ${{ vars.GEMINI_FALLBACK_MODELS }}
+          EDITOR_PASS: ${{ vars.EDITOR_PASS }}
           FORCE: ${{ inputs.force }}
           ONLY: ${{ inputs.only }}
         run: npx tsx scripts/generate-newsletter.ts
@@ -93,7 +102,9 @@ jobs:
 
       - name: Commit audio manifest and feeds
         run: |
-          git add podcast/episodes.json podcast/reading-list.json public/feeds/ 2>/dev/null || true
+          for p in podcast/episodes.json podcast/reading-list.json public/feeds; do
+            if [ -e "$p" ]; then git add "$p"; fi
+          done
           if git diff --staged --quiet; then
             echo "No audio changes."
           else
@@ -133,4 +144,11 @@ jobs:
           fi
           [ -n "$body" ] || exit 0
           body+="Run: $RUN_URL"
-          gh issue create --title "Daily run problems: $(date +%Y-%m-%d)" --body "$body"
+          title="Daily run problems: $(TZ=Asia/Kolkata date +%Y-%m-%d)"
+          existing=$(gh issue list --state open --search "\"$title\" in:title" --json number,title \
+            --jq "map(select(.title == \"$title\")) | .[0].number // empty")
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"   # catch-up run: add to the same issue
+          else
+            gh issue create --title "$title" --body "$body"
+          fi

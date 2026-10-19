@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import * as yaml from 'js-yaml'
-import { generate, generateWithSearch } from './gemini'
+import { QuotaExhaustedError, describeError, generate, generateWithSearch } from './gemini'
 import {
   EXPLAINER_CATEGORIES,
   NEWS_CATEGORIES,
@@ -68,7 +68,7 @@ Return ONLY the revised text, with no preamble, notes or explanation.
 ${context ? `--- CONTEXT ---\n${context}\n\n` : ''}--- DRAFT ---
 ${draft}`
   try {
-    const { text } = await generate(prompt, GEMINI_API_KEY!, { temperature: 0.2 })
+    const { text } = await generate(prompt, GEMINI_API_KEY!, { temperature: 0.2, role: 'editor', fallback: false })
     const edited = stripFences(text)
     // Guard against an editor that truncates or rewrites wholesale.
     if (edited.length < draft.length * 0.6 || edited.length > draft.length * 1.4) {
@@ -88,8 +88,13 @@ async function withRetry<T>(label: string, fn: () => Promise<T>): Promise<T | un
     try {
       return await fn()
     } catch (err) {
-      console.error(`[${label}] attempt ${attempt} failed:`, err)
-      if (attempt === 2) failures.push(`${label}: ${String((err as Error)?.message ?? err).slice(0, 300)}`)
+      const reason = describeError(err)
+      console.error(`[${label}] attempt ${attempt} failed: ${reason}`)
+      const quota = err instanceof QuotaExhaustedError || /429|quota/i.test(reason)
+      if (attempt === 2 || quota) {
+        failures.push(`${label}: ${reason}`)
+        return undefined
+      }
     }
   }
   return undefined
@@ -347,11 +352,11 @@ async function writeEpisode(cat: ExplainerCategory, topic: Topic | null, covered
   let text: string
   if (cat.format === 'short') {
     if (!topic) throw new Error('short format needs a topic')
-    const { text: raw } = await generate(shortPrompt(topic), GEMINI_API_KEY!, { temperature: 0.4 })
+    const { text: raw } = await generate(shortPrompt(topic), GEMINI_API_KEY!, { temperature: 0.4, role: 'explainer' })
     title = topic.title
     text = await editorPass(stripFences(raw), `Question: ${topic.title}`, 'question')
   } else {
-    const { text: raw } = await generate(longPrompt(cat, topic, covered), GEMINI_API_KEY!, { temperature: 0.5 })
+    const { text: raw } = await generate(longPrompt(cat, topic, covered), GEMINI_API_KEY!, { temperature: 0.5, role: 'explainer' })
     const lines = stripFences(raw).split('\n')
     const topicIdx = lines.findIndex((l) => /^\s*TOPIC:/i.test(l))
     title =
@@ -507,7 +512,7 @@ Instructions:
 ${STYLE_RULES}
 At the very end, on its own line, write "USED:" followed by the numbers of the items you drew from.`
 
-  const { text: raw } = await generate(prompt, GEMINI_API_KEY!, { search: true, temperature: 0.3 })
+  const { text: raw } = await generate(prompt, GEMINI_API_KEY!, { search: true, temperature: 0.3, role: 'watchlist' })
 
   // Everything we looked at counts as seen, so tomorrow only brings new links.
   for (const { issue, articles } of found) {
