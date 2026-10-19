@@ -24,7 +24,8 @@ const ROOT = process.cwd()
 const NEWSLETTERS_DIR = path.join(ROOT, 'newsletters')
 const TOPICS_DIR = path.join(ROOT, 'topics')
 const FORCE = process.env.FORCE === 'true'
-const EDITOR_PASS = process.env.EDITOR_PASS !== 'false'
+// Off by default: on the free tier it would double the Gemini calls (see gemini.ts).
+const EDITOR_PASS = process.env.EDITOR_PASS === 'true'
 // Which parts to run: comma list of news,explainers,questions (default all)
 const ONLY = new Set((process.env.ONLY || 'news,explainers,questions,watchlist').split(',').map((s) => s.trim()))
 
