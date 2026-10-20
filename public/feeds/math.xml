@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 14:58:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 01:31:20 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 20 · Math news</title>
+      <guid isPermaLink="false">math/2026-10-20</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-20/</link>
+      <description><![CDATA[Today's mathematical landscape brings a mix of groundbreaking news, community initiatives, and significant theoretical progress. We're seeing the astonishing capabilities of artificial intelligence applied to long-standi<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-20/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-2026-10-20.mp3" length="2138820" type="audio/mpeg"/>
+      <itunes:duration>5:56</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 20 · Explainer: The Secret Sauce of Transformations: Eigenvalues and Eigenvectors</title>
+      <guid isPermaLink="false">math-explained/2026-10-20</guid>
+      <pubDate>Tue, 20 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-20/</link>
+      <description><![CDATA[Imagine you're a software engineer working on a project that involves transforming data, perhaps for image processing, machine learning, or even simulating physical systems. You apply a complex operation, like stretching<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-20/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-explained-2026-10-20.mp3" length="5512289" type="audio/mpeg"/>
+      <itunes:duration>15:18</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 19 · Math news</title>
       <guid isPermaLink="false">math/2026-10-19</guid>

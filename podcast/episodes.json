@@ -885,6 +885,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-19.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "ai/2026-10-20": {
+   "bytes": 2949654,
+   "date": "2026-10-20",
+   "duration": 491,
+   "guid": "ai/2026-10-20",
+   "hash": "dbf24a166c24ec6b",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-20/",
+   "published": "2026-10-20T06:30:00+05:30",
+   "show": "ai",
+   "summary": "Today's AI and machine learning landscape presents a fascinating dichotomy: groundbreaking theoretical advancements and practical model deployments are juxtaposed with critical industry financial challenges and evolving",
+   "title": "Oct 20 · AI and Technology news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-20.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "astronomy-explained/2026-10-19": {
    "bytes": 5011226,
    "date": "2026-10-19",
@@ -898,6 +913,21 @@
    "summary": "Imagine a universe where you could \"hear\" gravity. For millennia, humanity has explored the cosmos almost exclusively through light – from the visible glow of stars to the invisible whispers of radio waves and X-rays. Bu",
    "title": "Oct 19 · Explainer: Gravitational Waves: Ripples in Spacetime",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-explained-2026-10-19.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "astronomy-explained/2026-10-20": {
+   "bytes": 4973044,
+   "date": "2026-10-20",
+   "duration": 828,
+   "guid": "astronomy-explained/2026-10-20",
+   "hash": "d3d303f5457a6985",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-10-20/",
+   "published": "2026-10-20T06:20:00+05:30",
+   "show": "astronomy",
+   "summary": "Imagine you're building a complex software system. You've designed it, coded it, and you're running tests. But the results aren't matching your predictions. The system is behaving as if there are hidden modules, invisibl",
+   "title": "Oct 20 · Explainer: Dark Matter and Dark Energy: The Universe's Hidden Secrets",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-explained-2026-10-20.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "astronomy/2026-08-18": {
@@ -1770,6 +1800,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-19.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "astronomy/2026-10-20": {
+   "bytes": 2746253,
+   "date": "2026-10-20",
+   "duration": 457,
+   "guid": "astronomy/2026-10-20",
+   "hash": "3dd58fb4c7081c19",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-20/",
+   "published": "2026-10-20T06:30:00+05:30",
+   "show": "astronomy",
+   "summary": "Today, we celebrate a monumental leap in space exploration as Japan launches its MMX mission to Mars' moons, aiming to bring back samples that could rewrite our understanding of the solar system. Meanwhile, new research",
+   "title": "Oct 20 · Astronomy news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-20.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "geopolitics/2026-08-18": {
    "bytes": 1757285,
    "date": "2026-08-18",
@@ -2580,6 +2625,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/geopolitics-2026-10-19.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "geopolitics/2026-10-20": {
+   "bytes": 1571195,
+   "date": "2026-10-20",
+   "duration": 261,
+   "guid": "geopolitics/2026-10-20",
+   "hash": "477b8983598fb9e4",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-20/",
+   "published": "2026-10-20T06:30:00+05:30",
+   "show": "geopolitics",
+   "summary": "Today's geopolitical landscape is marked by significant shifts in international relations, internal unrest in European nations, and ongoing regional tensions. The **United States** is signaling a notable change in its fo",
+   "title": "Oct 20 · Geopolitics news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/geopolitics-2026-10-20.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "history/2026-10-19": {
    "bytes": 4797189,
    "date": "2026-10-19",
@@ -2610,6 +2670,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-explained-2026-10-19.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "math-explained/2026-10-20": {
+   "bytes": 5512289,
+   "date": "2026-10-20",
+   "duration": 918,
+   "guid": "math-explained/2026-10-20",
+   "hash": "3b96d3ac59f0b190",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-20/",
+   "published": "2026-10-20T06:20:00+05:30",
+   "show": "math",
+   "summary": "Imagine you're a software engineer working on a project that involves transforming data, perhaps for image processing, machine learning, or even simulating physical systems. You apply a complex operation, like stretching",
+   "title": "Oct 20 · Explainer: The Secret Sauce of Transformations: Eigenvalues and Eigenvectors",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-explained-2026-10-20.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "math/2026-10-19": {
    "bytes": 1645271,
    "date": "2026-10-19",
@@ -2623,6 +2698,21 @@
    "summary": "The world of mathematics is currently navigating a fascinating crossroads, with both technological advancements and a re-evaluation of core research values shaping its future. This week, we're looking at two significant",
    "title": "Oct 19 · Math news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-2026-10-19.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "math/2026-10-20": {
+   "bytes": 2138820,
+   "date": "2026-10-20",
+   "duration": 356,
+   "guid": "math/2026-10-20",
+   "hash": "141b265344c64f15",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-20/",
+   "published": "2026-10-20T06:30:00+05:30",
+   "show": "math",
+   "summary": "Today's mathematical landscape brings a mix of groundbreaking news, community initiatives, and significant theoretical progress. We're seeing the astonishing capabilities of artificial intelligence applied to long-standi",
+   "title": "Oct 20 · Math news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-2026-10-20.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "neuroscience-explained/2026-10-19": {
@@ -2653,6 +2743,21 @@
    "summary": "Greetings, fellow brain enthusiasts. Today's clippings bring us a truly monumental announcement from Stockholm, alongside fascinating new insights into Alzheimer's disease, from genetic protection to lifestyle interventi",
    "title": "Oct 19 · Neuroscience news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-2026-10-19.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "neuroscience/2026-10-20": {
+   "bytes": 1408314,
+   "date": "2026-10-20",
+   "duration": 234,
+   "guid": "neuroscience/2026-10-20",
+   "hash": "46e12d31dfe4b682",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-10-20/",
+   "published": "2026-10-20T06:30:00+05:30",
+   "show": "neuroscience",
+   "summary": "Here are your daily clippings, a quick rundown of the latest in neuroscience. This past day has brought a flurry of exciting news, from a Nobel Prize recognizing a revolutionary technique to new insights into Alzheimer's",
+   "title": "Oct 20 · Neuroscience news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-2026-10-20.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "physics/2026-08-18": {
@@ -3568,6 +3673,21 @@
    "summary": "It's Monday, October nineteenth, two thousand twenty-six, and the world of physics continues to deliver fascinating breakthroughs. Today, we're diving into some truly remarkable advancements, from the discovery of a new",
    "title": "Oct 19 · Physics news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-19.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "physics/2026-10-20": {
+   "bytes": 2121096,
+   "date": "2026-10-20",
+   "duration": 353,
+   "guid": "physics/2026-10-20",
+   "hash": "65d4d7b37f5db7e5",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-20/",
+   "published": "2026-10-20T06:30:00+05:30",
+   "show": "physics",
+   "summary": "Welcome to My Daily Clippings, your regular dive into the most compelling physics news. This week has brought a fascinating array of breakthroughs, from a groundbreaking re-evaluation of magnetism that has earned its dis",
+   "title": "Oct 20 · Physics news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-20.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "questions/2026-10-19-why-sky-is-blue": {
