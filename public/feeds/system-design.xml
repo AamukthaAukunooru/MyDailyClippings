@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
     <description>One system design or software engineering topic explained every day.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 14:58:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 13:58:41 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One system design or software engineering topic explained every day.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 20 · Explainer: Conflict-free Replicated Data Types (CRDTs)</title>
+      <guid isPermaLink="false">system-design/2026-10-20</guid>
+      <pubDate>Tue, 20 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-20/</link>
+      <description><![CDATA[Imagine you and a colleague are working on the same document simultaneously, perhaps a shared note or a collaborative code snippet. You both type away, making changes independently. Then, without a central server orchest<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-20/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/system-design-2026-10-20.mp3" length="6241068" type="audio/mpeg"/>
+      <itunes:duration>17:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 19 · Explainer: Idempotency: Making Operations Safe to Repeat</title>
       <guid isPermaLink="false">system-design/2026-10-19</guid>

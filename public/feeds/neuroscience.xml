@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 01:31:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 13:58:41 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -22,6 +22,16 @@
       <description><![CDATA[Here are your daily clippings, a quick rundown of the latest in neuroscience. This past day has brought a flurry of exciting news, from a Nobel Prize recognizing a revolutionary technique to new insights into Alzheimer's<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-10-20/">Read it on the site</a></p>]]></description>
       <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-2026-10-20.mp3" length="1408314" type="audio/mpeg"/>
       <itunes:duration>3:54</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 20 · Explainer: The Brain's Digital Signals: Action Potentials and Synapses</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-10-20</guid>
+      <pubDate>Tue, 20 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-10-20/</link>
+      <description><![CDATA[Imagine you're a software engineer, and you've just designed the most complex, fault-tolerant, and energy-efficient computing system ever conceived. Now, you need to understand how it actually *sends* information. How do<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-10-20/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-explained-2026-10-20.mp3" length="4554598" type="audio/mpeg"/>
+      <itunes:duration>12:38</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>

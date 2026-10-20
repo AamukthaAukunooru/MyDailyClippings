@@ -2655,6 +2655,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/history-2026-10-19.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "history/2026-10-20": {
+   "bytes": 5287714,
+   "date": "2026-10-20",
+   "duration": 880,
+   "guid": "history/2026-10-20",
+   "hash": "8329cea12be11d41",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-10-20/",
+   "published": "2026-10-20T06:20:00+05:30",
+   "show": "history",
+   "summary": "Imagine a city built almost five thousand years ago, with streets laid out in a perfect grid, houses with private bathrooms, and a sophisticated drainage system, all without a known king or grand monuments. This wasn't R",
+   "title": "Oct 20 · Explainer: The Indus Valley Civilization: Ancient Urban Planning & Mystery",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/history-2026-10-20.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "math-explained/2026-10-19": {
    "bytes": 4494169,
    "date": "2026-10-19",
@@ -2728,6 +2743,21 @@
    "summary": "Have you ever wondered how you learn a new skill, like a new programming language or a musical instrument? Or how someone recovers from a stroke and relearns to speak or move? For a long time, scientists believed that af",
    "title": "Oct 19 · Explainer: Neural Plasticity: How Your Brain Rewires Itself",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-explained-2026-10-19.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "neuroscience-explained/2026-10-20": {
+   "bytes": 4554598,
+   "date": "2026-10-20",
+   "duration": 758,
+   "guid": "neuroscience-explained/2026-10-20",
+   "hash": "6a95364da7d10ad2",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-10-20/",
+   "published": "2026-10-20T06:20:00+05:30",
+   "show": "neuroscience",
+   "summary": "Imagine you're a software engineer, and you've just designed the most complex, fault-tolerant, and energy-efficient computing system ever conceived. Now, you need to understand how it actually *sends* information. How do",
+   "title": "Oct 20 · Explainer: The Brain's Digital Signals: Action Potentials and Synapses",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-explained-2026-10-20.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "neuroscience/2026-10-19": {
@@ -3720,6 +3750,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/system-design-2026-10-19.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "system-design/2026-10-20": {
+   "bytes": 6241068,
+   "date": "2026-10-20",
+   "duration": 1039,
+   "guid": "system-design/2026-10-20",
+   "hash": "1ada1acbe52ffe21",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-20/",
+   "published": "2026-10-20T06:20:00+05:30",
+   "show": "system-design",
+   "summary": "Imagine you and a colleague are working on the same document simultaneously, perhaps a shared note or a collaborative code snippet. You both type away, making changes independently. Then, without a central server orchest",
+   "title": "Oct 20 · Explainer: Conflict-free Replicated Data Types (CRDTs)",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/system-design-2026-10-20.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "watchlist/2026-10-19": {
    "bytes": 305318,
    "date": "2026-10-19",
@@ -3733,6 +3778,21 @@
    "summary": "Today, there is an update on The next era of Marvel Digital Comics Webtoons.",
    "title": "Oct 19 · Watchlist news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/watchlist-2026-10-19.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "watchlist/2026-10-20": {
+   "bytes": 123409,
+   "date": "2026-10-20",
+   "duration": 20,
+   "guid": "watchlist/2026-10-20",
+   "hash": "13fe910e39cd2dfd",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/watchlist/2026-10-20/",
+   "published": "2026-10-20T06:30:00+05:30",
+   "show": "watchlist",
+   "summary": "Today, there is an update on The next era of Marvel Digital Comics Webtoons.",
+   "title": "Oct 20 · Watchlist news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/watchlist-2026-10-20.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   }
  },
