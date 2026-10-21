@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 01:31:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 01:34:46 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 21 · Math news</title>
+      <guid isPermaLink="false">math/2026-10-21</guid>
+      <pubDate>Wed, 21 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-21/</link>
+      <description><![CDATA[Good morning, and welcome to your daily dose of mathematical insights. Today, we're diving into some truly groundbreaking developments that are reshaping how we think about discovery in mathematics. Artificial intelligen<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-21/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-2026-10-21.mp3" length="1757271" type="audio/mpeg"/>
+      <itunes:duration>4:52</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 21 · Explainer: The Power of Probabilities: Understanding Bayes' Theorem</title>
+      <guid isPermaLink="false">math-explained/2026-10-21</guid>
+      <pubDate>Wed, 21 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-21/</link>
+      <description><![CDATA[Imagine this scenario: you're a software engineer, feeling perfectly fine, but you decide to get a routine health check-up. As part of it, you take a test for a very rare disease, one that affects only one in every ten t<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-21/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-explained-2026-10-21.mp3" length="4801074" type="audio/mpeg"/>
+      <itunes:duration>13:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 20 · Math news</title>
       <guid isPermaLink="false">math/2026-10-20</guid>

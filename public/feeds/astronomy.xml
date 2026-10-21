@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 01:31:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 01:34:46 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 21 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-10-21</guid>
+      <pubDate>Wed, 21 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-21/</link>
+      <description><![CDATA[What a day for the cosmos! From ambitious new missions poised to redefine space travel to groundbreaking simulations revealing the universe's deepest secrets, and even a celestial spectacle gracing our night skies, the p<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-21/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-21.mp3" length="2383731" type="audio/mpeg"/>
+      <itunes:duration>6:37</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 21 · Explainer: Exoplanets: Worlds Beyond Our Solar System</title>
+      <guid isPermaLink="false">astronomy-explained/2026-10-21</guid>
+      <pubDate>Wed, 21 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-10-21/</link>
+      <description><![CDATA[Imagine looking up at the night sky, at all those twinkling stars. For centuries, humanity wondered: do any of them have planets like ours? Are there other worlds out there, perhaps even teeming with life? It’s a questio<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-10-21/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-explained-2026-10-21.mp3" length="4799047" type="audio/mpeg"/>
+      <itunes:duration>13:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 20 · Astronomy news</title>
       <guid isPermaLink="false">astronomy/2026-10-20</guid>

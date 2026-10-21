@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 13:58:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 01:34:46 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 21 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-10-21</guid>
+      <pubDate>Wed, 21 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-10-21/</link>
+      <description><![CDATA[Good morning, neuroscience enthusiasts! Today's clippings bring us a fascinating mix of groundbreaking discoveries, from a Nobel Prize-winning technique that allows us to literally switch brain cells on and off, to fresh<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-10-21/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-2026-10-21.mp3" length="4690473" type="audio/mpeg"/>
+      <itunes:duration>13:01</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 21 · Explainer: The Brain's Distributed System: Neural Networks and Connectomes</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-10-21</guid>
+      <pubDate>Wed, 21 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-10-21/</link>
+      <description><![CDATA[Imagine you're building a massive, complex software system. You wouldn't just write one giant block of code, would you? Instead, you'd break it down into modules, microservices, APIs, and databases, each with a specific<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-10-21/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-explained-2026-10-21.mp3" length="4730170" type="audio/mpeg"/>
+      <itunes:duration>13:07</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 20 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-10-20</guid>

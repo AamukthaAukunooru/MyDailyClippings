@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
     <description>One system design or software engineering topic explained every day.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 13:58:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 01:34:46 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One system design or software engineering topic explained every day.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 21 · Explainer: Consistent Hashing: Distributing Work with Grace</title>
+      <guid isPermaLink="false">system-design/2026-10-21</guid>
+      <pubDate>Wed, 21 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-21/</link>
+      <description><![CDATA[Imagine you’re building a massive distributed caching system. Millions of items, spread across hundreds of servers. Your system is humming along, but demand is growing, so you decide to add more cache servers. Or perhaps<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-21/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/system-design-2026-10-21.mp3" length="7037469" type="audio/mpeg"/>
+      <itunes:duration>19:32</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 20 · Explainer: Conflict-free Replicated Data Types (CRDTs)</title>
       <guid isPermaLink="false">system-design/2026-10-20</guid>

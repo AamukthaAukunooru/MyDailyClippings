@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/geopolitics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily geopolitics briefing from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 01:31:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 01:34:46 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily geopolitics briefing from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/geopolitics.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 21 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-10-21</guid>
+      <pubDate>Wed, 21 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-21/</link>
+      <description><![CDATA[Global attention remains focused on a confluence of regional conflicts, public health emergencies, and evolving geopolitical alignments. From a deadly drone strike in **Africa** to shifting diplomatic postures in the **M<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-21/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/geopolitics-2026-10-21.mp3" length="3734652" type="audio/mpeg"/>
+      <itunes:duration>10:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 20 · Geopolitics news</title>
       <guid isPermaLink="false">geopolitics/2026-10-20</guid>
