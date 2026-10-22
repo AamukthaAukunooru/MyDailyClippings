@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 01:34:46 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 01:13:15 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 22 · Math news</title>
+      <guid isPermaLink="false">math/2026-10-22</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-22/</link>
+      <description><![CDATA[This week, the world of mathematics is buzzing with the accelerating influence of artificial intelligence. We're seeing AI models not only tackling problems that have stumped human minds for decades but also prompting a<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-22/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-2026-10-22.mp3" length="1513091" type="audio/mpeg"/>
+      <itunes:duration>4:12</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 22 · Explainer: Shannon Entropy: Measuring Information and Surprise</title>
+      <guid isPermaLink="false">math-explained/2026-10-22</guid>
+      <pubDate>Thu, 22 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-22/</link>
+      <description><![CDATA[Have you ever wondered how your phone knows how to shrink a photo or a video file without losing quality? Or how much "information" is truly contained in a message? Imagine a game show where you have to guess the outcome<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-22/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-explained-2026-10-22.mp3" length="5416131" type="audio/mpeg"/>
+      <itunes:duration>15:02</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 21 · Math news</title>
       <guid isPermaLink="false">math/2026-10-21</guid>

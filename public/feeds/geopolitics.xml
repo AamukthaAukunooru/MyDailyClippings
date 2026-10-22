@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/geopolitics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily geopolitics briefing from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 01:34:46 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 01:13:15 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily geopolitics briefing from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/geopolitics.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 22 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-10-22</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-22/</link>
+      <description><![CDATA[Global geopolitical developments are marked by escalating tensions in the **Middle East**, renewed diplomatic efforts surrounding the **Ukraine** conflict, and intensified strategic competition between the **United State<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-22/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/geopolitics-2026-10-22.mp3" length="1884132" type="audio/mpeg"/>
+      <itunes:duration>5:14</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 21 · Geopolitics news</title>
       <guid isPermaLink="false">geopolitics/2026-10-21</guid>

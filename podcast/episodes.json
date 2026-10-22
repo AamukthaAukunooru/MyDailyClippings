@@ -915,6 +915,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-21.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "ai/2026-10-22": {
+   "bytes": 2135961,
+   "date": "2026-10-22",
+   "duration": 355,
+   "guid": "ai/2026-10-22",
+   "hash": "e18cd5cdb2f94b25",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-22/",
+   "published": "2026-10-22T06:30:00+05:30",
+   "show": "ai",
+   "summary": "Today's AI landscape presents a complex picture of rapid innovation, significant market expansion, and emerging ethical and environmental challenges. We're seeing a surge in sophisticated AI agents, pushing the boundarie",
+   "title": "Oct 22 · AI and Technology news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-22.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "astronomy-explained/2026-10-19": {
    "bytes": 5011226,
    "date": "2026-10-19",
@@ -958,6 +973,21 @@
    "summary": "Imagine looking up at the night sky, at all those twinkling stars. For centuries, humanity wondered: do any of them have planets like ours? Are there other worlds out there, perhaps even teeming with life? It’s a questio",
    "title": "Oct 21 · Explainer: Exoplanets: Worlds Beyond Our Solar System",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-explained-2026-10-21.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "astronomy-explained/2026-10-22": {
+   "bytes": 4166966,
+   "date": "2026-10-22",
+   "duration": 694,
+   "guid": "astronomy-explained/2026-10-22",
+   "hash": "cfdf6d5315db9c8e",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-10-22/",
+   "published": "2026-10-22T06:20:00+05:30",
+   "show": "astronomy",
+   "summary": "Imagine a place in the universe where gravity is so intense that nothing, not even light itself, can escape its grasp. A place where the very fabric of space and time is warped and twisted beyond recognition. This isn't",
+   "title": "Oct 22 · Explainer: Black Holes: Cosmic Gravity Traps",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-explained-2026-10-22.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "astronomy/2026-08-18": {
@@ -1860,6 +1890,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-21.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "astronomy/2026-10-22": {
+   "bytes": 1794470,
+   "date": "2026-10-22",
+   "duration": 299,
+   "guid": "astronomy/2026-10-22",
+   "hash": "c237b29711631ffd",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-22/",
+   "published": "2026-10-22T06:30:00+05:30",
+   "show": "astronomy",
+   "summary": "Greetings, fellow travelers of the cosmos! Today, we're diving into a fascinating blend of strategic shifts in space exploration, breathtaking new views of stellar birth, and a surprising re-discovery from the Martian pa",
+   "title": "Oct 22 · Astronomy news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-22.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "geopolitics/2026-08-18": {
    "bytes": 1757285,
    "date": "2026-08-18",
@@ -2700,6 +2745,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/geopolitics-2026-10-21.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "geopolitics/2026-10-22": {
+   "bytes": 1884132,
+   "date": "2026-10-22",
+   "duration": 314,
+   "guid": "geopolitics/2026-10-22",
+   "hash": "3a53e56ad4cab53f",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-22/",
+   "published": "2026-10-22T06:30:00+05:30",
+   "show": "geopolitics",
+   "summary": "Global geopolitical developments are marked by escalating tensions in the **Middle East**, renewed diplomatic efforts surrounding the **Ukraine** conflict, and intensified strategic competition between the **United State",
+   "title": "Oct 22 · Geopolitics news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/geopolitics-2026-10-22.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "history/2026-10-19": {
    "bytes": 4797189,
    "date": "2026-10-19",
@@ -2743,6 +2803,21 @@
    "summary": "Imagine trying to build a single, unified nation across a vast, diverse subcontinent, larger than many European countries combined, with dozens of languages, cultures, and independent kingdoms. Now imagine doing it over",
    "title": "Oct 21 · Explainer: The Mauryan Empire: India's First Great Unifier",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/history-2026-10-21.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "history/2026-10-22": {
+   "bytes": 4420675,
+   "date": "2026-10-22",
+   "duration": 736,
+   "guid": "history/2026-10-22",
+   "hash": "b7559da08b77d9d1",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-10-22/",
+   "published": "2026-10-22T06:20:00+05:30",
+   "show": "history",
+   "summary": "Imagine a time, long before the internet or even the printing press, when a society could achieve breakthroughs in mathematics, astronomy, medicine, and metallurgy that would influence the world for centuries. A time whe",
+   "title": "Oct 22 · Explainer: The Gupta Empire: India's Golden Age of Innovation",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/history-2026-10-22.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "math-explained/2026-10-19": {
@@ -2790,6 +2865,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-explained-2026-10-21.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "math-explained/2026-10-22": {
+   "bytes": 5416131,
+   "date": "2026-10-22",
+   "duration": 902,
+   "guid": "math-explained/2026-10-22",
+   "hash": "68a1b144b9e87df0",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-22/",
+   "published": "2026-10-22T06:20:00+05:30",
+   "show": "math",
+   "summary": "Have you ever wondered how your phone knows how to shrink a photo or a video file without losing quality? Or how much \"information\" is truly contained in a message? Imagine a game show where you have to guess the outcome",
+   "title": "Oct 22 · Explainer: Shannon Entropy: Measuring Information and Surprise",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-explained-2026-10-22.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "math/2026-10-19": {
    "bytes": 1645271,
    "date": "2026-10-19",
@@ -2833,6 +2923,21 @@
    "summary": "Good morning, and welcome to your daily dose of mathematical insights. Today, we're diving into some truly groundbreaking developments that are reshaping how we think about discovery in mathematics. Artificial intelligen",
    "title": "Oct 21 · Math news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-2026-10-21.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "math/2026-10-22": {
+   "bytes": 1513091,
+   "date": "2026-10-22",
+   "duration": 252,
+   "guid": "math/2026-10-22",
+   "hash": "784b5d5bb42b3f0e",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-22/",
+   "published": "2026-10-22T06:30:00+05:30",
+   "show": "math",
+   "summary": "This week, the world of mathematics is buzzing with the accelerating influence of artificial intelligence. We're seeing AI models not only tackling problems that have stumped human minds for decades but also prompting a",
+   "title": "Oct 22 · Math news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-2026-10-22.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "neuroscience-explained/2026-10-19": {
@@ -2880,6 +2985,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-explained-2026-10-21.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "neuroscience-explained/2026-10-22": {
+   "bytes": 4334190,
+   "date": "2026-10-22",
+   "duration": 721,
+   "guid": "neuroscience-explained/2026-10-22",
+   "hash": "689a50e4439624de",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-10-22/",
+   "published": "2026-10-22T06:20:00+05:30",
+   "show": "neuroscience",
+   "summary": "Have you ever stopped to think about the sheer computational power required just to see the world around you? Right now, as you listen, your brain is processing an astonishing amount of visual information. It's identifyi",
+   "title": "Oct 22 · Explainer: How Your Brain Sees: From Photons to Perception",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-explained-2026-10-22.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "neuroscience/2026-10-19": {
    "bytes": 1607089,
    "date": "2026-10-19",
@@ -2923,6 +3043,21 @@
    "summary": "Good morning, neuroscience enthusiasts! Today's clippings bring us a fascinating mix of groundbreaking discoveries, from a Nobel Prize-winning technique that allows us to literally switch brain cells on and off, to fresh",
    "title": "Oct 21 · Neuroscience news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-2026-10-21.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "neuroscience/2026-10-22": {
+   "bytes": 1653647,
+   "date": "2026-10-22",
+   "duration": 275,
+   "guid": "neuroscience/2026-10-22",
+   "hash": "e217cb872bae5867",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-10-22/",
+   "published": "2026-10-22T06:30:00+05:30",
+   "show": "neuroscience",
+   "summary": "Here are today's clippings, diving into some fascinating developments in neuroscience. We're looking at the evolving landscape of human brain organoids, new perspectives on how our brains age, and a promising, novel appr",
+   "title": "Oct 22 · Neuroscience news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-2026-10-22.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "physics/2026-08-18": {
@@ -3870,6 +4005,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-21.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "physics/2026-10-22": {
+   "bytes": 1689962,
+   "date": "2026-10-22",
+   "duration": 281,
+   "guid": "physics/2026-10-22",
+   "hash": "bd47a9a08cc04400",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-22/",
+   "published": "2026-10-22T06:30:00+05:30",
+   "show": "physics",
+   "summary": "Welcome to My Daily Clippings, your regular dive into the most compelling breakthroughs in physics. Today, we're exploring an exciting array of advancements, from unprecedented control over light and antimatter to unlock",
+   "title": "Oct 22 · Physics news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-22.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "questions/2026-10-19-why-sky-is-blue": {
    "bytes": 1730768,
    "date": "2026-10-19",
@@ -3928,6 +4078,21 @@
    "summary": "Imagine you’re building a massive distributed caching system. Millions of items, spread across hundreds of servers. Your system is humming along, but demand is growing, so you decide to add more cache servers. Or perhaps",
    "title": "Oct 21 · Explainer: Consistent Hashing: Distributing Work with Grace",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/system-design-2026-10-21.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "system-design/2026-10-22": {
+   "bytes": 4988616,
+   "date": "2026-10-22",
+   "duration": 830,
+   "guid": "system-design/2026-10-22",
+   "hash": "cb134f2dc932ed33",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-22/",
+   "published": "2026-10-22T06:20:00+05:30",
+   "show": "system-design",
+   "summary": "Imagine you're building a critical distributed system, perhaps a database or a configuration service, where every component must agree on the exact same state, even if servers crash, networks partition, or messages get d",
+   "title": "Oct 22 · Explainer: Raft Consensus Algorithm: Making Distributed Systems Agree",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/system-design-2026-10-22.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "watchlist/2026-10-19": {

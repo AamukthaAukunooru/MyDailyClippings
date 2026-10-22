@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/ai.xml" rel="self" type="application/rss+xml"/>
     <description>Daily AI and technology news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 01:34:46 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 01:13:15 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily AI and technology news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/ai.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 22 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-10-22</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-22/</link>
+      <description><![CDATA[Today's AI landscape presents a complex picture of rapid innovation, significant market expansion, and emerging ethical and environmental challenges. We're seeing a surge in sophisticated AI agents, pushing the boundarie<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-22/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-22.mp3" length="2135961" type="audio/mpeg"/>
+      <itunes:duration>5:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 21 · AI and Technology news</title>
       <guid isPermaLink="false">ai/2026-10-21</guid>

@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/history.xml" rel="self" type="application/rss+xml"/>
     <description>One history topic explained every day, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 01:34:46 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 01:13:15 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One history topic explained every day, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/history.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 22 · Explainer: The Gupta Empire: India's Golden Age of Innovation</title>
+      <guid isPermaLink="false">history/2026-10-22</guid>
+      <pubDate>Thu, 22 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-10-22/</link>
+      <description><![CDATA[Imagine a time, long before the internet or even the printing press, when a society could achieve breakthroughs in mathematics, astronomy, medicine, and metallurgy that would influence the world for centuries. A time whe<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-10-22/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/history-2026-10-22.mp3" length="4420675" type="audio/mpeg"/>
+      <itunes:duration>12:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 21 · Explainer: The Mauryan Empire: India's First Great Unifier</title>
       <guid isPermaLink="false">history/2026-10-21</guid>

@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 01:34:46 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 01:13:15 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 22 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-10-22</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-22/</link>
+      <description><![CDATA[Greetings, fellow travelers of the cosmos! Today, we're diving into a fascinating blend of strategic shifts in space exploration, breathtaking new views of stellar birth, and a surprising re-discovery from the Martian pa<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-22/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-22.mp3" length="1794470" type="audio/mpeg"/>
+      <itunes:duration>4:59</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 22 · Explainer: Black Holes: Cosmic Gravity Traps</title>
+      <guid isPermaLink="false">astronomy-explained/2026-10-22</guid>
+      <pubDate>Thu, 22 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-10-22/</link>
+      <description><![CDATA[Imagine a place in the universe where gravity is so intense that nothing, not even light itself, can escape its grasp. A place where the very fabric of space and time is warped and twisted beyond recognition. This isn't<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-10-22/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-explained-2026-10-22.mp3" length="4166966" type="audio/mpeg"/>
+      <itunes:duration>11:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 21 · Astronomy news</title>
       <guid isPermaLink="false">astronomy/2026-10-21</guid>
