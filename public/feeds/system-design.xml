@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
     <description>One system design or software engineering topic explained every day.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 01:13:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 01:15:22 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One system design or software engineering topic explained every day.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 23 · Explainer: Two-Phase Commit: Ensuring Distributed Transactional Integrity</title>
+      <guid isPermaLink="false">system-design/2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-23/</link>
+      <description><![CDATA[Imagine you're building an online banking system. A user wants to transfer one hundred dollars from their checking account to their savings account. In a traditional, single-database system, this is straightforward: you<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-23/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/system-design-2026-10-23.mp3" length="5592583" type="audio/mpeg"/>
+      <itunes:duration>15:31</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 22 · Explainer: Raft Consensus Algorithm: Making Distributed Systems Agree</title>
       <guid isPermaLink="false">system-design/2026-10-22</guid>

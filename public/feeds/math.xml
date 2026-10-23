@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 01:13:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 01:15:22 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 23 · Math news</title>
+      <guid isPermaLink="false">math/2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-23/</link>
+      <description><![CDATA[Today, our mathematical spotlight shines on one of the most profound and enduring mysteries in number theory: the **Riemann Hypothesis**. A recent guest post on Terence Tao's blog by mathematician Caroline Turnage-Butter<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-23/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-2026-10-23.mp3" length="1216587" type="audio/mpeg"/>
+      <itunes:duration>3:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 23 · Explainer: Gradient Descent: Finding the Bottom of the Hill</title>
+      <guid isPermaLink="false">math-explained/2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-23/</link>
+      <description><![CDATA[Imagine you're blindfolded, standing somewhere on a vast, undulating landscape. Your goal is to find the absolute lowest point, perhaps a valley floor, but you can't see anything. All you can do is feel the ground immedi<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-23/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-explained-2026-10-23.mp3" length="5684236" type="audio/mpeg"/>
+      <itunes:duration>15:46</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 22 · Math news</title>
       <guid isPermaLink="false">math/2026-10-22</guid>

@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/physics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily physics news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 01:13:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 01:15:22 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily physics news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/physics.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 23 · Physics news</title>
+      <guid isPermaLink="false">physics/2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-23/</link>
+      <description><![CDATA[It's been another exhilarating week in the world of physics, reminding us that the fundamental laws governing our universe are constantly being probed, refined, and understood in new ways. From trapping the elusive quant<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-23/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-23.mp3" length="3322104" type="audio/mpeg"/>
+      <itunes:duration>9:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 22 · Physics news</title>
       <guid isPermaLink="false">physics/2026-10-22</guid>
