@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 01:15:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 01:16:17 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 24 · Math news</title>
+      <guid isPermaLink="false">math/2026-10-24</guid>
+      <pubDate>Sat, 24 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-24/</link>
+      <description><![CDATA[Here are today's clippings, focusing on how artificial intelligence is reshaping the landscape of mathematical discovery and a significant step forward in understanding one of mathematics' most enduring mysteries.<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-24/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-2026-10-24.mp3" length="2341919" type="audio/mpeg"/>
+      <itunes:duration>6:30</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 24 · Explainer: The P vs NP Problem: Are Hard Problems Truly Hard?</title>
+      <guid isPermaLink="false">math-explained/2026-10-24</guid>
+      <pubDate>Sat, 24 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-24/</link>
+      <description><![CDATA[Imagine you're trying to solve a Sudoku puzzle. It can be incredibly challenging to find the right numbers for every square. You might spend a long time trying different combinations, backtracking, and using logic. But o<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-24/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-explained-2026-10-24.mp3" length="4328996" type="audio/mpeg"/>
+      <itunes:duration>12:01</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 23 · Math news</title>
       <guid isPermaLink="false">math/2026-10-23</guid>

@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 01:15:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 01:16:17 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 24 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-10-24</guid>
+      <pubDate>Sat, 24 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-24/</link>
+      <description><![CDATA[Here are today's clippings, bringing you the latest from the cosmos. This week, our journey takes us from the ambitious plans for humanity's return to the Moon, with new details emerging about NASA's Artemis III mission<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-24/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-24.mp3" length="1810902" type="audio/mpeg"/>
+      <itunes:duration>5:01</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 24 · Explainer: Neutron Stars and Pulsars: Cosmic Beacons</title>
+      <guid isPermaLink="false">astronomy-explained/2026-10-24</guid>
+      <pubDate>Sat, 24 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-10-24/</link>
+      <description><![CDATA[Imagine a star so incredibly dense that a single sugar cube of its material would weigh more than every car on Earth combined. Now imagine that same star spinning hundreds of times per second, faster than a helicopter ro<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-10-24/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-explained-2026-10-24.mp3" length="4449785" type="audio/mpeg"/>
+      <itunes:duration>12:21</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 23 · Astronomy news</title>
       <guid isPermaLink="false">astronomy/2026-10-23</guid>

@@ -945,6 +945,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-23.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "ai/2026-10-24": {
+   "bytes": 2226772,
+   "date": "2026-10-24",
+   "duration": 371,
+   "guid": "ai/2026-10-24",
+   "hash": "330cabf0d4210708",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-24/",
+   "published": "2026-10-24T06:30:00+05:30",
+   "show": "ai",
+   "summary": "The past forty-eight hours have seen significant shifts in the artificial intelligence landscape, particularly concerning security protocols for frontier models, evolving data privacy policies, and the introduction of no",
+   "title": "Oct 24 · AI and Technology news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-24.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "astronomy-explained/2026-10-19": {
    "bytes": 5011226,
    "date": "2026-10-19",
@@ -1018,6 +1033,21 @@
    "summary": "Imagine tuning an old radio, turning the dial between stations. What you mostly hear is static, a hiss of random noise. But what if some of that static wasn't just electrical interference or atmospheric disturbances? Wha",
    "title": "Oct 23 · Explainer: The Cosmic Microwave Background: Echoes of the Big Bang",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-explained-2026-10-23.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "astronomy-explained/2026-10-24": {
+   "bytes": 4449785,
+   "date": "2026-10-24",
+   "duration": 741,
+   "guid": "astronomy-explained/2026-10-24",
+   "hash": "510165dcac46487d",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-10-24/",
+   "published": "2026-10-24T06:20:00+05:30",
+   "show": "astronomy",
+   "summary": "Imagine a star so incredibly dense that a single sugar cube of its material would weigh more than every car on Earth combined. Now imagine that same star spinning hundreds of times per second, faster than a helicopter ro",
+   "title": "Oct 24 · Explainer: Neutron Stars and Pulsars: Cosmic Beacons",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-explained-2026-10-24.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "astronomy/2026-08-18": {
@@ -1950,6 +1980,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-23.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "astronomy/2026-10-24": {
+   "bytes": 1810902,
+   "date": "2026-10-24",
+   "duration": 301,
+   "guid": "astronomy/2026-10-24",
+   "hash": "0c3d662cee90bc6c",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-24/",
+   "published": "2026-10-24T06:30:00+05:30",
+   "show": "astronomy",
+   "summary": "Here are today's clippings, bringing you the latest from the cosmos. This week, our journey takes us from the ambitious plans for humanity's return to the Moon, with new details emerging about NASA's Artemis III mission",
+   "title": "Oct 24 · Astronomy news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-24.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "geopolitics/2026-08-18": {
    "bytes": 1757285,
    "date": "2026-08-18",
@@ -2820,6 +2865,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/geopolitics-2026-10-23.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "geopolitics/2026-10-24": {
+   "bytes": 1775015,
+   "date": "2026-10-24",
+   "duration": 295,
+   "guid": "geopolitics/2026-10-24",
+   "hash": "2097bb4e2b7d8337",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-24/",
+   "published": "2026-10-24T06:30:00+05:30",
+   "show": "geopolitics",
+   "summary": "The past 48 hours have seen significant geopolitical developments across several regions, marked by escalating conflicts, critical diplomatic efforts, and ongoing humanitarian and health crises. Tensions remain high in t",
+   "title": "Oct 24 · Geopolitics news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/geopolitics-2026-10-24.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "history/2026-10-19": {
    "bytes": 4797189,
    "date": "2026-10-19",
@@ -2893,6 +2953,21 @@
    "summary": "Imagine a world where the internet is not made of fiber optics, but of ocean currents. Where data packets are not digital bits, but ships laden with spices, silks, and ideas. And where a powerful empire, not content with",
    "title": "Oct 23 · Explainer: The Chola Maritime Empire: Navigating Trade, Power, and Stone",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/history-2026-10-23.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "history/2026-10-24": {
+   "bytes": 4702767,
+   "date": "2026-10-24",
+   "duration": 783,
+   "guid": "history/2026-10-24",
+   "hash": "5f09fb6f5badfe81",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-10-24/",
+   "published": "2026-10-24T06:20:00+05:30",
+   "show": "history",
+   "summary": "Imagine a world where every single book is a unique, handcrafted masterpiece. Where knowledge spreads at the painstaking pace of a scribe's hand, and owning even one book is a luxury reserved for the wealthiest or most p",
+   "title": "Oct 24 · Explainer: The Printing Press: How Information Changed the World",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/history-2026-10-24.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "math-explained/2026-10-19": {
@@ -2970,6 +3045,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-explained-2026-10-23.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "math-explained/2026-10-24": {
+   "bytes": 4328996,
+   "date": "2026-10-24",
+   "duration": 721,
+   "guid": "math-explained/2026-10-24",
+   "hash": "3fa8ef097324ac97",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-24/",
+   "published": "2026-10-24T06:20:00+05:30",
+   "show": "math",
+   "summary": "Imagine you're trying to solve a Sudoku puzzle. It can be incredibly challenging to find the right numbers for every square. You might spend a long time trying different combinations, backtracking, and using logic. But o",
+   "title": "Oct 24 · Explainer: The P vs NP Problem: Are Hard Problems Truly Hard?",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-explained-2026-10-24.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "math/2026-10-19": {
    "bytes": 1645271,
    "date": "2026-10-19",
@@ -3043,6 +3133,21 @@
    "summary": "Today, our mathematical spotlight shines on one of the most profound and enduring mysteries in number theory: the **Riemann Hypothesis**. A recent guest post on Terence Tao's blog by mathematician Caroline Turnage-Butter",
    "title": "Oct 23 · Math news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-2026-10-23.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "math/2026-10-24": {
+   "bytes": 2341919,
+   "date": "2026-10-24",
+   "duration": 390,
+   "guid": "math/2026-10-24",
+   "hash": "957319c2633eebff",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-24/",
+   "published": "2026-10-24T06:30:00+05:30",
+   "show": "math",
+   "summary": "Here are today's clippings, focusing on how artificial intelligence is reshaping the landscape of mathematical discovery and a significant step forward in understanding one of mathematics' most enduring mysteries.",
+   "title": "Oct 24 · Math news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-2026-10-24.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "neuroscience-explained/2026-10-19": {
@@ -3120,6 +3225,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-explained-2026-10-23.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "neuroscience-explained/2026-10-24": {
+   "bytes": 4683161,
+   "date": "2026-10-24",
+   "duration": 780,
+   "guid": "neuroscience-explained/2026-10-24",
+   "hash": "107107c64bdfba87",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-10-24/",
+   "published": "2026-10-24T06:20:00+05:30",
+   "show": "neuroscience",
+   "summary": "Imagine you're deep into a complex debugging session. You have multiple terminals open, notifications are popping up on your screen, and maybe some background music is playing. Yet, somehow, you manage to zero in on that",
+   "title": "Oct 24 · Explainer: The Brain's Focus Engine: How Attention Works",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-explained-2026-10-24.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "neuroscience/2026-10-19": {
    "bytes": 1607089,
    "date": "2026-10-19",
@@ -3193,6 +3313,21 @@
    "summary": "Here are today's clippings, focusing on some intriguing new findings in brain science, from surprising avian intelligence to a closer look at popular supplements and evolving research tools. We'll delve into why some bra",
    "title": "Oct 23 · Neuroscience news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-2026-10-23.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "neuroscience/2026-10-24": {
+   "bytes": 2120386,
+   "date": "2026-10-24",
+   "duration": 353,
+   "guid": "neuroscience/2026-10-24",
+   "hash": "d1cc98eeb28fed8a",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-10-24/",
+   "published": "2026-10-24T06:30:00+05:30",
+   "show": "neuroscience",
+   "summary": "Hello, and welcome to \"My Daily Clippings,\" your regular dose of the latest in neuroscience. Today, we're looking at some compelling new findings that could reshape our understanding of brain health and treatment. We'll",
+   "title": "Oct 24 · Neuroscience news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-2026-10-24.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "physics/2026-08-18": {
@@ -4170,6 +4305,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-23.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "physics/2026-10-24": {
+   "bytes": 1734790,
+   "date": "2026-10-24",
+   "duration": 289,
+   "guid": "physics/2026-10-24",
+   "hash": "ad12863267f49477",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-24/",
+   "published": "2026-10-24T06:30:00+05:30",
+   "show": "physics",
+   "summary": "Greetings, physics enthusiasts, and welcome to another edition of My Daily Clippings. Today, we're diving into a fascinating array of discoveries, from the quantum realm's most elusive particles and states to the grandes",
+   "title": "Oct 24 · Physics news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-24.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "questions/2026-10-19-why-sky-is-blue": {
    "bytes": 1730768,
    "date": "2026-10-19",
@@ -4258,6 +4408,21 @@
    "summary": "Imagine you're building an online banking system. A user wants to transfer one hundred dollars from their checking account to their savings account. In a traditional, single-database system, this is straightforward: you",
    "title": "Oct 23 · Explainer: Two-Phase Commit: Ensuring Distributed Transactional Integrity",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/system-design-2026-10-23.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "system-design/2026-10-24": {
+   "bytes": 5151792,
+   "date": "2026-10-24",
+   "duration": 858,
+   "guid": "system-design/2026-10-24",
+   "hash": "d0899c3b7ade1dab",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-24/",
+   "published": "2026-10-24T06:20:00+05:30",
+   "show": "system-design",
+   "summary": "Imagine you are building an online store, and a customer adds a popular item to their cart. They refresh the page, and suddenly, the item is gone. Confused, they add it again. This time, they proceed to checkout, only to",
+   "title": "Oct 24 · Explainer: Quorum Reads and Writes: Balancing Consistency and Availability",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/system-design-2026-10-24.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "watchlist/2026-10-19": {

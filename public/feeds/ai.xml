@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/ai.xml" rel="self" type="application/rss+xml"/>
     <description>Daily AI and technology news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 01:15:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 01:16:17 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily AI and technology news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/ai.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 24 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-10-24</guid>
+      <pubDate>Sat, 24 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-24/</link>
+      <description><![CDATA[The past forty-eight hours have seen significant shifts in the artificial intelligence landscape, particularly concerning security protocols for frontier models, evolving data privacy policies, and the introduction of no<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-24/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-24.mp3" length="2226772" type="audio/mpeg"/>
+      <itunes:duration>6:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 23 · AI and Technology news</title>
       <guid isPermaLink="false">ai/2026-10-23</guid>

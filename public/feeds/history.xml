@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/history.xml" rel="self" type="application/rss+xml"/>
     <description>One history topic explained every day, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 01:15:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 01:16:17 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One history topic explained every day, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/history.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 24 · Explainer: The Printing Press: How Information Changed the World</title>
+      <guid isPermaLink="false">history/2026-10-24</guid>
+      <pubDate>Sat, 24 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-10-24/</link>
+      <description><![CDATA[Imagine a world where every single book is a unique, handcrafted masterpiece. Where knowledge spreads at the painstaking pace of a scribe's hand, and owning even one book is a luxury reserved for the wealthiest or most p<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-10-24/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/history-2026-10-24.mp3" length="4702767" type="audio/mpeg"/>
+      <itunes:duration>13:03</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 23 · Explainer: The Chola Maritime Empire: Navigating Trade, Power, and Stone</title>
       <guid isPermaLink="false">history/2026-10-23</guid>
