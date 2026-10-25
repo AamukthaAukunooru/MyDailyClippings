@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2026 01:16:17 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 00:49:25 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 25 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-10-25</guid>
+      <pubDate>Sun, 25 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-10-25/</link>
+      <description><![CDATA[Here are today's clippings, bringing you the latest in neuroscience. We're looking at new insights into how aggressive brain cancers operate, a significant breakthrough in PTSD treatment, the surprising benefits of exerc<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-10-25/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-2026-10-25.mp3" length="1500566" type="audio/mpeg"/>
+      <itunes:duration>4:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 25 · Explainer: The Brain's Night Shift: Why We Sleep</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-10-25</guid>
+      <pubDate>Sun, 25 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-10-25/</link>
+      <description><![CDATA[Why do we spend roughly one-third of our lives in an unconscious state? For a species that values efficiency and productivity, dedicating eight hours out of every twenty-four to what seems like inactivity might appear co<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-10-25/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-explained-2026-10-25.mp3" length="5138071" type="audio/mpeg"/>
+      <itunes:duration>14:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 24 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-10-24</guid>

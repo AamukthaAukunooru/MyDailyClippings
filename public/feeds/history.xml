@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/history.xml" rel="self" type="application/rss+xml"/>
     <description>One history topic explained every day, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2026 01:16:17 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 00:49:25 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One history topic explained every day, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/history.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 25 · Explainer: Kautilya's Arthashastra: Ancient India's Manual for Statecraft</title>
+      <guid isPermaLink="false">history/2026-10-25</guid>
+      <pubDate>Sun, 25 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-10-25/</link>
+      <description><![CDATA[Imagine a book written over two thousand years ago, a comprehensive manual for running an entire empire. It's not a philosophical treatise on ideal governance, but a brutally pragmatic guide covering everything from taxa<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-10-25/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/history-2026-10-25.mp3" length="4800074" type="audio/mpeg"/>
+      <itunes:duration>13:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 24 · Explainer: The Printing Press: How Information Changed the World</title>
       <guid isPermaLink="false">history/2026-10-24</guid>

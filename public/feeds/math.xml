@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2026 01:16:17 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 00:49:25 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 25 · Math news</title>
+      <guid isPermaLink="false">math/2026-10-25</guid>
+      <pubDate>Sun, 25 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-25/</link>
+      <description><![CDATA[Today's mathematical landscape brings us two fascinating developments at the intersection of artificial intelligence and advanced mathematics. We're seeing AI not only tackle problems that have long stymied human minds b<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-25/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-2026-10-25.mp3" length="1342569" type="audio/mpeg"/>
+      <itunes:duration>3:43</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 25 · Explainer: Markov Chains: Predicting the Future with Present Knowledge</title>
+      <guid isPermaLink="false">math-explained/2026-10-25</guid>
+      <pubDate>Sun, 25 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-25/</link>
+      <description><![CDATA[Have you ever wondered how Google's PageRank algorithm works, or how weather forecasters make their long-term predictions? What about the seemingly random yet predictable patterns in stock markets, or the way genes mutat<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-25/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-explained-2026-10-25.mp3" length="5617941" type="audio/mpeg"/>
+      <itunes:duration>15:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 24 · Math news</title>
       <guid isPermaLink="false">math/2026-10-24</guid>

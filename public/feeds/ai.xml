@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/ai.xml" rel="self" type="application/rss+xml"/>
     <description>Daily AI and technology news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2026 01:16:17 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 00:49:25 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily AI and technology news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/ai.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 25 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-10-25</guid>
+      <pubDate>Sun, 25 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-25/</link>
+      <description><![CDATA[The past 48 hours have brought a mix of critical developments in the AI and machine learning landscape, highlighting both the industry's evolving security posture and the uneven reality of its economic impact. We've seen<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-25/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-25.mp3" length="1736538" type="audio/mpeg"/>
+      <itunes:duration>4:49</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 24 · AI and Technology news</title>
       <guid isPermaLink="false">ai/2026-10-24</guid>
