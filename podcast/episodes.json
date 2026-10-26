@@ -975,6 +975,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-25.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "ai/2026-10-26": {
+   "bytes": 2674916,
+   "date": "2026-10-26",
+   "duration": 445,
+   "guid": "ai/2026-10-26",
+   "hash": "253f623a6ec554c0",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-26/",
+   "published": "2026-10-26T06:30:00+05:30",
+   "show": "ai",
+   "summary": "The past forty-eight hours have brought a diverse array of developments in the artificial intelligence landscape, from surprising research findings challenging the dominance of large language models to significant policy",
+   "title": "Oct 26 · AI and Technology news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-26.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "astronomy-explained/2026-10-19": {
    "bytes": 5011226,
    "date": "2026-10-19",
@@ -1078,6 +1093,21 @@
    "summary": "How far away is the nearest star? How about the Andromeda galaxy, our galactic neighbor? Or the most distant galaxy ever observed? As a software engineer, you're used to dealing with precise measurements, but in astronom",
    "title": "Oct 25 · Explainer: The Cosmic Distance Ladder: Measuring the Universe",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-explained-2026-10-25.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "astronomy-explained/2026-10-26": {
+   "bytes": 4860739,
+   "date": "2026-10-26",
+   "duration": 809,
+   "guid": "astronomy-explained/2026-10-26",
+   "hash": "4781943b4e482f50",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-10-26/",
+   "published": "2026-10-26T06:20:00+05:30",
+   "show": "astronomy",
+   "summary": "Have you ever looked up at the night sky, perhaps at a bright planet like Jupiter or Venus, and wondered how it got there? It’s easy to imagine planets as eternal, fixed objects, always orbiting their stars. But the trut",
+   "title": "Oct 26 · Explainer: The Birth of Planets: From Dust to Worlds",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-explained-2026-10-26.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "astronomy/2026-08-18": {
@@ -2040,6 +2070,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-25.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "astronomy/2026-10-26": {
+   "bytes": 1632020,
+   "date": "2026-10-26",
+   "duration": 272,
+   "guid": "astronomy/2026-10-26",
+   "hash": "64cdaae7c1ce20d1",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-26/",
+   "published": "2026-10-26T06:30:00+05:30",
+   "show": "astronomy",
+   "summary": "Here are today's clippings, bringing you the latest from the cosmos, from the very first moments of our universe to humanity's ambitious return to the Moon. We'll delve into groundbreaking simulations that illuminate the",
+   "title": "Oct 26 · Astronomy news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-26.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "geopolitics/2026-08-18": {
    "bytes": 1757285,
    "date": "2026-08-18",
@@ -2940,6 +2985,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/geopolitics-2026-10-25.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "geopolitics/2026-10-26": {
+   "bytes": 1334222,
+   "date": "2026-10-26",
+   "duration": 222,
+   "guid": "geopolitics/2026-10-26",
+   "hash": "90efcb2340ddeec9",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-26/",
+   "published": "2026-10-26T06:30:00+05:30",
+   "show": "geopolitics",
+   "summary": "Recent global developments highlight significant political shifts in **Latin America** and **Europe**, alongside ongoing tensions and strategic realignments in the **Middle East**. **Brazil** has seen a notable electoral",
+   "title": "Oct 26 · Geopolitics news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/geopolitics-2026-10-26.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "history/2026-10-19": {
    "bytes": 4797189,
    "date": "2026-10-19",
@@ -3043,6 +3103,21 @@
    "summary": "Imagine a book written over two thousand years ago, a comprehensive manual for running an entire empire. It's not a philosophical treatise on ideal governance, but a brutally pragmatic guide covering everything from taxa",
    "title": "Oct 25 · Explainer: Kautilya's Arthashastra: Ancient India's Manual for Statecraft",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/history-2026-10-25.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "history/2026-10-26": {
+   "bytes": 5274447,
+   "date": "2026-10-26",
+   "duration": 878,
+   "guid": "history/2026-10-26",
+   "hash": "919dd455db7c02a9",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-10-26/",
+   "published": "2026-10-26T06:20:00+05:30",
+   "show": "history",
+   "summary": "Imagine a world where almost everything you owned was made by hand. Your clothes, your tools, your furniture – each item crafted individually, often in someone's home or a small workshop. Travel was slow, powered by wind",
+   "title": "Oct 26 · Explainer: The Industrial Revolution: How Machines Reshaped Our World",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/history-2026-10-26.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "math-explained/2026-10-19": {
@@ -3150,6 +3225,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-explained-2026-10-25.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "math-explained/2026-10-26": {
+   "bytes": 4455277,
+   "date": "2026-10-26",
+   "duration": 742,
+   "guid": "math-explained/2026-10-26",
+   "hash": "40007f8655ccb73a",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-26/",
+   "published": "2026-10-26T06:20:00+05:30",
+   "show": "math",
+   "summary": "Imagine you have a giant, messy dataset. Maybe it's millions of customer reviews for different products, or a huge collection of images, or even sensor readings from a complex system. You're swimming in information, but",
+   "title": "Oct 26 · Explainer: Singular Value Decomposition: Unpacking Data's Core Structure",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-explained-2026-10-26.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "math/2026-10-19": {
    "bytes": 1645271,
    "date": "2026-10-19",
@@ -3253,6 +3343,21 @@
    "summary": "Today's mathematical landscape brings us two fascinating developments at the intersection of artificial intelligence and advanced mathematics. We're seeing AI not only tackle problems that have long stymied human minds b",
    "title": "Oct 25 · Math news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-2026-10-25.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "math/2026-10-26": {
+   "bytes": 1776154,
+   "date": "2026-10-26",
+   "duration": 296,
+   "guid": "math/2026-10-26",
+   "hash": "7172ac4c84df5c96",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-26/",
+   "published": "2026-10-26T06:30:00+05:30",
+   "show": "math",
+   "summary": "This past week has been a whirlwind in the world of mathematics, largely dominated by the accelerating capabilities of artificial intelligence. We've seen a massive outpouring of AI-generated mathematical insights from O",
+   "title": "Oct 26 · Math news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-2026-10-26.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "neuroscience-explained/2026-10-19": {
@@ -3360,6 +3465,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-explained-2026-10-25.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "neuroscience-explained/2026-10-26": {
+   "bytes": 4598999,
+   "date": "2026-10-26",
+   "duration": 766,
+   "guid": "neuroscience-explained/2026-10-26",
+   "hash": "03df31cfd34229e4",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-10-26/",
+   "published": "2026-10-26T06:20:00+05:30",
+   "show": "neuroscience",
+   "summary": "Imagine you're standing in front of a coffee shop, staring at the menu. Do you get your usual latte, or try that new seasonal special? Do you grab a quick pastry, or stick to your healthy eating plan? This seemingly simp",
+   "title": "Oct 26 · Explainer: The Brain's Decision Engine: Weighing Options and Taking Action",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-explained-2026-10-26.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "neuroscience/2026-10-19": {
    "bytes": 1607089,
    "date": "2026-10-19",
@@ -3463,6 +3583,21 @@
    "summary": "Here are today's clippings, bringing you the latest in neuroscience. We're looking at new insights into how aggressive brain cancers operate, a significant breakthrough in PTSD treatment, the surprising benefits of exerc",
    "title": "Oct 25 · Neuroscience news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-2026-10-25.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "neuroscience/2026-10-26": {
+   "bytes": 2011845,
+   "date": "2026-10-26",
+   "duration": 335,
+   "guid": "neuroscience/2026-10-26",
+   "hash": "f926d315119ee040",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-10-26/",
+   "published": "2026-10-26T06:30:00+05:30",
+   "show": "neuroscience",
+   "summary": "Here are today's clippings, offering a glimpse into the latest advancements in understanding and treating neurological conditions. We're seeing exciting new data on how psychedelic compounds might rewire the brain withou",
+   "title": "Oct 26 · Neuroscience news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-2026-10-26.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "physics/2026-08-18": {
@@ -4470,6 +4605,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-25.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "physics/2026-10-26": {
+   "bytes": 2218826,
+   "date": "2026-10-26",
+   "duration": 369,
+   "guid": "physics/2026-10-26",
+   "hash": "c3654d9f3bd31211",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-26/",
+   "published": "2026-10-26T06:30:00+05:30",
+   "show": "physics",
+   "summary": "Welcome to \"My Daily Clippings,\" your daily dose of the most compelling developments in the world of physics. This past week has delivered a cascade of remarkable findings, pushing the boundaries of our understanding fro",
+   "title": "Oct 26 · Physics news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-26.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "questions/2026-10-19-why-sky-is-blue": {
    "bytes": 1730768,
    "date": "2026-10-19",
@@ -4588,6 +4738,21 @@
    "summary": "Imagine a firehose, blasting water at full pressure. Now imagine trying to catch all that water in a small bucket. What happens? The bucket overflows, water is wasted, and you're quickly overwhelmed. This simple analogy",
    "title": "Oct 25 · Explainer: Backpressure: Managing Flow in Distributed Systems",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/system-design-2026-10-25.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "system-design/2026-10-26": {
+   "bytes": 4645558,
+   "date": "2026-10-26",
+   "duration": 773,
+   "guid": "system-design/2026-10-26",
+   "hash": "c6d1b51f464af59b",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-26/",
+   "published": "2026-10-26T06:20:00+05:30",
+   "show": "system-design",
+   "summary": "\"Pick two: Consistency, Availability, or Partition Tolerance.\" This famous phrase from the **CAP theorem** often gets thrown around in system design discussions, but what does it really mean? And is it truly a choice of",
+   "title": "Oct 26 · Explainer: CAP Theorem: Consistency, Availability, and Partition Tolerance",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/system-design-2026-10-26.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "watchlist/2026-10-19": {

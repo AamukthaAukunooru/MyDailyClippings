@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Oct 2026 00:49:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 00:54:44 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 26 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-10-26</guid>
+      <pubDate>Mon, 26 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-26/</link>
+      <description><![CDATA[Here are today's clippings, bringing you the latest from the cosmos, from the very first moments of our universe to humanity's ambitious return to the Moon. We'll delve into groundbreaking simulations that illuminate the<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-26/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-26.mp3" length="1632020" type="audio/mpeg"/>
+      <itunes:duration>4:32</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 26 · Explainer: The Birth of Planets: From Dust to Worlds</title>
+      <guid isPermaLink="false">astronomy-explained/2026-10-26</guid>
+      <pubDate>Mon, 26 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-10-26/</link>
+      <description><![CDATA[Have you ever looked up at the night sky, perhaps at a bright planet like Jupiter or Venus, and wondered how it got there? It’s easy to imagine planets as eternal, fixed objects, always orbiting their stars. But the trut<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-10-26/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-explained-2026-10-26.mp3" length="4860739" type="audio/mpeg"/>
+      <itunes:duration>13:29</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 25 · Astronomy news</title>
       <guid isPermaLink="false">astronomy/2026-10-25</guid>

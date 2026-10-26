@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
     <description>One system design or software engineering topic explained every day.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Oct 2026 00:49:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 00:54:44 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One system design or software engineering topic explained every day.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 26 · Explainer: CAP Theorem: Consistency, Availability, and Partition Tolerance</title>
+      <guid isPermaLink="false">system-design/2026-10-26</guid>
+      <pubDate>Mon, 26 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-26/</link>
+      <description><![CDATA["Pick two: Consistency, Availability, or Partition Tolerance." This famous phrase from the **CAP theorem** often gets thrown around in system design discussions, but what does it really mean? And is it truly a choice of<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-26/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/system-design-2026-10-26.mp3" length="4645558" type="audio/mpeg"/>
+      <itunes:duration>12:53</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 25 · Explainer: Backpressure: Managing Flow in Distributed Systems</title>
       <guid isPermaLink="false">system-design/2026-10-25</guid>

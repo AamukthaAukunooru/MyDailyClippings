@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Oct 2026 00:49:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 00:54:44 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 26 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-10-26</guid>
+      <pubDate>Mon, 26 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-10-26/</link>
+      <description><![CDATA[Here are today's clippings, offering a glimpse into the latest advancements in understanding and treating neurological conditions. We're seeing exciting new data on how psychedelic compounds might rewire the brain withou<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-10-26/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-2026-10-26.mp3" length="2011845" type="audio/mpeg"/>
+      <itunes:duration>5:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 26 · Explainer: The Brain's Decision Engine: Weighing Options and Taking Action</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-10-26</guid>
+      <pubDate>Mon, 26 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-10-26/</link>
+      <description><![CDATA[Imagine you're standing in front of a coffee shop, staring at the menu. Do you get your usual latte, or try that new seasonal special? Do you grab a quick pastry, or stick to your healthy eating plan? This seemingly simp<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-10-26/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-explained-2026-10-26.mp3" length="4598999" type="audio/mpeg"/>
+      <itunes:duration>12:46</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 25 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-10-25</guid>
