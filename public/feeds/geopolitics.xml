@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/geopolitics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily geopolitics briefing from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 00:54:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 01:55:54 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily geopolitics briefing from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/geopolitics.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 27 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-10-27</guid>
+      <pubDate>Tue, 27 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-27/</link>
+      <description><![CDATA[The geopolitical landscape continues to present a mix of domestic political shifts, ongoing legal challenges, and persistent regional tensions. In the **United States**, the **Trump administration** faces continued scrut<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-27/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/geopolitics-2026-10-27.mp3" length="1853717" type="audio/mpeg"/>
+      <itunes:duration>5:08</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 26 · Geopolitics news</title>
       <guid isPermaLink="false">geopolitics/2026-10-26</guid>

@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 00:54:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 01:55:54 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 27 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-10-27</guid>
+      <pubDate>Tue, 27 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-27/</link>
+      <description><![CDATA[Today, we're diving into a trio of truly captivating stories that highlight humanity's relentless quest to understand our universe, from the intimate details of our planet's protective shield to the surprising atmosphere<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-27/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-27.mp3" length="2456091" type="audio/mpeg"/>
+      <itunes:duration>6:49</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 27 · Explainer: Stellar Fusion: The Engine of Stars</title>
+      <guid isPermaLink="false">astronomy-explained/2026-10-27</guid>
+      <pubDate>Tue, 27 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-10-27/</link>
+      <description><![CDATA[Have you ever looked up at the Sun and wondered how it manages to shine so brightly, day after day, year after year, for billions of years? It's a giant ball of gas, but it's not burning in the way a log burns in a firep<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-10-27/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-explained-2026-10-27.mp3" length="4489707" type="audio/mpeg"/>
+      <itunes:duration>12:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 26 · Astronomy news</title>
       <guid isPermaLink="false">astronomy/2026-10-26</guid>

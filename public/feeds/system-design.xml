@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
     <description>One system design or software engineering topic explained every day.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 00:54:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 01:55:54 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One system design or software engineering topic explained every day.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 27 · Explainer: Saga Pattern: Orchestrating Distributed Transactions</title>
+      <guid isPermaLink="false">system-design/2026-10-27</guid>
+      <pubDate>Tue, 27 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-27/</link>
+      <description><![CDATA[Imagine you're building an e-commerce platform. A customer places an order. This seemingly simple action actually involves several steps across different services: checking inventory, processing payment, and updating the<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-27/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/system-design-2026-10-27.mp3" length="6022555" type="audio/mpeg"/>
+      <itunes:duration>16:43</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 26 · Explainer: CAP Theorem: Consistency, Availability, and Partition Tolerance</title>
       <guid isPermaLink="false">system-design/2026-10-26</guid>

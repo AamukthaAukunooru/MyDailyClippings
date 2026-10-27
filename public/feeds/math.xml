@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 00:54:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 01:55:54 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 27 · Math news</title>
+      <guid isPermaLink="false">math/2026-10-27</guid>
+      <pubDate>Tue, 27 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-27/</link>
+      <description><![CDATA[Welcome to My Daily Clippings, your daily dose of mathematical insights for the curious engineer. Today, we're diving into how abstract mathematical tools are shedding new light on both the physical world and complex soc<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-27/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-2026-10-27.mp3" length="1684046" type="audio/mpeg"/>
+      <itunes:duration>4:40</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 27 · Explainer: Nash Equilibrium: The Logic of Strategic Decisions</title>
+      <guid isPermaLink="false">math-explained/2026-10-27</guid>
+      <pubDate>Tue, 27 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-27/</link>
+      <description><![CDATA[Imagine you and a friend are trying to decide where to go for dinner. You both love Italian food, but your friend also really likes Mexican. You, on the other hand, strongly dislike Mexican. If you both pick Italian, you<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-27/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-explained-2026-10-27.mp3" length="5407770" type="audio/mpeg"/>
+      <itunes:duration>15:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 26 · Math news</title>
       <guid isPermaLink="false">math/2026-10-26</guid>
