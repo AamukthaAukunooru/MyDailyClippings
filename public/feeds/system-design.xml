@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
     <description>One system design or software engineering topic explained every day.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 01:55:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 01:57:06 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One system design or software engineering topic explained every day.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 28 · Explainer: Rate Limiting: Protecting Services from Overload</title>
+      <guid isPermaLink="false">system-design/2026-10-28</guid>
+      <pubDate>Wed, 28 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-28/</link>
+      <description><![CDATA[Imagine a popular online store. What happens if a single user script goes rogue and starts making millions of requests to the checkout API? Or if a malicious bot tries to hammer the login endpoint a thousand times a seco<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-28/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/system-design-2026-10-28.mp3" length="5692893" type="audio/mpeg"/>
+      <itunes:duration>15:48</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 27 · Explainer: Saga Pattern: Orchestrating Distributed Transactions</title>
       <guid isPermaLink="false">system-design/2026-10-27</guid>

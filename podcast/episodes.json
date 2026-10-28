@@ -1005,6 +1005,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-27.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "ai/2026-10-28": {
+   "bytes": 2051060,
+   "date": "2026-10-28",
+   "duration": 341,
+   "guid": "ai/2026-10-28",
+   "hash": "f62833d8f0e5c0de",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-28/",
+   "published": "2026-10-28T06:30:00+05:30",
+   "show": "ai",
+   "summary": "The past 48 hours have delivered a potent mix of regulatory challenges, significant model advancements, and pervasive AI integration across consumer and enterprise products. From the stark warnings in a major AI company'",
+   "title": "Oct 28 · AI and Technology news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-28.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "astronomy-explained/2026-10-19": {
    "bytes": 5011226,
    "date": "2026-10-19",
@@ -1138,6 +1153,21 @@
    "summary": "Have you ever looked up at the Sun and wondered how it manages to shine so brightly, day after day, year after year, for billions of years? It's a giant ball of gas, but it's not burning in the way a log burns in a firep",
    "title": "Oct 27 · Explainer: Stellar Fusion: The Engine of Stars",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-explained-2026-10-27.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "astronomy-explained/2026-10-28": {
+   "bytes": 4360284,
+   "date": "2026-10-28",
+   "duration": 726,
+   "guid": "astronomy-explained/2026-10-28",
+   "hash": "77d74e6f416846d0",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-10-28/",
+   "published": "2026-10-28T06:20:00+05:30",
+   "show": "astronomy",
+   "summary": "Imagine for a moment that you're an ant living on the surface of a balloon. You look around and see other ants, your ant-neighbors, scattered across the balloon's rubbery landscape. Now, someone starts to inflate the bal",
+   "title": "Oct 28 · Explainer: The Expanding Universe: Hubble's Law and Cosmic Growth",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-explained-2026-10-28.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "astronomy/2026-08-18": {
@@ -2130,6 +2160,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-27.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "astronomy/2026-10-28": {
+   "bytes": 3647729,
+   "date": "2026-10-28",
+   "duration": 607,
+   "guid": "astronomy/2026-10-28",
+   "hash": "74cc8c82cce7df55",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-28/",
+   "published": "2026-10-28T06:30:00+05:30",
+   "show": "astronomy",
+   "summary": "Today, our journey through the cosmos brings us exciting news from across the solar system and beyond. We're celebrating a potential new member of our solar system's dwarf planet family, peering into the distant future o",
+   "title": "Oct 28 · Astronomy news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-28.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "geopolitics/2026-08-18": {
    "bytes": 1757285,
    "date": "2026-08-18",
@@ -3060,6 +3105,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/geopolitics-2026-10-27.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "geopolitics/2026-10-28": {
+   "bytes": 1728888,
+   "date": "2026-10-28",
+   "duration": 288,
+   "guid": "geopolitics/2026-10-28",
+   "hash": "0467c6ac6a24204e",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-10-28/",
+   "published": "2026-10-28T06:30:00+05:30",
+   "show": "geopolitics",
+   "summary": "Today's geopolitical landscape is marked by significant electoral uncertainty in **Israel**, where exit polls suggest a close contest with no clear winner. Meanwhile, **United States** policy on climate change is poised",
+   "title": "Oct 28 · Geopolitics news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/geopolitics-2026-10-28.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "history/2026-10-19": {
    "bytes": 4797189,
    "date": "2026-10-19",
@@ -3193,6 +3253,21 @@
    "summary": "Imagine a world where the most respected way to understand how nature worked wasn't to go out and observe it, but to consult ancient texts written by philosophers thousands of years ago. A world where challenging establi",
    "title": "Oct 27 · Explainer: The Scientific Revolution: How We Learned to Question the World",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/history-2026-10-27.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "history/2026-10-28": {
+   "bytes": 5109987,
+   "date": "2026-10-28",
+   "duration": 851,
+   "guid": "history/2026-10-28",
+   "hash": "07e21d4d73586485",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-10-28/",
+   "published": "2026-10-28T06:20:00+05:30",
+   "show": "history",
+   "summary": "Imagine a private company, not a government, that commanded its own armies, issued its own currency, and eventually governed hundreds of millions of people across a continent. This isn't a dystopian novel; it's the true",
+   "title": "Oct 28 · Explainer: The British East India Company: A Corporation That Ruled an Empire",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/history-2026-10-28.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "math-explained/2026-10-19": {
@@ -3330,6 +3405,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-explained-2026-10-27.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "math-explained/2026-10-28": {
+   "bytes": 5343769,
+   "date": "2026-10-28",
+   "duration": 890,
+   "guid": "math-explained/2026-10-28",
+   "hash": "85df290adba1c2c3",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-28/",
+   "published": "2026-10-28T06:20:00+05:30",
+   "show": "math",
+   "summary": "Imagine you're designing a new component for a satellite. You need to maximize its strength, but you're limited by the total weight it can have. Or perhaps you're building a data center, and you want to minimize the cost",
+   "title": "Oct 28 · Explainer: Lagrange Multipliers: Optimizing with Constraints",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-explained-2026-10-28.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "math/2026-10-19": {
    "bytes": 1645271,
    "date": "2026-10-19",
@@ -3463,6 +3553,21 @@
    "summary": "Welcome to My Daily Clippings, your daily dose of mathematical insights for the curious engineer. Today, we're diving into how abstract mathematical tools are shedding new light on both the physical world and complex soc",
    "title": "Oct 27 · Math news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-2026-10-27.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "math/2026-10-28": {
+   "bytes": 2353018,
+   "date": "2026-10-28",
+   "duration": 392,
+   "guid": "math/2026-10-28",
+   "hash": "39ecfbda7ab57b53",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-28/",
+   "published": "2026-10-28T06:30:00+05:30",
+   "show": "math",
+   "summary": "This week in mathematics, researchers are finding surprising connections between abstract concepts and the tangible world, from the intricate geometry of seashells to the complexities of voting systems. We're seeing how",
+   "title": "Oct 28 · Math news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-2026-10-28.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "neuroscience-explained/2026-10-19": {
@@ -3600,6 +3705,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-explained-2026-10-27.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "neuroscience-explained/2026-10-28": {
+   "bytes": 4526496,
+   "date": "2026-10-28",
+   "duration": 753,
+   "guid": "neuroscience-explained/2026-10-28",
+   "hash": "41fe5a2fd4793424",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-10-28/",
+   "published": "2026-10-28T06:20:00+05:30",
+   "show": "neuroscience",
+   "summary": "Imagine you’re reaching for your morning coffee. It feels simple, almost automatic. Your hand extends, your fingers wrap around the mug, you lift it to your lips. But behind this seemingly effortless act lies an astonish",
+   "title": "Oct 28 · Explainer: How Your Brain Moves Your Body: The Neuroscience of Motor Control",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-explained-2026-10-28.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "neuroscience/2026-10-19": {
    "bytes": 1607089,
    "date": "2026-10-19",
@@ -3733,6 +3853,21 @@
    "summary": "Good morning, and welcome to \"My Daily Clippings.\" Today, we're diving into how our brains navigate complex social landscapes, filter out noise, and how our daily habits can significantly impact our mental well-being. We",
    "title": "Oct 27 · Neuroscience news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-2026-10-27.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "neuroscience/2026-10-28": {
+   "bytes": 1718368,
+   "date": "2026-10-28",
+   "duration": 286,
+   "guid": "neuroscience/2026-10-28",
+   "hash": "062780589c3c7111",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-10-28/",
+   "published": "2026-10-28T06:30:00+05:30",
+   "show": "neuroscience",
+   "summary": "Here are my daily clippings for October twenty-eighth, two thousand twenty-six.",
+   "title": "Oct 28 · Neuroscience news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-2026-10-28.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "physics/2026-08-18": {
@@ -4770,6 +4905,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-27.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "physics/2026-10-28": {
+   "bytes": 1600016,
+   "date": "2026-10-28",
+   "duration": 266,
+   "guid": "physics/2026-10-28",
+   "hash": "0d2fd456d82a1e39",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-28/",
+   "published": "2026-10-28T06:30:00+05:30",
+   "show": "physics",
+   "summary": "Welcome back to My Daily Clippings, your daily dose of the most intriguing physics breakthroughs. Today, we're diving into a flurry of advancements that promise to reshape our technological landscape, from quantum comput",
+   "title": "Oct 28 · Physics news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-28.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "questions/2026-10-19-why-sky-is-blue": {
    "bytes": 1730768,
    "date": "2026-10-19",
@@ -4918,6 +5068,21 @@
    "summary": "Imagine you're building an e-commerce platform. A customer places an order. This seemingly simple action actually involves several steps across different services: checking inventory, processing payment, and updating the",
    "title": "Oct 27 · Explainer: Saga Pattern: Orchestrating Distributed Transactions",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/system-design-2026-10-27.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "system-design/2026-10-28": {
+   "bytes": 5692893,
+   "date": "2026-10-28",
+   "duration": 948,
+   "guid": "system-design/2026-10-28",
+   "hash": "ec3bb181446a32cf",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-28/",
+   "published": "2026-10-28T06:20:00+05:30",
+   "show": "system-design",
+   "summary": "Imagine a popular online store. What happens if a single user script goes rogue and starts making millions of requests to the checkout API? Or if a malicious bot tries to hammer the login endpoint a thousand times a seco",
+   "title": "Oct 28 · Explainer: Rate Limiting: Protecting Services from Overload",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/system-design-2026-10-28.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "watchlist/2026-10-19": {

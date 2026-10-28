@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/ai.xml" rel="self" type="application/rss+xml"/>
     <description>Daily AI and technology news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 01:55:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 01:57:06 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily AI and technology news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/ai.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 28 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-10-28</guid>
+      <pubDate>Wed, 28 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-28/</link>
+      <description><![CDATA[The past 48 hours have delivered a potent mix of regulatory challenges, significant model advancements, and pervasive AI integration across consumer and enterprise products. From the stark warnings in a major AI company'<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-10-28/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/ai-2026-10-28.mp3" length="2051060" type="audio/mpeg"/>
+      <itunes:duration>5:41</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 27 · AI and Technology news</title>
       <guid isPermaLink="false">ai/2026-10-27</guid>
