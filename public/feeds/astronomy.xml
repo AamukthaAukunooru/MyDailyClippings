@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2026 01:57:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 02:23:53 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 29 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-10-29</guid>
+      <pubDate>Thu, 29 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-29/</link>
+      <description><![CDATA[Today's clippings bring us a thrilling blend of ambitious future missions, groundbreaking scientific revelations, and significant steps forward in humanity's collaborative journey into the cosmos. From a powerful new ult<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-10-29/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-2026-10-29.mp3" length="2685280" type="audio/mpeg"/>
+      <itunes:duration>7:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 29 · Explainer: The James Webb Space Telescope: Seeing the Universe in Infrared</title>
+      <guid isPermaLink="false">astronomy-explained/2026-10-29</guid>
+      <pubDate>Thu, 29 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-10-29/</link>
+      <description><![CDATA[Have you ever tried to look through dense fog or smoke? You know there's something on the other side, but your eyes just can't penetrate the haze. Now imagine that fog isn't just a few feet thick, but billions of light-y<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-10-29/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/astronomy-explained-2026-10-29.mp3" length="4704221" type="audio/mpeg"/>
+      <itunes:duration>13:03</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 28 · Astronomy news</title>
       <guid isPermaLink="false">astronomy/2026-10-28</guid>

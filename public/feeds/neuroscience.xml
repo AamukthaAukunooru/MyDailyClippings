@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2026 01:57:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 02:23:53 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 29 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-10-29</guid>
+      <pubDate>Thu, 29 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-10-29/</link>
+      <description><![CDATA[Here are today's clippings, bringing you the latest from the world of neuroscience. We're looking at some fundamental insights into how the brain develops, a critical update on the prevalence of chronic traumatic encepha<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-10-29/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-2026-10-29.mp3" length="1492638" type="audio/mpeg"/>
+      <itunes:duration>4:08</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 29 · Explainer: The Brain's Feeling Factory: How Emotions Work</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-10-29</guid>
+      <pubDate>Thu, 29 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-10-29/</link>
+      <description><![CDATA[Imagine you're walking down a quiet street, lost in thought, when suddenly, a car backfires loudly right behind you. What happens? Your heart leaps into your throat, your muscles tense, you might even jump. For a split s<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-10-29/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-explained-2026-10-29.mp3" length="5430837" type="audio/mpeg"/>
+      <itunes:duration>15:04</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 28 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-10-28</guid>
