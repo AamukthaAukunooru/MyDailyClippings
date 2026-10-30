@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/history.xml" rel="self" type="application/rss+xml"/>
     <description>One history topic explained every day, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 02:23:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 02:40:12 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One history topic explained every day, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/history.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 30 · Explainer: The Silk Road: Ancient World's Global Network</title>
+      <guid isPermaLink="false">history/2026-10-30</guid>
+      <pubDate>Fri, 30 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-10-30/</link>
+      <description><![CDATA[Imagine a world without the internet, without planes, without even paved roads stretching across continents. How would civilizations separated by thousands of miles, towering mountains, and vast deserts connect? How woul<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-10-30/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/history-2026-10-30.mp3" length="4244381" type="audio/mpeg"/>
+      <itunes:duration>11:46</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 29 · Explainer: The Mongol Empire: From Steppe to Superpower</title>
       <guid isPermaLink="false">history/2026-10-29</guid>

@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/physics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily physics news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 02:23:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 02:40:12 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily physics news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/physics.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 30 · Physics news</title>
+      <guid isPermaLink="false">physics/2026-10-30</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-30/</link>
+      <description><![CDATA[Here are today's clippings, offering a glimpse into the cutting edge of physics, from cosmic conundrums to breakthroughs in materials science and fundamental light-matter interactions. We're seeing challenges to long-hel<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-10-30/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/physics-2026-10-30.mp3" length="1879511" type="audio/mpeg"/>
+      <itunes:duration>5:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 29 · Physics news</title>
       <guid isPermaLink="false">physics/2026-10-29</guid>

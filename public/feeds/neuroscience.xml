@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 02:23:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 02:40:12 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 30 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-10-30</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-10-30/</link>
+      <description><![CDATA[Welcome to My Daily Clippings, your regular dive into the latest in neuroscience. Today, we're looking at new insights into brain development, from the impact of premature birth to how autistic brains process faces. We'l<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-10-30/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-2026-10-30.mp3" length="1669071" type="audio/mpeg"/>
+      <itunes:duration>4:38</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 30 · Explainer: The Brain's Prediction Machine: How We Anticipate the World</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-10-30</guid>
+      <pubDate>Fri, 30 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-10-30/</link>
+      <description><![CDATA[Have you ever had that uncanny feeling that you knew what someone was going to say before they finished their sentence? Or perhaps you've experienced an optical illusion, where your brain insists on seeing something that<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-10-30/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-explained-2026-10-30.mp3" length="4237770" type="audio/mpeg"/>
+      <itunes:duration>11:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 29 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-10-29</guid>

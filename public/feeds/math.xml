@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 02:23:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 02:40:12 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 30 · Math news</title>
+      <guid isPermaLink="false">math/2026-10-30</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-30/</link>
+      <description><![CDATA[Welcome to "My Daily Clippings," your daily dose of mathematical insights. Today, we're looking at two fascinating developments: a new method for smoothly approximating the minimum function, which has broad implications<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-30/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-2026-10-30.mp3" length="1469127" type="audio/mpeg"/>
+      <itunes:duration>4:04</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 30 · Explainer: Turing Machines: The Absolute Limits of Computation</title>
+      <guid isPermaLink="false">math-explained/2026-10-30</guid>
+      <pubDate>Fri, 30 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-30/</link>
+      <description><![CDATA[Have you ever stopped to think, what *is* a computer, really? Beyond the silicon chips, the glowing screens, and the complex software, what is the most fundamental idea behind computation? Can we build a machine that can<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-30/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-explained-2026-10-30.mp3" length="5102618" type="audio/mpeg"/>
+      <itunes:duration>14:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 29 · Math news</title>
       <guid isPermaLink="false">math/2026-10-29</guid>

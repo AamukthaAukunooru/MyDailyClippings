@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
     <description>One system design or software engineering topic explained every day.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 02:23:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 02:40:12 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One system design or software engineering topic explained every day.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 30 · Explainer: Sharding and Partitioning: Scaling Data Horizontally</title>
+      <guid isPermaLink="false">system-design/2026-10-30</guid>
+      <pubDate>Fri, 30 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-30/</link>
+      <description><![CDATA[Have you ever wondered how services like Instagram or TikTok manage to store and serve billions of user profiles and posts, handling petabytes of data and millions of requests per second, all while maintaining snappy per<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-30/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/system-design-2026-10-30.mp3" length="5270411" type="audio/mpeg"/>
+      <itunes:duration>14:37</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 29 · Explainer: Circuit Breaker Pattern: Building Resilient Systems</title>
       <guid isPermaLink="false">system-design/2026-10-29</guid>
