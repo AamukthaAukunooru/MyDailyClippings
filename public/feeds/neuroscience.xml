@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 02:40:12 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 02:17:54 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 31 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-10-31</guid>
+      <pubDate>Sat, 31 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-10-31/</link>
+      <description><![CDATA[Hello, and welcome to My Daily Clippings on this Friday, October thirty-first, two thousand twenty-six. Today, we're diving into some fascinating new findings in neuroscience, from the intricate wiring of a fly's taste s<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-10-31/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-2026-10-31.mp3" length="1622801" type="audio/mpeg"/>
+      <itunes:duration>4:30</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 31 · Explainer: The Brain's Reward System: Dopamine, Motivation, and Habits</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-10-31</guid>
+      <pubDate>Sat, 31 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-10-31/</link>
+      <description><![CDATA[Have you ever found yourself endlessly scrolling through a social media feed, even when you know you should be doing something else? Or perhaps you've gotten hooked on a video game, chasing that next level or achievement<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-10-31/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/neuroscience-explained-2026-10-31.mp3" length="3910419" type="audio/mpeg"/>
+      <itunes:duration>10:51</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 30 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-10-30</guid>

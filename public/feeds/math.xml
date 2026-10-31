@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 02:40:12 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 02:17:54 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 31 · Math news</title>
+      <guid isPermaLink="false">math/2026-10-31</guid>
+      <pubDate>Sat, 31 Oct 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-31/</link>
+      <description><![CDATA[Here are today's clippings, offering a glimpse into the ever-unfolding world of mathematics. We have news on a significant gathering to delve into the mysteries of zeta functions, a practical new method for optimizing sy<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-10-31/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-2026-10-31.mp3" length="1848802" type="audio/mpeg"/>
+      <itunes:duration>5:08</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Oct 31 · Explainer: Taylor Series: Approximating the World with Polynomials</title>
+      <guid isPermaLink="false">math-explained/2026-10-31</guid>
+      <pubDate>Sat, 31 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-31/</link>
+      <description><![CDATA[How does your calculator know the sine of thirty degrees? Or the value of *e* to the power of one, that mysterious constant approximately equal to two point seven one eight? It’s not looking up an infinite table of value<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-10-31/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/math-explained-2026-10-31.mp3" length="5470477" type="audio/mpeg"/>
+      <itunes:duration>15:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 30 · Math news</title>
       <guid isPermaLink="false">math/2026-10-30</guid>

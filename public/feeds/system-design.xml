@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
     <description>One system design or software engineering topic explained every day.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 02:40:12 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 02:17:54 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One system design or software engineering topic explained every day.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 31 · Explainer: Distributed Tracing: Following the Path of a Request</title>
+      <guid isPermaLink="false">system-design/2026-10-31</guid>
+      <pubDate>Sat, 31 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-31/</link>
+      <description><![CDATA[Imagine you're trying to find a single dropped stitch in a giant, intricate tapestry. This tapestry is your modern software system, woven from dozens, perhaps hundreds, of independent services. A user clicks a button, an<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-10-31/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/system-design-2026-10-31.mp3" length="5942267" type="audio/mpeg"/>
+      <itunes:duration>16:29</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 30 · Explainer: Sharding and Partitioning: Scaling Data Horizontally</title>
       <guid isPermaLink="false">system-design/2026-10-30</guid>

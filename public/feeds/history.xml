@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/history.xml" rel="self" type="application/rss+xml"/>
     <description>One history topic explained every day, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 02:40:12 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 02:17:54 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One history topic explained every day, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/history.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Oct 31 · Explainer: The Mughal Empire: Engineering an Enduring Civilization</title>
+      <guid isPermaLink="false">history/2026-10-31</guid>
+      <pubDate>Sat, 31 Oct 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-10-31/</link>
+      <description><![CDATA[Imagine an empire that, at its peak, controlled over a quarter of the world's population and produced a quarter of global GDP. An empire born from a small band of Central Asian horsemen, yet it left an indelible mark on<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-10-31/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/history-2026-10-31.mp3" length="4588896" type="audio/mpeg"/>
+      <itunes:duration>12:44</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 30 · Explainer: The Silk Road: Ancient World's Global Network</title>
       <guid isPermaLink="false">history/2026-10-30</guid>
