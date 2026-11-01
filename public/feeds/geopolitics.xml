@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/geopolitics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily geopolitics briefing from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2026 02:17:54 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 01:45:58 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily geopolitics briefing from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/geopolitics.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 1 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-11-01</guid>
+      <pubDate>Sun, 01 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-11-01/</link>
+      <description><![CDATA[Today's global landscape presents a mix of political shifts, social unrest, and ongoing geopolitical tensions. **Europe** is witnessing significant internal political challenges and widespread protests, while the **Middl<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-11-01/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/geopolitics-2026-11-01.mp3" length="1279158" type="audio/mpeg"/>
+      <itunes:duration>3:33</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 31 · Geopolitics news</title>
       <guid isPermaLink="false">geopolitics/2026-10-31</guid>

@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2026 02:17:54 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 01:45:58 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 1 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-11-01</guid>
+      <pubDate>Sun, 01 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-01/</link>
+      <description><![CDATA[Welcome to My Daily Clippings, where we journey through the cosmos, marveling at the universe's grandeur and the ingenuity of those who seek to unravel its secrets. Today, we're looking at how cutting-edge technology is<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-01/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-01.mp3" length="1543370" type="audio/mpeg"/>
+      <itunes:duration>4:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 1 · Explainer: Active Galactic Nuclei: The Universe's Powerhouses</title>
+      <guid isPermaLink="false">astronomy-explained/2026-11-01</guid>
+      <pubDate>Sun, 01 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-01/</link>
+      <description><![CDATA[Imagine a machine so powerful it can outshine an entire galaxy of hundreds of billions of stars, yet its engine is smaller than our solar system. What could possibly power such a cosmic beacon, visible across billions of<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-01/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-01.mp3" length="4527775" type="audio/mpeg"/>
+      <itunes:duration>12:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 31 · Astronomy news</title>
       <guid isPermaLink="false">astronomy/2026-10-31</guid>

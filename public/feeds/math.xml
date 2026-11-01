@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2026 02:17:54 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 01:45:58 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 1 · Math news</title>
+      <guid isPermaLink="false">math/2026-11-01</guid>
+      <pubDate>Sun, 01 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-01/</link>
+      <description><![CDATA[Good morning, fellow explorers of the quantitative world! Today's clippings bring us a fascinating, and perhaps a little daunting, look at the future of our field. The mathematical community is actively engaging with one<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-01/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-01.mp3" length="1814351" type="audio/mpeg"/>
+      <itunes:duration>5:02</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 1 · Explainer: The Central Limit Theorem: Why Averages Tend Towards Normal</title>
+      <guid isPermaLink="false">math-explained/2026-11-01</guid>
+      <pubDate>Sun, 01 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-01/</link>
+      <description><![CDATA[Imagine you're at a casino, watching a roulette wheel spin. Each spin is a completely random event, right? The ball could land on any number from zero to thirty-six. If you bet on a single number, your chances are slim,<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-01/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-01.mp3" length="5271129" type="audio/mpeg"/>
+      <itunes:duration>14:37</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 31 · Math news</title>
       <guid isPermaLink="false">math/2026-10-31</guid>

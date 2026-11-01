@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2026 02:17:54 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 01:45:58 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 1 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-11-01</guid>
+      <pubDate>Sun, 01 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-01/</link>
+      <description><![CDATA[Greetings, fellow travelers through the intricate landscapes of the brain! Welcome to your daily dose of neuroscience, where we distill the latest findings and significant developments. Today, we're looking at a major sc<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-01/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-01.mp3" length="2330547" type="audio/mpeg"/>
+      <itunes:duration>6:28</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 1 · Explainer: How Your Brain Processes Language</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-11-01</guid>
+      <pubDate>Sun, 01 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-01/</link>
+      <description><![CDATA[Imagine you are trying to build a system that can understand a sentence like "The quick brown fox jumps over the lazy dog." Not just as a sequence of characters, but as a complete thought, with a subject performing an ac<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-01/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-01.mp3" length="4775544" type="audio/mpeg"/>
+      <itunes:duration>13:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 31 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-10-31</guid>

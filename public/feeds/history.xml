@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/history.xml" rel="self" type="application/rss+xml"/>
     <description>One history topic explained every day, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2026 02:17:54 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 01:45:58 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One history topic explained every day, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/history.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 1 · Explainer: The Columbian Exchange: A Global Biological Reset</title>
+      <guid isPermaLink="false">history/2026-11-01</guid>
+      <pubDate>Sun, 01 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-01/</link>
+      <description><![CDATA[Imagine a world where Italian cuisine had no tomatoes, Irish stews lacked potatoes, and Swiss chocolate was just a dream because cacao hadn't met sugar. Picture Colombia without coffee, or India without chili peppers. So<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-01/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-01.mp3" length="4936708" type="audio/mpeg"/>
+      <itunes:duration>13:42</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Oct 31 · Explainer: The Mughal Empire: Engineering an Enduring Civilization</title>
       <guid isPermaLink="false">history/2026-10-31</guid>
