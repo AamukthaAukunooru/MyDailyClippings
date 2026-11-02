@@ -121,6 +121,8 @@ def spoken_date(d: Date) -> str:
 
 
 def intro_for(page: Page, source: Source) -> str:
+    if source.kind == "briefing":
+        return ""  # the briefing opens with its own greeting
     if source.kind == "news":
         return f"{source.label} news for {spoken_date(page.date)}."
     if source.kind == "explainer":
@@ -133,7 +135,9 @@ def intro_for(page: Page, source: Source) -> str:
 
 
 def speech_text(page: Page, source: Source) -> str:
-    return intro_for(page, source) + "\n\n" + clean_markdown(page.body)
+    intro = intro_for(page, source)
+    body = clean_markdown(page.body)
+    return f"{intro}\n\n{body}" if intro else body
 
 
 def content_hash(text: str, voice: str) -> str:
@@ -145,6 +149,8 @@ def short_date(d: Date) -> str:
 
 
 def episode_title(page: Page, source: Source) -> str:
+    if source.kind == "briefing":
+        return f"{short_date(page.date)} · Headlines"
     if source.kind == "news":
         return f"{short_date(page.date)} · {source.label} news"
     if source.kind == "explainer":

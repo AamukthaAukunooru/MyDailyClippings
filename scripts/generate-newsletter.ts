@@ -13,6 +13,7 @@ import {
 } from './categories'
 import { fetchArticles, type Article } from './rss'
 import { extractSummary, fetchOgData, resolveAllUrls } from './web'
+import { skyReport } from './sky'
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY
 if (!GEMINI_API_KEY) throw new Error('GEMINI_API_KEY environment variable is not set')
@@ -26,8 +27,8 @@ const TOPICS_DIR = path.join(ROOT, 'topics')
 const FORCE = process.env.FORCE === 'true'
 // Off by default: on the free tier it would double the Gemini calls (see gemini.ts).
 const EDITOR_PASS = process.env.EDITOR_PASS === 'true'
-// Which parts to run: comma list of news,explainers,questions (default all)
-const ONLY = new Set((process.env.ONLY || 'news,explainers,questions,watchlist').split(',').map((s) => s.trim()))
+// Which parts to run: comma list of news,explainers,questions,watchlist,headlines (default all)
+const ONLY = new Set((process.env.ONLY || 'news,explainers,questions,watchlist,headlines').split(',').map((s) => s.trim()))
 
 const failures: string[] = []
 const answeredIssues: string[] = []
@@ -560,6 +561,167 @@ At the very end, on its own line, write "USED:" followed by the numbers of the i
   )
 }
 
+// ---------- headlines (one short briefing over everything made today, plus the sky) ----------
+// Runs last. The morning run makes it only when every news category exists and
+// nothing failed; otherwise the afternoon catch-up run makes it with whatever exists,
+// so the briefing is never built from half a day.
+
+const HEADLINES_DIR = 'headlines'
+const WORDS_PER_MINUTE = 150 // roughly the TTS voice's pace
+
+interface TodayPage {
+  dir: string
+  slug: string
+  meta: Record<string, any>
+  body: string
+}
+
+function todaysPages(dir: string): TodayPage[] {
+  const folder = path.join(NEWSLETTERS_DIR, dir)
+  if (!fs.existsSync(folder)) return []
+  return fs
+    .readdirSync(folder)
+    .filter((f) => f.endsWith('.md') && f.startsWith(today))
+    .sort()
+    .map((f) => {
+      const raw = fs.readFileSync(path.join(folder, f), 'utf-8')
+      const m = raw.match(/^---\s*\n([\s\S]*?)\n---\s*\n?([\s\S]*)$/)
+      return {
+        dir,
+        slug: f.replace(/\.md$/, ''),
+        meta: m ? ((yaml.load(m[1]) as Record<string, any>) ?? {}) : {},
+        body: m ? m[2] : raw,
+      }
+    })
+}
+
+function minutesOf(body: string): number {
+  return Math.max(1, Math.round(body.split(/\s+/).length / WORDS_PER_MINUTE))
+}
+
+function headingsOf(body: string): string[] {
+  return [...body.matchAll(/^##\s+(.+)$/gm)].map((m) => m[1].replace(/\*+/g, '').trim())
+}
+
+function firstSentence(text: string): string {
+  const flat = text.replace(/\s+/g, ' ').trim()
+  const m = flat.match(/^.*?[.!?](\s|$)/)
+  return (m ? m[0] : flat).trim()
+}
+
+async function generateHeadlines() {
+  console.log('\n[headlines] Daily briefing...')
+  const outputPath = path.join(NEWSLETTERS_DIR, HEADLINES_DIR, `${today}.md`)
+  if (fs.existsSync(outputPath) && !FORCE) {
+    console.log('[headlines] Already exists, skipping.')
+    return
+  }
+
+  const news = NEWS_CATEGORIES.map((c) => ({ cat: c, page: todaysPages(c.slug)[0] }))
+  const missing = news.filter((n) => !n.page).map((n) => n.cat.slug)
+  const istHour = ist.getUTCHours()
+  if ((missing.length || failures.length) && istHour < 12) {
+    console.log(`[headlines] Waiting for the catch-up run (missing: ${missing.join(', ') || 'none'}; failures: ${failures.length})`)
+    return
+  }
+  const present = news.filter((n) => n.page) as { cat: NewsCategory; page: TodayPage }[]
+  if (present.length === 0) {
+    console.log('[headlines] No news pages today, skipping.')
+    return
+  }
+
+  // What was made today, as compact material for the briefing.
+  const newsMaterial = present
+    .map(({ cat, page }) => {
+      const tops = (page.meta.topStories ?? []).map((t: any) => `  - ${t.headline}`).join('\n')
+      return `### ${cat.label}\nSummary: ${String(page.meta.summary ?? '').replace(/\s+/g, ' ')}\nSections: ${headingsOf(page.body).join(' | ')}\nTop stories:\n${tops}\nOpening paragraph: ${extractSummary(page.body)}`
+    })
+    .join('\n\n')
+  const explainers = EXPLAINER_CATEGORIES.filter((c) => c.format === 'long').flatMap((c) =>
+    todaysPages(c.slug).map((p) => ({ label: c.label, topic: String(p.meta.topic ?? p.meta.title), minutes: minutesOf(p.body) })),
+  )
+  const questions = EXPLAINER_CATEGORIES.filter((c) => c.format === 'short').flatMap((c) =>
+    todaysPages(c.slug).map((p) => ({ topic: String(p.meta.question ?? p.meta.topic ?? p.meta.title), minutes: minutesOf(p.body) })),
+  )
+  const watch = todaysPages('watchlist')[0]
+  const sky = skyReport(today)
+
+  const extras = [
+    explainers.length
+      ? `Today's explainers:\n${explainers.map((e) => `- ${e.label}: ${e.topic} (about ${e.minutes} minutes)`).join('\n')}`
+      : '',
+    questions.length ? `Curious questions answered today:\n${questions.map((q) => `- ${q.topic} (about ${q.minutes} minutes)`).join('\n')}` : '',
+    watch ? `Watchlist has an update today on: ${(watch.meta.topics ?? []).join(', ')}. Summary: ${watch.meta.summary ?? ''}` : '',
+    sky.highlights.length ? `Sky highlights today (mention in one short sentence after the opening; details are read at the end): ${sky.highlights.join('; ')}` : '',
+  ]
+    .filter(Boolean)
+    .join('\n\n')
+
+  const prompt = `You write "Headlines", the short spoken briefing that opens the listener's day for My Daily Clippings. It is played first on the morning commute, and helps the listener decide which full episodes to play next.
+
+Today is ${today}. Below is everything published today.
+
+${newsMaterial}
+
+${extras}
+
+Write the script:
+- About 400 to 550 words (3 to 4 minutes spoken). Tight, warm, radio-style; no filler.
+- Open with one sentence greeting the listener with the day and date.
+- Then one ## section per news category, in order of how significant today's news is (most important first). In each, cover the single most important story in one or two sentences, and name a second story in a short clause if it is notable. Use only facts in the material above; never add details.
+- Then a ## section called "Also today" that lists the explainers by topic with their approximate length, then any curious questions and the watchlist update, in one or two natural sentences each. Skip anything not present.
+- Do not end with a sign-off; another section follows.
+${STYLE_RULES}`
+
+  let text: string
+  let summary: string
+  try {
+    const { text: raw } = await generate(prompt, GEMINI_API_KEY!, { temperature: 0.3, role: 'headlines' })
+    text = stripFences(raw)
+    if (text.split(/\s+/).length < 150) throw new Error('briefing too short')
+    summary = extractSummary(text)
+  } catch (err) {
+    // Out of quota or a bad response: build a plain briefing from the summaries instead.
+    console.warn(`[headlines] Gemini failed, using the plain version: ${describeError(err)}`)
+    const sections = present.map(({ cat, page }) => {
+      const top = (page.meta.topStories ?? [])[0]?.headline as string | undefined
+      const heads = headingsOf(page.body).slice(0, 3)
+      const lines = [
+        top ? `Top story: ${top.replace(/[.!?]?$/, '.')}` : '',
+        heads.length ? `Also in today's episode: ${heads.join('; ')}.` : firstSentence(extractSummary(page.body)),
+      ]
+      return `## ${cat.label}\n\n${lines.filter(Boolean).join(' ')}`
+    })
+    const also = [
+      explainers.length ? `Today's explainers: ${explainers.map((e) => `${e.label}, ${e.topic}, about ${e.minutes} minutes`).join('. ')}.` : '',
+      questions.length ? `Curious questions: ${questions.map((q) => q.topic).join('. ')}.` : '',
+      watch ? `Watchlist has an update on ${(watch.meta.topics ?? []).join(', ')}.` : '',
+    ].filter(Boolean)
+    const d = new Date(`${today}T00:00:00Z`)
+    const spoken = d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', timeZone: 'UTC' })
+    text = [`Good morning. Here are your headlines for ${spoken}.`, ...sections, also.length ? `## Also today\n\n${also.join(' ')}` : '']
+      .filter(Boolean)
+      .join('\n\n')
+    summary = `Headlines for ${spoken}: ${present.map((p) => p.cat.label).join(', ')}.`
+  }
+
+  text = `${text.trim()}\n\n${sky.markdown.trim()}\n\nThat's it for the headlines. Enjoy the ride.`
+  writePage(
+    HEADLINES_DIR,
+    today,
+    {
+      title: `Headlines — ${today}`,
+      date: today,
+      category: HEADLINES_DIR,
+      summary: summary.substring(0, 220),
+      skyHighlights: sky.highlights,
+      topStories: present.flatMap(({ page }) => (page.meta.topStories ?? []).slice(0, 1)),
+      sources: [],
+    },
+    text,
+  )
+}
+
 // ---------- main ----------
 
 async function main() {
@@ -580,6 +742,7 @@ async function main() {
     }
   }
   if (ONLY.has('watchlist')) await withRetry('watchlist', () => generateWatchlist(issues))
+  if (ONLY.has('headlines')) await withRetry('headlines', generateHeadlines)
 
   fs.writeFileSync(path.join(ROOT, '.generation-failures.txt'), failures.join('\n'), 'utf-8')
   fs.writeFileSync(path.join(ROOT, '.answered-issues.txt'), answeredIssues.join('\n'), 'utf-8')

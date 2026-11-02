@@ -13,9 +13,9 @@ on:
         type: boolean
         default: false
       only:
-        description: 'Which parts to generate (comma list of news,explainers,questions,watchlist)'
+        description: 'Which parts to generate (comma list of news,explainers,questions,watchlist,headlines)'
         type: string
-        default: 'news,explainers,questions,watchlist'
+        default: 'news,explainers,questions,watchlist,headlines'
 
 permissions:
   contents: write           # commit newsletters, upload audio to Releases

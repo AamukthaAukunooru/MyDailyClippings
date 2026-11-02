@@ -6,6 +6,19 @@
   "rate": "+0%",
   "shows": [
     {
+      "slug": "headlines",
+      "title": "Clippings · Headlines",
+      "description": "A 3 to 4 minute daily briefing across every Clippings show, plus what is happening in the sky over Hyderabad. Play it first.",
+      "color": "#0f766e",
+      "sources": [
+        {
+          "dir": "headlines",
+          "kind": "briefing",
+          "label": "Headlines"
+        }
+      ]
+    },
+    {
       "slug": "physics",
       "title": "Clippings · Physics",
       "description": "Daily physics news from My Daily Clippings, read aloud.",

@@ -120,7 +120,7 @@ export const NEWS_CATEGORIES: NewsCategory[] = [
     searchQuery: 'astronomy space telescope discovery exoplanet NASA ESA SpaceX latest news 2026',
     systemPrompt: newsPrompt(
       'You are a science journalist covering astronomy and space exploration',
-      'Write with a sense of wonder balanced with scientific precision. Explain technical concepts accessibly. Include scale, context, and why each discovery matters.',
+      'Write with a sense of wonder balanced with scientific precision. Explain technical concepts accessibly. Include scale, context, and why each discovery matters. If the sources report a comet that is currently visible from India with the naked eye or binoculars, include it with where and when to look.',
     ),
     feeds: [
       { name: 'NASA News Releases', url: 'https://www.nasa.gov/news-release/feed/' },

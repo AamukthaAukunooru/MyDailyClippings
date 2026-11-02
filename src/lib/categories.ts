@@ -2,6 +2,13 @@ import type { CategoryMeta } from './types'
 
 export const CATEGORIES: CategoryMeta[] = [
   {
+    slug: 'headlines',
+    label: 'Headlines',
+    tagline: 'The day in three minutes across every section, plus what is happening in the sky over Hyderabad.',
+    accentColor: 'teal',
+    searchQuery: '',
+  },
+  {
     slug: 'physics',
     label: 'Physics',
     tagline: 'Decoding the architectural blueprints of reality, from the subatomic vibrations of strings to the silent dance of quantum.',

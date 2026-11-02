@@ -17,12 +17,16 @@ In an age where algorithms decide what you see based on what keeps you scrolling
 ## Listening (podcast feeds)
 
 Every page becomes one MP3, published in one podcast feed per show:
-Physics, AI & Technology, Geopolitics, Astronomy, Math, Neuroscience, History,
+Headlines, Physics, AI & Technology, Geopolitics, Astronomy, Math, Neuroscience, History,
 System Design, Curious Questions and Watchlist. The site's **Listen** page lists every feed URL.
 
 1. Install **AntennaPod** (free) on your phone.
 2. Add each feed: *Add podcast → Add podcast by RSS address*, paste a URL from the Listen page.
-3. Settings: skip forward/back to 15s/10s, auto-add new episodes to the queue, auto-download on Wi-Fi.
+3. Settings: skip forward/back to 15s/10s, auto-download on Wi-Fi. For shows you always play
+   (Headlines, the news shows), open the show's settings and set *New episodes action* to
+   *Add to queue*; leave the explainer shows on *Add to inbox* and queue the ones you want after
+   the Headlines episode. Note: with auto-download on, keep *Add to inbox*; episodes move to the
+   queue once downloaded.
 4. Connect to Android Auto. Play the queue for today, open a show to go back by date,
    filter by unplayed to catch up.
 
@@ -31,6 +35,15 @@ spoken text, voices it with edge-tts, uploads the MP3 to a monthly GitHub Releas
 (`audio-YYYY-MM`), records it in `podcast/episodes.json`, and writes `public/feeds/<show>.xml`.
 Feeds are deployed with the site. MP3s never go into git.
 
+- **Headlines:** the last step of generation writes `newsletters/headlines/<date>.md`, a 3 to 4 minute
+  briefing over everything made that day (one Gemini call, with a plain no-LLM version if the quota is
+  gone), ending with **Sky over Hyderabad**. The morning run makes it only when every news category
+  exists and nothing failed; otherwise the 2 PM catch-up run makes it. It is published first in the day.
+- **Sky over Hyderabad:** `scripts/sky.ts` works out the day's sky with `astronomy-engine` (no API, no LLM):
+  sunrise and sunset with direction, zero-shadow days, equinoxes and solstices, moon phase and
+  supermoons, lunar and solar eclipses, bright planets, oppositions, elongations, Moon and planet
+  pairings, and meteor showers (table in the file). Try it: `npx tsx scripts/sky.ts 2026-12-14`.
+  Comets are left to the Astronomy news prompt.
 - **Backfill:** Actions → *Backfill Podcast Audio* → Run (defaults to the last 100 days).
 - **Topics and questions:** open a GitHub issue with a show's label (`question`, `astronomy`, `math`, `neuroscience`, `history`, `system-design`; add `next` to jump the queue). The next run turns it into an episode and closes the issue. Bulk queue files live in `topics/`. See `topics/README.md`.
 - **Watchlist:** open an issue with the `watch` label to follow a specific thing (a product, a person, an event). On days with new news, one combined Watchlist episode covers it. Close the issue to unsubscribe.
@@ -39,7 +52,7 @@ Feeds are deployed with the site. MP3s never go into git.
   `READING_LIST_PREFIX`) so saved articles are not republished from this public repo. The feed
   is at `<R2_PUBLIC_URL>/<READING_LIST_PREFIX>/reading-list.xml`. Skipped when not configured.
 - **Failures:** a GitHub issue is opened automatically when a category or audio step fails (the 2 PM catch-up run adds to the same issue).
-- **Gemini quota:** the free tier allows 20 requests a day on `gemini-2.5-flash` (Flash-Lite has no free quota), and a full day needs about 12 plus one per curious question. So everything runs on Flash and the fact-check pass is off by default. A model that runs out of daily quota is skipped for the rest of the run, and a 2 PM IST catch-up run (after the quota resets at midnight Pacific) fills in anything missed. With billing enabled, set repo variables `EDITOR_PASS=true` and `GEMINI_FALLBACK_MODELS=gemini-2.5-flash-lite`; models can be changed with `GEMINI_MODEL`, `GEMINI_EDITOR_MODEL`, `GEMINI_EXPLAINER_MODEL`.
+- **Gemini quota:** the free tier allows 20 requests a day on `gemini-2.5-flash` (Flash-Lite has no free quota), and a full day needs about 13 (including Headlines) plus one per curious question. So everything runs on Flash and the fact-check pass is off by default. A model that runs out of daily quota is skipped for the rest of the run, and a 2 PM IST catch-up run (after the quota resets at midnight Pacific) fills in anything missed. With billing enabled, set repo variables `EDITOR_PASS=true` and `GEMINI_FALLBACK_MODELS=gemini-2.5-flash-lite`; models can be changed with `GEMINI_MODEL`, `GEMINI_EDITOR_MODEL`, `GEMINI_EXPLAINER_MODEL`.
 - **Dry run without network:** `python -m podcast.build --tts stub --storage local`.
 
 ## Tech stack
