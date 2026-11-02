@@ -1080,6 +1080,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/ai-2026-11-01.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "ai/2026-11-02": {
+   "bytes": 1464249,
+   "date": "2026-11-02",
+   "duration": 244,
+   "guid": "ai/2026-11-02",
+   "hash": "6d5c5a4866e9dac1",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-11-02/",
+   "published": "2026-11-02T06:30:00+05:30",
+   "show": "ai",
+   "summary": "The past 48 hours have presented a nuanced picture of the artificial intelligence landscape, highlighting both its persistent challenges and its relentless march into new consumer territories. We're seeing a critical re-",
+   "title": "Nov 2 · AI and Technology news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/ai-2026-11-02.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "astronomy-explained/2026-10-19": {
    "bytes": 5011226,
    "date": "2026-10-19",
@@ -1288,6 +1303,21 @@
    "summary": "Imagine a machine so powerful it can outshine an entire galaxy of hundreds of billions of stars, yet its engine is smaller than our solar system. What could possibly power such a cosmic beacon, visible across billions of",
    "title": "Nov 1 · Explainer: Active Galactic Nuclei: The Universe's Powerhouses",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-01.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "astronomy-explained/2026-11-02": {
+   "bytes": 4567702,
+   "date": "2026-11-02",
+   "duration": 760,
+   "guid": "astronomy-explained/2026-11-02",
+   "hash": "2932f6ff51e87f09",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-02/",
+   "published": "2026-11-02T06:20:00+05:30",
+   "show": "astronomy",
+   "summary": "Imagine trying to read a book while looking through the bottom of a swimming pool. The words would shimmer, distort, and blur, making them almost impossible to decipher. Now, imagine that book is millions of light-years",
+   "title": "Nov 2 · Explainer: Adaptive Optics: Sharpening Our View of the Cosmos",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-02.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "astronomy/2026-08-18": {
@@ -2355,6 +2385,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-01.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "astronomy/2026-11-02": {
+   "bytes": 1934865,
+   "date": "2026-11-02",
+   "duration": 322,
+   "guid": "astronomy/2026-11-02",
+   "hash": "a1c180f68854db39",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-02/",
+   "published": "2026-11-02T06:30:00+05:30",
+   "show": "astronomy",
+   "summary": "Good morning, fellow stargazers and cosmic adventurers! Today, we're diving into a fascinating array of discoveries and developments, from the dusty plains of Mars and the icy depths of interstellar comets to our ongoing",
+   "title": "Nov 2 · Astronomy news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-02.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "geopolitics/2026-08-18": {
    "bytes": 1757285,
    "date": "2026-08-18",
@@ -3360,6 +3405,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/geopolitics-2026-11-01.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "geopolitics/2026-11-02": {
+   "bytes": 1746329,
+   "date": "2026-11-02",
+   "duration": 291,
+   "guid": "geopolitics/2026-11-02",
+   "hash": "0a61b845e20d49bb",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-11-02/",
+   "published": "2026-11-02T06:30:00+05:30",
+   "show": "geopolitics",
+   "summary": "Global attention remains focused on several key geopolitical developments, including escalating tensions in Eastern Europe, a volatile situation in the Middle East, and significant internal challenges within Western demo",
+   "title": "Nov 2 · Geopolitics news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/geopolitics-2026-11-02.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "history/2026-10-19": {
    "bytes": 4797189,
    "date": "2026-10-19",
@@ -3568,6 +3628,21 @@
    "summary": "Imagine a world where Italian cuisine had no tomatoes, Irish stews lacked potatoes, and Swiss chocolate was just a dream because cacao hadn't met sugar. Picture Colombia without coffee, or India without chili peppers. So",
    "title": "Nov 1 · Explainer: The Columbian Exchange: A Global Biological Reset",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-01.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "history/2026-11-02": {
+   "bytes": 4089003,
+   "date": "2026-11-02",
+   "duration": 681,
+   "guid": "history/2026-11-02",
+   "hash": "dcb8b4bb7fd65382",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-02/",
+   "published": "2026-11-02T06:20:00+05:30",
+   "show": "history",
+   "summary": "Imagine standing before a towering structure, a minaret reaching over seventy meters into the sky, its intricate carvings telling stories of centuries past. This is the **Qutub Minar** in Delhi, a UNESCO World Heritage s",
+   "title": "Nov 2 · Explainer: The Delhi Sultanate: India's Bridge to a New Millennium",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-02.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "math-explained/2026-10-19": {
@@ -3780,6 +3855,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-01.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "math-explained/2026-11-02": {
+   "bytes": 5520769,
+   "date": "2026-11-02",
+   "duration": 919,
+   "guid": "math-explained/2026-11-02",
+   "hash": "15b463009d21f2cd",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-02/",
+   "published": "2026-11-02T06:20:00+05:30",
+   "show": "math",
+   "summary": "Imagine sending a secret message across the internet, knowing millions of eyes could intercept it. How do you ensure that only the intended recipient, and no one else, can read it? This isn't magic, it's mathematics, spe",
+   "title": "Nov 2 · Explainer: RSA: The Math Behind Secure Communication",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-02.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "math/2026-10-19": {
    "bytes": 1645271,
    "date": "2026-10-19",
@@ -3988,6 +4078,21 @@
    "summary": "Good morning, fellow explorers of the quantitative world! Today's clippings bring us a fascinating, and perhaps a little daunting, look at the future of our field. The mathematical community is actively engaging with one",
    "title": "Nov 1 · Math news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-01.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "math/2026-11-02": {
+   "bytes": 1567432,
+   "date": "2026-11-02",
+   "duration": 261,
+   "guid": "math/2026-11-02",
+   "hash": "1582233956ef0498",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-02/",
+   "published": "2026-11-02T06:30:00+05:30",
+   "show": "math",
+   "summary": "The world of mathematics is grappling with a profound shift, as artificial intelligence rapidly advances and begins to reshape how research is conducted, how discoveries are made, and even how the discipline is taught. R",
+   "title": "Nov 2 · Math news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-02.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "neuroscience-explained/2026-10-19": {
@@ -4200,6 +4305,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-01.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "neuroscience-explained/2026-11-02": {
+   "bytes": 4266416,
+   "date": "2026-11-02",
+   "duration": 710,
+   "guid": "neuroscience-explained/2026-11-02",
+   "hash": "cee880553f6260a4",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-02/",
+   "published": "2026-11-02T06:20:00+05:30",
+   "show": "neuroscience",
+   "summary": "Have you ever been in the middle of a tedious task, maybe waiting for code to compile, or stuck in traffic, and suddenly realized your mind had completely drifted off? You weren't thinking about the task at hand, or even",
+   "title": "Nov 2 · Explainer: Neuroscience explainer",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-02.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "neuroscience/2026-10-19": {
    "bytes": 1607089,
    "date": "2026-10-19",
@@ -4408,6 +4528,21 @@
    "summary": "Greetings, fellow travelers through the intricate landscapes of the brain! Welcome to your daily dose of neuroscience, where we distill the latest findings and significant developments. Today, we're looking at a major sc",
    "title": "Nov 1 · Neuroscience news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-01.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "neuroscience/2026-11-02": {
+   "bytes": 1848673,
+   "date": "2026-11-02",
+   "duration": 308,
+   "guid": "neuroscience/2026-11-02",
+   "hash": "4c1b4c36451919b0",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-02/",
+   "published": "2026-11-02T06:30:00+05:30",
+   "show": "neuroscience",
+   "summary": "Hello, and welcome to My Daily Clippings on this Monday, November second, two thousand twenty-six.",
+   "title": "Nov 2 · Neuroscience news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-02.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "physics/2026-08-18": {
@@ -5520,6 +5655,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/physics-2026-11-01.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "physics/2026-11-02": {
+   "bytes": 1714177,
+   "date": "2026-11-02",
+   "duration": 285,
+   "guid": "physics/2026-11-02",
+   "hash": "f8fae33dbd4bab37",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-11-02/",
+   "published": "2026-11-02T06:30:00+05:30",
+   "show": "physics",
+   "summary": "Greetings, fellow travelers through the cosmos of scientific discovery. It's Monday, November second, two thousand twenty-six, and our inboxes are brimming with fascinating developments from the world of physics. This pa",
+   "title": "Nov 2 · Physics news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/physics-2026-11-02.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "questions/2026-10-19-why-sky-is-blue": {
    "bytes": 1730768,
    "date": "2026-10-19",
@@ -5745,6 +5895,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-01.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "system-design/2026-11-02": {
+   "bytes": 5693324,
+   "date": "2026-11-02",
+   "duration": 948,
+   "guid": "system-design/2026-11-02",
+   "hash": "cdc98089ab886d60",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-02/",
+   "published": "2026-11-02T06:20:00+05:30",
+   "show": "system-design",
+   "summary": "Have you ever wondered how a massive online retailer like Amazon handles millions of customer orders, processes payments, updates inventory, and sends notifications, all while ensuring a smooth experience, even during pe",
+   "title": "Nov 2 · Explainer: Message Queues: Decoupling and Scaling Services",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-02.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "watchlist/2026-10-19": {
    "bytes": 305318,
    "date": "2026-10-19",
@@ -5863,6 +6028,21 @@
    "summary": "Today, there is an update on the November cyclone for the Chennai–Puducherry coast.",
    "title": "Nov 1 · Watchlist news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/watchlist-2026-11-01.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "watchlist/2026-11-02": {
+   "bytes": 333858,
+   "date": "2026-11-02",
+   "duration": 55,
+   "guid": "watchlist/2026-11-02",
+   "hash": "740507d7aac81c68",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/watchlist/2026-11-02/",
+   "published": "2026-11-02T06:30:00+05:30",
+   "show": "watchlist",
+   "summary": "Today, there is an update on the November cyclone for the Chennai–Puducherry coast.",
+   "title": "Nov 2 · Watchlist news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/watchlist-2026-11-02.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   }
  },

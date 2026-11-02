@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/history.xml" rel="self" type="application/rss+xml"/>
     <description>One history topic explained every day, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 01:45:58 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 02:04:41 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One history topic explained every day, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/history.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 2 · Explainer: The Delhi Sultanate: India's Bridge to a New Millennium</title>
+      <guid isPermaLink="false">history/2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-02/</link>
+      <description><![CDATA[Imagine standing before a towering structure, a minaret reaching over seventy meters into the sky, its intricate carvings telling stories of centuries past. This is the **Qutub Minar** in Delhi, a UNESCO World Heritage s<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-02/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-02.mp3" length="4089003" type="audio/mpeg"/>
+      <itunes:duration>11:21</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 1 · Explainer: The Columbian Exchange: A Global Biological Reset</title>
       <guid isPermaLink="false">history/2026-11-01</guid>
