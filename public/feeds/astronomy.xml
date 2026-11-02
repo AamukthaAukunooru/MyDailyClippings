@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 02:04:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 19:19:38 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 3 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-03/</link>
+      <description><![CDATA[What a vibrant week it's been for our understanding of the cosmos, from the tiniest grains of ancient asteroids to the most distant, venerable star clusters in our own galaxy. Today, we're diving into new insights about<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-03/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-03.mp3" length="2057964" type="audio/mpeg"/>
+      <itunes:duration>5:42</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 3 · Explainer: Astronomy explainer</title>
+      <guid isPermaLink="false">astronomy-explained/2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-03/</link>
+      <description><![CDATA[Imagine looking up at a clear night sky, far from city lights. You might see a faint, milky band stretching across the heavens. That's our home, the **Milky Way galaxy**, a vast cosmic island containing hundreds of billi<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-03/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-03.mp3" length="4399744" type="audio/mpeg"/>
+      <itunes:duration>12:12</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 2 · Astronomy news</title>
       <guid isPermaLink="false">astronomy/2026-11-02</guid>

@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/physics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily physics news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 02:04:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 19:19:38 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily physics news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/physics.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 3 · Physics news</title>
+      <guid isPermaLink="false">physics/2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-11-03/</link>
+      <description><![CDATA[Welcome to My Daily Clippings, your regular dive into the most compelling breakthroughs in the world of physics. Today, we're exploring significant strides in quantum computing, from experimental validations of error-res<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-11-03/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/physics-2026-11-03.mp3" length="1728159" type="audio/mpeg"/>
+      <itunes:duration>4:48</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 2 · Physics news</title>
       <guid isPermaLink="false">physics/2026-11-02</guid>

@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 02:04:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 19:19:38 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 3 · Math news</title>
+      <guid isPermaLink="false">math/2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-03/</link>
+      <description><![CDATA[Today's "My Daily Clippings" brings a fascinating, and perhaps unsettling, look at the accelerating pace of mathematical discovery, largely driven by artificial intelligence. We'll delve into the community's reaction to<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-03/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-03.mp3" length="2521377" type="audio/mpeg"/>
+      <itunes:duration>7:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 3 · Explainer: Kalman Filters: Estimating Truth in a Noisy World</title>
+      <guid isPermaLink="false">math-explained/2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-03/</link>
+      <description><![CDATA[Imagine you're driving a self-driving car. Your car needs to know exactly where it is, how fast it's going, and in what direction. It has sensors: a GPS receiver, wheel speed sensors, an accelerometer, maybe even a camer<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-03/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-03.mp3" length="4822111" type="audio/mpeg"/>
+      <itunes:duration>13:23</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 2 · Math news</title>
       <guid isPermaLink="false">math/2026-11-02</guid>

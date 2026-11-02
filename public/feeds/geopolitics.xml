@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/geopolitics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily geopolitics briefing from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 02:04:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 19:19:38 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily geopolitics briefing from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/geopolitics.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 3 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-11-03/</link>
+      <description><![CDATA[Today's global overview highlights continued conflict in **Ukraine**, significant diplomatic movements in the **Middle East** with implications for global energy markets, and evolving political and security challenges ac<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-11-03/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/geopolitics-2026-11-03.mp3" length="1307555" type="audio/mpeg"/>
+      <itunes:duration>3:38</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 2 · Geopolitics news</title>
       <guid isPermaLink="false">geopolitics/2026-11-02</guid>

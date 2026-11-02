@@ -1095,6 +1095,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/ai-2026-11-02.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "ai/2026-11-03": {
+   "bytes": 1810771,
+   "date": "2026-11-03",
+   "duration": 301,
+   "guid": "ai/2026-11-03",
+   "hash": "4ef0d77dc8c126c1",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-11-03/",
+   "published": "2026-11-03T06:30:00+05:30",
+   "show": "ai",
+   "summary": "The past forty-eight hours have brought a mix of significant developments across the artificial intelligence landscape, from **OpenAI's** ambitious infrastructure plans and new evaluation metrics to escalating legal batt",
+   "title": "Nov 3 · AI and Technology news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/ai-2026-11-03.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "astronomy-explained/2026-10-19": {
    "bytes": 5011226,
    "date": "2026-10-19",
@@ -1318,6 +1333,21 @@
    "summary": "Imagine trying to read a book while looking through the bottom of a swimming pool. The words would shimmer, distort, and blur, making them almost impossible to decipher. Now, imagine that book is millions of light-years",
    "title": "Nov 2 · Explainer: Adaptive Optics: Sharpening Our View of the Cosmos",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-02.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "astronomy-explained/2026-11-03": {
+   "bytes": 4399744,
+   "date": "2026-11-03",
+   "duration": 732,
+   "guid": "astronomy-explained/2026-11-03",
+   "hash": "b9fcce69811a14d4",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-03/",
+   "published": "2026-11-03T06:20:00+05:30",
+   "show": "astronomy",
+   "summary": "Imagine looking up at a clear night sky, far from city lights. You might see a faint, milky band stretching across the heavens. That's our home, the **Milky Way galaxy**, a vast cosmic island containing hundreds of billi",
+   "title": "Nov 3 · Explainer: Astronomy explainer",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-03.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "astronomy/2026-08-18": {
@@ -2400,6 +2430,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-02.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "astronomy/2026-11-03": {
+   "bytes": 2057964,
+   "date": "2026-11-03",
+   "duration": 342,
+   "guid": "astronomy/2026-11-03",
+   "hash": "44281cbe489a50ac",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-03/",
+   "published": "2026-11-03T06:30:00+05:30",
+   "show": "astronomy",
+   "summary": "What a vibrant week it's been for our understanding of the cosmos, from the tiniest grains of ancient asteroids to the most distant, venerable star clusters in our own galaxy. Today, we're diving into new insights about",
+   "title": "Nov 3 · Astronomy news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-03.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "geopolitics/2026-08-18": {
    "bytes": 1757285,
    "date": "2026-08-18",
@@ -3420,6 +3465,36 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/geopolitics-2026-11-02.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "geopolitics/2026-11-03": {
+   "bytes": 1307555,
+   "date": "2026-11-03",
+   "duration": 218,
+   "guid": "geopolitics/2026-11-03",
+   "hash": "3202de991ed3e737",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-11-03/",
+   "published": "2026-11-03T06:30:00+05:30",
+   "show": "geopolitics",
+   "summary": "Today's global overview highlights continued conflict in **Ukraine**, significant diplomatic movements in the **Middle East** with implications for global energy markets, and evolving political and security challenges ac",
+   "title": "Nov 3 · Geopolitics news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/geopolitics-2026-11-03.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "headlines/2026-11-03": {
+   "bytes": 1175798,
+   "date": "2026-11-03",
+   "duration": 196,
+   "guid": "headlines/2026-11-03",
+   "hash": "a1c95a21a5cd0fc8",
+   "kind": "briefing",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/headlines/2026-11-03/",
+   "published": "2026-11-03T06:40:00+05:30",
+   "show": "headlines",
+   "summary": "Good morning, and welcome to My Daily Clippings for Tuesday, November 3rd, 2026. Before we dive into the news, look for the Moon close to Jupiter before dawn.",
+   "title": "Nov 3 · Headlines",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/headlines-2026-11-03.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "history/2026-10-19": {
    "bytes": 4797189,
    "date": "2026-10-19",
@@ -3643,6 +3718,21 @@
    "summary": "Imagine standing before a towering structure, a minaret reaching over seventy meters into the sky, its intricate carvings telling stories of centuries past. This is the **Qutub Minar** in Delhi, a UNESCO World Heritage s",
    "title": "Nov 2 · Explainer: The Delhi Sultanate: India's Bridge to a New Millennium",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-02.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "history/2026-11-03": {
+   "bytes": 4325838,
+   "date": "2026-11-03",
+   "duration": 720,
+   "guid": "history/2026-11-03",
+   "hash": "9099782a67b4bf6c",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-03/",
+   "published": "2026-11-03T06:20:00+05:30",
+   "show": "history",
+   "summary": "Imagine building an empire that stretches over two thousand five hundred miles, from modern-day Colombia down to Chile, across some of the most rugged, high-altitude terrain on Earth. Now, imagine doing all of this witho",
+   "title": "Nov 3 · Explainer: The Inca Empire: Engineering a Civilization Without the Wheel",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-03.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "math-explained/2026-10-19": {
@@ -3870,6 +3960,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-02.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "math-explained/2026-11-03": {
+   "bytes": 4822111,
+   "date": "2026-11-03",
+   "duration": 803,
+   "guid": "math-explained/2026-11-03",
+   "hash": "957201f23621e0bb",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-03/",
+   "published": "2026-11-03T06:20:00+05:30",
+   "show": "math",
+   "summary": "Imagine you're driving a self-driving car. Your car needs to know exactly where it is, how fast it's going, and in what direction. It has sensors: a GPS receiver, wheel speed sensors, an accelerometer, maybe even a camer",
+   "title": "Nov 3 · Explainer: Kalman Filters: Estimating Truth in a Noisy World",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-03.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "math/2026-10-19": {
    "bytes": 1645271,
    "date": "2026-10-19",
@@ -4093,6 +4198,21 @@
    "summary": "The world of mathematics is grappling with a profound shift, as artificial intelligence rapidly advances and begins to reshape how research is conducted, how discoveries are made, and even how the discipline is taught. R",
    "title": "Nov 2 · Math news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-02.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "math/2026-11-03": {
+   "bytes": 2521377,
+   "date": "2026-11-03",
+   "duration": 420,
+   "guid": "math/2026-11-03",
+   "hash": "ddd890d73560f1d9",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-03/",
+   "published": "2026-11-03T06:30:00+05:30",
+   "show": "math",
+   "summary": "Today's \"My Daily Clippings\" brings a fascinating, and perhaps unsettling, look at the accelerating pace of mathematical discovery, largely driven by artificial intelligence. We'll delve into the community's reaction to",
+   "title": "Nov 3 · Math news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-03.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "neuroscience-explained/2026-10-19": {
@@ -4320,6 +4440,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-02.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "neuroscience-explained/2026-11-03": {
+   "bytes": 5840777,
+   "date": "2026-11-03",
+   "duration": 972,
+   "guid": "neuroscience-explained/2026-11-03",
+   "hash": "aa664832d1c004aa",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-03/",
+   "published": "2026-11-03T06:20:00+05:30",
+   "show": "neuroscience",
+   "summary": "Imagine, for a moment, you’re in your kitchen, distracted, perhaps debugging a tricky piece of code in your head. You reach for a hot mug of coffee, but your hand brushes against the stovetop you just used. Instantly, a",
+   "title": "Nov 3 · Explainer: The Brain's Warning System: How Pain Works",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-03.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "neuroscience/2026-10-19": {
    "bytes": 1607089,
    "date": "2026-10-19",
@@ -4543,6 +4678,21 @@
    "summary": "Hello, and welcome to My Daily Clippings on this Monday, November second, two thousand twenty-six.",
    "title": "Nov 2 · Neuroscience news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-02.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "neuroscience/2026-11-03": {
+   "bytes": 1723844,
+   "date": "2026-11-03",
+   "duration": 287,
+   "guid": "neuroscience/2026-11-03",
+   "hash": "8cc4fbbeb39b84cb",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-03/",
+   "published": "2026-11-03T06:30:00+05:30",
+   "show": "neuroscience",
+   "summary": "Hello, and welcome to My Daily Clippings for November 3, 2026. Today, we're diving into a few compelling neuroscience stories, from ambitious new initiatives to crucial findings about brain health and environmental facto",
+   "title": "Nov 3 · Neuroscience news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-03.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "physics/2026-08-18": {
@@ -5670,6 +5820,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/physics-2026-11-02.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "physics/2026-11-03": {
+   "bytes": 1728159,
+   "date": "2026-11-03",
+   "duration": 288,
+   "guid": "physics/2026-11-03",
+   "hash": "e6324e5430b2acfd",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-11-03/",
+   "published": "2026-11-03T06:30:00+05:30",
+   "show": "physics",
+   "summary": "Welcome to My Daily Clippings, your regular dive into the most compelling breakthroughs in the world of physics. Today, we're exploring significant strides in quantum computing, from experimental validations of error-res",
+   "title": "Nov 3 · Physics news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/physics-2026-11-03.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "questions/2026-10-19-why-sky-is-blue": {
    "bytes": 1730768,
    "date": "2026-10-19",
@@ -5910,6 +6075,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-02.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "system-design/2026-11-03": {
+   "bytes": 5712934,
+   "date": "2026-11-03",
+   "duration": 951,
+   "guid": "system-design/2026-11-03",
+   "hash": "b62d76fe3443f1a1",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-03/",
+   "published": "2026-11-03T06:20:00+05:30",
+   "show": "system-design",
+   "summary": "Imagine you are running a popular online store. It’s Black Friday, and millions of customers are simultaneously browsing product pages, adding items to carts, and checking out. Your database, the single source of truth f",
+   "title": "Nov 3 · Explainer: Distributed Caching: Speeding Up Data Access at Scale",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-03.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "watchlist/2026-10-19": {
    "bytes": 305318,
    "date": "2026-10-19",
@@ -6043,6 +6223,21 @@
    "summary": "Today, there is an update on the November cyclone for the Chennai–Puducherry coast.",
    "title": "Nov 2 · Watchlist news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/watchlist-2026-11-02.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "watchlist/2026-11-03": {
+   "bytes": 675912,
+   "date": "2026-11-03",
+   "duration": 112,
+   "guid": "watchlist/2026-11-03",
+   "hash": "4838ae17e17dea73",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/watchlist/2026-11-03/",
+   "published": "2026-11-03T06:30:00+05:30",
+   "show": "watchlist",
+   "summary": "Today's update includes news on the next era of Marvel Digital Comics Webtoons and a November cyclone impacting the Chennai–Puducherry coast.",
+   "title": "Nov 3 · Watchlist news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/watchlist-2026-11-03.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   }
  },

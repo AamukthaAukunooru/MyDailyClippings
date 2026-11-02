@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/ai.xml" rel="self" type="application/rss+xml"/>
     <description>Daily AI and technology news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 02:04:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 19:19:38 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily AI and technology news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/ai.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 3 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-11-03/</link>
+      <description><![CDATA[The past forty-eight hours have brought a mix of significant developments across the artificial intelligence landscape, from **OpenAI's** ambitious infrastructure plans and new evaluation metrics to escalating legal batt<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-11-03/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/ai-2026-11-03.mp3" length="1810771" type="audio/mpeg"/>
+      <itunes:duration>5:01</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 2 · AI and Technology news</title>
       <guid isPermaLink="false">ai/2026-11-02</guid>
