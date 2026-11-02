@@ -7,7 +7,7 @@ export interface GeminiResult {
 
 // Which job a call does. Each role can use its own model (repo variables), so the
 // work is spread across models: free-tier quotas are counted per model.
-export type Role = 'news' | 'editor' | 'explainer' | 'watchlist'
+export type Role = 'news' | 'editor' | 'explainer' | 'watchlist' | 'headlines'
 
 export interface GenerateOptions {
   search?: boolean // enable Google Search grounding
@@ -20,7 +20,7 @@ export interface GenerateOptions {
 //   gemini-2.5-flash       5 RPM, 250K TPM, 20 RPD
 //   gemini-2.5-flash-lite  not available (limit 0)
 //   Google Search grounding 1,500 RPD
-// Daily quotas reset at midnight Pacific. A full day needs about 12 Flash calls
+// Daily quotas reset at midnight Pacific. A full day needs about 13 Flash calls (with Headlines)
 // plus 1 per curious question, so everything runs on Flash with no fallback, and
 // the fact-check pass (an extra call per page) is off unless EDITOR_PASS=true.
 // With billing enabled: set EDITOR_PASS=true and
@@ -33,6 +33,7 @@ const ROLE_MODEL: Record<Role, string> = {
   editor: process.env.GEMINI_EDITOR_MODEL || FLASH_LITE,
   explainer: process.env.GEMINI_EXPLAINER_MODEL || process.env.GEMINI_MODEL || FLASH,
   watchlist: process.env.GEMINI_MODEL || FLASH,
+  headlines: process.env.GEMINI_MODEL || FLASH,
 }
 // Tried in order when a role's model has used up its daily quota.
 const FALLBACKS = (process.env.GEMINI_FALLBACK_MODELS || '')

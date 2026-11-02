@@ -8,11 +8,11 @@ from pathlib import Path
 from xml.sax.saxutils import escape
 
 IST = timezone(timedelta(hours=5, minutes=30))
-KIND_ORDER = {"news": 0, "explainer": 1, "question": 2, "article": 3}
+KIND_ORDER = {"briefing": -1, "news": 0, "explainer": 1, "question": 2, "article": 3}
 
 
 def publish_time(day_iso: str, kind: str, index: int = 0) -> str:
-    """06:00 IST on the page's date, nudged so a day's episodes sort news first."""
+    """06:00 IST on the page's date, nudged so a day's episodes sort briefing, then news first."""
     base = datetime.fromisoformat(day_iso).replace(hour=6, tzinfo=IST)
     # newer pubDate sorts first in most apps, so earlier kinds get later times
     minutes = 30 - 10 * KIND_ORDER.get(kind, 3) - min(index, 9)

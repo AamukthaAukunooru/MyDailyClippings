@@ -19,7 +19,7 @@ WORK_DIR = ROOT / ".audio-work"  # scratch MP3s, gitignored
 @dataclass
 class Source:
     dir: str
-    kind: str  # news | explainer | question
+    kind: str  # briefing | news | explainer | question
     label: str
 
 

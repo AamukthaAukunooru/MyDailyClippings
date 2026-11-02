@@ -65,8 +65,8 @@ def collect_pages(cfg, days: int, only_dirs: set[str] | None):
                 page = parse_page(path)
                 if page and page.date >= cutoff:
                     found.append((show, src, page))
-    # newest first, and within a day news before explainers before questions
-    order = {"news": 0, "explainer": 1, "question": 2}
+    # newest first, and within a day the briefing, then news, explainers, questions
+    order = {"briefing": -1, "news": 0, "explainer": 1, "question": 2}
     found.sort(key=lambda t: (-t[2].date.toordinal(), order.get(t[1].kind, 9), t[0].slug, t[2].slug))
     return found
 

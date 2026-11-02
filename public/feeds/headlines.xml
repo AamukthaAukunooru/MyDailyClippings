@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clippings · Headlines</title>
+    <link>https://aamukthaaukunooru.github.io/MyDailyClippings/headlines/</link>
+    <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/headlines.xml" rel="self" type="application/rss+xml"/>
+    <description>A 3 to 4 minute daily briefing across every Clippings show, plus what is happening in the sky over Hyderabad. Play it first.</description>
+    <language>en</language>
+    <lastBuildDate>Mon, 02 Nov 2026 14:34:23 +0000</lastBuildDate>
+    <itunes:author>My Daily Clippings</itunes:author>
+    <itunes:summary>A 3 to 4 minute daily briefing across every Clippings show, plus what is happening in the sky over Hyderabad. Play it first.</itunes:summary>
+    <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/headlines.png"/>
+    <image><url>https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/headlines.png</url><title>Clippings · Headlines</title><link>https://aamukthaaukunooru.github.io/MyDailyClippings/headlines/</link></image>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:category text="News"/>
+  </channel>
+</rss>
