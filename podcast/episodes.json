@@ -1336,17 +1336,17 @@
    "voice": "en-US-AvaMultilingualNeural"
   },
   "astronomy-explained/2026-11-03": {
-   "bytes": 4399744,
+   "bytes": 4407536,
    "date": "2026-11-03",
-   "duration": 732,
+   "duration": 734,
    "guid": "astronomy-explained/2026-11-03",
-   "hash": "b9fcce69811a14d4",
+   "hash": "964379eb364535b7",
    "kind": "explainer",
    "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-03/",
    "published": "2026-11-03T06:20:00+05:30",
    "show": "astronomy",
    "summary": "Imagine looking up at a clear night sky, far from city lights. You might see a faint, milky band stretching across the heavens. That's our home, the **Milky Way galaxy**, a vast cosmic island containing hundreds of billi",
-   "title": "Nov 3 · Explainer: Astronomy explainer",
+   "title": "Nov 3 · Explainer: How Galaxies Form and Evolve",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-03.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
@@ -2443,6 +2443,21 @@
    "summary": "What a vibrant week it's been for our understanding of the cosmos, from the tiniest grains of ancient asteroids to the most distant, venerable star clusters in our own galaxy. Today, we're diving into new insights about",
    "title": "Nov 3 · Astronomy news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-03.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "dsa-patterns/2026-11-03": {
+   "bytes": 5537207,
+   "date": "2026-11-03",
+   "duration": 922,
+   "guid": "dsa-patterns/2026-11-03",
+   "hash": "bcbaa995ab90fdd7",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-03/",
+   "published": "2026-11-03T06:20:00+05:30",
+   "show": "dsa",
+   "summary": "Imagine you have a long list of numbers, and you need to find two numbers that add up to a specific target. How would you do it? Your first thought might be to pick one number, then scan through the rest to find its comp",
+   "title": "Nov 3 · Explainer: Two Pointers: Efficiently Scanning Data",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/dsa-patterns-2026-11-03.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "geopolitics/2026-08-18": {
@@ -4426,17 +4441,17 @@
    "voice": "en-US-AvaMultilingualNeural"
   },
   "neuroscience-explained/2026-11-02": {
-   "bytes": 4266416,
+   "bytes": 4276248,
    "date": "2026-11-02",
-   "duration": 710,
+   "duration": 712,
    "guid": "neuroscience-explained/2026-11-02",
-   "hash": "cee880553f6260a4",
+   "hash": "43d1136541581042",
    "kind": "explainer",
    "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-02/",
    "published": "2026-11-02T06:20:00+05:30",
    "show": "neuroscience",
    "summary": "Have you ever been in the middle of a tedious task, maybe waiting for code to compile, or stuck in traffic, and suddenly realized your mind had completely drifted off? You weren't thinking about the task at hand, or even",
-   "title": "Nov 2 · Explainer: Neuroscience explainer",
+   "title": "Nov 2 · Explainer: The Default Mode Network: Your Brain When It Wanders",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-02.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
@@ -5849,6 +5864,21 @@
    "title": "Oct 19 · Why Sky is Blue?",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-10/questions-2026-10-19-why-sky-is-blue.mp3",
    "voice": "en-US-AvaMultilingualNeural"
+  },
+  "system-design-interviews/2026-11-03": {
+   "bytes": 8400623,
+   "date": "2026-11-03",
+   "duration": 1399,
+   "guid": "system-design-interviews/2026-11-03",
+   "hash": "7eddf773415bccdb",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/system-design-interviews/2026-11-03/",
+   "published": "2026-11-03T06:20:00+05:30",
+   "show": "sd-interviews",
+   "summary": "2.  When a user accesses the short URL, redirect them to the original long URL.",
+   "title": "Nov 3 · Interview: Design a URL Shortener",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-interviews-2026-11-03.mp3",
+   "voice": "en-US-AvaMultilingualNeural|Candidate=en-US-AvaMultilingualNeural,Interviewer=en-US-AndrewMultilingualNeural"
   },
   "system-design/2026-10-19": {
    "bytes": 5634800,

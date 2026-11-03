@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/dsa.xml" rel="self" type="application/rss+xml"/>
     <description>One data structures and algorithms pattern a day, explained by ear: how to spot it, how it works, and the classic problems that teach it.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 10:13:54 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 16:56:32 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One data structures and algorithms pattern a day, explained by ear: how to spot it, how it works, and the classic problems that teach it.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/dsa.png"/>
@@ -14,5 +14,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 3 · Explainer: Two Pointers: Efficiently Scanning Data</title>
+      <guid isPermaLink="false">dsa-patterns/2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-03/</link>
+      <description><![CDATA[Imagine you have a long list of numbers, and you need to find two numbers that add up to a specific target. How would you do it? Your first thought might be to pick one number, then scan through the rest to find its comp<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-03/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/dsa-patterns-2026-11-03.mp3" length="5537207" type="audio/mpeg"/>
+      <itunes:duration>15:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>
