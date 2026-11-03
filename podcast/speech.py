@@ -28,6 +28,7 @@ class Page:
     summary: str
     topic: str | None
     body: str
+    format: str = "prose"  # prose | dialogue (two-voice mock interview)
 
     @property
     def guid(self) -> str:
@@ -56,6 +57,7 @@ def parse_page(path: Path) -> Page | None:
         summary=str(meta.get("summary") or "").strip(),
         topic=(str(meta.get("topic") or meta.get("question") or "").strip() or None),
         body=body,
+        format=str(meta.get("format") or "prose"),
     )
 
 
@@ -127,6 +129,9 @@ def intro_for(page: Page, source: Source) -> str:
         return f"{source.label} news for {spoken_date(page.date)}."
     if source.kind == "explainer":
         topic = page.topic or page.title
+        if page.format == "dialogue":
+            show = source.label if source.label.lower().endswith("interview") else f"{source.label} interview"
+            return f"{show}. {topic.rstrip('.')}."
         return f"{source.label} explainer. {topic.rstrip('.')}."
     if source.kind == "question":
         q = page.topic or page.title
@@ -134,7 +139,49 @@ def intro_for(page: Page, source: Source) -> str:
     return page.title.rstrip(".") + "."
 
 
+SPEAKER = re.compile(r"^\s*\*\*\s*([A-Za-z][\w ]{0,30}?)\s*:\s*\*\*\s*(.*)$")
+FIRST_SPEAKER = "Interviewer"
+
+
+def dialogue_segments(page: Page, source: Source) -> list[tuple[str, str]]:
+    """(speaker, text) turns of a two-voice page, consecutive turns of one speaker merged.
+
+    Lines start with "**Interviewer:**" or "**Candidate:**"; a paragraph without a
+    speaker continues the previous turn. Headings are chapter markers for the
+    website and are not spoken. The intro is read by the interviewer.
+    """
+    turns: list[list[str]] = []
+    intro = intro_for(page, source)
+    if intro:
+        turns.append([FIRST_SPEAKER, intro])
+    in_code = False
+    for line in page.body.splitlines():
+        stripped = line.strip()
+        if stripped.startswith("```"):
+            in_code = not in_code
+            continue
+        if in_code or not stripped or stripped.startswith("|") or re.match(r"^#{1,6}\s", stripped):
+            continue
+        if re.match(r"^([-*_]\s*){3,}$", stripped):
+            continue
+        m = SPEAKER.match(stripped)
+        if m:
+            speaker, text = m.group(1).strip().title(), m.group(2)
+        else:
+            speaker, text = (turns[-1][0] if turns else FIRST_SPEAKER), stripped
+        text = inline(re.sub(r"^\s*([-*+]|\d+[.)])\s+", "", text))
+        if not text:
+            continue
+        if turns and turns[-1][0] == speaker:
+            turns[-1][1] += "\n" + text
+        else:
+            turns.append([speaker, text])
+    return [(s, t) for s, t in turns]
+
+
 def speech_text(page: Page, source: Source) -> str:
+    if page.format == "dialogue":
+        return "\n\n".join(f"{s}: {t}" for s, t in dialogue_segments(page, source))
     intro = intro_for(page, source)
     body = clean_markdown(page.body)
     return f"{intro}\n\n{body}" if intro else body
@@ -154,7 +201,8 @@ def episode_title(page: Page, source: Source) -> str:
     if source.kind == "news":
         return f"{short_date(page.date)} · {source.label} news"
     if source.kind == "explainer":
-        return f"{short_date(page.date)} · Explainer: {page.topic or page.title}"
+        kind = "Interview" if page.format == "dialogue" else "Explainer"
+        return f"{short_date(page.date)} · {kind}: {page.topic or page.title}"
     if source.kind == "question":
         return f"{short_date(page.date)} · {page.topic or page.title}"
     return page.title

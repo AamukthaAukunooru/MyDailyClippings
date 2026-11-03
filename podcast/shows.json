@@ -4,6 +4,10 @@
   "author": "My Daily Clippings",
   "voice": "en-US-AvaMultilingualNeural",
   "rate": "+0%",
+  "dialogueVoices": {
+    "Interviewer": "en-US-AndrewMultilingualNeural",
+    "Candidate": "en-US-AvaMultilingualNeural"
+  },
   "shows": [
     {
       "slug": "headlines",
@@ -127,13 +131,52 @@
     {
       "slug": "system-design",
       "title": "Clippings · System Design",
-      "description": "One system design or software engineering topic explained every day.",
+      "description": "One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.",
       "color": "#0d9488",
       "sources": [
         {
           "dir": "system-design",
           "kind": "explainer",
           "label": "System Design"
+        }
+      ]
+    },
+    {
+      "slug": "sd-interviews",
+      "title": "Clippings · System Design Interviews",
+      "description": "A daily mock system design interview for two voices, from URL shortener to YouTube and Uber. Same answer template every time, with every pattern named out loud.",
+      "color": "#0e7490",
+      "sources": [
+        {
+          "dir": "system-design-interviews",
+          "kind": "explainer",
+          "label": "System Design Interview"
+        }
+      ]
+    },
+    {
+      "slug": "dsa",
+      "title": "Clippings · DSA Patterns",
+      "description": "One data structures and algorithms pattern a day, explained by ear: how to spot it, how it works, and the classic problems that teach it.",
+      "color": "#b45309",
+      "sources": [
+        {
+          "dir": "dsa-patterns",
+          "kind": "explainer",
+          "label": "DSA"
+        }
+      ]
+    },
+    {
+      "slug": "lld",
+      "title": "Clippings · LLD & Design Patterns",
+      "description": "SOLID, the classic design patterns in C#, then low-level design mock interviews: parking lot, lift, BookMyShow and more.",
+      "color": "#4338ca",
+      "sources": [
+        {
+          "dir": "lld",
+          "kind": "explainer",
+          "label": "LLD"
         }
       ]
     },

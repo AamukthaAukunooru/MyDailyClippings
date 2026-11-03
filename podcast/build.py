@@ -21,9 +21,9 @@ from datetime import datetime, timedelta
 
 from .config import NEWSLETTERS_DIR, WORK_DIR, load_config, load_manifest, save_manifest
 from .feeds import IST, publish_time, render_feed, write_if_changed
-from .speech import content_hash, episode_title, parse_page, speech_text
+from .speech import content_hash, dialogue_segments, episode_title, parse_page, speech_text
 from .storage import make_store
-from .tts import synthesize
+from .tts import synthesize, synthesize_dialogue
 
 EXIT_NOTHING_LEFT = 3
 
@@ -124,7 +124,8 @@ def main(argv: list[str] | None = None) -> int:
         day_index[key] = idx + 1
 
         text = speech_text(page, src)
-        digest = content_hash(text, cfg.voice)
+        voice = cfg.voices_key() if page.format == "dialogue" else cfg.voice
+        digest = content_hash(text, voice)
         existing = manifest["episodes"].get(page.guid)
         if existing and existing.get("hash") == digest:
             continue
@@ -141,7 +142,11 @@ def main(argv: list[str] | None = None) -> int:
         name = asset_name(page.guid)
         local = WORK_DIR / name
         try:
-            synthesize(args.tts, text, cfg.voice, cfg.rate, local)
+            if page.format == "dialogue":
+                synthesize_dialogue(args.tts, dialogue_segments(page, src), cfg.dialogue_voices,
+                                    cfg.voice, cfg.rate, local)
+            else:
+                synthesize(args.tts, text, cfg.voice, cfg.rate, local)
             duration = tag_mp3(local, title, show.title, cfg.author, page.date.isoformat())
             url = store.upload(local, name, page.date.strftime("%Y-%m"))
             size = local.stat().st_size
@@ -160,7 +165,7 @@ def main(argv: list[str] | None = None) -> int:
             "bytes": size,
             "duration": duration,
             "hash": digest,
-            "voice": cfg.voice,
+            "voice": cfg.voices_key() if page.format == "dialogue" else cfg.voice,
         }
 
     made = failed = 0

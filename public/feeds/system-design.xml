@@ -4,11 +4,11 @@
     <title>Clippings · System Design</title>
     <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/</link>
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
-    <description>One system design or software engineering topic explained every day.</description>
+    <description>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 19:19:38 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 10:13:54 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
-    <itunes:summary>One system design or software engineering topic explained every day.</itunes:summary>
+    <itunes:summary>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
     <image><url>https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png</url><title>Clippings · System Design</title><link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/</link></image>
     <itunes:explicit>false</itunes:explicit>

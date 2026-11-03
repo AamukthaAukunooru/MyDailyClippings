@@ -45,8 +45,8 @@ Feeds are deployed with the site. MP3s never go into git.
   pairings, and meteor showers (table in the file). Try it: `npx tsx scripts/sky.ts 2026-12-14`.
   Comets are left to the Astronomy news prompt.
 - **Backfill:** Actions → *Backfill Podcast Audio* → Run (defaults to the last 100 days).
-- **Topics and questions:** open a GitHub issue with a show's label (`question`, `astronomy`, `math`, `neuroscience`, `history`, `system-design`; add `next` to jump the queue). The next run turns it into an episode and closes the issue. Bulk queue files live in `topics/`. See `topics/README.md`.
-- **Watchlist:** open an issue with the `watch` label to follow a specific thing (a product, a person, an event). On days with new news, one combined Watchlist episode covers it. Close the issue to unsubscribe.
+- **Topics and questions:** the main inbox is the private Obsidian vault (`obsidian-library`). Each show has a queue note, `Podcast/<Show>.md`: the run takes the first unticked line under "Up next" and moves it to "Done" with a link to the episode. Things shared from the phone into the vault's `Inbox/` with a `Podcast/<Show>` category are moved into those notes first. Needs the `OBSIDIAN_TOKEN` secret. GitHub issues with a show label still work as a backup (`question`, `astronomy`, `math`, `neuroscience`, `history`, `system-design`, `sd-interview`, `dsa`, `lld`; add `next` to jump the queue). See `topics/README.md`.
+- **Watchlist:** add a line under "Following" in the vault's `Podcast/Watchlist.md` (or open an issue with the `watch` label) to follow a specific thing (a product, a person, an event). On days with new news, one combined Watchlist episode covers it. Close the issue to unsubscribe.
 - **Reading List:** add article URLs to `reading-list.txt` (edit on github.com in the phone browser). Needs Cloudflare R2 secrets
   (`R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`, `R2_PUBLIC_URL`,
   `READING_LIST_PREFIX`) so saved articles are not republished from this public repo. The feed

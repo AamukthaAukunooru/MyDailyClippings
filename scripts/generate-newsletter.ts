@@ -14,6 +14,7 @@ import {
 import { fetchArticles, type Article } from './rss'
 import { extractSummary, fetchOgData, resolveAllUrls } from './web'
 import { skyReport } from './sky'
+import * as vault from './vault'
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY
 if (!GEMINI_API_KEY) throw new Error('GEMINI_API_KEY environment variable is not set')
@@ -232,6 +233,9 @@ interface Topic {
   details?: string
   issue?: number
   queueLine?: string // set when the topic came from topics/<slug>.md
+  vaultNote?: string // set when the topic came from the vault's Podcast/<note>.md
+  vaultLine?: string
+  dialogue?: boolean // an "Interview:" line: write a two-voice mock interview
 }
 
 const SITE_URL = 'https://aamukthaaukunooru.github.io/MyDailyClippings'
@@ -336,6 +340,65 @@ ${STYLE_RULES}
 On the very first line, write "TOPIC:" followed by a short title for the topic (under 80 characters), then a blank line, then the episode.`
 }
 
+// The repeatable answer template each mock interview teaches, by kind.
+const INTERVIEW_TEMPLATES = {
+  'system-design': {
+    who: 'a classic system design interview',
+    steps: `1. Requirements: functional first, then non-functional (scale, latency, availability, consistency). The candidate asks; the interviewer answers with concrete numbers.
+2. Back-of-the-envelope estimates: requests per second, storage, bandwidth, with the arithmetic done slowly in words.
+3. API design: the main endpoints and what they take and return, in words.
+4. Data model and storage choice, and why this database over the alternatives.
+5. High-level design: walk one request through every component.
+6. Deep dives: the two or three hardest parts of this particular problem, prompted by the interviewer's follow-up questions.
+7. Bottlenecks, failure modes and trade-offs, and what changes at ten times the scale.
+8. Wrap-up: a thirty-second summary of the design.`,
+  },
+  lld: {
+    who: 'a low-level design (machine coding / object-oriented design) interview for a C# and .NET role',
+    steps: `1. Requirements and use cases: what the system must do, what is out of scope. The candidate asks; the interviewer answers.
+2. Core entities: the nouns that become classes, enums and interfaces.
+3. Relationships and responsibilities: a class diagram described in words (who owns whom, who depends on which interface).
+4. Design patterns: which ones fit, why, and where exactly they sit (for example Strategy for pricing rules, State for the lift's movement, Observer for notifications, Factory for creating vehicles).
+5. Key flows: walk through the two or three main use cases method by method, in words.
+6. Concurrency and edge cases: double booking, race conditions, locking, invalid states.
+7. Extensibility: how a new requirement lands without rewriting classes, tied back to SOLID.
+8. Wrap-up: a thirty-second summary of the design.`,
+  },
+} as const
+
+function interviewPrompt(cat: ExplainerCategory, kind: keyof typeof INTERVIEW_TEMPLATES, topic: Topic | null, covered: string[]): string {
+  const t = INTERVIEW_TEMPLATES[kind]
+  const choose = topic
+    ? `Today's problem: ${topic.title}${topic.details ? `\nWhat I want from it: ${topic.details}` : ''}`
+    : `Choose today's problem yourself: a well-known ${kind === 'lld' ? 'low-level design' : 'system design'} interview problem that is NOT already covered. Already covered:
+${covered.slice(-200).map((c) => `- ${c}`).join('\n') || '- (nothing yet)'}`
+  return `You write a daily audio series of mock interviews for My Daily Clippings. Each episode is a realistic script of ${t.who}, for two voices. The listener is a senior software engineer preparing for interviews at top product companies. They play the interviewer in their head and learn, by hearing it done well every day, one repeatable way to structure an answer.
+
+${choose}
+
+The two speakers:
+- Interviewer: a senior engineer at a top product company. Speaks briefly. Sets the problem, answers clarifying questions with concrete numbers, pushes back, and asks realistic follow-ups ("what happens when this node dies?", "why not just use X?", "how does this behave at ten times the load?").
+- Candidate: a strong senior engineer who drives the conversation, thinks out loud and explains every decision with its trade-off in plain words.
+
+The candidate follows the same template every time and says the name of each step out loud when moving to it, so the listener learns the template:
+${t.steps}
+
+Whenever the candidate uses a known pattern, technique or principle, they name it explicitly and explain it in one sentence (for example "this is the cache-aside pattern", "that's consistent hashing", "I'd use an idempotency key here", "this is the Strategy pattern"). Naming patterns quickly under pressure is the skill being trained.
+
+After the interview, add a final section "## Interviewer's notes", spoken by the Interviewer: what made this answer strong, the three to five key terms and patterns to remember from this problem, and one common mistake candidates make.
+
+Format rules:
+- Every spoken paragraph starts with "**Interviewer:**" or "**Candidate:**". Nothing else is spoken: no narrator and no stage directions.
+- Put a ## heading before each template step; the headings are chapter markers on the website and are not read aloud.
+- Keep turns natural. The interviewer's turns are short; the candidate's can run to a paragraph when explaining.
+- About 2,000 to 2,600 words in total (15 to 18 minutes spoken).
+- Describe diagrams, schemas, class structures and APIs in words.
+- Be accurate about numbers and real systems, and say when something is an assumption.
+${STYLE_RULES}
+
+On the very first line, write "TOPIC:" followed by a short title for the problem (under 80 characters, for example "Design a URL Shortener"), then a blank line, then the script.`
+}
+
 function shortPrompt(topic: Topic): string {
   return `You answer curious questions for a personal audio series called "Curious Questions". The listener is a software engineer who loves understanding things from first principles.
 
@@ -349,36 +412,64 @@ Write a clear, accurate answer of about 500 to 900 words (3 to 6 minutes spoken)
 ${STYLE_RULES}`
 }
 
+// When the model forgets the TOPIC line on a topic it chose itself, ask for a title
+// rather than saving a generic one (which also keeps the covered list useful).
+async function titleFor(draft: string): Promise<string> {
+  try {
+    const { text } = await generate(
+      `Give a short, specific title (under 80 characters) for this audio episode. Reply with the title only.\n\n${draft.slice(0, 4000)}`,
+      GEMINI_API_KEY!,
+      { temperature: 0.2, role: 'explainer' },
+    )
+    return stripFences(text).split('\n')[0].replace(/^[\s*_#>"']*(title\s*:)?\s*/i, '').replace(/[*_"]+/g, '').trim().slice(0, 100)
+  } catch (err) {
+    console.warn(`  ⚠ Title request failed: ${describeError(err)}`)
+    return ''
+  }
+}
+
 async function writeEpisode(cat: ExplainerCategory, topic: Topic | null, covered: string[], slug: string) {
   let title: string
   let text: string
+  const interviewKind = cat.dialogue ?? (topic?.dialogue ? 'lld' : undefined)
   if (cat.format === 'short') {
     if (!topic) throw new Error('short format needs a topic')
     const { text: raw } = await generate(shortPrompt(topic), GEMINI_API_KEY!, { temperature: 0.4, role: 'explainer' })
     title = topic.title
     text = await editorPass(stripFences(raw), `Question: ${topic.title}`, 'question')
   } else {
-    const { text: raw } = await generate(longPrompt(cat, topic, covered), GEMINI_API_KEY!, { temperature: 0.5, role: 'explainer' })
+    const prompt = interviewKind
+      ? interviewPrompt(cat, interviewKind, topic, covered)
+      : longPrompt(cat, topic, covered)
+    const { text: raw } = await generate(prompt, GEMINI_API_KEY!, { temperature: 0.5, role: 'explainer' })
     const lines = stripFences(raw).split('\n')
-    const topicIdx = lines.findIndex((l) => /^\s*TOPIC:/i.test(l))
-    title =
-      (topicIdx >= 0 ? lines[topicIdx].replace(/^\s*TOPIC:\s*/i, '').replace(/\*+/g, '').trim() : '') ||
-      topic?.title ||
-      `${cat.label} explainer`
+    // Tolerate "**TOPIC:** ...", "# Topic: ..." and similar decorations.
+    const topicIdx = lines.findIndex((l) => /^[\s*_#>]*TOPIC\s*:/i.test(l))
     const draft = lines.filter((_, i) => i !== topicIdx).join('\n').trim()
     const words = draft.split(/\s+/).length
     if (words < 600) throw new Error(`Explainer too short (${words} words)`)
-    text = await editorPass(draft, `Topic: ${title}`, 'explainer')
+    if (interviewKind && !/\*\*(Interviewer|Candidate):\*\*/.test(draft)) throw new Error('Interview script has no speaker lines')
+    title =
+      (topicIdx >= 0 ? lines[topicIdx].replace(/^[\s*_#>]*TOPIC\s*:\s*/i, '').replace(/[*_]+/g, '').trim() : '') ||
+      topic?.title ||
+      (await titleFor(draft)) ||
+      `${cat.label} explainer`
+    // Interviews are not edited: the editor pass would smooth away the speaker turns.
+    text = interviewKind ? draft : await editorPass(draft, `Topic: ${title}`, 'explainer')
   }
 
   writePage(
     cat.slug,
     slug,
     {
-      title: cat.format === 'short' ? title : `${cat.label} Explained: ${title}`,
+      title:
+        cat.format === 'short'
+          ? title
+          : `${interviewKind && !cat.dialogue ? (cat.interviewTitlePrefix ?? `${cat.label} Interview`) : (cat.titlePrefix ?? `${cat.label} Explained`)}: ${title}`,
       date: today,
       category: cat.slug,
       topic: title,
+      ...(interviewKind ? { format: 'dialogue', speakers: ['Interviewer', 'Candidate'] } : {}),
       ...(cat.format === 'short' ? { question: title } : {}),
       ...(topic?.issue ? { issue: topic.issue } : {}),
       summary: extractSummary(text),
@@ -389,6 +480,9 @@ async function writeEpisode(cat: ExplainerCategory, topic: Topic | null, covered
   )
   covered.push(title)
   if (topic?.queueLine !== undefined) removeQueuedLine(cat.slug, topic.queueLine)
+  if (topic?.vaultNote && topic.vaultLine !== undefined) {
+    vault.markDone(topic.vaultNote, topic.vaultLine, topic.title, `${SITE_URL}/${cat.slug}/${slug}/`, today)
+  }
   if (topic?.issue) answeredIssues.push(`${topic.issue} ${SITE_URL}/${cat.slug}/${slug}/`)
 }
 
@@ -396,6 +490,15 @@ async function generateSeries(cat: ExplainerCategory, issues: Issue[], used: Set
   console.log(`\n[${cat.slug}] ${cat.format === 'short' ? 'Questions' : 'Explainer'}...`)
   const covered = coveredTopics(cat.slug)
   const fromIssues = issuesFor(cat, issues, used).slice(0, cat.perDay)
+  const fromVault: Topic[] = vault.vaultEnabled()
+    ? vault.openTopics(cat.vaultNote).map((v) => ({
+        title: v.title,
+        details: v.details,
+        vaultNote: v.vaultNote,
+        vaultLine: v.vaultLine,
+        dialogue: v.dialogue,
+      }))
+    : []
 
   for (let n = 0; n < cat.perDay; n++) {
     // One-a-day long series keep the familiar <date>.md page name.
@@ -411,6 +514,9 @@ async function generateSeries(cat: ExplainerCategory, issues: Issue[], used: Set
       used.add(issue.number)
       topic = { title: issue.title.trim(), details: (issue.body ?? '').trim().slice(0, 1500) || undefined, issue: issue.number }
       console.log(`[${cat.slug}] Issue #${issue.number}: ${topic.title}`)
+    } else if (fromVault.length) {
+      topic = fromVault.shift()!
+      console.log(`[${cat.slug}] From the vault (${topic.vaultNote}): ${topic.title}`)
     } else if (cat.format === 'long') {
       topic = nextQueuedTopic(cat.slug, covered)
       if (topic) console.log(`[${cat.slug}] Queued topic: ${topic.title}`)
@@ -438,7 +544,14 @@ const WATCH_DIR = 'watchlist'
 const WATCH_SEEN_FILE = path.join(ROOT, 'watchlist', 'seen.json')
 const MAX_SEEN_PER_TOPIC = 300
 
-type SeenMap = Record<string, string[]> // issue number -> links already considered
+type SeenMap = Record<string, string[]> // issue number (or "vault:<topic>") -> links already considered
+
+// A watched topic, from an open "watch" issue or a line in the vault's Podcast/Watchlist.md.
+interface WatchTopic {
+  key: string
+  title: string
+  focus: string
+}
 
 function loadSeen(): SeenMap {
   try {
@@ -460,9 +573,14 @@ function googleNewsFeed(query: string): string {
 
 async function generateWatchlist(issues: Issue[]) {
   console.log('\n[watchlist] Checking watched topics...')
-  const watches = issues.filter((i) => hasLabel(i, WATCH_LABEL))
+  const watches: WatchTopic[] = [
+    ...issues
+      .filter((i) => hasLabel(i, WATCH_LABEL))
+      .map((i) => ({ key: String(i.number), title: i.title.trim(), focus: (i.body ?? '').trim().slice(0, 500) })),
+    ...(vault.vaultEnabled() ? vault.watches() : []),
+  ].filter((w, idx, all) => all.findIndex((o) => o.title.toLowerCase() === w.title.toLowerCase()) === idx)
   if (watches.length === 0) {
-    console.log('[watchlist] No open watch issues')
+    console.log('[watchlist] Nothing on the watchlist')
     return
   }
   const outputPath = path.join(NEWSLETTERS_DIR, WATCH_DIR, `${today}.md`)
@@ -472,14 +590,13 @@ async function generateWatchlist(issues: Issue[]) {
   }
 
   const seen = loadSeen()
-  const found: { issue: Issue; articles: Article[] }[] = []
-  for (const issue of watches) {
-    const query = issue.title.trim()
-    const articles = await fetchArticles([{ name: 'Google News', url: googleNewsFeed(query) }])
-    const already = new Set(seen[String(issue.number)] ?? [])
+  const found: { watch: WatchTopic; articles: Article[] }[] = []
+  for (const watch of watches) {
+    const articles = await fetchArticles([{ name: 'Google News', url: googleNewsFeed(watch.title) }])
+    const already = new Set(seen[watch.key] ?? [])
     const fresh = articles.filter((a) => !already.has(a.url))
-    console.log(`[watchlist] #${issue.number} "${query}": ${fresh.length} new of ${articles.length}`)
-    if (fresh.length) found.push({ issue, articles: fresh })
+    console.log(`[watchlist] ${watch.key} "${watch.title}": ${fresh.length} new of ${articles.length}`)
+    if (fresh.length) found.push({ watch, articles: fresh })
   }
   if (found.length === 0) {
     console.log('[watchlist] Nothing new today, no episode.')
@@ -488,14 +605,14 @@ async function generateWatchlist(issues: Issue[]) {
 
   let n = 0
   const numbered: Article[] = []
-  const blocks = found.map(({ issue, articles }) => {
-    const focus = (issue.body ?? '').trim().slice(0, 500)
+  const blocks = found.map(({ watch, articles }) => {
+    const focus = watch.focus
     const lines = articles.map((a) => {
       numbered.push(a)
       n++
       return `[${n}] (${a.source}, ${a.publishedAt.toISOString().slice(0, 10)}) ${a.title}${a.summary ? `\n    ${a.summary}` : ''}`
     })
-    return `### Watched topic: ${issue.title.trim()}${focus ? `\nWhat I care about: ${focus}` : ''}\n${lines.join('\n')}`
+    return `### Watched topic: ${watch.title}${focus ? `\nWhat I care about: ${focus}` : ''}\n${lines.join('\n')}`
   })
   const candidateList = blocks.join('\n\n')
 
@@ -517,8 +634,8 @@ At the very end, on its own line, write "USED:" followed by the numbers of the i
   const { text: raw } = await generate(prompt, GEMINI_API_KEY!, { search: true, temperature: 0.3, role: 'watchlist' })
 
   // Everything we looked at counts as seen, so tomorrow only brings new links.
-  for (const { issue, articles } of found) {
-    const key = String(issue.number)
+  for (const { watch, articles } of found) {
+    const key = watch.key
     seen[key] = [...(seen[key] ?? []), ...articles.map((a) => a.url)].slice(-MAX_SEEN_PER_TOPIC)
   }
   saveSeen(seen)
@@ -538,7 +655,7 @@ At the very end, on its own line, write "USED:" followed by the numbers of the i
     .join('\n')
     .trim()
   const text = await editorPass(draft, candidateList, 'news')
-  const topics = found.map((f) => f.issue.title.trim())
+  const topics = found.map((f) => f.watch.title)
   writePage(
     WATCH_DIR,
     today,
@@ -732,6 +849,16 @@ async function main() {
   }
   const needIssues = ONLY.has('explainers') || ONLY.has('questions') || ONLY.has('watchlist')
   const issues = needIssues ? ((await withRetry('issues', ownerIssues)) ?? []) : []
+  if (vault.vaultEnabled()) {
+    try {
+      const moved = vault.ingestInbox(EXPLAINER_CATEGORIES.map((c) => c.vaultNote).concat(vault.WATCHLIST_NOTE))
+      console.log(`\n[vault] Obsidian vault found; ${moved} podcast item(s) moved from the Inbox`)
+    } catch (err) {
+      failures.push(`vault inbox: ${describeError(err)}`)
+    }
+  } else {
+    console.log('\n[vault] No Obsidian vault checked out (OBSIDIAN_TOKEN not set?); using issues and topics/ only')
+  }
   if (ONLY.has('explainers') || ONLY.has('questions')) {
     console.log(`\n[issues] ${issues.length} open issue(s) from the owner`)
     const used = new Set<number>()

@@ -86,6 +86,27 @@ export const CATEGORIES: CategoryMeta[] = [
     searchQuery: '',
   },
   {
+    slug: 'system-design-interviews',
+    label: 'System Design Interviews',
+    tagline: 'A mock system design interview each day, for two voices, with the same answer template and every pattern named.',
+    accentColor: 'cyan',
+    searchQuery: '',
+  },
+  {
+    slug: 'dsa-patterns',
+    label: 'DSA Patterns',
+    tagline: 'One data structures and algorithms pattern each day: how to spot it, how it works, the problems that teach it.',
+    accentColor: 'amber',
+    searchQuery: '',
+  },
+  {
+    slug: 'lld',
+    label: 'LLD & Design Patterns',
+    tagline: 'SOLID and the classic design patterns in C#, then low-level design mock interviews.',
+    accentColor: 'indigo',
+    searchQuery: '',
+  },
+  {
     slug: 'watchlist',
     label: 'Watchlist',
     tagline: 'News about the specific things I follow, only when something new happens.',
