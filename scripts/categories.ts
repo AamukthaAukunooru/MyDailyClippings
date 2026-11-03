@@ -32,6 +32,7 @@ export interface NewsCategory {
 
 // An explainer series. Topics come, in order, from: open GitHub issues carrying
 // `issueLabel` (those also labelled `next` first, then oldest first), then the
+// show's queue note in the Obsidian vault (Podcast/<vaultNote>.md), then the
 // topics/<slug>.md queue file, then the model's own pick (if modelPicks).
 export interface ExplainerCategory {
   kind: 'explainer'
@@ -42,6 +43,10 @@ export interface ExplainerCategory {
   format: 'long' | 'short' // long = 10-15 min explainer, short = 3-6 min answer
   perDay: number // max episodes per day
   modelPicks: boolean // when nothing is queued, let the model choose a topic
+  vaultNote: string // queue note in the vault: Podcast/<vaultNote>.md
+  dialogue?: 'system-design' | 'lld' // every episode is a two-voice mock interview of this kind
+  titlePrefix?: string // page title prefix, default "<label> Explained"
+  interviewTitlePrefix?: string // for "Interview:" lines in a mixed series, default "<label> Interview"
   extraGuidance?: string
 }
 
@@ -172,6 +177,7 @@ export const EXPLAINER_CATEGORIES: ExplainerCategory[] = [
   {
     kind: 'explainer',
     slug: 'astronomy-explained',
+    vaultNote: 'Astronomy',
     label: 'Astronomy',
     subject: 'astronomy, astrophysics and space exploration',
     issueLabel: 'astronomy',
@@ -182,6 +188,7 @@ export const EXPLAINER_CATEGORIES: ExplainerCategory[] = [
   {
     kind: 'explainer',
     slug: 'math-explained',
+    vaultNote: 'Math',
     label: 'Math',
     subject: 'mathematics: ideas, theorems, famous problems and the intuition behind them',
     extraGuidance: 'Describe formulas in words. Build intuition with small worked examples a listener can follow without paper.',
@@ -193,6 +200,7 @@ export const EXPLAINER_CATEGORIES: ExplainerCategory[] = [
   {
     kind: 'explainer',
     slug: 'neuroscience-explained',
+    vaultNote: 'Neuroscience',
     label: 'Neuroscience',
     subject: 'neuroscience and how the brain and nervous system work',
     issueLabel: 'neuroscience',
@@ -203,6 +211,7 @@ export const EXPLAINER_CATEGORIES: ExplainerCategory[] = [
   {
     kind: 'explainer',
     slug: 'history',
+    vaultNote: 'History',
     label: 'History',
     subject: 'world history, including Indian history: events, people, eras and turning points',
     extraGuidance: 'Tell it as a story with clear cause and effect. Give dates and places. Note where historians disagree.',
@@ -214,6 +223,7 @@ export const EXPLAINER_CATEGORIES: ExplainerCategory[] = [
   {
     kind: 'explainer',
     slug: 'system-design',
+    vaultNote: 'System Design Concepts',
     label: 'System Design',
     subject: 'system design and software engineering: distributed systems, databases, performance, architecture and engineering practice',
     extraGuidance:
@@ -225,7 +235,50 @@ export const EXPLAINER_CATEGORIES: ExplainerCategory[] = [
   },
   {
     kind: 'explainer',
+    slug: 'system-design-interviews',
+    vaultNote: 'System Design Interviews',
+    label: 'System Design Interview',
+    titlePrefix: 'System Design Interview',
+    subject: 'classic system design interview problems (design a URL shortener, WhatsApp, YouTube, Uber and so on)',
+    issueLabel: 'sd-interview',
+    format: 'long',
+    perDay: 1,
+    modelPicks: true,
+    dialogue: 'system-design',
+  },
+  {
+    kind: 'explainer',
+    slug: 'dsa-patterns',
+    vaultNote: 'DSA Patterns',
+    label: 'DSA',
+    titlePrefix: 'DSA Patterns',
+    subject: 'data structures and algorithms for coding interviews: the recurring problem-solving patterns and the classic problems that teach them',
+    extraGuidance:
+      'The listener learns by listening rather than grinding problems, so build real understanding. Cover: how to recognise when this pattern applies (the phrases in a problem statement that hint at it); the core idea with a tiny example traced step by step in words; one or two classic LeetCode problems solved out loud (say the problem name and number); time and space complexity and why; common variations and mistakes; and one or two sentences on how to explain the approach to an interviewer. Never write code: describe each step of the algorithm in plain words, as you would at a whiteboard.',
+    issueLabel: 'dsa',
+    format: 'long',
+    perDay: 1,
+    modelPicks: true,
+  },
+  {
+    kind: 'explainer',
+    slug: 'lld',
+    vaultNote: 'LLD & Design Patterns',
+    label: 'LLD',
+    titlePrefix: 'LLD',
+    interviewTitlePrefix: 'LLD Interview',
+    subject: 'low-level design for a senior C# and .NET engineer: object-oriented principles, SOLID, the classic design patterns and clean architecture',
+    extraGuidance:
+      'Pitch it at a senior C# and .NET engineer. Run every example through one familiar domain: a salon and spa appointment booking platform (bookings, staff schedules, services, payments, notifications). For a design pattern: the problem it solves, the structure in words (which classes and interfaces exist and who calls whom), how it looks in C# and where .NET itself uses it, when not to use it, how it differs from the patterns it is often confused with, and the one sentence you would say to name it in an interview. For a SOLID principle: show a realistic violation, why it hurts, and the refactor.',
+    issueLabel: 'lld',
+    format: 'long',
+    perDay: 1,
+    modelPicks: false, // a finite syllabus: the series ends when the queue note is done
+  },
+  {
+    kind: 'explainer',
     slug: 'questions',
+    vaultNote: 'Curious Questions',
     label: 'Curious Questions',
     subject: 'any question I am curious about',
     issueLabel: 'question',

@@ -22,3 +22,7 @@ npm-debug.log*
 .generation-failures.txt
 .answered-issues.txt
 __pycache__/
+
+# Obsidian vault checkout used by the daily run (topic queues)
+vault/
+tsconfig.tsbuildinfo

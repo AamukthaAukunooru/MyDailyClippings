@@ -29,12 +29,30 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 240
+    env:
+      # Topic queues live in the private obsidian-library vault (Podcast/*.md, Inbox/).
+      # Needs a fine-grained token with Contents read/write on that repo, saved as
+      # the OBSIDIAN_TOKEN secret. Without it the run uses issues and topics/ only.
+      HAS_VAULT: ${{ secrets.OBSIDIAN_TOKEN != '' }}
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check out the Obsidian vault (topic queues)
+        id: vault
+        if: env.HAS_VAULT == 'true'
+        continue-on-error: true
+        uses: actions/checkout@v4
+        with:
+          repository: AamukthaAukunooru/obsidian-library
+          token: ${{ secrets.OBSIDIAN_TOKEN }}
+          path: vault
+          sparse-checkout: |
+            Podcast
+            Inbox
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -57,7 +75,25 @@ jobs:
           EDITOR_PASS: ${{ vars.EDITOR_PASS }}
           FORCE: ${{ inputs.force }}
           ONLY: ${{ inputs.only }}
+          VAULT_DIR: vault
         run: npx tsx scripts/generate-newsletter.ts
+
+      - name: Commit topic queue updates to the vault
+        if: always() && steps.vault.outcome == 'success'
+        working-directory: vault
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A .   # sparse checkout: only Podcast/ and Inbox/ are here
+          if git diff --staged --quiet; then
+            echo "No queue changes."
+          else
+            git commit -m "podcast: queue update for $(TZ=Asia/Kolkata date +%Y-%m-%d)"
+            for i in 1 2 3; do
+              git pull --rebase --quiet && git push && break
+              sleep 10
+            done
+          fi
 
       - name: Commit new pages
         run: |

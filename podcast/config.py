@@ -44,6 +44,13 @@ class Config:
     voice: str
     rate: str
     shows: list[Show]
+    # speaker name -> voice, for two-voice (dialogue) episodes
+    dialogue_voices: dict[str, str] = field(default_factory=dict)
+
+    def voices_key(self) -> str:
+        """Everything about the voices that should re-make an episode when it changes."""
+        extra = ",".join(f"{k}={v}" for k, v in sorted(self.dialogue_voices.items()))
+        return f"{self.voice}|{extra}" if extra else self.voice
 
     def show_for_dir(self, content_dir: str) -> tuple[Show, Source] | None:
         for show in self.shows:
@@ -78,6 +85,7 @@ def load_config() -> Config:
         voice=os.environ.get("TTS_VOICE", raw.get("voice", "en-US-AvaMultilingualNeural")),
         rate=raw.get("rate", "+0%"),
         shows=shows,
+        dialogue_voices=dict(raw.get("dialogueVoices", {})),
     )
 
 

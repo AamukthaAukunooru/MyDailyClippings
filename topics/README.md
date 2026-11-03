@@ -1,6 +1,30 @@
 # Topics and questions inbox
 
-The main inbox is **GitHub issues**. Open an issue from the GitHub app, put the topic or
+## Obsidian vault (main inbox)
+
+Topic queues live in the private `obsidian-library` vault, one note per show in `Podcast/`:
+`Astronomy`, `Math`, `Neuroscience`, `History`, `System Design Concepts`,
+`System Design Interviews`, `DSA Patterns`, `LLD & Design Patterns`, `Curious Questions`, `Watchlist`.
+
+- Each morning a show takes the first unticked `- [ ] ...` line under **Up next**, writes the
+  episode, and moves the line to **Done** with a link. Reorder lines to change what plays next;
+  tick a line yourself to skip it.
+- `Topic :: angle` adds what you want from it ("Design Uber :: focus on surge pricing").
+- In `LLD & Design Patterns`, lines starting `Interview:` become two-voice mock interviews.
+  Every `System Design Interviews` episode is one.
+- Up to 5 `Curious Questions` lines a day. `Watchlist` uses plain lines under **Following**;
+  delete a line to stop following it.
+- Phone: the "Podcast topic" share shortcut drops a file in the vault's `Inbox/` with category
+  `Podcast/<Show>`; the run moves it to the top of that show's queue.
+- The workflow reads and writes the vault with the `OBSIDIAN_TOKEN` secret (fine-grained token,
+  Contents read/write on `obsidian-library`). Without it, only the sources below are used.
+
+Order of sources for each show: issues, then the vault note, then `topics/<show>.md`, then the
+model's own pick (not for LLD, which ends when its syllabus is done).
+
+## GitHub issues (backup)
+
+The older inbox is **GitHub issues**. Open an issue from the GitHub app, put the topic or
 question in the title, and add the label for the show it belongs to:
 
 | Label | Becomes | Show |
@@ -11,6 +35,9 @@ question in the title, and add the label for the show it belongs to:
 | `neuroscience` | a full explainer | Neuroscience |
 | `history` | a full explainer | History |
 | `system-design` | a full explainer | System Design |
+| `sd-interview` | a two-voice mock interview | System Design Interviews |
+| `dsa` | a full explainer | DSA Patterns |
+| `lld` | a full explainer | LLD & Design Patterns |
 | `next` (extra) | jumps the queue for its show | |
 | `watch` | a standing news subscription (stays open) | Watchlist |
 

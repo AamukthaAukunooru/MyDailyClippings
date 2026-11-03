@@ -9,7 +9,9 @@ Swapping in a paid engine later means adding one function here.
 from __future__ import annotations
 
 import asyncio
+import shutil
 import subprocess
+import tempfile
 from pathlib import Path
 
 ATTEMPTS = 4
@@ -59,3 +61,40 @@ def synthesize(engine: str, text: str, voice: str, rate: str, out_path: Path) ->
 
                 time.sleep(wait)
     raise RuntimeError(f"TTS failed after {ATTEMPTS} attempts: {last_error}")
+
+
+def synthesize_dialogue(
+    engine: str,
+    turns: list[tuple[str, str]],
+    voices: dict[str, str],
+    default_voice: str,
+    rate: str,
+    out_path: Path,
+) -> None:
+    """Two-voice episode: each turn in its speaker's voice, joined into one MP3.
+
+    Every part comes from the same engine at the same bitrate, so ffmpeg can join
+    them without re-encoding; without ffmpeg the MP3 frames are simply appended.
+    """
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(dir=out_path.parent) as tmp:
+        parts: list[Path] = []
+        for i, (speaker, text) in enumerate(turns):
+            part = Path(tmp) / f"{i:04d}.mp3"
+            synthesize(engine, text, voices.get(speaker, default_voice), rate, part)
+            parts.append(part)
+        if not parts:
+            raise RuntimeError("dialogue has no turns")
+        listing = Path(tmp) / "parts.txt"
+        listing.write_text("".join(f"file '{p.name}'\n" for p in parts), encoding="utf-8")
+        try:
+            subprocess.run(
+                ["ffmpeg", "-loglevel", "error", "-y", "-f", "concat", "-safe", "0",
+                 "-i", str(listing), "-c", "copy", str(out_path.resolve())],
+                check=True, cwd=tmp,
+            )
+        except FileNotFoundError:
+            with open(out_path, "wb") as out:
+                for p in parts:
+                    with open(p, "rb") as f:
+                        shutil.copyfileobj(f, out)
