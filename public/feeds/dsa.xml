@@ -4,11 +4,11 @@
     <title>Clippings · DSA Patterns</title>
     <link>https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/</link>
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/dsa.xml" rel="self" type="application/rss+xml"/>
-    <description>One data structures and algorithms pattern a day, explained by ear: how to spot it, how it works, and the classic problems that teach it.</description>
+    <description>Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Nov 2026 02:28:55 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 02:37:35 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
-    <itunes:summary>One data structures and algorithms pattern a day, explained by ear: how to spot it, how it works, and the classic problems that teach it.</itunes:summary>
+    <itunes:summary>Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/dsa.png"/>
     <image><url>https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/dsa.png</url><title>Clippings · DSA Patterns</title><link>https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/</link></image>
     <itunes:explicit>false</itunes:explicit>

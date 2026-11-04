@@ -157,7 +157,7 @@
     {
       "slug": "dsa",
       "title": "Clippings · DSA Patterns",
-      "description": "One data structures and algorithms pattern a day, explained by ear: how to spot it, how it works, and the classic problems that teach it.",
+      "description": "Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.",
       "color": "#b45309",
       "sources": [
         {
