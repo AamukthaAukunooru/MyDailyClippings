@@ -40,6 +40,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          # The branch tip, not the commit the run was queued on: a run that waited
+          # behind another one must see that run's pages and audio manifest.
+          ref: ${{ github.ref }}
 
       - name: Check out the Obsidian vault (topic queues)
         id: vault
@@ -117,6 +120,9 @@ jobs:
 
       - name: Install audio dependencies
         run: pip install -r podcast/requirements.txt
+
+      - name: Catch up with master before building audio
+        run: git pull --rebase --quiet origin "${GITHUB_REF_NAME}"
 
       - name: Build audio and podcast feeds
         id: audio
