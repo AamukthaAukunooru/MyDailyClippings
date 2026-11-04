@@ -95,7 +95,7 @@ export const CATEGORIES: CategoryMeta[] = [
   {
     slug: 'dsa-patterns',
     label: 'DSA Patterns',
-    tagline: 'One data structures and algorithms pattern each day: how to spot it, how it works, the problems that teach it.',
+    tagline: 'Grind 169, one LeetCode problem a day: the insight, the pattern behind it, and how to explain it in an interview.',
     accentColor: 'amber',
     searchQuery: '',
   },
