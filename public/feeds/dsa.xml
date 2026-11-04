@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/dsa.xml" rel="self" type="application/rss+xml"/>
     <description>One data structures and algorithms pattern a day, explained by ear: how to spot it, how it works, and the classic problems that teach it.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 16:56:32 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 02:28:55 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One data structures and algorithms pattern a day, explained by ear: how to spot it, how it works, and the classic problems that teach it.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/dsa.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 4 · Explainer: Big-O: Analyzing Time and Space Complexity</title>
+      <guid isPermaLink="false">dsa-patterns/2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-04/</link>
+      <description><![CDATA[Have you ever used an application that felt incredibly fast, completing complex tasks in the blink of an eye? Or perhaps you've encountered one that ground to a halt, taking ages to process even a small amount of data? W<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-04/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/dsa-patterns-2026-11-04.mp3" length="5234796" type="audio/mpeg"/>
+      <itunes:duration>14:31</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 3 · Explainer: Two Pointers: Efficiently Scanning Data</title>
       <guid isPermaLink="false">dsa-patterns/2026-11-03</guid>

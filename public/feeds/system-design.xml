@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
     <description>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 10:13:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 02:28:55 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 4 · Explainer: Back-of-the-Envelope Numbers Every Engineer Should Know</title>
+      <guid isPermaLink="false">system-design/2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-04/</link>
+      <description><![CDATA[Imagine you are designing a new feature for a popular social media app. Your manager asks, "How long will it take for a user to see their updated profile picture after they upload it?" You quickly think, "Well, it's just<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-04/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-04.mp3" length="5322305" type="audio/mpeg"/>
+      <itunes:duration>14:46</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 3 · Explainer: Distributed Caching: Speeding Up Data Access at Scale</title>
       <guid isPermaLink="false">system-design/2026-11-03</guid>

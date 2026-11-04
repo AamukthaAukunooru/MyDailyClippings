@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 19:19:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 02:28:55 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 4 · Math news</title>
+      <guid isPermaLink="false">math/2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-04/</link>
+      <description><![CDATA[Good morning, and welcome to My Daily Clippings. Today, we're looking at two thought-provoking discussions from the mathematical community. First, the Association for Human Mathematics has released new guidelines for doc<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-04/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-04.mp3" length="1378315" type="audio/mpeg"/>
+      <itunes:duration>3:49</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 4 · Explainer: Ellipse Area: Slicing, Stretching, and Intuition</title>
+      <guid isPermaLink="false">math-explained/2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-04/</link>
+      <description><![CDATA[Have you ever looked at a perfect circle and wondered what would happen if you simply squished it? Not crumpled it up, but smoothly and evenly flattened it in one direction, like pressing down on a rubber ball until it b<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-04/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-04.mp3" length="4231984" type="audio/mpeg"/>
+      <itunes:duration>11:44</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 3 · Math news</title>
       <guid isPermaLink="false">math/2026-11-03</guid>
