@@ -166,12 +166,16 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AUDIO_OUTCOME: ${{ steps.audio.outcome }}
+          VAULT_OUTCOME: ${{ steps.vault.outcome }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           body=""
           if [ -s .generation-failures.txt ]; then
             body+=$'### Generation failures\n'
             body+="$(sed 's/^/- /' .generation-failures.txt)"$'\n\n'
+          fi
+          if [ "$VAULT_OUTCOME" = "failure" ]; then
+            body+=$'### Obsidian vault\nCould not check out obsidian-library, so the Podcast/ queues were not used today. Check that the OBSIDIAN_TOKEN token has access to obsidian-library (Repository access: only select repositories, Contents: read and write) and has not expired.\n\n'
           fi
           if [ "$AUDIO_OUTCOME" = "failure" ]; then
             body+=$'### Audio\nSome episodes failed to synthesize or upload; they will be retried on the next run.\n\n'
