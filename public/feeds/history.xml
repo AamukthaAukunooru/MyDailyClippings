@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/history.xml" rel="self" type="application/rss+xml"/>
     <description>One history topic explained every day, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Nov 2026 02:28:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 03:30:31 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One history topic explained every day, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/history.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 5 · Explainer: The Islamic Golden Age: Baghdad's Intellectual Bloom</title>
+      <guid isPermaLink="false">history/2026-11-05</guid>
+      <pubDate>Thu, 05 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-05/</link>
+      <description><![CDATA[Imagine a time when much of Europe was experiencing what historians sometimes call the "Dark Ages," a period of relative intellectual stagnation after the fall of Rome. But across the world, in a city purpose-built for l<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-05/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-05.mp3" length="4752495" type="audio/mpeg"/>
+      <itunes:duration>13:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 4 · Explainer: Roman Aqueducts: Engineering Ancient Rome's Water Lifeline</title>
       <guid isPermaLink="false">history/2026-11-04</guid>

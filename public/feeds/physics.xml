@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/physics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily physics news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Nov 2026 02:28:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 03:30:31 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily physics news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/physics.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 5 · Physics news</title>
+      <guid isPermaLink="false">physics/2026-11-05</guid>
+      <pubDate>Thu, 05 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-11-05/</link>
+      <description><![CDATA[Today's physics headlines bring us a trio of truly exciting developments, spanning from the fundamental nature of magnetism to the very first moments of our universe, and even a groundbreaking shift in how we design adva<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-11-05/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/physics-2026-11-05.mp3" length="1984159" type="audio/mpeg"/>
+      <itunes:duration>5:30</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 4 · Physics news</title>
       <guid isPermaLink="false">physics/2026-11-04</guid>
