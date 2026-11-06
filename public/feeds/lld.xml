@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/lld.xml" rel="self" type="application/rss+xml"/>
     <description>SOLID, the classic design patterns in C#, then low-level design mock interviews: parking lot, lift, BookMyShow and more.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 03:30:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 03:24:28 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>SOLID, the classic design patterns in C#, then low-level design mock interviews: parking lot, lift, BookMyShow and more.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/lld.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 6 · Explainer: SOLID 1: Single Responsibility Principle</title>
+      <guid isPermaLink="false">lld/2026-11-06</guid>
+      <pubDate>Fri, 06 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/lld/2026-11-06/</link>
+      <description><![CDATA[Have you ever opened a class in your C# codebase and felt a chill run down your spine? You know, the one that’s hundreds, maybe even thousands, of lines long. It’s called `OrderProcessor`, but it also handles inventory u<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/lld/2026-11-06/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/lld-2026-11-06.mp3" length="4831344" type="audio/mpeg"/>
+      <itunes:duration>13:24</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 5 · Explainer: Composition Over Inheritance: Building Flexible Systems</title>
       <guid isPermaLink="false">lld/2026-11-05</guid>

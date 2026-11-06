@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/sd-interviews.xml" rel="self" type="application/rss+xml"/>
     <description>A daily mock system design interview for two voices, from URL shortener to YouTube and Uber. Same answer template every time, with every pattern named out loud.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 03:30:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 03:24:28 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>A daily mock system design interview for two voices, from URL shortener to YouTube and Uber. Same answer template every time, with every pattern named out loud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/sd-interviews.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 6 · Interview: Design a Rate Limiter</title>
+      <guid isPermaLink="false">system-design-interviews/2026-11-06</guid>
+      <pubDate>Fri, 06 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design-interviews/2026-11-06/</link>
+      <description><![CDATA[What entities do we want to rate limit? Is it per user, per IP address, per API key, or perhaps per specific API endpoint?<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design-interviews/2026-11-06/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-interviews-2026-11-06.mp3" length="6611939" type="audio/mpeg"/>
+      <itunes:duration>18:21</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 5 · Interview: Design Pastebin</title>
       <guid isPermaLink="false">system-design-interviews/2026-11-05</guid>

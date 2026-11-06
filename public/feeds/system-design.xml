@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
     <description>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 03:30:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 03:24:28 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 6 · Explainer: Caching strategies and invalidation</title>
+      <guid isPermaLink="false">system-design/2026-11-06</guid>
+      <pubDate>Fri, 06 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-06/</link>
+      <description><![CDATA[Imagine it’s the annual Black Friday sale, and your company’s e-commerce site is getting hammered. Millions of users are refreshing product pages, adding items to carts, and checking out. Your database, robust as it is,<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-06/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-06.mp3" length="5743330" type="audio/mpeg"/>
+      <itunes:duration>15:56</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 5 · Explainer: Load Balancers: L4 vs L7 and Algorithms</title>
       <guid isPermaLink="false">system-design/2026-11-05</guid>

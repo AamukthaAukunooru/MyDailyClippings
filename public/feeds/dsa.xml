@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/dsa.xml" rel="self" type="application/rss+xml"/>
     <description>Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 03:30:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 03:24:28 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/dsa.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 6 · Explainer: Valid Parentheses: Matching Brackets with Stacks</title>
+      <guid isPermaLink="false">dsa-patterns/2026-11-06</guid>
+      <pubDate>Fri, 06 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-06/</link>
+      <description><![CDATA[Have you ever typed a long line of code, only to get a syntax error because you missed a closing parenthesis or curly brace? Or perhaps you've seen a compiler or linter instantly highlight an unmatched bracket. How do th<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-06/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/dsa-patterns-2026-11-06.mp3" length="4042731" type="audio/mpeg"/>
+      <itunes:duration>11:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 5 · Explainer: Two Sum: The Foundation of Hash Map Problems</title>
       <guid isPermaLink="false">dsa-patterns/2026-11-05</guid>

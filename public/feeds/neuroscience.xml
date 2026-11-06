@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 03:30:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 03:24:28 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 6 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-11-06</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-06/</link>
+      <description><![CDATA[Here are today's clippings, diving into some fascinating new insights into how our brains work, from the fundamental mechanisms of memory and spatial navigation to the deep evolutionary roots of our neural architecture.<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-06/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-06.mp3" length="1769250" type="audio/mpeg"/>
+      <itunes:duration>4:54</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 6 · Explainer: Interoception: Your Brain's Inner Sense</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-11-06</guid>
+      <pubDate>Fri, 06 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-06/</link>
+      <description><![CDATA[Imagine you're coding, deep in the flow state, when a subtle rumble in your stomach reminds you it's lunchtime. Or perhaps you're presenting a complex idea, and you notice your heart rate quicken, your palms grow a littl<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-06/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-06.mp3" length="5857783" type="audio/mpeg"/>
+      <itunes:duration>16:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 5 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-11-05</guid>
