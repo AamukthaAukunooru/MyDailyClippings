@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/lld.xml" rel="self" type="application/rss+xml"/>
     <description>SOLID, the classic design patterns in C#, then low-level design mock interviews: parking lot, lift, BookMyShow and more.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 03:24:28 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 02:49:20 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>SOLID, the classic design patterns in C#, then low-level design mock interviews: parking lot, lift, BookMyShow and more.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/lld.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 7 · Explainer: SOLID 2: Open/Closed Principle</title>
+      <guid isPermaLink="false">lld/2026-11-07</guid>
+      <pubDate>Sat, 07 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/lld/2026-11-07/</link>
+      <description><![CDATA[Have you ever been asked to add a new feature to a perfectly working system, only to find yourself digging into a core piece of code, adding another `if` statement or a `case` to a `switch` block? You make the change, ca<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/lld/2026-11-07/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/lld-2026-11-07.mp3" length="4679118" type="audio/mpeg"/>
+      <itunes:duration>12:59</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 6 · Explainer: SOLID 1: Single Responsibility Principle</title>
       <guid isPermaLink="false">lld/2026-11-06</guid>

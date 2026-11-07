@@ -1155,6 +1155,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/ai-2026-11-06.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "ai/2026-11-07": {
+   "bytes": 2724356,
+   "date": "2026-11-07",
+   "duration": 453,
+   "guid": "ai/2026-11-07",
+   "hash": "4fed542fcc07a8c0",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-11-07/",
+   "published": "2026-11-07T06:30:00+05:30",
+   "show": "ai",
+   "summary": "The past 48 hours have seen significant shifts across the artificial intelligence landscape, from staggering private market valuations and a recalibration of public offerings to the release of powerful new generative mod",
+   "title": "Nov 7 · AI and Technology news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/ai-2026-11-07.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "astronomy-explained/2026-10-19": {
    "bytes": 5011226,
    "date": "2026-10-19",
@@ -1438,6 +1453,21 @@
    "summary": "Imagine you're driving home, listening to this podcast, and you glance up at the night sky. On a clear night, away from city lights, you might see thousands of stars. Each one a distant sun, potentially orbited by planet",
    "title": "Nov 6 · Explainer: The Fermi Paradox: Where Are All the Aliens?",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-06.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "astronomy-explained/2026-11-07": {
+   "bytes": 5055922,
+   "date": "2026-11-07",
+   "duration": 842,
+   "guid": "astronomy-explained/2026-11-07",
+   "hash": "08b429e988694ddd",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-07/",
+   "published": "2026-11-07T06:20:00+05:30",
+   "show": "astronomy",
+   "summary": "Imagine you're a mission planner for NASA. Your task: send a robotic explorer to Mars. It's not just about building a rocket powerful enough to leave Earth. You can't simply point the rocket at Mars and fire. Why not? Be",
+   "title": "Nov 7 · Explainer: Orbital Mechanics: The Engineering Behind Space Travel",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-07.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "astronomy/2026-08-18": {
@@ -2580,6 +2610,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-06.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "astronomy/2026-11-07": {
+   "bytes": 2083334,
+   "date": "2026-11-07",
+   "duration": 347,
+   "guid": "astronomy/2026-11-07",
+   "hash": "fc6a207d0791c3bb",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-07/",
+   "published": "2026-11-07T06:30:00+05:30",
+   "show": "astronomy",
+   "summary": "Here are today's clippings, a collection of cosmic wonders and groundbreaking advancements that continue to expand our understanding of the universe. From the subtle echoes of the Big Bang to the potential for active vol",
+   "title": "Nov 7 · Astronomy news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-07.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "dsa-patterns/2026-11-03": {
    "bytes": 5537207,
    "date": "2026-11-03",
@@ -2638,6 +2683,21 @@
    "summary": "Have you ever typed a long line of code, only to get a syntax error because you missed a closing parenthesis or curly brace? Or perhaps you've seen a compiler or linter instantly highlight an unmatched bracket. How do th",
    "title": "Nov 6 · Explainer: Valid Parentheses: Matching Brackets with Stacks",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/dsa-patterns-2026-11-06.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "dsa-patterns/2026-11-07": {
+   "bytes": 4744291,
+   "date": "2026-11-07",
+   "duration": 790,
+   "guid": "dsa-patterns/2026-11-07",
+   "hash": "367e37913f100b98",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-07/",
+   "published": "2026-11-07T06:20:00+05:30",
+   "show": "dsa",
+   "summary": "Have you ever tried to combine two already organized lists? Maybe you have two sorted playlists, one from your morning commute and one from your evening drive, and you want to create a single, master playlist that's also",
+   "title": "Nov 7 · Explainer: Merge Two Sorted Lists: The Foundation of Efficient Merging",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/dsa-patterns-2026-11-07.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "geopolitics/2026-08-18": {
@@ -3720,6 +3780,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/geopolitics-2026-11-06.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "geopolitics/2026-11-07": {
+   "bytes": 1864671,
+   "date": "2026-11-07",
+   "duration": 310,
+   "guid": "geopolitics/2026-11-07",
+   "hash": "9f523dd23d6775f6",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-11-07/",
+   "published": "2026-11-07T06:30:00+05:30",
+   "show": "geopolitics",
+   "summary": "Recent global developments include significant political shifts in the **United States** and **Paraguay**, ongoing security concerns in **Europe**, and diplomatic efforts in the **Middle East**. The aftermath of the **US",
+   "title": "Nov 7 · Geopolitics news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/geopolitics-2026-11-07.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "headlines/2026-11-03": {
    "bytes": 1175798,
    "date": "2026-11-03",
@@ -3778,6 +3853,21 @@
    "summary": "Hello and welcome to My Daily Clippings, for Friday, November sixth, two thousand twenty-six.",
    "title": "Nov 6 · Headlines",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/headlines-2026-11-06.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "headlines/2026-11-07": {
+   "bytes": 1244699,
+   "date": "2026-11-07",
+   "duration": 207,
+   "guid": "headlines/2026-11-07",
+   "hash": "e8e15d60b4dea9cc",
+   "kind": "briefing",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/headlines/2026-11-07/",
+   "published": "2026-11-07T06:40:00+05:30",
+   "show": "headlines",
+   "summary": "Good morning, and welcome to My Daily Clippings for Saturday, November seventh, two thousand twenty-six.",
+   "title": "Nov 7 · Headlines",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/headlines-2026-11-07.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "history/2026-10-19": {
@@ -4065,6 +4155,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-06.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "history/2026-11-07": {
+   "bytes": 4411741,
+   "date": "2026-11-07",
+   "duration": 734,
+   "guid": "history/2026-11-07",
+   "hash": "47e23ec965c03068",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-07/",
+   "published": "2026-11-07T06:20:00+05:30",
+   "show": "history",
+   "summary": "Imagine a battlefield in the ancient world. Two armies clash with swords, spears, and arrows. It’s a brutal, close-quarters affair, relying on strength, skill, and numbers. Now, imagine the same scene, but suddenly, a de",
+   "title": "Nov 7 · Explainer: The Invention of Gunpowder: From Alchemists to Empires",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-07.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "lld/2026-11-04": {
    "bytes": 5433711,
    "date": "2026-11-04",
@@ -4108,6 +4213,21 @@
    "summary": "Have you ever opened a class in your C# codebase and felt a chill run down your spine? You know, the one that’s hundreds, maybe even thousands, of lines long. It’s called `OrderProcessor`, but it also handles inventory u",
    "title": "Nov 6 · Explainer: SOLID 1: Single Responsibility Principle",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/lld-2026-11-06.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "lld/2026-11-07": {
+   "bytes": 4679118,
+   "date": "2026-11-07",
+   "duration": 779,
+   "guid": "lld/2026-11-07",
+   "hash": "766429275b8619bf",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/lld/2026-11-07/",
+   "published": "2026-11-07T06:20:00+05:30",
+   "show": "lld",
+   "summary": "Have you ever been asked to add a new feature to a perfectly working system, only to find yourself digging into a core piece of code, adding another `if` statement or a `case` to a `switch` block? You make the change, ca",
+   "title": "Nov 7 · Explainer: SOLID 2: Open/Closed Principle",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/lld-2026-11-07.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "math-explained/2026-10-19": {
@@ -4395,6 +4515,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-06.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "math-explained/2026-11-07": {
+   "bytes": 5548739,
+   "date": "2026-11-07",
+   "duration": 924,
+   "guid": "math-explained/2026-11-07",
+   "hash": "59d512dbc975f450",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-07/",
+   "published": "2026-11-07T06:20:00+05:30",
+   "show": "math",
+   "summary": "Have you ever stopped to think about infinity? We use the word casually, to describe something endless, boundless, or immeasurable. But what if I told you that not all infinities are created equal? What if some infinitie",
+   "title": "Nov 7 · Explainer: Cantor's Diagonalization: Unpacking the Infinite",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-07.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "math/2026-10-19": {
    "bytes": 1645271,
    "date": "2026-10-19",
@@ -4678,6 +4813,21 @@
    "summary": "This week, we're diving into some fascinating developments that span the theoretical frontiers of infinity, the practical implications of AI's mathematical underpinnings, and a new initiative to guide the future of our f",
    "title": "Nov 6 · Math news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-06.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "math/2026-11-07": {
+   "bytes": 5889302,
+   "date": "2026-11-07",
+   "duration": 980,
+   "guid": "math/2026-11-07",
+   "hash": "478abfe6249a5b2f",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-07/",
+   "published": "2026-11-07T06:30:00+05:30",
+   "show": "math",
+   "summary": "Good morning, fellow explorers of the mathematical universe! Today's clippings bring us a fascinating mix of fundamental questions and cutting-edge applications. We'll delve into how new quantum theorems are challenging",
+   "title": "Nov 7 · Math news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-07.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "neuroscience-explained/2026-10-19": {
@@ -4965,6 +5115,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-06.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "neuroscience-explained/2026-11-07": {
+   "bytes": 4257505,
+   "date": "2026-11-07",
+   "duration": 709,
+   "guid": "neuroscience-explained/2026-11-07",
+   "hash": "952eca5360f04c56",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-07/",
+   "published": "2026-11-07T06:20:00+05:30",
+   "show": "neuroscience",
+   "summary": "Have you ever found yourself staring at a blank screen, trying to visualize a new software architecture? Or perhaps you're planning your commute, mentally mapping out routes and anticipating traffic. Maybe you’re just re",
+   "title": "Nov 7 · Explainer: Imagination: How Your Brain Builds Inner Worlds",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-07.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "neuroscience/2026-10-19": {
    "bytes": 1607089,
    "date": "2026-10-19",
@@ -5248,6 +5413,21 @@
    "summary": "Here are today's clippings, diving into some fascinating new insights into how our brains work, from the fundamental mechanisms of memory and spatial navigation to the deep evolutionary roots of our neural architecture.",
    "title": "Nov 6 · Neuroscience news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-06.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "neuroscience/2026-11-07": {
+   "bytes": 1742007,
+   "date": "2026-11-07",
+   "duration": 290,
+   "guid": "neuroscience/2026-11-07",
+   "hash": "e446e917362f27f4",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-07/",
+   "published": "2026-11-07T06:30:00+05:30",
+   "show": "neuroscience",
+   "summary": "Good morning, brain enthusiasts, and welcome to My Daily Clippings for November seventh, 2026. Today, we're diving into some intriguing new developments in neuroscience, from potential therapeutic avenues for Alzheimer's",
+   "title": "Nov 7 · Neuroscience news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-07.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "physics/2026-08-18": {
@@ -6435,6 +6615,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/physics-2026-11-06.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "physics/2026-11-07": {
+   "bytes": 1643979,
+   "date": "2026-11-07",
+   "duration": 274,
+   "guid": "physics/2026-11-07",
+   "hash": "a5dfa9ca5fcbc297",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-11-07/",
+   "published": "2026-11-07T06:30:00+05:30",
+   "show": "physics",
+   "summary": "Good morning, physics fans! Today's clippings bring us a fascinating array of developments, from fundamental challenges to our understanding of reality to groundbreaking experimental achievements in space and innovative",
+   "title": "Nov 7 · Physics news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/physics-2026-11-07.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "questions/2026-10-19-why-sky-is-blue": {
    "bytes": 1730768,
    "date": "2026-10-19",
@@ -6508,6 +6703,21 @@
    "summary": "What entities do we want to rate limit? Is it per user, per IP address, per API key, or perhaps per specific API endpoint?",
    "title": "Nov 6 · Interview: Design a Rate Limiter",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-interviews-2026-11-06.mp3",
+   "voice": "en-US-AvaMultilingualNeural|Candidate=en-US-AvaMultilingualNeural,Interviewer=en-US-AndrewMultilingualNeural"
+  },
+  "system-design-interviews/2026-11-07": {
+   "bytes": 6113506,
+   "date": "2026-11-07",
+   "duration": 1018,
+   "guid": "system-design-interviews/2026-11-07",
+   "hash": "f96664d8155ed9c8",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/system-design-interviews/2026-11-07/",
+   "published": "2026-11-07T06:20:00+05:30",
+   "show": "sd-interviews",
+   "summary": "First, requests per second. If we have one billion searches per day, and assuming each search session involves a user typing, on average, five characters before selecting a suggestion or completing their search, that's f",
+   "title": "Nov 7 · Interview: Design Search Autocomplete (Typeahead)",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-interviews-2026-11-07.mp3",
    "voice": "en-US-AvaMultilingualNeural|Candidate=en-US-AvaMultilingualNeural,Interviewer=en-US-AndrewMultilingualNeural"
   },
   "system-design/2026-10-19": {
@@ -6795,6 +7005,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-06.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "system-design/2026-11-07": {
+   "bytes": 5759353,
+   "date": "2026-11-07",
+   "duration": 959,
+   "guid": "system-design/2026-11-07",
+   "hash": "b9b61a5c71c925bb",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-07/",
+   "published": "2026-11-07T06:20:00+05:30",
+   "show": "system-design",
+   "summary": "Imagine you’re running a popular online store. Your database holds all your customer orders, product inventory, and payment information. One day, disaster strikes: the server hosting your database crashes. All your custo",
+   "title": "Nov 7 · Explainer: Replication: Leader-Follower, Multi-Leader, and Leaderless",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-07.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "watchlist/2026-10-19": {
    "bytes": 305318,
    "date": "2026-10-19",
@@ -6988,6 +7213,21 @@
    "summary": "Updates are available today for the November cyclone for the Chennai–Puducherry coast.",
    "title": "Nov 6 · Watchlist news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/watchlist-2026-11-06.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "watchlist/2026-11-07": {
+   "bytes": 311227,
+   "date": "2026-11-07",
+   "duration": 52,
+   "guid": "watchlist/2026-11-07",
+   "hash": "726999d5f5f8e40d",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/watchlist/2026-11-07/",
+   "published": "2026-11-07T06:30:00+05:30",
+   "show": "watchlist",
+   "summary": "Today, there is an update on November cyclone for the Chennai–Puducherry coast.",
+   "title": "Nov 7 · Watchlist news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/watchlist-2026-11-07.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   }
  },

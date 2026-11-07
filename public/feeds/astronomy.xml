@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 03:24:28 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 02:49:20 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 7 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-11-07</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-07/</link>
+      <description><![CDATA[Here are today's clippings, a collection of cosmic wonders and groundbreaking advancements that continue to expand our understanding of the universe. From the subtle echoes of the Big Bang to the potential for active vol<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-07/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-07.mp3" length="2083334" type="audio/mpeg"/>
+      <itunes:duration>5:47</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 7 · Explainer: Orbital Mechanics: The Engineering Behind Space Travel</title>
+      <guid isPermaLink="false">astronomy-explained/2026-11-07</guid>
+      <pubDate>Sat, 07 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-07/</link>
+      <description><![CDATA[Imagine you're a mission planner for NASA. Your task: send a robotic explorer to Mars. It's not just about building a rocket powerful enough to leave Earth. You can't simply point the rocket at Mars and fire. Why not? Be<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-07/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-07.mp3" length="5055922" type="audio/mpeg"/>
+      <itunes:duration>14:02</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 6 · Astronomy news</title>
       <guid isPermaLink="false">astronomy/2026-11-06</guid>

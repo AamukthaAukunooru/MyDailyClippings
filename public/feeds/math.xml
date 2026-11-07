@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 03:24:28 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 02:49:20 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 7 · Math news</title>
+      <guid isPermaLink="false">math/2026-11-07</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-07/</link>
+      <description><![CDATA[Good morning, fellow explorers of the mathematical universe! Today's clippings bring us a fascinating mix of fundamental questions and cutting-edge applications. We'll delve into how new quantum theorems are challenging<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-07/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-07.mp3" length="5889302" type="audio/mpeg"/>
+      <itunes:duration>16:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 7 · Explainer: Cantor's Diagonalization: Unpacking the Infinite</title>
+      <guid isPermaLink="false">math-explained/2026-11-07</guid>
+      <pubDate>Sat, 07 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-07/</link>
+      <description><![CDATA[Have you ever stopped to think about infinity? We use the word casually, to describe something endless, boundless, or immeasurable. But what if I told you that not all infinities are created equal? What if some infinitie<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-07/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-07.mp3" length="5548739" type="audio/mpeg"/>
+      <itunes:duration>15:24</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 6 · Math news</title>
       <guid isPermaLink="false">math/2026-11-06</guid>

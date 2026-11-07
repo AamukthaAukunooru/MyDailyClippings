@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 03:24:28 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 02:49:20 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 7 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-11-07</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-07/</link>
+      <description><![CDATA[Good morning, brain enthusiasts, and welcome to My Daily Clippings for November seventh, 2026. Today, we're diving into some intriguing new developments in neuroscience, from potential therapeutic avenues for Alzheimer's<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-07/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-07.mp3" length="1742007" type="audio/mpeg"/>
+      <itunes:duration>4:50</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 7 · Explainer: Imagination: How Your Brain Builds Inner Worlds</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-11-07</guid>
+      <pubDate>Sat, 07 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-07/</link>
+      <description><![CDATA[Have you ever found yourself staring at a blank screen, trying to visualize a new software architecture? Or perhaps you're planning your commute, mentally mapping out routes and anticipating traffic. Maybe you’re just re<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-07/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-07.mp3" length="4257505" type="audio/mpeg"/>
+      <itunes:duration>11:49</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 6 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-11-06</guid>
