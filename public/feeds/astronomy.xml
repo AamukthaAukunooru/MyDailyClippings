@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 02:49:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 02:16:44 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 8 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-11-08</guid>
+      <pubDate>Sun, 08 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-08/</link>
+      <description><![CDATA[What a time to be looking up! This past weekend brought a flurry of exciting news, from NASA's ambitious plans to expand our presence on the Moon and recruit the next generation of space explorers, to groundbreaking scie<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-08/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-08.mp3" length="1541785" type="audio/mpeg"/>
+      <itunes:duration>4:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 8 · Explainer: Space Weather: Solar Storms and Earth's Technology</title>
+      <guid isPermaLink="false">astronomy-explained/2026-11-08</guid>
+      <pubDate>Sun, 08 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-08/</link>
+      <description><![CDATA[Imagine a world where your GPS suddenly stops working, your phone loses signal, and the power grid flickers, then goes completely dark. No, this isn't a scene from a disaster movie. It's a potential reality, one that sci<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-08/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-08.mp3" length="4174478" type="audio/mpeg"/>
+      <itunes:duration>11:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 7 · Astronomy news</title>
       <guid isPermaLink="false">astronomy/2026-11-07</guid>

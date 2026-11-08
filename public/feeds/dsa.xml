@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/dsa.xml" rel="self" type="application/rss+xml"/>
     <description>Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 02:49:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 02:16:44 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/dsa.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 8 · Explainer: Climbing Stairs: A Dynamic Path</title>
+      <guid isPermaLink="false">dsa-patterns/2026-11-08</guid>
+      <pubDate>Sun, 08 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-08/</link>
+      <description><![CDATA[Have you ever looked at a set of stairs and wondered, "How many different ways can I get to the top?" It sounds like a silly question, right? You just walk up. But what if you had a rule: you can only take one step at a<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-08/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/dsa-patterns-2026-11-08.mp3" length="4682281" type="audio/mpeg"/>
+      <itunes:duration>12:59</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 7 · Explainer: Merge Two Sorted Lists: The Foundation of Efficient Merging</title>
       <guid isPermaLink="false">dsa-patterns/2026-11-07</guid>

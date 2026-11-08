@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 02:49:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 02:16:44 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 8 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-11-08</guid>
+      <pubDate>Sun, 08 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-08/</link>
+      <description><![CDATA[Good morning, neuroscience enthusiasts. Today, we're diving into two fascinating developments that touch upon our daily habits and the cutting edge of brain research. First, a large-scale, decades-long human study offers<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-08/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-08.mp3" length="1425611" type="audio/mpeg"/>
+      <itunes:duration>3:57</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 8 · Explainer: Your Brain's Internal Gyroscope: The Vestibular System</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-11-08</guid>
+      <pubDate>Sun, 08 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-08/</link>
+      <description><![CDATA[Imagine you're a robot, designed to move through the world. You have cameras for vision, touch sensors for tactile feedback, and motors for movement. But how would you know if you were tilting? How would you keep your ba<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-08/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-08.mp3" length="4673944" type="audio/mpeg"/>
+      <itunes:duration>12:58</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 7 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-11-07</guid>

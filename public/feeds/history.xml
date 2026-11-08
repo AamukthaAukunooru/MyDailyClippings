@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/history.xml" rel="self" type="application/rss+xml"/>
     <description>One history topic explained every day, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 02:49:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 02:16:44 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One history topic explained every day, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/history.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 8 · Explainer: The Grand Canal of China: Engineering a Nation's Lifeline</title>
+      <guid isPermaLink="false">history/2026-11-08</guid>
+      <pubDate>Sun, 08 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-08/</link>
+      <description><![CDATA[Imagine a single infrastructure project, built largely by hand, spanning a distance greater than the entire length of the Nile River. This isn't a modern marvel of steel and concrete, but an ancient waterway that connect<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-08/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-08.mp3" length="4234302" type="audio/mpeg"/>
+      <itunes:duration>11:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 7 · Explainer: The Invention of Gunpowder: From Alchemists to Empires</title>
       <guid isPermaLink="false">history/2026-11-07</guid>

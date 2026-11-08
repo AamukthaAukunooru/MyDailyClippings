@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/sd-interviews.xml" rel="self" type="application/rss+xml"/>
     <description>A daily mock system design interview for two voices, from URL shortener to YouTube and Uber. Same answer template every time, with every pattern named out loud.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 02:49:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 02:16:44 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>A daily mock system design interview for two voices, from URL shortener to YouTube and Uber. Same answer template every time, with every pattern named out loud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/sd-interviews.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 8 · Interview: Design a Load Balancer</title>
+      <guid isPermaLink="false">system-design-interviews/2026-11-08</guid>
+      <pubDate>Sun, 08 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design-interviews/2026-11-08/</link>
+      <description><![CDATA[If an average request and response size is about one kilobyte, then the total bandwidth would be ten million requests per second times one kilobyte per request, which is ten gigabytes per second. This is a substantial am<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design-interviews/2026-11-08/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-interviews-2026-11-08.mp3" length="5686679" type="audio/mpeg"/>
+      <itunes:duration>15:47</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 7 · Interview: Design Search Autocomplete (Typeahead)</title>
       <guid isPermaLink="false">system-design-interviews/2026-11-07</guid>
