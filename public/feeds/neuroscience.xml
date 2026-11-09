@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 02:32:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 19:49:01 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 10 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-11-10</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-10/</link>
+      <description><![CDATA[Good morning, fellow brain enthusiasts. Today's clippings bring us a mix of exciting new research into brain health and a look at the evolving landscape of neuroscience education. We'll explore a promising lead for allev<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-10/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-10.mp3" length="1766512" type="audio/mpeg"/>
+      <itunes:duration>4:54</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 10 · Explainer: Neurogenesis: The Brain's Capacity for New Neurons</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-11-10</guid>
+      <pubDate>Tue, 10 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-10/</link>
+      <description><![CDATA[For decades, one of the most firmly held beliefs in neuroscience was that once you reached adulthood, your brain stopped producing new neurons. The number of brain cells you had was essentially fixed, and any learning or<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-10/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-10.mp3" length="4133112" type="audio/mpeg"/>
+      <itunes:duration>11:28</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 9 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-11-09</guid>

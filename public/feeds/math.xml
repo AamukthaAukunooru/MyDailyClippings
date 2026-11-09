@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 02:32:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 19:49:01 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 10 · Math news</title>
+      <guid isPermaLink="false">math/2026-11-10</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-10/</link>
+      <description><![CDATA[Greetings from "My Daily Clippings," your daily dose of mathematical insights for the curious engineer. Today, we're diving into two thought-provoking discussions from the mathematical community, both highlighting the pr<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-10/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-10.mp3" length="1813919" type="audio/mpeg"/>
+      <itunes:duration>5:02</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 10 · Explainer: Group Theory: The Mathematics of Symmetry</title>
+      <guid isPermaLink="false">math-explained/2026-11-10</guid>
+      <pubDate>Tue, 10 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-10/</link>
+      <description><![CDATA[Have you ever stopped to admire the perfect symmetry of a snowflake, or the satisfying way a square fits back into itself after you turn it? Perhaps you've wrestled with a Rubik's Cube, trying to restore its chaotic colo<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-10/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-10.mp3" length="4524158" type="audio/mpeg"/>
+      <itunes:duration>12:33</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 9 · Math news</title>
       <guid isPermaLink="false">math/2026-11-09</guid>

@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/geopolitics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily geopolitics briefing from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 02:32:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 19:49:01 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily geopolitics briefing from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/geopolitics.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 10 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-11-10</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-11-10/</link>
+      <description><![CDATA[Today's global overview highlights significant political and security developments across Europe, the United States, and the Middle East, alongside key diplomatic efforts. In **Poland**, a mass shooting has sparked a pol<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-11-10/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/geopolitics-2026-11-10.mp3" length="1807591" type="audio/mpeg"/>
+      <itunes:duration>5:01</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 9 · Geopolitics news</title>
       <guid isPermaLink="false">geopolitics/2026-11-09</guid>

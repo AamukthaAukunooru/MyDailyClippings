@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 02:32:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 19:49:01 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 10 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-11-10</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-10/</link>
+      <description><![CDATA[What a time to be alive for anyone with an eye on the cosmos! From groundbreaking discoveries by our most powerful telescopes to ambitious missions pushing the boundaries of human and robotic exploration, the universe co<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-10/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-10.mp3" length="2032019" type="audio/mpeg"/>
+      <itunes:duration>5:38</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 10 · Explainer: The Event Horizon Telescope: Imaging the Unseen</title>
+      <guid isPermaLink="false">astronomy-explained/2026-11-10</guid>
+      <pubDate>Tue, 10 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-10/</link>
+      <description><![CDATA[Imagine trying to take a picture of a donut hole. Not the donut itself, but the empty space in the middle. Now imagine that donut hole is smaller than a pinhead, located thousands of miles away, and surrounded by a swirl<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-10/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-10.mp3" length="4310259" type="audio/mpeg"/>
+      <itunes:duration>11:57</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 9 · Astronomy news</title>
       <guid isPermaLink="false">astronomy/2026-11-09</guid>

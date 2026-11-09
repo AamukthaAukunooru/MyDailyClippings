@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
     <description>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 02:32:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 19:49:01 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 10 · Explainer: SQL versus NoSQL: how to choose in an interview</title>
+      <guid isPermaLink="false">system-design/2026-11-10</guid>
+      <pubDate>Tue, 10 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-10/</link>
+      <description><![CDATA[Imagine you are in a system design interview. The interviewer leans forward and asks, "You need to store user data for a new social media application. Would you choose a SQL or a NoSQL database, and why?" This isn't a tr<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-10/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-10.mp3" length="6221036" type="audio/mpeg"/>
+      <itunes:duration>17:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 9 · Explainer: Isolation levels and MVCC (with SQL Server examples)</title>
       <guid isPermaLink="false">system-design/2026-11-09</guid>
