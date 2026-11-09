@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 02:16:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 02:32:03 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 9 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-09/</link>
+      <description><![CDATA[Good morning, fellow stargazers and space enthusiasts! Today's celestial clippings bring us a fascinating blend of cosmic wonders, from the farthest reaches of the universe glimpsed by our most powerful telescopes, to am<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-09/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-09.mp3" length="1676559" type="audio/mpeg"/>
+      <itunes:duration>4:39</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 9 · Explainer: How LIGO Detects Gravitational Waves: Engineering the Impossible</title>
+      <guid isPermaLink="false">astronomy-explained/2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-09/</link>
+      <description><![CDATA[Have you ever tried to measure something incredibly small? Perhaps the thickness of a human hair, or the width of a tiny computer chip trace? Now, imagine trying to measure a change in distance so minuscule that it's a t<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-09/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-09.mp3" length="4799788" type="audio/mpeg"/>
+      <itunes:duration>13:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 8 · Astronomy news</title>
       <guid isPermaLink="false">astronomy/2026-11-08</guid>

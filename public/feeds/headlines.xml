@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/headlines.xml" rel="self" type="application/rss+xml"/>
     <description>A 3 to 4 minute daily briefing across every Clippings show, plus what is happening in the sky over Hyderabad. Play it first.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 02:16:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 02:32:03 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>A 3 to 4 minute daily briefing across every Clippings show, plus what is happening in the sky over Hyderabad. Play it first.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/headlines.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 9 · Headlines</title>
+      <guid isPermaLink="false">headlines/2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 06:40:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/headlines/2026-11-09/</link>
+      <description><![CDATA[Good morning and welcome to My Daily Clippings on Monday, November ninth, two thousand twenty-six. Today, we'll experience a new moon at twelve thirty-two p.m.<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/headlines/2026-11-09/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/headlines-2026-11-09.mp3" length="1356410" type="audio/mpeg"/>
+      <itunes:duration>3:46</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 8 · Headlines</title>
       <guid isPermaLink="false">headlines/2026-11-08</guid>

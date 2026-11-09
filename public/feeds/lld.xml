@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/lld.xml" rel="self" type="application/rss+xml"/>
     <description>SOLID, the classic design patterns in C#, then low-level design mock interviews: parking lot, lift, BookMyShow and more.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 02:16:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 02:32:03 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>SOLID, the classic design patterns in C#, then low-level design mock interviews: parking lot, lift, BookMyShow and more.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/lld.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 9 · Explainer: SOLID 4: Interface Segregation Principle</title>
+      <guid isPermaLink="false">lld/2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/lld/2026-11-09/</link>
+      <description><![CDATA[Have you ever picked up a universal remote control, only to find it crammed with buttons for devices you don't even own? Maybe there's a "VCR Rewind" button, or a "LaserDisc Play" button, even though your home entertainm<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/lld/2026-11-09/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/lld-2026-11-09.mp3" length="4106588" type="audio/mpeg"/>
+      <itunes:duration>11:24</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 8 · Explainer: Liskov Substitution Principle: How Violations Hurt</title>
       <guid isPermaLink="false">lld/2026-11-08</guid>

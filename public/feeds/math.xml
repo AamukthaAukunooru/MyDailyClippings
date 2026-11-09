@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 02:16:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 02:32:03 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 9 · Math news</title>
+      <guid isPermaLink="false">math/2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-09/</link>
+      <description><![CDATA[The world of mathematics has been buzzing over the past few days, largely due to a remarkable surge in artificial intelligence-assisted breakthroughs. From tackling decades-old conjectures in number theory to shedding li<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-09/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-09.mp3" length="2260477" type="audio/mpeg"/>
+      <itunes:duration>6:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 9 · Explainer: Dynamic Programming: The Art of Smart Decisions</title>
+      <guid isPermaLink="false">math-explained/2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-09/</link>
+      <description><![CDATA[Imagine you’re planning a complex road trip. You have a starting point, a destination, and many possible routes with different stops, tolls, and traffic patterns. Your goal is to find the absolute fastest way to get ther<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-09/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-09.mp3" length="6266864" type="audio/mpeg"/>
+      <itunes:duration>17:23</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 8 · Math news</title>
       <guid isPermaLink="false">math/2026-11-08</guid>

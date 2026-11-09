@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
     <description>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 02:16:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 02:32:03 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 9 · Explainer: Isolation levels and MVCC (with SQL Server examples)</title>
+      <guid isPermaLink="false">system-design/2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-09/</link>
+      <description><![CDATA[Imagine you are at the counter of your favorite coffee shop, about to order the last blueberry muffin. Just as you open your mouth, another customer at the next register also points to the same muffin. Who gets it? In th<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-09/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-09.mp3" length="6281581" type="audio/mpeg"/>
+      <itunes:duration>17:26</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 8 · Explainer: Database Indexes: B-trees vs. LSM Trees</title>
       <guid isPermaLink="false">system-design/2026-11-08</guid>
