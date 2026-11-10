@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/sd-interviews.xml" rel="self" type="application/rss+xml"/>
     <description>A daily mock system design interview for two voices, from URL shortener to YouTube and Uber. Same answer template every time, with every pattern named out loud.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 02:32:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 04:30:37 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>A daily mock system design interview for two voices, from URL shortener to YouTube and Uber. Same answer template every time, with every pattern named out loud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/sd-interviews.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 10 · Interview: Design a Distributed Key-Value Store</title>
+      <guid isPermaLink="false">system-design-interviews/2026-11-10</guid>
+      <pubDate>Tue, 10 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design-interviews/2026-11-10/</link>
+      <description><![CDATA[First, storage. If we have billions of keys, let's say one hundred billion keys, and an average value size of, say, one kilobyte. One hundred billion keys multiplied by one kilobyte per key gives us one hundred terabytes<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design-interviews/2026-11-10/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-interviews-2026-11-10.mp3" length="7679053" type="audio/mpeg"/>
+      <itunes:duration>21:18</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 9 · Interview: Design a Content Delivery Network (CDN)</title>
       <guid isPermaLink="false">system-design-interviews/2026-11-09</guid>

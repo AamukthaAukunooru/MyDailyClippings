@@ -7335,6 +7335,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-interviews-2026-11-09.mp3",
    "voice": "en-US-AvaMultilingualNeural|Candidate=en-US-AvaMultilingualNeural,Interviewer=en-US-AndrewMultilingualNeural"
   },
+  "system-design-interviews/2026-11-10": {
+   "bytes": 7679053,
+   "date": "2026-11-10",
+   "duration": 1278,
+   "guid": "system-design-interviews/2026-11-10",
+   "hash": "a2c6dbb092af4609",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/system-design-interviews/2026-11-10/",
+   "published": "2026-11-10T06:20:00+05:30",
+   "show": "sd-interviews",
+   "summary": "First, storage. If we have billions of keys, let's say one hundred billion keys, and an average value size of, say, one kilobyte. One hundred billion keys multiplied by one kilobyte per key gives us one hundred terabytes",
+   "title": "Nov 10 · Interview: Design a Distributed Key-Value Store",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-interviews-2026-11-10.mp3",
+   "voice": "en-US-AvaMultilingualNeural|Candidate=en-US-AvaMultilingualNeural,Interviewer=en-US-AndrewMultilingualNeural"
+  },
   "system-design/2026-10-19": {
    "bytes": 5634800,
    "date": "2026-10-19",
