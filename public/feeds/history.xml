@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/history.xml" rel="self" type="application/rss+xml"/>
     <description>One history topic explained every day, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 19:49:01 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 03:01:22 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One history topic explained every day, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/history.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 11 · Explainer: The Maya Calendar: Engineering Time in Ancient Mesoamerica</title>
+      <guid isPermaLink="false">history/2026-11-11</guid>
+      <pubDate>Wed, 11 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-11/</link>
+      <description><![CDATA[Imagine a calendar so intricate, so precise, that it could track not just days and months, but also the cycles of distant planets, the movements of the moon, and even predict eclipses with remarkable accuracy. Now imagin<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-11/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-11.mp3" length="5507384" type="audio/mpeg"/>
+      <itunes:duration>15:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 10 · Explainer: Polynesian Wayfinding: The Human GPS</title>
       <guid isPermaLink="false">history/2026-11-10</guid>

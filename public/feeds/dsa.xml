@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/dsa.xml" rel="self" type="application/rss+xml"/>
     <description>Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 19:49:01 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 03:01:22 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/dsa.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 11 · Explainer: Valid Palindrome - Two Pointers for String Checks</title>
+      <guid isPermaLink="false">dsa-patterns/2026-11-11</guid>
+      <pubDate>Wed, 11 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-11/</link>
+      <description><![CDATA[Have you ever encountered a word or phrase that reads the same forwards and backwards? Think of "madam," "racecar," or even a longer one like "A man, a plan, a canal: Panama." These are called **palindromes**. They're fu<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-11/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/dsa-patterns-2026-11-11.mp3" length="5223705" type="audio/mpeg"/>
+      <itunes:duration>14:30</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 10 · Explainer: Best Time to Buy and Sell Stock: One Transaction Profit</title>
       <guid isPermaLink="false">dsa-patterns/2026-11-10</guid>

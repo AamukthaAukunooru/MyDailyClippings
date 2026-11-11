@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/geopolitics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily geopolitics briefing from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 19:49:01 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 03:01:22 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily geopolitics briefing from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/geopolitics.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 11 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-11-11</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-11-11/</link>
+      <description><![CDATA[Global attention this week has been drawn to significant developments in US domestic politics, a series of international espionage allegations, and persistent regional tensions across the Middle East and Africa. The US H<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-11-11/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/geopolitics-2026-11-11.mp3" length="2124275" type="audio/mpeg"/>
+      <itunes:duration>5:53</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 10 · Geopolitics news</title>
       <guid isPermaLink="false">geopolitics/2026-11-10</guid>

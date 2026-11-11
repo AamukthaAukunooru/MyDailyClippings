@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/ai.xml" rel="self" type="application/rss+xml"/>
     <description>Daily AI and technology news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 19:49:01 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 03:01:22 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily AI and technology news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/ai.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 11 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-11-11</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-11-11/</link>
+      <description><![CDATA[The AI landscape continues its rapid evolution this week, marked by a flurry of significant model releases and a growing tension between the expansive ambitions of AI agents and the practical realities of security and pl<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-11-11/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/ai-2026-11-11.mp3" length="1863817" type="audio/mpeg"/>
+      <itunes:duration>5:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 10 · AI and Technology news</title>
       <guid isPermaLink="false">ai/2026-11-10</guid>

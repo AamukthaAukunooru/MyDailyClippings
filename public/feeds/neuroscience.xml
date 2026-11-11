@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 19:49:01 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 03:01:22 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 11 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-11-11</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-11/</link>
+      <description><![CDATA[Good morning, and welcome to My Daily Clippings. Today, we're diving into some intriguing new findings across neuroscience, from potential early indicators of Alzheimer's disease found surprisingly outside the brain, to<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-11/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-11.mp3" length="1327017" type="audio/mpeg"/>
+      <itunes:duration>3:41</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 11 · Explainer: How Your Brain Hears: From Sound Waves to Meaning</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-11-11</guid>
+      <pubDate>Wed, 11 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-11/</link>
+      <description><![CDATA[Imagine you're walking down a busy street, a cacophony of car horns, distant sirens, chatter, and music all swirling around you. Suddenly, you hear your name called from behind. Without even turning your head, you instan<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-11/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-11.mp3" length="4053688" type="audio/mpeg"/>
+      <itunes:duration>11:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 10 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-11-10</guid>

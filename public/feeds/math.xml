@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 19:49:01 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 03:01:22 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 11 · Math news</title>
+      <guid isPermaLink="false">math/2026-11-11</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-11/</link>
+      <description><![CDATA[Here are today's clippings, offering a glimpse into the world of mathematics, from new tools for understanding the physical world to efforts to make complex ideas more accessible. We're looking at how mathematicians are<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-11/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-11.mp3" length="3146675" type="audio/mpeg"/>
+      <itunes:duration>8:44</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 11 · Explainer: Modular Arithmetic: The Math of Clocks and Codes</title>
+      <guid isPermaLink="false">math-explained/2026-11-11</guid>
+      <pubDate>Wed, 11 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-11/</link>
+      <description><![CDATA[Have you ever wondered how a clock works, not just mechanically, but mathematically? If it's ten o'clock now, what time will it be in five hours? Simple, three o'clock. But how did you get that? You didn't say fifteen o'<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-11/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-11.mp3" length="5322579" type="audio/mpeg"/>
+      <itunes:duration>14:46</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 10 · Math news</title>
       <guid isPermaLink="false">math/2026-11-10</guid>
