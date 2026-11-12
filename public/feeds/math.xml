@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 03:01:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 04:10:46 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 12 · Math news</title>
+      <guid isPermaLink="false">math/2026-11-12</guid>
+      <pubDate>Thu, 12 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-12/</link>
+      <description><![CDATA[Good morning, and welcome to My Daily Clippings. Today, we're diving into a fascinating, if somewhat sobering, finding about how even seasoned experts grapple with the nuances of statistical interpretation. It's a remind<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-12/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-12.mp3" length="1393307" type="audio/mpeg"/>
+      <itunes:duration>3:52</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 12 · Explainer: Wavelets: Zooming In on Signals</title>
+      <guid isPermaLink="false">math-explained/2026-11-12</guid>
+      <pubDate>Thu, 12 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-12/</link>
+      <description><![CDATA[Imagine you're a sound engineer, listening to a complex piece of music. You want to understand its components. The **Fourier Transform**, which we've discussed before, is like a magical prism. You feed it the entire song<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-12/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-12.mp3" length="5533877" type="audio/mpeg"/>
+      <itunes:duration>15:21</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 11 · Math news</title>
       <guid isPermaLink="false">math/2026-11-11</guid>

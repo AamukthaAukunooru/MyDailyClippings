@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 03:01:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 04:10:46 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 12 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-11-12</guid>
+      <pubDate>Thu, 12 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-12/</link>
+      <description><![CDATA[What a week for cosmic revelations! From the rigorous validation of humanity's first direct image of a black hole to new insights into the very building blocks of life found on an asteroid, our understanding of the unive<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-12/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-12.mp3" length="2511875" type="audio/mpeg"/>
+      <itunes:duration>6:58</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 12 · Explainer: The Sun's Magnetic Engine: Sunspots, Flares, and CMEs</title>
+      <guid isPermaLink="false">astronomy-explained/2026-11-12</guid>
+      <pubDate>Thu, 12 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-12/</link>
+      <description><![CDATA[Imagine a world plunged into darkness. Satellites fail, GPS goes haywire, radio communications cease, and power grids collapse, leaving millions without electricity. This isn't a scene from a science fiction movie; it's<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-12/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-12.mp3" length="4458157" type="audio/mpeg"/>
+      <itunes:duration>12:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 11 · Astronomy news</title>
       <guid isPermaLink="false">astronomy/2026-11-11</guid>

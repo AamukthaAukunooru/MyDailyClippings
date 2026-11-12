@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 03:01:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 04:10:46 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 12 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-11-12</guid>
+      <pubDate>Thu, 12 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-12/</link>
+      <description><![CDATA[Here are today's clippings, diving into how we understand the brain, from the abstract models we build to the fundamental dynamics of its internal signals. Neuroscientists are currently grappling with the role of large-s<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-12/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-12.mp3" length="1401972" type="audio/mpeg"/>
+      <itunes:duration>3:53</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 12 · Explainer: The Brain's Co-Processor: How the Cerebellum Refines Movement and Thought</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-11-12</guid>
+      <pubDate>Thu, 12 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-12/</link>
+      <description><![CDATA[Imagine you're trying to catch a ball. Your eyes track its trajectory, your arm swings, your hand closes, and *thwack*, it's in your grasp. It feels effortless, almost automatic. But think about the sheer complexity invo<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-12/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-12.mp3" length="3925568" type="audio/mpeg"/>
+      <itunes:duration>10:53</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 11 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-11-11</guid>

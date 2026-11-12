@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/geopolitics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily geopolitics briefing from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 03:01:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 04:10:46 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily geopolitics briefing from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/geopolitics.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 12 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-11-12</guid>
+      <pubDate>Thu, 12 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-11-12/</link>
+      <description><![CDATA[Recent global events highlight ongoing geopolitical tensions, significant domestic political shifts, and critical human rights concerns. Developments include an espionage arrest in the **United Kingdom**, escalating rhet<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-11-12/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/geopolitics-2026-11-12.mp3" length="2225465" type="audio/mpeg"/>
+      <itunes:duration>6:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 11 · Geopolitics news</title>
       <guid isPermaLink="false">geopolitics/2026-11-11</guid>
