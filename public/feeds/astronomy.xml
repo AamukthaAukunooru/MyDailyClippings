@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 04:10:46 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 03:33:26 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 13 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-11-13</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-13/</link>
+      <description><![CDATA[What a week it's been for peering into the universe's deepest secrets and pushing the boundaries of human ingenuity. From the first grand data release of a telescope designed to unravel the mysteries of the dark cosmos,<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-13/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-13.mp3" length="2129605" type="audio/mpeg"/>
+      <itunes:duration>5:54</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 13 · Explainer: The Moon's Violent Birth: A Giant Impact</title>
+      <guid isPermaLink="false">astronomy-explained/2026-11-13</guid>
+      <pubDate>Fri, 13 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-13/</link>
+      <description><![CDATA[Imagine a world without the Moon. No silvery orb illuminating the night, no predictable tides shaping our coastlines, and perhaps, no stable climate allowing complex life to flourish. Our Moon is not just a beautiful cel<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-13/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-13.mp3" length="4382757" type="audio/mpeg"/>
+      <itunes:duration>12:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 12 · Astronomy news</title>
       <guid isPermaLink="false">astronomy/2026-11-12</guid>

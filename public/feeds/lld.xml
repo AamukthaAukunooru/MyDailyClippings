@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/lld.xml" rel="self" type="application/rss+xml"/>
     <description>SOLID, the classic design patterns in C#, then low-level design mock interviews: parking lot, lift, BookMyShow and more.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 04:10:46 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 03:33:26 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>SOLID, the classic design patterns in C#, then low-level design mock interviews: parking lot, lift, BookMyShow and more.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/lld.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 13 · Explainer: Abstract Factory: Orchestrating Families of Related Objects</title>
+      <guid isPermaLink="false">lld/2026-11-13</guid>
+      <pubDate>Fri, 13 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/lld/2026-11-13/</link>
+      <description><![CDATA[Welcome back to LLD Explained, the series where we demystify low-level design patterns and principles for senior C# and .NET engineers. Imagine you're driving to work, listening to this, and thinking about your latest pr<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/lld/2026-11-13/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/lld-2026-11-13.mp3" length="5122679" type="audio/mpeg"/>
+      <itunes:duration>14:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 12 · Explainer: Factory Method and Simple Factory: Creating Objects Flexibly</title>
       <guid isPermaLink="false">lld/2026-11-12</guid>

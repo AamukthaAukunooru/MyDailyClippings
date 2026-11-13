@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 04:10:46 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 03:33:26 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 13 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-11-13</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-13/</link>
+      <description><![CDATA[Good morning, fellow brain enthusiasts. Today's clippings bring us a fascinating look at how large-scale scientific initiatives are building foundational knowledge of the brain, a new computational tool for unraveling th<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-13/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-13.mp3" length="1960962" type="audio/mpeg"/>
+      <itunes:duration>5:26</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 13 · Explainer: The Gut-Brain Axis: Your Second Brain</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-11-13</guid>
+      <pubDate>Fri, 13 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-13/</link>
+      <description><![CDATA[Have you ever felt "butterflies in your stomach" before a big presentation, or experienced a sudden "gut feeling" about a decision? These aren't just figures of speech. Our digestive system, often dismissed as merely a p<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-13/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-13.mp3" length="4114216" type="audio/mpeg"/>
+      <itunes:duration>11:25</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 12 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-11-12</guid>
