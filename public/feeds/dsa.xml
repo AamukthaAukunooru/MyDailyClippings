@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/dsa.xml" rel="self" type="application/rss+xml"/>
     <description>Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 03:33:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 03:24:51 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/dsa.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 14 · Explainer: Implement Queue with Stacks</title>
+      <guid isPermaLink="false">dsa-patterns/2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-14/</link>
+      <description><![CDATA[Imagine you're managing a very peculiar building with only two elevators, and they both operate under a strict "last person in, first person out" rule. That's right, they're like giant stacks. If someone steps into an em<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-14/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/dsa-patterns-2026-11-14.mp3" length="4530927" type="audio/mpeg"/>
+      <itunes:duration>12:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 13 · Explainer: Invert Binary Tree: Flipping a Tree Upside Down</title>
       <guid isPermaLink="false">dsa-patterns/2026-11-13</guid>

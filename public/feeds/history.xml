@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/history.xml" rel="self" type="application/rss+xml"/>
     <description>One history topic explained every day, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 03:33:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 03:24:51 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One history topic explained every day, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/history.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 14 · Explainer: Early Postal Systems: Engineering Communication Networks</title>
+      <guid isPermaLink="false">history/2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-14/</link>
+      <description><![CDATA[Imagine trying to run a vast empire without email, without phones, without even a telegraph. How do you send orders, receive reports, or coordinate armies across hundreds or thousands of miles? For ancient rulers, this w<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-14/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-14.mp3" length="4725545" type="audio/mpeg"/>
+      <itunes:duration>13:07</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 13 · Explainer: Japan's Meiji Restoration: Engineering a Nation's Future</title>
       <guid isPermaLink="false">history/2026-11-13</guid>

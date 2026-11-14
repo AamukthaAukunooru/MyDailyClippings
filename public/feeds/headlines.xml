@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/headlines.xml" rel="self" type="application/rss+xml"/>
     <description>A 3 to 4 minute daily briefing across every Clippings show, plus what is happening in the sky over Hyderabad. Play it first.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 03:33:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 03:24:51 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>A 3 to 4 minute daily briefing across every Clippings show, plus what is happening in the sky over Hyderabad. Play it first.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/headlines.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 14 · Headlines</title>
+      <guid isPermaLink="false">headlines/2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 06:40:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/headlines/2026-11-14/</link>
+      <description><![CDATA[Hello, and welcome to My Daily Clippings for Saturday, November 14th, 2026.<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/headlines/2026-11-14/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/headlines-2026-11-14.mp3" length="1438429" type="audio/mpeg"/>
+      <itunes:duration>3:59</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 13 · Headlines</title>
       <guid isPermaLink="false">headlines/2026-11-13</guid>

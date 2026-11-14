@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/lld.xml" rel="self" type="application/rss+xml"/>
     <description>SOLID, the classic design patterns in C#, then low-level design mock interviews: parking lot, lift, BookMyShow and more.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 03:33:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 03:24:51 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>SOLID, the classic design patterns in C#, then low-level design mock interviews: parking lot, lift, BookMyShow and more.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/lld.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 14 · Explainer: Observer Pattern and C# Events</title>
+      <guid isPermaLink="false">lld/2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/lld/2026-11-14/</link>
+      <description><![CDATA[Imagine you're running a bustling salon and spa. When a new appointment is booked, a cascade of actions needs to happen: the stylist needs to be notified, the client should receive a confirmation email, the salon's inter<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/lld/2026-11-14/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/lld-2026-11-14.mp3" length="5412523" type="audio/mpeg"/>
+      <itunes:duration>15:01</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 13 · Explainer: Abstract Factory: Orchestrating Families of Related Objects</title>
       <guid isPermaLink="false">lld/2026-11-13</guid>

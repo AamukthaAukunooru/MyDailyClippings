@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 03:33:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 03:24:51 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 14 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-14/</link>
+      <description><![CDATA[Hello, and welcome to My Daily Clippings. Today, we're diving into some significant developments across neuroscience, from large-scale brain mapping initiatives to new insights into animal cognition and computational app<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-14/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-14.mp3" length="1561972" type="audio/mpeg"/>
+      <itunes:duration>4:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 14 · Explainer: The Glymphatic System: Your Brain's Waste Disposal</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-14/</link>
+      <description><![CDATA[Imagine your brain as the most complex supercomputer ever built, running twenty-four hours a day, seven days a week. It processes incredible amounts of data, manages all your bodily functions, and generates your thoughts<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-14/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-14.mp3" length="3384428" type="audio/mpeg"/>
+      <itunes:duration>9:23</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 13 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-11-13</guid>
