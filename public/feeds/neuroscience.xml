@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 03:24:51 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 02:57:22 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 15 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-11-15</guid>
+      <pubDate>Sun, 15 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-15/</link>
+      <description><![CDATA[Hello, and welcome to "My Daily Clippings." Today, November fifteenth, two thousand twenty-six, we're diving into a flurry of new findings that promise to reshape our understanding of brain health and disease. From novel<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-15/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-15.mp3" length="1841179" type="audio/mpeg"/>
+      <itunes:duration>5:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 15 · Explainer: The Brain's Chemical Messengers: Tuning Your Neural Orchestra</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-11-15</guid>
+      <pubDate>Sun, 15 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-15/</link>
+      <description><![CDATA[Have you ever had one of those days where your brain just feels *different*? Maybe you wake up feeling incredibly focused and alert, ready to tackle complex problems. Or perhaps you're in a fantastic mood, everything fee<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-15/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-15.mp3" length="4414925" type="audio/mpeg"/>
+      <itunes:duration>12:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 14 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-11-14</guid>

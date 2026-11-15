@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/dsa.xml" rel="self" type="application/rss+xml"/>
     <description>Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 03:24:51 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 02:57:22 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/dsa.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 15 · Explainer: Valid Anagram: Counting Characters for Efficiency</title>
+      <guid isPermaLink="false">dsa-patterns/2026-11-15</guid>
+      <pubDate>Sun, 15 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-15/</link>
+      <description><![CDATA[Have you ever played word games where you rearrange letters to form new words? Like taking "listen" and turning it into "silent"? Or "dormitory" into "dirty room"? These are called **anagrams**. It's a fun linguistic puz<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-15/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/dsa-patterns-2026-11-15.mp3" length="5051885" type="audio/mpeg"/>
+      <itunes:duration>14:01</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 14 · Explainer: Implement Queue with Stacks</title>
       <guid isPermaLink="false">dsa-patterns/2026-11-14</guid>

@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
     <description>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 03:24:51 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 02:57:22 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 15 · Explainer: API Gateway and Backend-for-Frontend: Tailoring the Edge</title>
+      <guid isPermaLink="false">system-design/2026-11-15</guid>
+      <pubDate>Sun, 15 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-15/</link>
+      <description><![CDATA[Imagine you're building a modern application, perhaps an e-commerce platform, a social media feed, or a ride-sharing service. Your application isn't just a simple website anymore. You have a web application, an iOS mobil<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-15/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-15.mp3" length="4867677" type="audio/mpeg"/>
+      <itunes:duration>13:30</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 14 · Explainer: Reliable Event Publishing with Transactional Outbox and CDC</title>
       <guid isPermaLink="false">system-design/2026-11-14</guid>
