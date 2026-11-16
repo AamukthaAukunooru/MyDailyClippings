@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 03:23:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 19:56:38 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 17 · Math news</title>
+      <guid isPermaLink="false">math/2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-17/</link>
+      <description><![CDATA[Greetings, fellow explorers of the mathematical universe! Today's clippings bring us a fascinating blend of historical revelation and a fresh understanding of fundamental limits, all underscored by the ever-growing influ<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-17/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-17.mp3" length="1891757" type="audio/mpeg"/>
+      <itunes:duration>5:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 17 · Explainer: The Newton-Raphson Method: Finding Roots with Tangents</title>
+      <guid isPermaLink="false">math-explained/2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-17/</link>
+      <description><![CDATA[Have you ever tried to solve an equation like "x squared equals two"? It's easy enough to write the answer as the square root of two. But what if the equation was much more complex, something like "x to the power of five<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-17/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-17.mp3" length="4895918" type="audio/mpeg"/>
+      <itunes:duration>13:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 16 · Math news</title>
       <guid isPermaLink="false">math/2026-11-16</guid>

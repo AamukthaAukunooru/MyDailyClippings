@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/dsa.xml" rel="self" type="application/rss+xml"/>
     <description>Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 03:23:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 19:56:38 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/dsa.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 17 · Explainer: Ransom Note: Character Counting for String Checks</title>
+      <guid isPermaLink="false">dsa-patterns/2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-17/</link>
+      <description><![CDATA[Hello and welcome to DSA Explained, your daily dose of data structures and algorithms for coding interviews. I'm your host, and today we're tackling a fundamental problem that often appears in interviews, especially for<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-17/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/dsa-patterns-2026-11-17.mp3" length="5478984" type="audio/mpeg"/>
+      <itunes:duration>15:12</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 16 · Explainer: First Bad Version: Finding the Tipping Point with Binary Search</title>
       <guid isPermaLink="false">dsa-patterns/2026-11-16</guid>

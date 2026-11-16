@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/watchlist.xml" rel="self" type="application/rss+xml"/>
     <description>News about the specific things I follow, only on days when something new happens.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 03:23:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 19:56:38 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>News about the specific things I follow, only on days when something new happens.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/watchlist.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 17 · Watchlist news</title>
+      <guid isPermaLink="false">watchlist/2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/watchlist/2026-11-17/</link>
+      <description><![CDATA[Today, we have updates on the November cyclone for the Chennai–Puducherry coast and the Marvel Doomsday ticket opening date in India.<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/watchlist/2026-11-17/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/watchlist-2026-11-17.mp3" length="318003" type="audio/mpeg"/>
+      <itunes:duration>0:53</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 16 · Watchlist news</title>
       <guid isPermaLink="false">watchlist/2026-11-16</guid>

@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 03:23:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 19:56:38 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 17 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-17/</link>
+      <description><![CDATA[Here are today's clippings from the world of neuroscience, bringing you insights into how our brains work, what threatens them, and potential new ways to keep them healthy. We're looking at new findings that highlight th<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-17/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-17.mp3" length="1414080" type="audio/mpeg"/>
+      <itunes:duration>3:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 17 · Explainer: Neural Inhibition: Sculpting Signals and Preventing Chaos</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-17/</link>
+      <description><![CDATA[Imagine a supercomputer where every single transistor was always on, firing at maximum capacity, all the time. It wouldn't compute anything useful; it would just be a chaotic mess of heat and noise. Our brains, with thei<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-17/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-17.mp3" length="4168146" type="audio/mpeg"/>
+      <itunes:duration>11:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 16 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-11-16</guid>

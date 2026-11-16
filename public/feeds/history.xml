@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/history.xml" rel="self" type="application/rss+xml"/>
     <description>One history topic explained every day, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 03:23:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 19:56:38 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One history topic explained every day, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/history.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 17 · Explainer: The Mechanical Clock: Engineering Time and Reshaping Society</title>
+      <guid isPermaLink="false">history/2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-17/</link>
+      <description><![CDATA[Imagine a world where time wasn't a constant, reliable companion. A world where "noon" might mean something slightly different in every village, where coordinating a meeting across towns was a logistical nightmare, and w<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-17/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-17.mp3" length="4850810" type="audio/mpeg"/>
+      <itunes:duration>13:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 16 · Explainer: The Electric Telegraph: Engineering Instant Communication</title>
       <guid isPermaLink="false">history/2026-11-16</guid>

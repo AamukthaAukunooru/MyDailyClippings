@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/lld.xml" rel="self" type="application/rss+xml"/>
     <description>SOLID, the classic design patterns in C#, then low-level design mock interviews: parking lot, lift, BookMyShow and more.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 03:23:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 19:56:38 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>SOLID, the classic design patterns in C#, then low-level design mock interviews: parking lot, lift, BookMyShow and more.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/lld.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 17 · Explainer: Facade Pattern: Simplifying Complex Subsystems</title>
+      <guid isPermaLink="false">lld/2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/lld/2026-11-17/</link>
+      <description><![CDATA[Have you ever tried to book a truly luxurious spa day? Not just a single massage, but a whole package: a deep tissue massage, followed by a rejuvenating facial, then a manicure, and finally a pedicure. Each service requi<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/lld/2026-11-17/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/lld-2026-11-17.mp3" length="5436756" type="audio/mpeg"/>
+      <itunes:duration>15:05</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 16 · Explainer: Adapter Pattern: Bridging Incompatible Interfaces</title>
       <guid isPermaLink="false">lld/2026-11-16</guid>
