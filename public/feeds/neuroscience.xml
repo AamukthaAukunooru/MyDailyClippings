@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Nov 2026 02:57:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 03:23:28 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 16 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-11-16</guid>
+      <pubDate>Mon, 16 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-16/</link>
+      <description><![CDATA[Greetings, fellow brain enthusiasts, and welcome to your Monday edition of "My Daily Clippings." This past weekend, the neuroscience world converged in Washington, D.C., for the annual Society for Neuroscience meeting, N<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-16/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-16.mp3" length="2433466" type="audio/mpeg"/>
+      <itunes:duration>6:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 16 · Explainer: The Brain's Appetite Control: How Hunger and Satiety Work</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-11-16</guid>
+      <pubDate>Mon, 16 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-16/</link>
+      <description><![CDATA[Imagine you are deep in a coding session, completely focused, when suddenly, a growl from your stomach breaks the silence. Or maybe you have just finished a satisfying meal, and the thought of another bite feels impossib<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-16/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-16.mp3" length="4761587" type="audio/mpeg"/>
+      <itunes:duration>13:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 15 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-11-15</guid>

@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/lld.xml" rel="self" type="application/rss+xml"/>
     <description>SOLID, the classic design patterns in C#, then low-level design mock interviews: parking lot, lift, BookMyShow and more.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Nov 2026 02:57:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 03:23:28 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>SOLID, the classic design patterns in C#, then low-level design mock interviews: parking lot, lift, BookMyShow and more.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/lld.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 16 · Explainer: Adapter Pattern: Bridging Incompatible Interfaces</title>
+      <guid isPermaLink="false">lld/2026-11-16</guid>
+      <pubDate>Mon, 16 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/lld/2026-11-16/</link>
+      <description><![CDATA[Have you ever found yourself with a brand-new, sleek laptop, only to realize your trusty old external hard drive uses a USB-A port, and your laptop only has USB-C? Or perhaps you're traveling internationally and your pho<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/lld/2026-11-16/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/lld-2026-11-16.mp3" length="4718489" type="audio/mpeg"/>
+      <itunes:duration>13:05</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 15 · Explainer: Strategy Pattern: Flexible Algorithms</title>
       <guid isPermaLink="false">lld/2026-11-15</guid>

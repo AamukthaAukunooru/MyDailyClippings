@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/history.xml" rel="self" type="application/rss+xml"/>
     <description>One history topic explained every day, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Nov 2026 02:57:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 03:23:28 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One history topic explained every day, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/history.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 16 · Explainer: The Electric Telegraph: Engineering Instant Communication</title>
+      <guid isPermaLink="false">history/2026-11-16</guid>
+      <pubDate>Mon, 16 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-16/</link>
+      <description><![CDATA[Imagine a world where the fastest way to send a message across a continent was to put it on a horse, a ship, or a fast-running human. News from London to New York took weeks, sometimes months. A battle fought in India mi<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-16/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-16.mp3" length="5168645" type="audio/mpeg"/>
+      <itunes:duration>14:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 15 · Explainer: Angkor Wat: Engineering a Sacred City of Water</title>
       <guid isPermaLink="false">history/2026-11-15</guid>

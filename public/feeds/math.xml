@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Nov 2026 02:57:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 03:23:28 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 16 · Math news</title>
+      <guid isPermaLink="false">math/2026-11-16</guid>
+      <pubDate>Mon, 16 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-16/</link>
+      <description><![CDATA[This week, the world of mathematics is buzzing with news that highlights the rapidly evolving relationship between human ingenuity and artificial intelligence. We're seeing AI not just as a tool, but as a collaborator an<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-16/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-16.mp3" length="1966136" type="audio/mpeg"/>
+      <itunes:duration>5:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 16 · Explainer: Dijkstra's Algorithm: Finding the Shortest Path</title>
+      <guid isPermaLink="false">math-explained/2026-11-16</guid>
+      <pubDate>Mon, 16 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-16/</link>
+      <description><![CDATA[Imagine you're in a new city, and you need to get from your hotel to a specific landmark. You pull out your phone, open a mapping app, and instantly, it shows you the fastest route, complete with estimated travel time. O<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-16/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-16.mp3" length="5717532" type="audio/mpeg"/>
+      <itunes:duration>15:52</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 15 · Math news</title>
       <guid isPermaLink="false">math/2026-11-15</guid>

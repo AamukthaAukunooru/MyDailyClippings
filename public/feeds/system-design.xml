@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
     <description>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Nov 2026 02:57:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 03:23:28 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 16 · Explainer: REST, gRPC, GraphQL and WebSockets: API styles compared</title>
+      <guid isPermaLink="false">system-design/2026-11-16</guid>
+      <pubDate>Mon, 16 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-16/</link>
+      <description><![CDATA[Imagine you are building a new application, perhaps a social media feed, a real-time analytics dashboard, or an e-commerce platform. One of the very first, and most critical, architectural decisions you'll face is how di<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-16/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-16.mp3" length="5615495" type="audio/mpeg"/>
+      <itunes:duration>15:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 15 · Explainer: API Gateway and Backend-for-Frontend: Tailoring the Edge</title>
       <guid isPermaLink="false">system-design/2026-11-15</guid>
