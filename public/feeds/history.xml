@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/history.xml" rel="self" type="application/rss+xml"/>
     <description>One history topic explained every day, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 19:56:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 04:30:51 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One history topic explained every day, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/history.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 18 · Explainer: The Invention of Eyeglasses: Engineering a Clearer World</title>
+      <guid isPermaLink="false">history/2026-11-18</guid>
+      <pubDate>Wed, 18 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-18/</link>
+      <description><![CDATA[Imagine a world where, sometime in your forties, your ability to read, to work on intricate details, to pursue your craft or scholarship, slowly but inexorably blurs away. Your career, your learning, your very engagement<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-18/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-18.mp3" length="4802662" type="audio/mpeg"/>
+      <itunes:duration>13:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 17 · Explainer: The Mechanical Clock: Engineering Time and Reshaping Society</title>
       <guid isPermaLink="false">history/2026-11-17</guid>
