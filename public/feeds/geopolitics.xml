@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/geopolitics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily geopolitics briefing from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 04:30:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 04:29:12 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily geopolitics briefing from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/geopolitics.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 19 · Geopolitics news</title>
+      <guid isPermaLink="false">geopolitics/2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-11-19/</link>
+      <description><![CDATA[Today's geopolitical landscape is marked by high-level diplomatic engagements in **Asia**, escalating regional tensions, and significant developments in international justice and security across the globe. A historic tri<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-11-19/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/geopolitics-2026-11-19.mp3" length="1596853" type="audio/mpeg"/>
+      <itunes:duration>4:26</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 18 · Geopolitics news</title>
       <guid isPermaLink="false">geopolitics/2026-11-18</guid>

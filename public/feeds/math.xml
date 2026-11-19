@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 04:30:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 04:29:12 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 19 · Math news</title>
+      <guid isPermaLink="false">math/2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-19/</link>
+      <description><![CDATA[This week brings a mix of foundational shifts and vibrant academic exchange in the world of mathematics. We're seeing a significant policy adjustment in Maryland that will reshape how young students encounter math, along<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-19/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-19.mp3" length="2070352" type="audio/mpeg"/>
+      <itunes:duration>5:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 19 · Explainer: The Simplex Method: Navigating High-Dimensional Choices</title>
+      <guid isPermaLink="false">math-explained/2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-19/</link>
+      <description><![CDATA[Imagine you're a factory manager. You produce three different products: Product A, Product B, and Product C. Each product requires a certain amount of time on Machine X, Machine Y, and Machine Z. Each product also uses a<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-19/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-19.mp3" length="6118837" type="audio/mpeg"/>
+      <itunes:duration>16:59</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 18 · Math news</title>
       <guid isPermaLink="false">math/2026-11-18</guid>

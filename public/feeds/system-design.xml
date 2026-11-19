@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
     <description>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 04:30:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 04:29:12 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 19 · Explainer: Fan-out on write vs. Fan-out on read</title>
+      <guid isPermaLink="false">system-design/2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-19/</link>
+      <description><![CDATA[Imagine you open your favorite social media app. Instantly, you see a stream of posts from hundreds, maybe thousands, of people you follow. Each post is fresh, relevant, and ordered just for you. How does this magic happ<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-19/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-19.mp3" length="5881998" type="audio/mpeg"/>
+      <itunes:duration>16:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 18 · Explainer: How the WhatsApp typing indicator works</title>
       <guid isPermaLink="false">system-design/2026-11-18</guid>

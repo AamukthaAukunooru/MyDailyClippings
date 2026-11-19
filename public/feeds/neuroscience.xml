@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 04:30:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 04:29:12 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 19 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-19/</link>
+      <description><![CDATA[Here are today's clippings, focusing on new insights into brain health, from the mechanisms of aging to potential therapeutic breakthroughs for neurodegenerative diseases. We'll look at how our brains clear waste during<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-19/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-19.mp3" length="1559810" type="audio/mpeg"/>
+      <itunes:duration>4:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 19 · Explainer: Proprioception: Your Brain's Internal Body Map</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-19/</link>
+      <description><![CDATA[Imagine this: You're walking through your house in the dark, maybe heading to the kitchen for a late-night snack. Your eyes can't see, but you don't stumble. You know where your feet are landing, how much to bend your kn<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-19/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-19.mp3" length="4430477" type="audio/mpeg"/>
+      <itunes:duration>12:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 18 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-11-18</guid>

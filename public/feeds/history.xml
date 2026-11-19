@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/history.xml" rel="self" type="application/rss+xml"/>
     <description>One history topic explained every day, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 04:30:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 04:29:12 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One history topic explained every day, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/history.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 19 · Explainer: The Han Dynasty's Civil Service Exam: Engineering Meritocracy</title>
+      <guid isPermaLink="false">history/2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-19/</link>
+      <description><![CDATA[Imagine a system where your future, and the future of an entire empire, depended not on your family name or inherited wealth, but solely on your intellectual prowess, demonstrated through rigorous, standardized tests. Th<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-19/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-19.mp3" length="5216360" type="audio/mpeg"/>
+      <itunes:duration>14:28</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 18 · Explainer: The Invention of Eyeglasses: Engineering a Clearer World</title>
       <guid isPermaLink="false">history/2026-11-18</guid>

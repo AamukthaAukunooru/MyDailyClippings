@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 04:30:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 04:29:12 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 19 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-19/</link>
+      <description><![CDATA[Today, we're marveling at the universe's dramatic flair, from a star's final, fiery embrace to humanity's farthest reach, and even laying the groundwork for our future lunar homes. It's a day that reminds us of both the<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-19/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-19.mp3" length="1449822" type="audio/mpeg"/>
+      <itunes:duration>4:01</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 19 · Explainer: Big Bang Nucleosynthesis: Forging the Universe's First Elements</title>
+      <guid isPermaLink="false">astronomy-explained/2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-19/</link>
+      <description><![CDATA[Imagine a universe so incredibly hot and dense that it was a swirling, energetic soup of fundamental particles. This wasn't a place with stars, planets, or even stable atoms as we know them. Yet, from this primordial cha<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-19/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-19.mp3" length="4378888" type="audio/mpeg"/>
+      <itunes:duration>12:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 18 · Astronomy news</title>
       <guid isPermaLink="false">astronomy/2026-11-18</guid>
