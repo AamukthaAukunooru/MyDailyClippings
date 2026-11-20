@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
     <description>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 04:29:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 04:25:43 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 20 · Explainer: Hot Partitions and the Celebrity Problem</title>
+      <guid isPermaLink="false">system-design/2026-11-20</guid>
+      <pubDate>Fri, 20 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-20/</link>
+      <description><![CDATA[Have you ever wondered what happens behind the scenes when a global superstar posts something on social media? Or when a major news event breaks, and millions of people rush to read the same article? Suddenly, an astrono<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-20/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-20.mp3" length="4756094" type="audio/mpeg"/>
+      <itunes:duration>13:12</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 19 · Explainer: Fan-out on write vs. Fan-out on read</title>
       <guid isPermaLink="false">system-design/2026-11-19</guid>

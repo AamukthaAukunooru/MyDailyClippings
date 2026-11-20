@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 04:29:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 04:25:43 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 20 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-11-20</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-20/</link>
+      <description><![CDATA[Good morning, brainiacs, and welcome to My Daily Clippings. Today, we're diving into some fascinating new findings that shed light on how our brains age, potential new avenues for tackling Alzheimer's disease, and a grou<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-20/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-20.mp3" length="1518152" type="audio/mpeg"/>
+      <itunes:duration>4:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 20 · Explainer: The Science of Olfaction: How Your Brain Processes Smell</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-11-20</guid>
+      <pubDate>Fri, 20 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-20/</link>
+      <description><![CDATA[Have you ever walked into a room and been instantly transported back in time by a particular scent? Maybe the smell of old books brings you back to your grandmother's attic, or a specific perfume reminds you of a long-lo<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-20/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-20.mp3" length="4839856" type="audio/mpeg"/>
+      <itunes:duration>13:26</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 19 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-11-19</guid>

@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 04:29:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 04:25:43 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 20 · Math news</title>
+      <guid isPermaLink="false">math/2026-11-20</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-20/</link>
+      <description><![CDATA[Today's "My Daily Clippings" brings us to a fascinating juncture where artificial intelligence continues to push the boundaries of mathematical discovery, prompting both awe at its capabilities and critical reflection wi<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-20/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-20.mp3" length="1816802" type="audio/mpeg"/>
+      <itunes:duration>5:02</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 20 · Explainer: The Traveling Salesperson Problem: The Ultimate Road Trip</title>
+      <guid isPermaLink="false">math-explained/2026-11-20</guid>
+      <pubDate>Fri, 20 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-20/</link>
+      <description><![CDATA[Have you ever planned a multi-stop road trip, meticulously mapping out each destination to minimize your driving time? Or perhaps you've ordered something online, and wondered how the delivery company efficiently plans i<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-20/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-20.mp3" length="5615632" type="audio/mpeg"/>
+      <itunes:duration>15:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 19 · Math news</title>
       <guid isPermaLink="false">math/2026-11-19</guid>
