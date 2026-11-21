@@ -26,4 +26,5 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - name: Fetch every feed
+        shell: bash   # -o pipefail, so a failing check is not hidden by tee
         run: npx tsx scripts/check-feeds.ts | tee -a "$GITHUB_STEP_SUMMARY"

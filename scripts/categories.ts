@@ -164,7 +164,6 @@ export const NEWS_CATEGORIES: NewsCategory[] = [
     minArticles: 4,
     feeds: [
       { name: 'ScienceDaily Neuroscience', url: 'https://www.sciencedaily.com/rss/mind_brain/neuroscience.xml' },
-      { name: 'Neuroscience News', url: 'https://neurosciencenews.com/feed/' },
       { name: 'The Transmitter', url: 'https://www.thetransmitter.org/feed/' },
       { name: 'Quanta Magazine', url: 'https://www.quantamagazine.org/feed/' },
     ],
