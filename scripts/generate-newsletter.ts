@@ -3,16 +3,22 @@ import path from 'path'
 import * as yaml from 'js-yaml'
 import { QuotaExhaustedError, describeError, generate, generateWithSearch } from './gemini'
 import {
+  ENG_BLOGS_LABEL,
+  ENG_BLOGS_PROMPT,
+  ENG_BLOGS_SLUG,
+  ENG_BLOG_FEEDS,
   EXPLAINER_CATEGORIES,
   NEWS_CATEGORIES,
+  OUTAGE_TITLE,
+  type EngBlogFeed,
   NEWS_SELECTION_RULES,
   PRIORITY_LABEL,
   STYLE_RULES,
   type ExplainerCategory,
   type NewsCategory,
 } from './categories'
-import { fetchArticles, type Article } from './rss'
-import { extractSummary, fetchOgData, resolveAllUrls } from './web'
+import { fetchArticles, fetchFeed, type Article } from './rss'
+import { discoverFeed, extractSummary, fetchArticleText, fetchOgData, resolveAllUrls } from './web'
 import { skyReport } from './sky'
 import * as vault from './vault'
 
@@ -28,8 +34,10 @@ const TOPICS_DIR = path.join(ROOT, 'topics')
 const FORCE = process.env.FORCE === 'true'
 // Off by default: on the free tier it would double the Gemini calls (see gemini.ts).
 const EDITOR_PASS = process.env.EDITOR_PASS === 'true'
-// Which parts to run: comma list of news,explainers,questions,watchlist,headlines (default all)
-const ONLY = new Set((process.env.ONLY || 'news,explainers,questions,watchlist,headlines').split(',').map((s) => s.trim()))
+// Which parts to run: comma list of news,explainers,questions,watchlist,engblogs,headlines (default all)
+const ONLY = new Set(
+  (process.env.ONLY || 'news,explainers,questions,watchlist,engblogs,headlines').split(',').map((s) => s.trim()),
+)
 
 const failures: string[] = []
 const answeredIssues: string[] = []
@@ -678,6 +686,222 @@ At the very end, on its own line, write "USED:" followed by the numbers of the i
   )
 }
 
+// ---------- engineering blogs (company blogs and outage write-ups) ----------
+// Every new post is covered once: posts handed to the model are recorded in
+// engblogs/seen.json. Up to ENG_MAX_POSTS a day, outages first, then the other posts
+// shared out across companies (oldest first, so a busy day spills into tomorrow
+// rather than being lost). No new posts means no episode and no Gemini call.
+
+const ENG_SEEN_FILE = path.join(ROOT, 'engblogs', 'seen.json')
+const ENG_MAX_AGE_DAYS = 7 // a post older than this that was never covered is dropped
+const ENG_AGGREGATOR_MAX_AGE_DAYS = 2
+const ENG_MAX_POSTS = 10
+const ENG_MAX_OUTAGES = 4
+const ENG_MAX_SEEN = 5000
+const ENG_TEXT_CHARS = 6000
+
+interface EngSeen {
+  urls: string[] // posts already handed to the model, oldest first
+  feeds: Record<string, string> // vault blog URL -> discovered feed URL
+}
+
+interface EngCandidate {
+  feed: EngBlogFeed
+  article: Article
+  outage: boolean
+  key: string
+}
+
+// The company a post is from: the site for aggregator items, else the feed name without "(...)".
+function companyOf(c: EngCandidate): string {
+  if (c.feed.kind === 'aggregator') return new URL(c.article.url).hostname.replace(/^(www|blog|engineering)\./, '')
+  return c.feed.name.replace(/\s*\(.*\)\s*$/, '')
+}
+
+function normalizeUrl(url: string): string {
+  return url.replace(/[?#].*$/, '').replace(/\/+$/, '').replace(/^http:/, 'https:').toLowerCase()
+}
+
+function loadEngSeen(): EngSeen {
+  try {
+    const raw = JSON.parse(fs.readFileSync(ENG_SEEN_FILE, 'utf-8'))
+    return { urls: raw.urls ?? [], feeds: raw.feeds ?? {} }
+  } catch {
+    return { urls: [], feeds: {} }
+  }
+}
+
+function saveEngSeen(state: EngSeen) {
+  fs.mkdirSync(path.dirname(ENG_SEEN_FILE), { recursive: true })
+  state.urls = state.urls.slice(-ENG_MAX_SEEN)
+  fs.writeFileSync(ENG_SEEN_FILE, JSON.stringify(state, null, 1) + '\n', 'utf-8')
+}
+
+// The built-in feeds plus the blogs listed in the vault note (feeds found once, then cached).
+async function engFeeds(state: EngSeen): Promise<EngBlogFeed[]> {
+  const feeds = [...ENG_BLOG_FEEDS]
+  if (!vault.vaultEnabled()) return feeds
+  for (const blog of vault.blogs()) {
+    let url: string | null = state.feeds[blog.url] ?? null
+    if (!url) {
+      url = await discoverFeed(blog.url)
+      if (!url) {
+        console.warn(`[eng-blogs] No RSS/Atom feed found for ${blog.url} (from the vault); skipped`)
+        continue
+      }
+      state.feeds[blog.url] = url
+      console.log(`[eng-blogs] Feed for ${blog.name}: ${url}`)
+    }
+    if (!feeds.some((f) => normalizeUrl(f.url) === normalizeUrl(url!))) feeds.push({ kind: 'blog', name: blog.name, url })
+  }
+  return feeds
+}
+
+// Outages first (newest first), then blog posts round-robin across companies, oldest first.
+function pickEngPosts(candidates: EngCandidate[]): EngCandidate[] {
+  const outages = candidates
+    .filter((c) => c.outage)
+    .sort((a, b) => b.article.publishedAt.getTime() - a.article.publishedAt.getTime())
+    .slice(0, ENG_MAX_OUTAGES)
+  const groups = new Map<string, EngCandidate[]>()
+  for (const c of candidates.filter((c) => !c.outage)) {
+    groups.set(c.feed.name, [...(groups.get(c.feed.name) ?? []), c])
+  }
+  const queues = [...groups.values()]
+    .map((g) => g.sort((a, b) => a.article.publishedAt.getTime() - b.article.publishedAt.getTime()))
+    .sort((a, b) => a[0].article.publishedAt.getTime() - b[0].article.publishedAt.getTime())
+  const posts: EngCandidate[] = []
+  while (outages.length + posts.length < ENG_MAX_POSTS && queues.some((q) => q.length)) {
+    for (const q of queues) {
+      const next = q.shift()
+      if (next && outages.length + posts.length < ENG_MAX_POSTS) posts.push(next)
+    }
+  }
+  return [...outages, ...posts]
+}
+
+async function postText(c: EngCandidate): Promise<string> {
+  const fromFeed = c.article.content ?? ''
+  if (fromFeed.length >= 1500) return fromFeed.slice(0, ENG_TEXT_CHARS)
+  if (/news\.google\.com/.test(c.article.url)) return fromFeed || c.article.summary // redirect links: no page to read
+  const fromPage = await fetchArticleText(c.article.url, ENG_TEXT_CHARS)
+  return (fromPage.length > fromFeed.length ? fromPage : fromFeed || c.article.summary).slice(0, ENG_TEXT_CHARS)
+}
+
+async function generateEngBlogs() {
+  console.log('\n[eng-blogs] Checking company engineering blogs and outage write-ups...')
+  const outputPath = path.join(NEWSLETTERS_DIR, ENG_BLOGS_SLUG, `${today}.md`)
+  if (fs.existsSync(outputPath) && !FORCE) {
+    console.log('[eng-blogs] Already exists, skipping.')
+    return
+  }
+
+  const state = loadEngSeen()
+  const feeds = await engFeeds(state)
+  const results = await Promise.allSettled(feeds.map((f) => fetchFeed(f)))
+  const seen = new Set(state.urls)
+  const keys = new Set<string>()
+  const candidates: EngCandidate[] = []
+  results.forEach((result, i) => {
+    const feed = feeds[i]
+    if (result.status === 'rejected') {
+      console.warn(`  ⚠ Feed failed: ${feed.name} (${result.reason})`)
+      return
+    }
+    const maxAge = (feed.kind === 'aggregator' ? ENG_AGGREGATOR_MAX_AGE_DAYS : ENG_MAX_AGE_DAYS) * 86400000
+    let fresh = 0
+    for (const article of result.value) {
+      if (Date.now() - article.publishedAt.getTime() > maxAge) continue
+      if (feed.kind === 'aggregator' && !OUTAGE_TITLE.test(article.title)) continue
+      const key = normalizeUrl(article.url)
+      if (seen.has(key) || keys.has(key)) continue
+      keys.add(key)
+      fresh++
+      candidates.push({ feed, article, key, outage: feed.kind !== 'blog' || OUTAGE_TITLE.test(article.title) })
+    }
+    console.log(`  ✓ ${feed.name}: ${fresh} new (of ${result.value.length})`)
+  })
+  if (candidates.length === 0) {
+    console.log('[eng-blogs] No new posts today, no episode.')
+    saveEngSeen(state)
+    return
+  }
+
+  const picked = pickEngPosts(candidates)
+  console.log(`[eng-blogs] ${candidates.length} new post(s); covering ${picked.length} today (${picked.filter((p) => p.outage).length} outage)`)
+  const texts = await Promise.all(picked.map(postText))
+  const material = picked
+    .map((c, i) => {
+      const a = c.article
+      return `[${i + 1}] ${c.outage ? 'OUTAGE · ' : ''}${companyOf(c)}${c.feed.kind === 'aggregator' ? ` (found via ${c.feed.name.replace(/:.*$/, '')})` : ''} · ${a.publishedAt.toISOString().slice(0, 10)} · ${new URL(a.url).hostname.replace(/^www\./, '')}
+Title: ${a.title}
+Text: ${texts[i] || '(only the title is available)'}`
+    })
+    .join('\n\n')
+
+  const prompt = `${ENG_BLOGS_PROMPT}
+
+Today is ${today}. Below are new posts, numbered. Items marked OUTAGE are incident reports, postmortems or news about an outage. Each item has the post's own text where it could be read; some have only a title and a short summary.
+
+${material}
+
+Write today's episode:
+- Open with one or two sentences naming the companies with something worth hearing today.
+- If there are real outage write-ups, start with a section "## Outages and postmortems". For each outage: the company and service, when it happened, what users saw and for how long, the root cause, how it was fixed, and what the company says it will change, then the lesson for an engineer in one or two sentences. About 150 to 350 words each. For a news item about an outage you may use Google Search to find the company's own explanation; if the company has not published one, say so in one sentence and keep it short.
+- Then one section per engineering post worth hearing, with a heading like "## Netflix: <what the post is about>". For each: the problem the team had, what they built or changed and how it works, the key numbers, the trade-offs, and the takeaway for a senior engineer who works on performance and system design. About 150 to 300 words each; give the deepest posts the most room.
+- Skip items with no engineering substance: marketing, product launches without technical detail, hiring, events, customer stories, webinars, release notes that only list features, and aggregator items that are not really about an outage. Do not mention skipped items.
+- Use only facts from the post text (and, for outages, the company's own write-up). Never invent numbers, names or causes.
+- If nothing is worth an episode, reply with exactly: NO_NEWS
+${STYLE_RULES}
+At the very end, on its own line, write "USED:" followed by the numbers of the items you covered, e.g. "USED: 1, 3, 4".`
+
+  const { text: raw } = await generate(prompt, GEMINI_API_KEY!, { search: true, temperature: 0.3, role: 'engblogs' })
+
+  // Everything handed to the model counts as covered, so tomorrow only brings new posts.
+  state.urls.push(...picked.map((c) => c.key))
+  saveEngSeen(state)
+
+  if (/^\s*NO_NEWS\s*$/i.test(stripFences(raw).replace(/^\s*USED:.*$/gim, '').trim())) {
+    console.log('[eng-blogs] Model found nothing worth an episode.')
+    return
+  }
+  const usedLine = raw.split('\n').reverse().find((l) => /^\s*USED:/i.test(l))
+  const usedNums = usedLine
+    ? [...new Set((usedLine.match(/\d+/g) ?? []).map(Number))].filter((x) => x >= 1 && x <= picked.length)
+    : []
+  const used = (usedNums.length ? usedNums.map((x) => picked[x - 1]) : picked).filter(
+    (c) => !/news\.google\.com/.test(c.article.url),
+  )
+  const draft = stripFences(raw)
+    .split('\n')
+    .filter((l) => !/^\s*USED:/i.test(l))
+    .join('\n')
+    .trim()
+  const text = await editorPass(draft, material.slice(0, 20000), 'news')
+  const top = used.slice(0, 3)
+  const og = await Promise.all(top.map((c) => fetchOgData(c.article.url)))
+  writePage(
+    ENG_BLOGS_SLUG,
+    today,
+    {
+      title: `${ENG_BLOGS_LABEL} — ${today}`,
+      date: today,
+      category: ENG_BLOGS_SLUG,
+      companies: [...new Set(used.map(companyOf))],
+      topics: headingsOf(text),
+      summary: extractSummary(text),
+      topStories: top.map((c, i) => ({
+        headline: c.article.title,
+        source: companyOf(c),
+        url: c.article.url,
+        ...(og[i].image ? { image: og[i].image } : {}),
+      })),
+      sources: used.map((c) => c.article.url),
+    },
+    text,
+  )
+}
+
 // ---------- headlines (one short briefing over everything made today, plus the sky) ----------
 // Runs last. The morning run makes it only when every news category exists and
 // nothing failed; otherwise the afternoon catch-up run makes it with whatever exists,
@@ -761,6 +985,9 @@ async function generateHeadlines() {
     todaysPages(c.slug).map((p) => ({ topic: String(p.meta.question ?? p.meta.topic ?? p.meta.title), minutes: minutesOf(p.body) })),
   )
   const watch = todaysPages('watchlist')[0]
+  const blogs = todaysPages(ENG_BLOGS_SLUG)[0]
+  const blogTopics = blogs ? headingsOf(blogs.body).filter((h) => !/^outages and postmortems$/i.test(h)) : []
+  const blogOutages = blogs ? /^##\s+Outages and postmortems/im.test(blogs.body) : false
   const sky = skyReport(today)
 
   const extras = [
@@ -769,6 +996,9 @@ async function generateHeadlines() {
       : '',
     questions.length ? `Curious questions answered today:\n${questions.map((q) => `- ${q.topic} (about ${q.minutes} minutes)`).join('\n')}` : '',
     watch ? `Watchlist has an update today on: ${(watch.meta.topics ?? []).join(', ')}. Summary: ${watch.meta.summary ?? ''}` : '',
+    blogs
+      ? `Engineering Blogs episode today (about ${minutesOf(blogs.body)} minutes)${blogOutages ? ', starting with outage postmortems' : ''}, covering: ${blogTopics.join('; ')}`
+      : '',
     sky.highlights.length ? `Sky highlights today (mention in one short sentence after the opening; details are read at the end): ${sky.highlights.join('; ')}` : '',
   ]
     .filter(Boolean)
@@ -786,7 +1016,7 @@ Write the script:
 - About 400 to 550 words (3 to 4 minutes spoken). Tight, warm, radio-style; no filler.
 - Open with one sentence greeting the listener with the day and date.
 - Then one ## section per news category, in order of how significant today's news is (most important first). In each, cover the single most important story in one or two sentences, and name a second story in a short clause if it is notable. Use only facts in the material above; never add details.
-- Then a ## section called "Also today" that lists the explainers by topic with their approximate length, then any curious questions and the watchlist update, in one or two natural sentences each. Skip anything not present.
+- Then a ## section called "Also today" that lists the explainers by topic with their approximate length, then any curious questions, the watchlist update and the Engineering Blogs episode (name the companies, and say if there is an outage postmortem), in one or two natural sentences each. Skip anything not present.
 - Do not end with a sign-off; another section follows.
 ${STYLE_RULES}`
 
@@ -813,6 +1043,7 @@ ${STYLE_RULES}`
       explainers.length ? `Today's explainers: ${explainers.map((e) => `${e.label}, ${e.topic}, about ${e.minutes} minutes`).join('. ')}.` : '',
       questions.length ? `Curious questions: ${questions.map((q) => q.topic).join('. ')}.` : '',
       watch ? `Watchlist has an update on ${(watch.meta.topics ?? []).join(', ')}.` : '',
+      blogs ? `Engineering Blogs covers ${(blogs.meta.companies ?? []).join(', ')}.` : '',
     ].filter(Boolean)
     const d = new Date(`${today}T00:00:00Z`)
     const spoken = d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', timeZone: 'UTC' })
@@ -851,7 +1082,9 @@ async function main() {
   const issues = needIssues ? ((await withRetry('issues', ownerIssues)) ?? []) : []
   if (vault.vaultEnabled()) {
     try {
-      const moved = vault.ingestInbox(EXPLAINER_CATEGORIES.map((c) => c.vaultNote).concat(vault.WATCHLIST_NOTE))
+      const moved = vault.ingestInbox(
+        EXPLAINER_CATEGORIES.map((c) => c.vaultNote).concat(vault.WATCHLIST_NOTE, vault.ENG_BLOGS_NOTE),
+      )
       console.log(`\n[vault] Obsidian vault found; ${moved} podcast item(s) moved from the Inbox`)
     } catch (err) {
       failures.push(`vault inbox: ${describeError(err)}`)
@@ -869,6 +1102,7 @@ async function main() {
     }
   }
   if (ONLY.has('watchlist')) await withRetry('watchlist', () => generateWatchlist(issues))
+  if (ONLY.has('engblogs')) await withRetry('eng-blogs', generateEngBlogs)
   if (ONLY.has('headlines')) await withRetry('headlines', generateHeadlines)
 
   fs.writeFileSync(path.join(ROOT, '.generation-failures.txt'), failures.join('\n'), 'utf-8')

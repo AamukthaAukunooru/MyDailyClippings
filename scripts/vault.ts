@@ -9,6 +9,8 @@
 //                         ## Up next   "- [ ] Topic" lines, top first ("Topic :: angle" adds an angle)
 //                         ## Done      "- [x] Topic · [episode](url) · date", added by the run
 //   Podcast/Watchlist.md  ## Following  "- Topic :: what I care about" (delete a line to stop)
+//   Podcast/Engineering Blogs.md  ## Following  "- Name :: blog or feed URL" or just "- URL"
+//                       (extra company blogs for the Engineering Blogs show)
 //   Inbox/*.md          items shared from the phone. Those whose category starts with
 //                       "Podcast/" are moved into the matching queue note here; every
 //                       other category is processed by the PC (see _tools/inbox in the vault).
@@ -23,6 +25,10 @@ const PODCAST = 'Podcast'
 const INBOX = 'Inbox'
 export const QUESTIONS_NOTE = 'Curious Questions'
 export const WATCHLIST_NOTE = 'Watchlist'
+export const ENG_BLOGS_NOTE = 'Engineering Blogs'
+// Notes whose items are plain "- ..." lines under "## Following" rather than a "- [ ]" queue.
+const FOLLOWING_NOTES = [WATCHLIST_NOTE, ENG_BLOGS_NOTE]
+const isFollowing = (note: string) => FOLLOWING_NOTES.some((n) => n.toLowerCase() === note.toLowerCase())
 
 export function vaultEnabled(): boolean {
   return fs.existsSync(path.join(VAULT_DIR, PODCAST))
@@ -132,6 +138,30 @@ export function watches(): Watch[] {
   return out
 }
 
+export interface BlogLine {
+  name: string
+  url: string
+}
+
+// Extra blogs to follow, from Podcast/Engineering Blogs.md. The URL can be the blog's
+// home page or its feed; the run finds the feed.
+export function blogs(): BlogLine[] {
+  const lines = readLines(ENG_BLOGS_NOTE)
+  if (!lines) return []
+  const range = sectionRange(lines, 'Following')
+  if (!range) return []
+  const out: BlogLine[] = []
+  for (let i = range[0]; i < range[1]; i++) {
+    const m = lines[i].match(BULLET)
+    if (!m) continue
+    const url = m[1].match(/https?:\/\/[^\s)>\]]+/)?.[0]
+    if (!url) continue
+    const name = m[1].replace(/\[([^\]]*)\]\([^)]*\)/g, '$1').replace(url, '').replace(/\s*(::|—|-|\|)\s*$/, '').replace(/^\s*(::|—|\|)\s*/, '').trim()
+    out.push({ name: name || new URL(url).hostname.replace(/^www\./, ''), url })
+  }
+  return out
+}
+
 // Insert lines at the top of a section (creating the section if missing).
 function insertAtTop(note: string, section: string, newLines: string[]) {
   let lines = readLines(note)
@@ -191,18 +221,20 @@ export function ingestInbox(knownNotes: string[]): number {
     const shared = (fields.shared ?? '').replace(/\s+/g, ' ').trim()
     const typed = (fields.note ?? '').replace(/\s+/g, ' ').trim()
     // The typed text is the topic; a shared link or text becomes the angle.
-    const title = typed || (URL_ONLY.test(shared) ? '' : shared)
+    // A bare link is fine for Engineering Blogs (it is the blog to follow), not for topic queues.
+    const blogNote = note.toLowerCase() === ENG_BLOGS_NOTE.toLowerCase()
+    const title = typed || (URL_ONLY.test(shared) && !blogNote ? '' : shared)
     if (!title) {
       console.log(`[vault] ${f}: no topic text (only a link), left in the Inbox`)
       continue
     }
     const angle = typed && shared ? shared : ''
-    const line = note === WATCHLIST_NOTE ? `- ${title}${angle ? ` :: ${angle}` : ''}` : `- [ ] ${title}${angle ? ` :: ${angle}` : ''}`
+    const line = isFollowing(note) ? `- ${title}${angle ? ` :: ${angle}` : ''}` : `- [ ] ${title}${angle ? ` :: ${angle}` : ''}`
     byNote.set(note, [...(byNote.get(note) ?? []), line])
     moved.push(f)
   }
   for (const [note, lines] of byNote) {
-    insertAtTop(note, note === WATCHLIST_NOTE ? 'Following' : 'Up next', lines)
+    insertAtTop(note, isFollowing(note) ? 'Following' : 'Up next', lines)
     console.log(`[vault] ${lines.length} inbox item(s) → Podcast/${note}.md`)
   }
   for (const f of moved) fs.unlinkSync(path.join(dir, f))

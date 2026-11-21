@@ -18,7 +18,7 @@ In an age where algorithms decide what you see based on what keeps you scrolling
 
 Every page becomes one MP3, published in one podcast feed per show:
 Headlines, Physics, AI & Technology, Geopolitics, Astronomy, Math, Neuroscience, History,
-System Design, Curious Questions and Watchlist. The site's **Listen** page lists every feed URL.
+System Design, Curious Questions, Watchlist and Engineering Blogs. The site's **Listen** page lists every feed URL.
 
 1. Install **AntennaPod** (free) on your phone.
 2. Add each feed: *Add podcast → Add podcast by RSS address*, paste a URL from the Listen page.
@@ -47,12 +47,20 @@ Feeds are deployed with the site. MP3s never go into git.
 - **Backfill:** Actions → *Backfill Podcast Audio* → Run (defaults to the last 100 days).
 - **Topics and questions:** the main inbox is the private Obsidian vault (`obsidian-library`). Each show has a queue note, `Podcast/<Show>.md`: the run takes the first unticked line under "Up next" and moves it to "Done" with a link to the episode. Things shared from the phone into the vault's `Inbox/` with a `Podcast/<Show>` category are moved into those notes first. Needs the `OBSIDIAN_TOKEN` secret. GitHub issues with a show label still work as a backup (`question`, `astronomy`, `math`, `neuroscience`, `history`, `system-design`, `sd-interview`, `dsa`, `lld`; add `next` to jump the queue). See `topics/README.md`.
 - **Watchlist:** add a line under "Following" in the vault's `Podcast/Watchlist.md` (or open an issue with the `watch` label) to follow a specific thing (a product, a person, an event). On days with new news, one combined Watchlist episode covers it. Close the issue to unsubscribe.
+- **Engineering Blogs:** company engineering blogs (Netflix, Meta, Cloudflare, GitHub, Stripe, Google, Microsoft .NET,
+  AWS, Flipkart, Swiggy, Razorpay, Zerodha and more, see `ENG_BLOG_FEEDS` in `scripts/categories.ts`) plus outage write-ups
+  (Cloudflare post-mortems, GitHub availability reports, and postmortems that reach Hacker News or Google News). Every new
+  post is covered once (recorded in `engblogs/seen.json`): up to 10 a day, outages first, the rest shared out across
+  companies; extra posts wait for the next day and are dropped after 7 days. One Gemini call, only on days with new posts.
+  To follow another blog, add `- Name :: https://blog-or-feed-url` under "Following" in the vault's
+  `Podcast/Engineering Blogs.md`, or share the blog's link from the phone with category `Podcast/Engineering Blogs`; the
+  run finds its feed. The *Check RSS feeds* workflow (Actions, or any PR that edits the feed lists) reports dead feeds.
 - **Reading List:** add article URLs to `reading-list.txt` (edit on github.com in the phone browser). Needs Cloudflare R2 secrets
   (`R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`, `R2_PUBLIC_URL`,
   `READING_LIST_PREFIX`) so saved articles are not republished from this public repo. The feed
   is at `<R2_PUBLIC_URL>/<READING_LIST_PREFIX>/reading-list.xml`. Skipped when not configured.
 - **Failures:** a GitHub issue is opened automatically when a category or audio step fails (the 2 PM catch-up run adds to the same issue).
-- **Gemini quota:** the free tier allows 20 requests a day on `gemini-2.5-flash` (Flash-Lite has no free quota), and a full day needs about 13 (including Headlines) plus one per curious question. So everything runs on Flash and the fact-check pass is off by default. A model that runs out of daily quota is skipped for the rest of the run, and a 2 PM IST catch-up run (after the quota resets at midnight Pacific) fills in anything missed. With billing enabled, set repo variables `EDITOR_PASS=true` and `GEMINI_FALLBACK_MODELS=gemini-2.5-flash-lite`; models can be changed with `GEMINI_MODEL`, `GEMINI_EDITOR_MODEL`, `GEMINI_EXPLAINER_MODEL`.
+- **Gemini quota:** the free tier allows 20 requests a day on `gemini-2.5-flash` (Flash-Lite has no free quota), and a full day needs about 17 (including Headlines, Watchlist and Engineering Blogs) plus one per curious question. So everything runs on Flash and the fact-check pass is off by default. A model that runs out of daily quota is skipped for the rest of the run, and a 2 PM IST catch-up run (after the quota resets at midnight Pacific) fills in anything missed. With billing enabled, set repo variables `EDITOR_PASS=true` and `GEMINI_FALLBACK_MODELS=gemini-2.5-flash-lite`; models can be changed with `GEMINI_MODEL`, `GEMINI_EDITOR_MODEL`, `GEMINI_EXPLAINER_MODEL`.
 - **Dry run without network:** `python -m podcast.build --tts stub --storage local`.
 
 ## Tech stack

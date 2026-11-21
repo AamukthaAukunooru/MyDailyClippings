@@ -205,6 +205,19 @@
           "label": "Watchlist"
         }
       ]
+    },
+    {
+      "slug": "eng-blogs",
+      "title": "Clippings · Engineering Blogs",
+      "description": "New posts from company engineering blogs (Netflix, Meta, Cloudflare, Google, Microsoft, Flipkart, Swiggy, Razorpay and more) and every public outage postmortem, explained. Only on days something new is published.",
+      "color": "#475569",
+      "sources": [
+        {
+          "dir": "eng-blogs",
+          "kind": "news",
+          "label": "Engineering Blogs"
+        }
+      ]
     }
   ]
 }

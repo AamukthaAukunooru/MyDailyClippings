@@ -114,6 +114,13 @@ export const CATEGORIES: CategoryMeta[] = [
     searchQuery: '',
   },
   {
+    slug: 'eng-blogs',
+    label: 'Engineering Blogs',
+    tagline: 'What engineering teams at Netflix, Meta, Cloudflare, Flipkart and friends just published, and every outage postmortem.',
+    accentColor: 'blue',
+    searchQuery: '',
+  },
+  {
     slug: 'questions',
     label: 'Curious Questions',
     tagline: 'Short answers to the questions I wonder about.',

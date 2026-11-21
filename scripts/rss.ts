@@ -13,6 +13,7 @@ export interface Article {
   source: string
   publishedAt: Date
   summary: string
+  content?: string // full post text when the feed carries it (content:encoded / Atom content), capped
 }
 
 const MAX_PER_FEED = 6
@@ -62,7 +63,9 @@ function extractLink(block: string): string | null {
   return null
 }
 
-function parseFeed(xml: string, sourceName: string): Article[] {
+const MAX_CONTENT_CHARS = 9000
+
+export function parseFeed(xml: string, sourceName: string): Article[] {
   const blocks = xml.match(/<item[\s>][\s\S]*?<\/item>/gi) ?? xml.match(/<entry[\s>][\s\S]*?<\/entry>/gi) ?? []
   const articles: Article[] = []
   for (const block of blocks) {
@@ -73,30 +76,46 @@ function parseFeed(xml: string, sourceName: string): Article[] {
     const publishedAt = new Date(stripHtml(dateStr))
     if (isNaN(publishedAt.getTime())) continue
     const rawSummary = firstTag(block, ['description', 'summary', 'content']) ?? ''
+    const rawContent = firstTag(block, ['content:encoded', 'content', 'description']) ?? ''
     articles.push({
       title: stripHtml(title),
       url,
       source: sourceName,
       publishedAt,
       summary: stripHtml(rawSummary).slice(0, 220),
+      content: stripHtml(rawContent).slice(0, MAX_CONTENT_CHARS),
     })
   }
   return articles
 }
 
-async function fetchFeed(feed: FeedSource): Promise<Article[]> {
+async function fetchFeedOnce(feed: FeedSource): Promise<Article[]> {
   const controller = new AbortController()
   const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS)
   try {
     const res = await fetch(feed.url, {
       signal: controller.signal,
       redirect: 'follow',
-      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; MyDailyClippings/1.0)' },
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; MyDailyClippings/1.0)',
+        Accept: 'application/rss+xml, application/atom+xml, application/xml;q=0.9, text/xml;q=0.9, */*;q=0.8',
+      },
     })
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
     return parseFeed(await res.text(), feed.name)
   } finally {
     clearTimeout(timeout)
+  }
+}
+
+// One retry for server errors and network blips (hnrss.org returns 502 when hit in a burst).
+export async function fetchFeed(feed: FeedSource): Promise<Article[]> {
+  try {
+    return await fetchFeedOnce(feed)
+  } catch (err) {
+    if (!/HTTP 5\d\d|fetch failed|abort|ECONNRESET|ETIMEDOUT/i.test(String(err))) throw err
+    await new Promise((r) => setTimeout(r, 3000 + Math.random() * 4000))
+    return fetchFeedOnce(feed)
   }
 }
 
