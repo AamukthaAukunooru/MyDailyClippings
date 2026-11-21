@@ -1365,6 +1365,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/ai-2026-11-20.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "ai/2026-11-21": {
+   "bytes": 2233258,
+   "date": "2026-11-21",
+   "duration": 372,
+   "guid": "ai/2026-11-21",
+   "hash": "dc46eda2608c1857",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-11-21/",
+   "published": "2026-11-21T06:30:00+05:30",
+   "show": "ai",
+   "summary": "The past forty-eight hours have delivered a potent mix of groundbreaking mathematical claims, urgent privacy concerns, and a stark re-evaluation of AI's environmental footprint. The AI community is abuzz with unverified,",
+   "title": "Nov 21 · AI and Technology news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/ai-2026-11-21.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "astronomy-explained/2026-10-19": {
    "bytes": 5011226,
    "date": "2026-10-19",
@@ -1858,6 +1873,21 @@
    "summary": "Imagine a particle, smaller than an atom, traveling through space at nearly the speed of light. Now imagine that particle carrying the kinetic energy equivalent to a baseball thrown by a major league pitcher. These aren'",
    "title": "Nov 20 · Explainer: Cosmic Rays: High-Energy Particles from Space",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-20.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "astronomy-explained/2026-11-21": {
+   "bytes": 4724105,
+   "date": "2026-11-21",
+   "duration": 786,
+   "guid": "astronomy-explained/2026-11-21",
+   "hash": "745f431947e605da",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-21/",
+   "published": "2026-11-21T06:20:00+05:30",
+   "show": "astronomy",
+   "summary": "Imagine a cosmic ballet, millions of tiny dancers orbiting a giant, forming intricate patterns visible from billions of miles away. This isn't a scene from a science fiction movie, but the reality of Saturn's magnificent",
+   "title": "Nov 21 · Explainer: The Rings of Saturn: A Cosmic Ballet of Ice and Gravity",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-21.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "astronomy/2026-08-18": {
@@ -3210,6 +3240,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-20.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "astronomy/2026-11-21": {
+   "bytes": 2210325,
+   "date": "2026-11-21",
+   "duration": 368,
+   "guid": "astronomy/2026-11-21",
+   "hash": "b923c436f8d93233",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-21/",
+   "published": "2026-11-21T06:30:00+05:30",
+   "show": "astronomy",
+   "summary": "Here are today's cosmic highlights, a blend of profound theoretical shifts and tangible steps toward our future in space. We're diving into a radical new theory that could redefine the universe's age and composition, alo",
+   "title": "Nov 21 · Astronomy news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-21.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "dsa-patterns/2026-11-03": {
    "bytes": 5537207,
    "date": "2026-11-03",
@@ -3478,6 +3523,21 @@
    "summary": "Have you ever used the paint bucket tool in an image editor like MS Paint or Photoshop? You click on a pixel, and suddenly, a whole region of the same color magically transforms to your chosen new color. It feels like ma",
    "title": "Nov 20 · Explainer: Flood Fill: The Paint Bucket Tool Explained",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/dsa-patterns-2026-11-20.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "dsa-patterns/2026-11-21": {
+   "bytes": 6830892,
+   "date": "2026-11-21",
+   "duration": 1137,
+   "guid": "dsa-patterns/2026-11-21",
+   "hash": "29ff3ab2b231bf86",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-21/",
+   "published": "2026-11-21T06:20:00+05:30",
+   "show": "dsa",
+   "summary": "Have you ever tried to trace the family tree of an idea, or perhaps the directory structure of a complex software project? You might find yourself looking for the point where two distinct branches converged, the earliest",
+   "title": "Nov 21 · Explainer: Lowest Common Ancestor in a BST",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/dsa-patterns-2026-11-21.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "geopolitics/2026-08-18": {
@@ -4770,6 +4830,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/geopolitics-2026-11-20.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "geopolitics/2026-11-21": {
+   "bytes": 4269715,
+   "date": "2026-11-21",
+   "duration": 711,
+   "guid": "geopolitics/2026-11-21",
+   "hash": "e0b7033e9dec9bba",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-11-21/",
+   "published": "2026-11-21T06:30:00+05:30",
+   "show": "geopolitics",
+   "summary": "Today, November 21, 2026, global attention is drawn to escalating tensions in **Europe**, particularly concerning **Russia**, alongside ongoing efforts to address climate change and evolving political landscapes in vario",
+   "title": "Nov 21 · Geopolitics news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/geopolitics-2026-11-21.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "headlines/2026-11-03": {
    "bytes": 1175798,
    "date": "2026-11-03",
@@ -5038,6 +5113,21 @@
    "summary": "Good morning, and welcome to My Daily Clippings for Friday, November 20th, 2026.",
    "title": "Nov 20 · Headlines",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/headlines-2026-11-20.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "headlines/2026-11-21": {
+   "bytes": 1449961,
+   "date": "2026-11-21",
+   "duration": 241,
+   "guid": "headlines/2026-11-21",
+   "hash": "a1f496a6c59a096d",
+   "kind": "briefing",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/headlines/2026-11-21/",
+   "published": "2026-11-21T06:40:00+05:30",
+   "show": "headlines",
+   "summary": "Good morning, and welcome to My Daily Clippings for Saturday, November twenty-first, two thousand twenty-six. Today, there's a good chance to spot Mercury.",
+   "title": "Nov 21 · Headlines",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/headlines-2026-11-21.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "history/2026-10-19": {
@@ -5535,6 +5625,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-20.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "history/2026-11-21": {
+   "bytes": 5353584,
+   "date": "2026-11-21",
+   "duration": 891,
+   "guid": "history/2026-11-21",
+   "hash": "4a98033f224edf38",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-21/",
+   "published": "2026-11-21T06:20:00+05:30",
+   "show": "history",
+   "summary": "Imagine standing before a structure that has defied the ravages of time for over two millennia. Not a pyramid, but a vast dome, an intricate harbor, or a bridge still carrying traffic. These aren't just ancient ruins; th",
+   "title": "Nov 21 · Explainer: Roman Concrete: Engineering an Empire's Enduring Structures",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-21.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "lld/2026-11-04": {
    "bytes": 5433711,
    "date": "2026-11-04",
@@ -5788,6 +5893,21 @@
    "summary": "Imagine you’ve built the core of our salon and spa appointment booking platform. You have a solid `AppointmentScheduler` class that takes care of the fundamental logic: checking availability, reserving a slot, and persis",
    "title": "Nov 20 · Explainer: Decorator Pattern and ASP.NET Core Middleware",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/lld-2026-11-20.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "lld/2026-11-21": {
+   "bytes": 5107256,
+   "date": "2026-11-21",
+   "duration": 850,
+   "guid": "lld/2026-11-21",
+   "hash": "f0bf9aa7c5aa7d3f",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/lld/2026-11-21/",
+   "published": "2026-11-21T06:20:00+05:30",
+   "show": "lld",
+   "summary": "Have you ever tried to book an appointment with a highly sought-after stylist or therapist, only to find their schedule perpetually full, or that you need special permission to even view it? What if there was someone who",
+   "title": "Nov 21 · Explainer: Proxy Pattern: Controlling Access and Adding Layers of Logic",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/lld-2026-11-21.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "math-explained/2026-10-19": {
@@ -6285,6 +6405,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-20.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "math-explained/2026-11-21": {
+   "bytes": 6585575,
+   "date": "2026-11-21",
+   "duration": 1096,
+   "guid": "math-explained/2026-11-21",
+   "hash": "d208296474f436ba",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-21/",
+   "published": "2026-11-21T06:20:00+05:30",
+   "show": "math",
+   "summary": "Imagine you're trying to figure out how many different ways you can make change for a dollar using pennies, nickels, dimes, and quarters. Or perhaps you're analyzing a recursive algorithm, and you need to find a closed-f",
+   "title": "Nov 21 · Explainer: Generating Functions: Encoding Sequences in Polynomials",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-21.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "math/2026-10-19": {
    "bytes": 1645271,
    "date": "2026-10-19",
@@ -6778,6 +6913,21 @@
    "summary": "Today's \"My Daily Clippings\" brings us to a fascinating juncture where artificial intelligence continues to push the boundaries of mathematical discovery, prompting both awe at its capabilities and critical reflection wi",
    "title": "Nov 20 · Math news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-20.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "math/2026-11-21": {
+   "bytes": 1646424,
+   "date": "2026-11-21",
+   "duration": 274,
+   "guid": "math/2026-11-21",
+   "hash": "9617c569e96eb987",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-21/",
+   "published": "2026-11-21T06:30:00+05:30",
+   "show": "math",
+   "summary": "Here are today's clippings, a look at some fascinating developments in the world of mathematics and its applications. We have a potentially monumental, though still unconfirmed, claim regarding one of mathematics' most f",
+   "title": "Nov 21 · Math news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-21.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "neuroscience-explained/2026-10-19": {
@@ -7275,6 +7425,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-20.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "neuroscience-explained/2026-11-21": {
+   "bytes": 4786661,
+   "date": "2026-11-21",
+   "duration": 797,
+   "guid": "neuroscience-explained/2026-11-21",
+   "hash": "55500d2e670fba5d",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-21/",
+   "published": "2026-11-21T06:20:00+05:30",
+   "show": "neuroscience",
+   "summary": "Imagine you are deep in the zone, coding a complex algorithm, your mind fully immersed in the logic on your screen. Suddenly, your phone buzzes with an urgent notification. Before you can even process it, a faint smell o",
+   "title": "Nov 21 · Explainer: The Salience Network: Your Brain's Priority Switch",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-21.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "neuroscience/2026-10-19": {
    "bytes": 1607089,
    "date": "2026-10-19",
@@ -7768,6 +7933,21 @@
    "summary": "Good morning, brainiacs, and welcome to My Daily Clippings. Today, we're diving into some fascinating new findings that shed light on how our brains age, potential new avenues for tackling Alzheimer's disease, and a grou",
    "title": "Nov 20 · Neuroscience news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-20.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "neuroscience/2026-11-21": {
+   "bytes": 1448530,
+   "date": "2026-11-21",
+   "duration": 241,
+   "guid": "neuroscience/2026-11-21",
+   "hash": "1991d40f36753d9b",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-21/",
+   "published": "2026-11-21T06:30:00+05:30",
+   "show": "neuroscience",
+   "summary": "Good morning, and welcome to My Daily Clippings for November twenty-first, two thousand twenty-six. Today, we're looking at a range of stories impacting the neuroscience community, from a concerning incident involving an",
+   "title": "Nov 21 · Neuroscience news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-21.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "physics/2026-08-18": {
@@ -9165,6 +9345,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/physics-2026-11-20.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "physics/2026-11-21": {
+   "bytes": 2227619,
+   "date": "2026-11-21",
+   "duration": 371,
+   "guid": "physics/2026-11-21",
+   "hash": "a12489fa9828ba1b",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-11-21/",
+   "published": "2026-11-21T06:30:00+05:30",
+   "show": "physics",
+   "summary": "Here are today's clippings, bringing you the latest in physics from around the globe. This week has seen a flurry of exciting developments, from breakthroughs in the quest for fusion energy to the detection of incredibly",
+   "title": "Nov 21 · Physics news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/physics-2026-11-21.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "questions/2026-10-19-why-sky-is-blue": {
    "bytes": 1730768,
    "date": "2026-10-19",
@@ -9448,6 +9643,21 @@
    "summary": "1.  Display live scores and match status for ongoing matches.",
    "title": "Nov 20 · Interview: Design a Live Cricket Score App",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-interviews-2026-11-20.mp3",
+   "voice": "en-US-AvaMultilingualNeural|Candidate=en-US-AvaMultilingualNeural,Interviewer=en-US-AndrewMultilingualNeural"
+  },
+  "system-design-interviews/2026-11-21": {
+   "bytes": 8482057,
+   "date": "2026-11-21",
+   "duration": 1412,
+   "guid": "system-design-interviews/2026-11-21",
+   "hash": "fd5598da6d83adc3",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/system-design-interviews/2026-11-21/",
+   "published": "2026-11-21T06:20:00+05:30",
+   "show": "sd-interviews",
+   "summary": "Are there any other key functional areas we should prioritize, or any specific features we should de-prioritize for this exercise?",
+   "title": "Nov 21 · Interview: Design Spotify",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-interviews-2026-11-21.mp3",
    "voice": "en-US-AvaMultilingualNeural|Candidate=en-US-AvaMultilingualNeural,Interviewer=en-US-AndrewMultilingualNeural"
   },
   "system-design/2026-10-19": {
@@ -9945,6 +10155,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-20.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "system-design/2026-11-21": {
+   "bytes": 5671713,
+   "date": "2026-11-21",
+   "duration": 944,
+   "guid": "system-design/2026-11-21",
+   "hash": "b33c70bd98731514",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-21/",
+   "published": "2026-11-21T06:20:00+05:30",
+   "show": "system-design",
+   "summary": "Imagine you're building a massive spam filter. Every day, your service receives billions of emails. You need to quickly check if an incoming email address has been seen before and flagged as a known spammer. Storing ever",
+   "title": "Nov 21 · Explainer: Bloom Filters: Probabilistic Membership for Huge Datasets",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-21.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "watchlist/2026-10-19": {
    "bytes": 305318,
    "date": "2026-10-19",
@@ -10348,6 +10573,21 @@
    "summary": "Here's your daily \"Watchlist\" news update. Today, we have updates on the next era of Marvel Digital Comics Webtoons and the November cyclone for the Chennai–Puducherry coast.",
    "title": "Nov 20 · Watchlist news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/watchlist-2026-11-20.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "watchlist/2026-11-21": {
+   "bytes": 582940,
+   "date": "2026-11-21",
+   "duration": 97,
+   "guid": "watchlist/2026-11-21",
+   "hash": "366e06d0912a3dcb",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/watchlist/2026-11-21/",
+   "published": "2026-11-21T06:30:00+05:30",
+   "show": "watchlist",
+   "summary": "Today, there are updates on the November cyclone for the Chennai–Puducherry coast and Marvel Doomsday ticket opening date in India.",
+   "title": "Nov 21 · Watchlist news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/watchlist-2026-11-21.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   }
  },

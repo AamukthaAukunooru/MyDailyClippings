@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
     <description>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 04:25:43 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 04:00:46 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 21 · Explainer: Bloom Filters: Probabilistic Membership for Huge Datasets</title>
+      <guid isPermaLink="false">system-design/2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-21/</link>
+      <description><![CDATA[Imagine you're building a massive spam filter. Every day, your service receives billions of emails. You need to quickly check if an incoming email address has been seen before and flagged as a known spammer. Storing ever<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-21/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-21.mp3" length="5671713" type="audio/mpeg"/>
+      <itunes:duration>15:44</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 20 · Explainer: Hot Partitions and the Celebrity Problem</title>
       <guid isPermaLink="false">system-design/2026-11-20</guid>

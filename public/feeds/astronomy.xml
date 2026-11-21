@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 04:25:43 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 04:00:46 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 21 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-21/</link>
+      <description><![CDATA[Here are today's cosmic highlights, a blend of profound theoretical shifts and tangible steps toward our future in space. We're diving into a radical new theory that could redefine the universe's age and composition, alo<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-21/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-21.mp3" length="2210325" type="audio/mpeg"/>
+      <itunes:duration>6:08</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 21 · Explainer: The Rings of Saturn: A Cosmic Ballet of Ice and Gravity</title>
+      <guid isPermaLink="false">astronomy-explained/2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-21/</link>
+      <description><![CDATA[Imagine a cosmic ballet, millions of tiny dancers orbiting a giant, forming intricate patterns visible from billions of miles away. This isn't a scene from a science fiction movie, but the reality of Saturn's magnificent<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-21/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-21.mp3" length="4724105" type="audio/mpeg"/>
+      <itunes:duration>13:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 20 · Astronomy news</title>
       <guid isPermaLink="false">astronomy/2026-11-20</guid>

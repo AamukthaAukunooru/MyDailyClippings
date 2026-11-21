@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/physics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily physics news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 04:25:43 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 04:00:46 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily physics news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/physics.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 21 · Physics news</title>
+      <guid isPermaLink="false">physics/2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-11-21/</link>
+      <description><![CDATA[Here are today's clippings, bringing you the latest in physics from around the globe. This week has seen a flurry of exciting developments, from breakthroughs in the quest for fusion energy to the detection of incredibly<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-11-21/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/physics-2026-11-21.mp3" length="2227619" type="audio/mpeg"/>
+      <itunes:duration>6:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 20 · Physics news</title>
       <guid isPermaLink="false">physics/2026-11-20</guid>

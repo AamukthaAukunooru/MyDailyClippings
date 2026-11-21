@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/sd-interviews.xml" rel="self" type="application/rss+xml"/>
     <description>A daily mock system design interview for two voices, from URL shortener to YouTube and Uber. Same answer template every time, with every pattern named out loud.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 04:25:43 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 04:00:46 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>A daily mock system design interview for two voices, from URL shortener to YouTube and Uber. Same answer template every time, with every pattern named out loud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/sd-interviews.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 21 · Interview: Design Spotify</title>
+      <guid isPermaLink="false">system-design-interviews/2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design-interviews/2026-11-21/</link>
+      <description><![CDATA[Are there any other key functional areas we should prioritize, or any specific features we should de-prioritize for this exercise?<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design-interviews/2026-11-21/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-interviews-2026-11-21.mp3" length="8482057" type="audio/mpeg"/>
+      <itunes:duration>23:32</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 20 · Interview: Design a Live Cricket Score App</title>
       <guid isPermaLink="false">system-design-interviews/2026-11-20</guid>

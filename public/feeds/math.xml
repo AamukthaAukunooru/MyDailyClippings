@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 04:25:43 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 04:00:46 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 21 · Math news</title>
+      <guid isPermaLink="false">math/2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-21/</link>
+      <description><![CDATA[Here are today's clippings, a look at some fascinating developments in the world of mathematics and its applications. We have a potentially monumental, though still unconfirmed, claim regarding one of mathematics' most f<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-21/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-21.mp3" length="1646424" type="audio/mpeg"/>
+      <itunes:duration>4:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 21 · Explainer: Generating Functions: Encoding Sequences in Polynomials</title>
+      <guid isPermaLink="false">math-explained/2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-21/</link>
+      <description><![CDATA[Imagine you're trying to figure out how many different ways you can make change for a dollar using pennies, nickels, dimes, and quarters. Or perhaps you're analyzing a recursive algorithm, and you need to find a closed-f<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-21/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-21.mp3" length="6585575" type="audio/mpeg"/>
+      <itunes:duration>18:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 20 · Math news</title>
       <guid isPermaLink="false">math/2026-11-20</guid>
