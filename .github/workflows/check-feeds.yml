@@ -1,0 +1,29 @@
+name: Check RSS feeds
+
+# Fetches every feed in scripts/categories.ts and reports which ones fail or
+# return no items. Runs on pull requests that touch the feed lists, and by hand.
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/categories.ts'
+      - 'scripts/rss.ts'
+      - 'scripts/check-feeds.ts'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - run: npm ci
+      - name: Fetch every feed
+        run: npx tsx scripts/check-feeds.ts >> "$GITHUB_STEP_SUMMARY"

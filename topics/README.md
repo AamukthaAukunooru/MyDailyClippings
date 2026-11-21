@@ -4,7 +4,8 @@
 
 Topic queues live in the private `obsidian-library` vault, one note per show in `Podcast/`:
 `Astronomy`, `Math`, `Neuroscience`, `History`, `System Design Concepts`,
-`System Design Interviews`, `DSA Patterns`, `LLD & Design Patterns`, `Curious Questions`, `Watchlist`.
+`System Design Interviews`, `DSA Patterns`, `LLD & Design Patterns`, `Curious Questions`, `Watchlist`,
+`Engineering Blogs`.
 
 - Each morning a show takes the first unticked `- [ ] ...` line under **Up next**, writes the
   episode, and moves the line to **Done** with a link. Reorder lines to change what plays next;
@@ -14,6 +15,9 @@ Topic queues live in the private `obsidian-library` vault, one note per show in 
   Every `System Design Interviews` episode is one.
 - Up to 5 `Curious Questions` lines a day. `Watchlist` uses plain lines under **Following**;
   delete a line to stop following it.
+- `Engineering Blogs` also uses plain lines under **Following**, one extra company blog each:
+  `- Name :: https://...` (the blog's home page or its feed). A link shared from the phone with
+  category `Podcast/Engineering Blogs` is added there as is.
 - Phone: the "Podcast topic" share shortcut drops a file in the vault's `Inbox/` with category
   `Podcast/<Show>`; the run moves it to the top of that show's queue.
 - The workflow reads and writes the vault with the `OBSIDIAN_TOKEN` secret (fine-grained token,

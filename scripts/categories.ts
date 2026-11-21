@@ -293,3 +293,74 @@ export const PRIORITY_LABEL = 'next'
 
 // Back-compat name used by older code paths.
 export const CATEGORIES: ScriptCategory[] = [...NEWS_CATEGORIES, ...EXPLAINER_CATEGORIES]
+
+// ---------- Engineering Blogs show ----------
+// Company engineering blogs and outage write-ups. Every new post is covered once
+// (tracked in engblogs/seen.json), outages first; no episode on days with nothing new.
+// More blogs can be added from the vault: Podcast/Engineering Blogs.md, "## Following".
+//   blog       a company's engineering blog (full text is read when available)
+//   outage     a feed that is mostly incident reports and postmortems
+//   aggregator Hacker News / Google News searches that surface outage write-ups;
+//              only the last two days are used, and only items that look like outages
+export interface EngBlogFeed extends FeedSource {
+  kind: 'blog' | 'outage' | 'aggregator'
+}
+
+export const ENG_BLOGS_SLUG = 'eng-blogs'
+export const ENG_BLOGS_LABEL = 'Engineering Blogs'
+
+export const ENG_BLOG_FEEDS: EngBlogFeed[] = [
+  // Outages and postmortems
+  { kind: 'outage', name: 'Cloudflare (post-mortems)', url: 'https://blog.cloudflare.com/tag/post-mortem/rss/' },
+  { kind: 'outage', name: 'GitHub (availability reports)', url: 'https://github.blog/tag/github-availability-report/feed/' },
+  { kind: 'aggregator', name: 'Hacker News: postmortem', url: 'https://hnrss.org/newest?q=postmortem&points=40' },
+  { kind: 'aggregator', name: 'Hacker News: post-mortem', url: 'https://hnrss.org/newest?q=post-mortem&points=40' },
+  { kind: 'aggregator', name: 'Hacker News: outage', url: 'https://hnrss.org/newest?q=outage&points=80' },
+  { kind: 'aggregator', name: 'Hacker News: incident report', url: 'https://hnrss.org/newest?q=%22incident+report%22&points=40' },
+  {
+    kind: 'aggregator',
+    name: 'Google News: outage root cause',
+    url: 'https://news.google.com/rss/search?q=outage+%22root+cause%22+when:2d&hl=en-IN&gl=IN&ceid=IN:en',
+  },
+
+  // Big tech
+  { kind: 'blog', name: 'Google Online Security Blog', url: 'https://security.googleblog.com/feeds/posts/default' },
+  { kind: 'blog', name: 'Google Developers Blog', url: 'https://developers.googleblog.com/feeds/posts/default' },
+  { kind: 'blog', name: 'Meta Engineering', url: 'https://engineering.fb.com/feed/' },
+  { kind: 'blog', name: 'Microsoft .NET Blog', url: 'https://devblogs.microsoft.com/dotnet/feed/' },
+  { kind: 'blog', name: 'Azure SQL Blog', url: 'https://devblogs.microsoft.com/azure-sql/feed/' },
+  { kind: 'blog', name: 'AWS Architecture Blog', url: 'https://aws.amazon.com/blogs/architecture/feed/' },
+  { kind: 'blog', name: 'All Things Distributed (Werner Vogels)', url: 'https://www.allthingsdistributed.com/index.xml' },
+  { kind: 'blog', name: 'Netflix TechBlog', url: 'https://netflixtechblog.com/feed' },
+  { kind: 'blog', name: 'Cloudflare Blog', url: 'https://blog.cloudflare.com/rss/' },
+  { kind: 'blog', name: 'GitHub Engineering', url: 'https://github.blog/engineering/feed/' },
+
+  // Product companies
+  { kind: 'blog', name: 'Uber Engineering', url: 'https://www.uber.com/blog/engineering/rss/' },
+  { kind: 'blog', name: 'Stripe Blog', url: 'https://stripe.com/blog/feed.rss' },
+  { kind: 'blog', name: 'Slack Engineering', url: 'https://slack.engineering/feed/' },
+  { kind: 'blog', name: 'Dropbox Tech', url: 'https://dropbox.tech/feed' },
+  { kind: 'blog', name: 'Airbnb Engineering', url: 'https://medium.com/feed/airbnb-engineering' },
+  { kind: 'blog', name: 'Pinterest Engineering', url: 'https://medium.com/feed/pinterest-engineering' },
+  { kind: 'blog', name: 'Spotify Engineering', url: 'https://engineering.atspotify.com/feed/' },
+  { kind: 'blog', name: 'Shopify Engineering', url: 'https://shopify.engineering/blog.atom' },
+  { kind: 'blog', name: 'LinkedIn Engineering', url: 'https://www.linkedin.com/blog/engineering/feed' },
+  { kind: 'blog', name: 'Discord Engineering', url: 'https://discord.com/blog/rss.xml' },
+  { kind: 'blog', name: 'Lyft Engineering', url: 'https://eng.lyft.com/feed' },
+  { kind: 'blog', name: 'Grab Engineering', url: 'https://engineering.grab.com/feed.xml' },
+  { kind: 'blog', name: 'Figma Engineering', url: 'https://www.figma.com/blog/feed/atom.xml' },
+  { kind: 'blog', name: 'Datadog Engineering', url: 'https://www.datadoghq.com/blog/engineering/index.xml' },
+
+  // India
+  { kind: 'blog', name: 'Flipkart Tech', url: 'https://blog.flipkart.tech/feed' },
+  { kind: 'blog', name: 'Swiggy Bytes', url: 'https://bytes.swiggy.com/feed' },
+  { kind: 'blog', name: 'Razorpay Engineering', url: 'https://engineering.razorpay.com/feed' },
+  { kind: 'blog', name: 'Zerodha Tech', url: 'https://zerodha.tech/index.xml' },
+  { kind: 'blog', name: 'PhonePe Tech', url: 'https://tech.phonepe.com/feed/' },
+  { kind: 'blog', name: 'Myntra Engineering', url: 'https://medium.com/feed/myntra-engineering' },
+]
+
+// Titles that mark an outage write-up, used to pull aggregator items and put outages first.
+export const OUTAGE_TITLE = /post-?mortem|outage|incident|root cause|availability report|disruption|downtime|went down|service degradation|RCA\b/i
+
+export const ENG_BLOGS_PROMPT = `You write "Engineering Blogs", a daily audio digest for My Daily Clippings. The listener is a senior software engineer on a performance engineering team (.NET, SQL Server, Angular, React) who is preparing for top product companies. They want to hear what engineering teams at well-known companies have just published, and every public outage write-up, while commuting.`

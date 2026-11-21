@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clippings · Engineering Blogs</title>
+    <link>https://aamukthaaukunooru.github.io/MyDailyClippings/eng-blogs/</link>
+    <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/eng-blogs.xml" rel="self" type="application/rss+xml"/>
+    <description>New posts from company engineering blogs (Netflix, Uber, Meta, Cloudflare, Google, Microsoft, Flipkart, Swiggy, Razorpay and more) and every public outage postmortem, explained. Only on days something new is published.</description>
+    <language>en</language>
+    <lastBuildDate>Sat, 21 Nov 2026 17:22:12 +0000</lastBuildDate>
+    <itunes:author>My Daily Clippings</itunes:author>
+    <itunes:summary>New posts from company engineering blogs (Netflix, Uber, Meta, Cloudflare, Google, Microsoft, Flipkart, Swiggy, Razorpay and more) and every public outage postmortem, explained. Only on days something new is published.</itunes:summary>
+    <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/eng-blogs.png"/>
+    <image><url>https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/eng-blogs.png</url><title>Clippings · Engineering Blogs</title><link>https://aamukthaaukunooru.github.io/MyDailyClippings/eng-blogs/</link></image>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:category text="News"/>
+  </channel>
+</rss>

@@ -13,6 +13,7 @@ export interface Article {
   source: string
   publishedAt: Date
   summary: string
+  content?: string // full post text when the feed carries it (content:encoded / Atom content), capped
 }
 
 const MAX_PER_FEED = 6
@@ -62,7 +63,9 @@ function extractLink(block: string): string | null {
   return null
 }
 
-function parseFeed(xml: string, sourceName: string): Article[] {
+const MAX_CONTENT_CHARS = 9000
+
+export function parseFeed(xml: string, sourceName: string): Article[] {
   const blocks = xml.match(/<item[\s>][\s\S]*?<\/item>/gi) ?? xml.match(/<entry[\s>][\s\S]*?<\/entry>/gi) ?? []
   const articles: Article[] = []
   for (const block of blocks) {
@@ -73,18 +76,20 @@ function parseFeed(xml: string, sourceName: string): Article[] {
     const publishedAt = new Date(stripHtml(dateStr))
     if (isNaN(publishedAt.getTime())) continue
     const rawSummary = firstTag(block, ['description', 'summary', 'content']) ?? ''
+    const rawContent = firstTag(block, ['content:encoded', 'content', 'description']) ?? ''
     articles.push({
       title: stripHtml(title),
       url,
       source: sourceName,
       publishedAt,
       summary: stripHtml(rawSummary).slice(0, 220),
+      content: stripHtml(rawContent).slice(0, MAX_CONTENT_CHARS),
     })
   }
   return articles
 }
 
-async function fetchFeed(feed: FeedSource): Promise<Article[]> {
+export async function fetchFeed(feed: FeedSource): Promise<Article[]> {
   const controller = new AbortController()
   const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS)
   try {
