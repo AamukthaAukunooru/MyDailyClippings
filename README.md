@@ -47,7 +47,7 @@ Feeds are deployed with the site. MP3s never go into git.
 - **Backfill:** Actions → *Backfill Podcast Audio* → Run (defaults to the last 100 days).
 - **Topics and questions:** the main inbox is the private Obsidian vault (`obsidian-library`). Each show has a queue note, `Podcast/<Show>.md`: the run takes the first unticked line under "Up next" and moves it to "Done" with a link to the episode. Things shared from the phone into the vault's `Inbox/` with a `Podcast/<Show>` category are moved into those notes first. Needs the `OBSIDIAN_TOKEN` secret. GitHub issues with a show label still work as a backup (`question`, `astronomy`, `math`, `neuroscience`, `history`, `system-design`, `sd-interview`, `dsa`, `lld`; add `next` to jump the queue). See `topics/README.md`.
 - **Watchlist:** add a line under "Following" in the vault's `Podcast/Watchlist.md` (or open an issue with the `watch` label) to follow a specific thing (a product, a person, an event). On days with new news, one combined Watchlist episode covers it. Close the issue to unsubscribe.
-- **Engineering Blogs:** company engineering blogs (Netflix, Uber, Meta, Cloudflare, GitHub, Stripe, Google, Microsoft .NET,
+- **Engineering Blogs:** company engineering blogs (Netflix, Meta, Cloudflare, GitHub, Stripe, Google, Microsoft .NET,
   AWS, Flipkart, Swiggy, Razorpay, Zerodha and more, see `ENG_BLOG_FEEDS` in `scripts/categories.ts`) plus outage write-ups
   (Cloudflare post-mortems, GitHub availability reports, and postmortems that reach Hacker News or Google News). Every new
   post is covered once (recorded in `engblogs/seen.json`): up to 10 a day, outages first, the rest shared out across

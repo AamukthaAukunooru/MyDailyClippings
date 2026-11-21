@@ -74,7 +74,6 @@ export const NEWS_CATEGORIES: NewsCategory[] = [
       { name: 'APS Physics Magazine', url: 'http://feeds.aps.org/rss/recent/physics.xml' },
       { name: 'Phys.org Physics', url: 'https://phys.org/rss-feed/physics-news/' },
       { name: 'ScienceDaily Physics', url: 'https://www.sciencedaily.com/rss/matter_energy/physics.xml' },
-      { name: 'New Scientist Physics', url: 'https://www.newscientist.com/subject/physics/feed/' },
     ],
   },
   {
@@ -165,7 +164,6 @@ export const NEWS_CATEGORIES: NewsCategory[] = [
     minArticles: 4,
     feeds: [
       { name: 'ScienceDaily Neuroscience', url: 'https://www.sciencedaily.com/rss/mind_brain/neuroscience.xml' },
-      { name: 'Medical Xpress Neuroscience', url: 'https://medicalxpress.com/rss-feed/neuroscience-news/' },
       { name: 'Neuroscience News', url: 'https://neurosciencenews.com/feed/' },
       { name: 'The Transmitter', url: 'https://www.thetransmitter.org/feed/' },
       { name: 'Quanta Magazine', url: 'https://www.quantamagazine.org/feed/' },
@@ -298,6 +296,8 @@ export const CATEGORIES: ScriptCategory[] = [...NEWS_CATEGORIES, ...EXPLAINER_CA
 // Company engineering blogs and outage write-ups. Every new post is covered once
 // (tracked in engblogs/seen.json), outages first; no episode on days with nothing new.
 // More blogs can be added from the vault: Podcast/Engineering Blogs.md, "## Following".
+// No working feed (Nov 2026): Uber, LinkedIn, PhonePe, DoorDash, Anthropic. Run the
+// "Check RSS feeds" workflow after editing this list.
 //   blog       a company's engineering blog (full text is read when available)
 //   outage     a feed that is mostly incident reports and postmortems
 //   aggregator Hacker News / Google News searches that surface outage write-ups;
@@ -324,8 +324,7 @@ export const ENG_BLOG_FEEDS: EngBlogFeed[] = [
   },
 
   // Big tech
-  { kind: 'blog', name: 'Google Online Security Blog', url: 'https://security.googleblog.com/feeds/posts/default' },
-  { kind: 'blog', name: 'Google Developers Blog', url: 'https://developers.googleblog.com/feeds/posts/default' },
+  { kind: 'blog', name: 'Google Security', url: 'https://blog.google/security/rss/' }, // where Mirror Dimension was posted
   { kind: 'blog', name: 'Meta Engineering', url: 'https://engineering.fb.com/feed/' },
   { kind: 'blog', name: 'Microsoft .NET Blog', url: 'https://devblogs.microsoft.com/dotnet/feed/' },
   { kind: 'blog', name: 'Azure SQL Blog', url: 'https://devblogs.microsoft.com/azure-sql/feed/' },
@@ -336,7 +335,6 @@ export const ENG_BLOG_FEEDS: EngBlogFeed[] = [
   { kind: 'blog', name: 'GitHub Engineering', url: 'https://github.blog/engineering/feed/' },
 
   // Product companies
-  { kind: 'blog', name: 'Uber Engineering', url: 'https://www.uber.com/blog/engineering/rss/' },
   { kind: 'blog', name: 'Stripe Blog', url: 'https://stripe.com/blog/feed.rss' },
   { kind: 'blog', name: 'Slack Engineering', url: 'https://slack.engineering/feed/' },
   { kind: 'blog', name: 'Dropbox Tech', url: 'https://dropbox.tech/feed' },
@@ -344,7 +342,6 @@ export const ENG_BLOG_FEEDS: EngBlogFeed[] = [
   { kind: 'blog', name: 'Pinterest Engineering', url: 'https://medium.com/feed/pinterest-engineering' },
   { kind: 'blog', name: 'Spotify Engineering', url: 'https://engineering.atspotify.com/feed/' },
   { kind: 'blog', name: 'Shopify Engineering', url: 'https://shopify.engineering/blog.atom' },
-  { kind: 'blog', name: 'LinkedIn Engineering', url: 'https://www.linkedin.com/blog/engineering/feed' },
   { kind: 'blog', name: 'Discord Engineering', url: 'https://discord.com/blog/rss.xml' },
   { kind: 'blog', name: 'Lyft Engineering', url: 'https://eng.lyft.com/feed' },
   { kind: 'blog', name: 'Grab Engineering', url: 'https://engineering.grab.com/feed.xml' },
@@ -353,10 +350,9 @@ export const ENG_BLOG_FEEDS: EngBlogFeed[] = [
 
   // India
   { kind: 'blog', name: 'Flipkart Tech', url: 'https://blog.flipkart.tech/feed' },
-  { kind: 'blog', name: 'Swiggy Bytes', url: 'https://bytes.swiggy.com/feed' },
+  { kind: 'blog', name: 'Swiggy Bytes', url: 'https://medium.com/feed/swiggy-bytes' },
   { kind: 'blog', name: 'Razorpay Engineering', url: 'https://engineering.razorpay.com/feed' },
   { kind: 'blog', name: 'Zerodha Tech', url: 'https://zerodha.tech/index.xml' },
-  { kind: 'blog', name: 'PhonePe Tech', url: 'https://tech.phonepe.com/feed/' },
   { kind: 'blog', name: 'Myntra Engineering', url: 'https://medium.com/feed/myntra-engineering' },
 ]
 

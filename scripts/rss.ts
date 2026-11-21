@@ -89,19 +89,33 @@ export function parseFeed(xml: string, sourceName: string): Article[] {
   return articles
 }
 
-export async function fetchFeed(feed: FeedSource): Promise<Article[]> {
+async function fetchFeedOnce(feed: FeedSource): Promise<Article[]> {
   const controller = new AbortController()
   const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS)
   try {
     const res = await fetch(feed.url, {
       signal: controller.signal,
       redirect: 'follow',
-      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; MyDailyClippings/1.0)' },
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; MyDailyClippings/1.0)',
+        Accept: 'application/rss+xml, application/atom+xml, application/xml;q=0.9, text/xml;q=0.9, */*;q=0.8',
+      },
     })
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
     return parseFeed(await res.text(), feed.name)
   } finally {
     clearTimeout(timeout)
+  }
+}
+
+// One retry for server errors and network blips (hnrss.org returns 502 when hit in a burst).
+export async function fetchFeed(feed: FeedSource): Promise<Article[]> {
+  try {
+    return await fetchFeedOnce(feed)
+  } catch (err) {
+    if (!/HTTP 5\d\d|fetch failed|abort|ECONNRESET|ETIMEDOUT/i.test(String(err))) throw err
+    await new Promise((r) => setTimeout(r, 3000 + Math.random() * 4000))
+    return fetchFeedOnce(feed)
   }
 }
 

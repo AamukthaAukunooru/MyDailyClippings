@@ -116,7 +116,7 @@ export const CATEGORIES: CategoryMeta[] = [
   {
     slug: 'eng-blogs',
     label: 'Engineering Blogs',
-    tagline: 'What engineering teams at Netflix, Uber, Cloudflare, Flipkart and friends just published, and every outage postmortem.',
+    tagline: 'What engineering teams at Netflix, Meta, Cloudflare, Flipkart and friends just published, and every outage postmortem.',
     accentColor: 'blue',
     searchQuery: '',
   },
