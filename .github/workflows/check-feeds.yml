@@ -26,4 +26,4 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - name: Fetch every feed
-        run: npx tsx scripts/check-feeds.ts >> "$GITHUB_STEP_SUMMARY"
+        run: npx tsx scripts/check-feeds.ts | tee -a "$GITHUB_STEP_SUMMARY"
