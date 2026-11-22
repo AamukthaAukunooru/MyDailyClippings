@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/lld.xml" rel="self" type="application/rss+xml"/>
     <description>SOLID, the classic design patterns in C#, then low-level design mock interviews: parking lot, lift, BookMyShow and more.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 04:00:46 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 02:50:25 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>SOLID, the classic design patterns in C#, then low-level design mock interviews: parking lot, lift, BookMyShow and more.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/lld.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 22 · Explainer: Composite Pattern: Treating Individuals and Groups Uniformly</title>
+      <guid isPermaLink="false">lld/2026-11-22</guid>
+      <pubDate>Sun, 22 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/lld/2026-11-22/</link>
+      <description><![CDATA[Have you ever found yourself writing code that needs to perform an operation on a single item, but also on a collection of those items, using essentially the same logic? Imagine you're building a salon and spa appointmen<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/lld/2026-11-22/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/lld-2026-11-22.mp3" length="3959294" type="audio/mpeg"/>
+      <itunes:duration>10:59</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 21 · Explainer: Proxy Pattern: Controlling Access and Adding Layers of Logic</title>
       <guid isPermaLink="false">lld/2026-11-21</guid>

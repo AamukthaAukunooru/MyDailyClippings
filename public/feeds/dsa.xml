@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/dsa.xml" rel="self" type="application/rss+xml"/>
     <description>Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 04:00:46 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 02:50:25 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/dsa.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 22 · Explainer: Roman to Integer Conversion: The Right-to-Left Advantage</title>
+      <guid isPermaLink="false">dsa-patterns/2026-11-22</guid>
+      <pubDate>Sun, 22 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-22/</link>
+      <description><![CDATA[Have you ever looked at Roman numerals and thought, "That looks simple enough"? I, V, X, L, C, D, M. Just add them up, right? "III" is three. "LVIII" is fifty-eight. But then you stumble upon something like "IV" or "CM",<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-22/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/dsa-patterns-2026-11-22.mp3" length="4675820" type="audio/mpeg"/>
+      <itunes:duration>12:58</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 21 · Explainer: Lowest Common Ancestor in a BST</title>
       <guid isPermaLink="false">dsa-patterns/2026-11-21</guid>

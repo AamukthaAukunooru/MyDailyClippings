@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 04:00:46 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 02:50:25 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 22 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-11-22</guid>
+      <pubDate>Sun, 22 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-22/</link>
+      <description><![CDATA[Happy Sunday, and welcome to My Daily Clippings. Today, we're looking at some intriguing developments in how we understand both artificial and biological intelligence, alongside a concerning incident affecting a member o<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-22/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-22.mp3" length="1423738" type="audio/mpeg"/>
+      <itunes:duration>3:57</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 22 · Explainer: The Thalamus: Your Brain's Sensory Switchboard</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-11-22</guid>
+      <pubDate>Sun, 22 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-22/</link>
+      <description><![CDATA[Imagine your brain as a massive, incredibly complex data center. Every second, terabytes of information stream in from your eyes, ears, skin, and internal organs. Light waves, sound vibrations, pressure, temperature, che<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-22/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-22.mp3" length="4025144" type="audio/mpeg"/>
+      <itunes:duration>11:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 21 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-11-21</guid>

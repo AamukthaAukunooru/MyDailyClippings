@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 04:00:46 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 02:50:25 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 22 · Math news</title>
+      <guid isPermaLink="false">math/2026-11-22</guid>
+      <pubDate>Sun, 22 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-22/</link>
+      <description><![CDATA[Here are today's clippings, fresh from the world of mathematics. We have some truly monumental news, with a claimed proof of the **Riemann Hypothesis** sending ripples through the community. Beyond that, there are intrig<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-22/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-22.mp3" length="1499109" type="audio/mpeg"/>
+      <itunes:duration>4:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 22 · Explainer: Complex Numbers: Beyond the Real Line</title>
+      <guid isPermaLink="false">math-explained/2026-11-22</guid>
+      <pubDate>Sun, 22 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-22/</link>
+      <description><![CDATA[Imagine you're a mathematician, centuries ago, grappling with a seemingly simple problem: what is the square root of a negative number? You know that two positive numbers multiplied together give a positive result, like<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-22/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-22.mp3" length="5329919" type="audio/mpeg"/>
+      <itunes:duration>14:47</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 21 · Math news</title>
       <guid isPermaLink="false">math/2026-11-21</guid>

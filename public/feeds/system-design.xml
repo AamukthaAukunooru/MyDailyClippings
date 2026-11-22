@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
     <description>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 04:00:46 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 02:50:25 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 22 · Explainer: Write-ahead Logs: The Secret to Database Durability</title>
+      <guid isPermaLink="false">system-design/2026-11-22</guid>
+      <pubDate>Sun, 22 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-22/</link>
+      <description><![CDATA[Have you ever wondered how a database can promise that your data is safe, even if the power suddenly goes out or the server crashes mid-transaction? It's a fundamental guarantee we expect from any reliable system, yet ac<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-22/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-22.mp3" length="4988321" type="audio/mpeg"/>
+      <itunes:duration>13:50</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 21 · Explainer: Bloom Filters: Probabilistic Membership for Huge Datasets</title>
       <guid isPermaLink="false">system-design/2026-11-21</guid>

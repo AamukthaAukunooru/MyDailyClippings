@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 04:00:46 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 02:50:25 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 22 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-11-22</guid>
+      <pubDate>Sun, 22 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-22/</link>
+      <description><![CDATA[Greetings, fellow stargazers and cosmic adventurers! Today, we're celebrating a monumental achievement in planetary exploration, delving into groundbreaking discoveries that are reshaping our understanding of the univers<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-22/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-22.mp3" length="4132630" type="audio/mpeg"/>
+      <itunes:duration>11:28</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 22 · Explainer: Inflationary Cosmology: Smoothing Out the Early Universe</title>
+      <guid isPermaLink="false">astronomy-explained/2026-11-22</guid>
+      <pubDate>Sun, 22 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-22/</link>
+      <description><![CDATA[Have you ever looked at a perfectly smooth surface and wondered how it got that way? Perhaps a freshly poured concrete slab, or the undisturbed surface of a vast lake. Now imagine that "surface" is the entire observable<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-22/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-22.mp3" length="5428970" type="audio/mpeg"/>
+      <itunes:duration>15:04</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 21 · Astronomy news</title>
       <guid isPermaLink="false">astronomy/2026-11-21</guid>
