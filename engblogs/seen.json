@@ -9,7 +9,17 @@
   "https://aws.amazon.com/blogs/architecture/announcing-updates-to-the-aws-well-architected-framework-3",
   "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-at-microsoft-ignite-2026",
   "https://www.datadoghq.com/blog/engineering/how-we-scaled-metrics-aggregation",
-  "https://medium.com/swiggy-bytes/migrating-swiggy-partner-apps-deep-link-engine-at-scale-37e3bf1003a6"
+  "https://medium.com/swiggy-bytes/migrating-swiggy-partner-apps-deep-link-engine-at-scale-37e3bf1003a6",
+  "https://news.google.com/rss/articles/cbmiygfbvv95cuxpuernu0plbevumkl1dmc1q0dwwjhwv0k0q2q2bjbxmdzsq0hnn3n3sk5tngnuvgljemfhnnh1tdhlyjhbwnhhalmwqzfwr09wb09oehblwug0r3nqtgitltl5oexka2q1t0d1u3rxujdux0lurkewwgjeyuewnlrhrfruse1stgmzzg4xrwvwquz0cgd6emg1wlvhbwlvwdvzcehrrjuzsjqtd3lra053d192nevnb1ppmfr5szzkymuyoeviqmi2bjv3",
+  "https://news.google.com/rss/articles/cbminafbvv95cuxpejljbm9tovbfdxdim29fnerdawnvvl9pnw1itnr2vfzzzxjfcwy3n2zguezjyjbeexi2unftuuricfa3veizus1iuwfxm0s0u2hjbvhjnk90vuzvb1p6dgtjejrnlxzbt1hozjvtbdrua0hxlumzn0ziaxljtvv4r0xtavjvenhyd3ditxpwounoczdrznfdt1zwzna",
+  "https://news.google.com/rss/articles/cbmiwefvx3lxte1xetlla3bvtnrzz01ywnk4sgnvznparxk0dv9kqwplugvwx0jsotgtyxf5edltn1vnlvlgqnj0uzjlsmrda0vmbfnwb2ztmvgyujdsnexfzee",
+  "https://news.google.com/rss/articles/cbmiygfbvv95cuxnrvkwy0vxckx4clllnlltvxrynhyty1ltbfficjf1rzzjmv9pwvvoev9yofhzdkhjow9snllpbvritdhpve1ceg9rnjzjm1extkxwq3pydfuyyk1is3z3q2oxvtdhzjdvyuphrhhzx2zjdhhblwrqck9wruvyeezgvhffahvabxhvvhdnywdzs21wzu9yvgrxqkvywuzbmw1fek8ythnpvndpwek2vujwwldichr1yxvzthrrtlbwajznauxnttbtngvr",
+  "https://devblogs.microsoft.com/azure-sql/sqlpackage-deployment-history-and-fast-comparison-preview",
+  "https://eng.lyft.com/smooth-cruiser-at-lyft-built-for-safety-and-transparency-b6a461e16f2a",
+  "https://aws.amazon.com/blogs/architecture/how-rakbank-built-centralized-observability-at-scale-with-amazon-opensearch-service",
+  "https://netflixtechblog.com/engineering-ai-discover-e244944cdc38",
+  "https://medium.com/airbnb-engineering/de-identifying-text-at-scale-how-airbnb-protects-personal-data-in-ai-training-32f3ff8ff7d0",
+  "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices"
  ],
  "feeds": {}
 }
