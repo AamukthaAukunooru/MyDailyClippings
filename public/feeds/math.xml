@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Nov 2026 02:50:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 03:39:33 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 23 · Math news</title>
+      <guid isPermaLink="false">math/2026-11-23</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-23/</link>
+      <description><![CDATA[This past weekend has delivered a seismic event in the world of mathematics, one that promises to reshape our understanding of discovery and the very nature of proof. A mathematician, working with an artificial intellige<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-23/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-23.mp3" length="1791001" type="audio/mpeg"/>
+      <itunes:duration>4:58</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 23 · Explainer: The Curry-Howard Correspondence: Proofs as Programs</title>
+      <guid isPermaLink="false">math-explained/2026-11-23</guid>
+      <pubDate>Mon, 23 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-23/</link>
+      <description><![CDATA[What if I told you that every time you successfully compile a function in a strongly typed programming language, you've just proven a mathematical theorem? And that a type error isn't just a coding mistake, but a logical<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-23/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-23.mp3" length="4302619" type="audio/mpeg"/>
+      <itunes:duration>11:56</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 22 · Math news</title>
       <guid isPermaLink="false">math/2026-11-22</guid>

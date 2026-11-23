@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Nov 2026 02:50:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 03:39:33 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 23 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-11-23</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-23/</link>
+      <description><![CDATA[Good morning, and welcome to My Daily Clippings. Today, we're diving into some exciting new developments across neuroscience, particularly in our understanding and potential treatment of neurodegenerative conditions. We'<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-23/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-23.mp3" length="1870440" type="audio/mpeg"/>
+      <itunes:duration>5:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 23 · Explainer: Long-Term Potentiation and Depression: The Synaptic Rules of Learning</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-11-23</guid>
+      <pubDate>Mon, 23 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-23/</link>
+      <description><![CDATA[Imagine you are learning a new programming language. At first, it feels clunky. You constantly look up syntax, struggle with basic concepts, and make many errors. But with practice, something remarkable happens. The comm<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-23/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-23.mp3" length="5375364" type="audio/mpeg"/>
+      <itunes:duration>14:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 22 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-11-22</guid>

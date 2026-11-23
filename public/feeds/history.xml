@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/history.xml" rel="self" type="application/rss+xml"/>
     <description>One history topic explained every day, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Nov 2026 02:50:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 03:39:33 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One history topic explained every day, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/history.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 23 · Explainer: The Aztec Empire: Engineering a City on a Lake</title>
+      <guid isPermaLink="false">history/2026-11-23</guid>
+      <pubDate>Mon, 23 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-23/</link>
+      <description><![CDATA[Imagine building a bustling metropolis for hundreds of thousands of people, not on solid ground, but on a vast lake. Not just any lake, but a salty, shallow basin in a high-altitude valley, prone to floods and lacking fr<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-23/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-23.mp3" length="4261536" type="audio/mpeg"/>
+      <itunes:duration>11:49</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 22 · Explainer: The Great Wall of China: Engineering a Nation's Defense</title>
       <guid isPermaLink="false">history/2026-11-22</guid>

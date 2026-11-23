@@ -1395,6 +1395,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/ai-2026-11-22.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "ai/2026-11-23": {
+   "bytes": 1945691,
+   "date": "2026-11-23",
+   "duration": 324,
+   "guid": "ai/2026-11-23",
+   "hash": "04bffb1171c9ea3d",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-11-23/",
+   "published": "2026-11-23T06:30:00+05:30",
+   "show": "ai",
+   "summary": "Today's AI landscape presents a fascinating dichotomy, with foundational research pushing the boundaries of model evaluation alongside a rapid expansion of AI's commercial footprint. We're seeing new metrics proposed for",
+   "title": "Nov 23 · AI and Technology news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/ai-2026-11-23.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "astronomy-explained/2026-10-19": {
    "bytes": 5011226,
    "date": "2026-10-19",
@@ -1918,6 +1933,21 @@
    "summary": "Have you ever looked at a perfectly smooth surface and wondered how it got that way? Perhaps a freshly poured concrete slab, or the undisturbed surface of a vast lake. Now imagine that \"surface\" is the entire observable",
    "title": "Nov 22 · Explainer: Inflationary Cosmology: Smoothing Out the Early Universe",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-22.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "astronomy-explained/2026-11-23": {
+   "bytes": 3617083,
+   "date": "2026-11-23",
+   "duration": 602,
+   "guid": "astronomy-explained/2026-11-23",
+   "hash": "9a33cd8c0e4ad523",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-23/",
+   "published": "2026-11-23T06:20:00+05:30",
+   "show": "astronomy",
+   "summary": "Imagine you are looking for a place to build a home. You would consider many factors, right? Is the climate suitable? Is it safe from natural disasters? Are there resources nearby, like water and building materials? Now,",
+   "title": "Nov 23 · Explainer: The Galactic Habitable Zone: Where Life Thrives in a Galaxy",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-23.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "astronomy/2026-08-18": {
@@ -3300,6 +3330,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-22.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "astronomy/2026-11-23": {
+   "bytes": 1815947,
+   "date": "2026-11-23",
+   "duration": 302,
+   "guid": "astronomy/2026-11-23",
+   "hash": "633b22c9987f2e7c",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-23/",
+   "published": "2026-11-23T06:30:00+05:30",
+   "show": "astronomy",
+   "summary": "Good morning, fellow stargazers and cosmic adventurers! Today, November twenty-third, two thousand twenty-six, brings us a trio of truly captivating stories from across the solar system and the distant universe. We celeb",
+   "title": "Nov 23 · Astronomy news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-23.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "dsa-patterns/2026-11-03": {
    "bytes": 5537207,
    "date": "2026-11-03",
@@ -3600,6 +3645,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/dsa-patterns-2026-11-22.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "dsa-patterns/2026-11-23": {
+   "bytes": 5075094,
+   "date": "2026-11-23",
+   "duration": 845,
+   "guid": "dsa-patterns/2026-11-23",
+   "hash": "c5688985fdc0ece7",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-23/",
+   "published": "2026-11-23T06:20:00+05:30",
+   "show": "dsa",
+   "summary": "Have you ever tried to name a series of files, perhaps for a project or a vacation, and found yourself starting each name with the same few words? Like \"Paris Trip Day One\", \"Paris Trip Day Two\", \"Paris Trip Day Three\"?",
+   "title": "Nov 23 · Explainer: Longest Common Prefix: Finding the Shared Beginning",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/dsa-patterns-2026-11-23.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "eng-blogs/2026-11-22": {
    "bytes": 3748358,
    "date": "2026-11-22",
@@ -3613,6 +3673,21 @@
    "summary": "Here's your daily audio digest for My Daily Clippings, \"Engineering Blogs.\"",
    "title": "Nov 22 · Engineering Blogs news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/eng-blogs-2026-11-22.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "eng-blogs/2026-11-23": {
+   "bytes": 6106265,
+   "date": "2026-11-23",
+   "duration": 1016,
+   "guid": "eng-blogs/2026-11-23",
+   "hash": "ab5da19c68cda047",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/eng-blogs/2026-11-23/",
+   "published": "2026-11-23T06:30:00+05:30",
+   "show": "eng-blogs",
+   "summary": "Here's your daily audio digest from My Daily Clippings. Today, we're covering significant outages from Microsoft, United Airlines, and KDDI, along with deep dives into engineering from Microsoft Azure, Lyft, AWS, Netflix",
+   "title": "Nov 23 · Engineering Blogs news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/eng-blogs-2026-11-23.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "geopolitics/2026-08-18": {
@@ -4935,6 +5010,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/geopolitics-2026-11-22.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "geopolitics/2026-11-23": {
+   "bytes": 1458186,
+   "date": "2026-11-23",
+   "duration": 243,
+   "guid": "geopolitics/2026-11-23",
+   "hash": "1d22b272a876e947",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/geopolitics/2026-11-23/",
+   "published": "2026-11-23T06:30:00+05:30",
+   "show": "geopolitics",
+   "summary": "Today's geopolitical landscape is marked by significant developments across several regions, from the collapse of critical climate talks to ongoing security concerns in Europe and the Middle East. International legal pre",
+   "title": "Nov 23 · Geopolitics news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/geopolitics-2026-11-23.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "headlines/2026-11-03": {
    "bytes": 1175798,
    "date": "2026-11-03",
@@ -5233,6 +5323,21 @@
    "summary": "Hello, and welcome to My Daily Clippings on this Sunday, November twenty-second, two thousand twenty-six.",
    "title": "Nov 22 · Headlines",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/headlines-2026-11-22.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "headlines/2026-11-23": {
+   "bytes": 1245276,
+   "date": "2026-11-23",
+   "duration": 207,
+   "guid": "headlines/2026-11-23",
+   "hash": "ee94d1ccfc2e883c",
+   "kind": "briefing",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/headlines/2026-11-23/",
+   "published": "2026-11-23T06:40:00+05:30",
+   "show": "headlines",
+   "summary": "Good morning, and welcome to your My Daily Clippings Headlines for Monday, November twenty-third, two thousand twenty-six.",
+   "title": "Nov 23 · Headlines",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/headlines-2026-11-23.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "history/2026-10-19": {
@@ -5760,6 +5865,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-22.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "history/2026-11-23": {
+   "bytes": 4261536,
+   "date": "2026-11-23",
+   "duration": 709,
+   "guid": "history/2026-11-23",
+   "hash": "0eb2d8ec252fe6bd",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-23/",
+   "published": "2026-11-23T06:20:00+05:30",
+   "show": "history",
+   "summary": "Imagine building a bustling metropolis for hundreds of thousands of people, not on solid ground, but on a vast lake. Not just any lake, but a salty, shallow basin in a high-altitude valley, prone to floods and lacking fr",
+   "title": "Nov 23 · Explainer: The Aztec Empire: Engineering a City on a Lake",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-23.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "lld/2026-11-04": {
    "bytes": 5433711,
    "date": "2026-11-04",
@@ -6043,6 +6163,21 @@
    "summary": "Have you ever found yourself writing code that needs to perform an operation on a single item, but also on a collection of those items, using essentially the same logic? Imagine you're building a salon and spa appointmen",
    "title": "Nov 22 · Explainer: Composite Pattern: Treating Individuals and Groups Uniformly",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/lld-2026-11-22.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "lld/2026-11-23": {
+   "bytes": 5063102,
+   "date": "2026-11-23",
+   "duration": 843,
+   "guid": "lld/2026-11-23",
+   "hash": "f94213a17c298acf",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/lld/2026-11-23/",
+   "published": "2026-11-23T06:20:00+05:30",
+   "show": "lld",
+   "summary": "Hello and welcome to LLD Explained, the show that breaks down low-level design concepts for curious C# and .NET engineers. Imagine you're building a sophisticated salon and spa appointment booking platform. Your system n",
+   "title": "Nov 23 · Explainer: Bridge pattern",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/lld-2026-11-23.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "math-explained/2026-10-19": {
@@ -6570,6 +6705,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-22.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "math-explained/2026-11-23": {
+   "bytes": 4302619,
+   "date": "2026-11-23",
+   "duration": 716,
+   "guid": "math-explained/2026-11-23",
+   "hash": "44ed85c40be82fb9",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-23/",
+   "published": "2026-11-23T06:20:00+05:30",
+   "show": "math",
+   "summary": "What if I told you that every time you successfully compile a function in a strongly typed programming language, you've just proven a mathematical theorem? And that a type error isn't just a coding mistake, but a logical",
+   "title": "Nov 23 · Explainer: The Curry-Howard Correspondence: Proofs as Programs",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-23.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "math/2026-10-19": {
    "bytes": 1645271,
    "date": "2026-10-19",
@@ -7093,6 +7243,21 @@
    "summary": "Here are today's clippings, fresh from the world of mathematics. We have some truly monumental news, with a claimed proof of the **Riemann Hypothesis** sending ripples through the community. Beyond that, there are intrig",
    "title": "Nov 22 · Math news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-22.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "math/2026-11-23": {
+   "bytes": 1791001,
+   "date": "2026-11-23",
+   "duration": 298,
+   "guid": "math/2026-11-23",
+   "hash": "ee8d6d7b46520b67",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-23/",
+   "published": "2026-11-23T06:30:00+05:30",
+   "show": "math",
+   "summary": "This past weekend has delivered a seismic event in the world of mathematics, one that promises to reshape our understanding of discovery and the very nature of proof. A mathematician, working with an artificial intellige",
+   "title": "Nov 23 · Math news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-23.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "neuroscience-explained/2026-10-19": {
@@ -7620,6 +7785,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-22.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "neuroscience-explained/2026-11-23": {
+   "bytes": 5375364,
+   "date": "2026-11-23",
+   "duration": 895,
+   "guid": "neuroscience-explained/2026-11-23",
+   "hash": "31dac75d9f8b9a7f",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-23/",
+   "published": "2026-11-23T06:20:00+05:30",
+   "show": "neuroscience",
+   "summary": "Imagine you are learning a new programming language. At first, it feels clunky. You constantly look up syntax, struggle with basic concepts, and make many errors. But with practice, something remarkable happens. The comm",
+   "title": "Nov 23 · Explainer: Long-Term Potentiation and Depression: The Synaptic Rules of Learning",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-23.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "neuroscience/2026-10-19": {
    "bytes": 1607089,
    "date": "2026-10-19",
@@ -8143,6 +8323,21 @@
    "summary": "Happy Sunday, and welcome to My Daily Clippings. Today, we're looking at some intriguing developments in how we understand both artificial and biological intelligence, alongside a concerning incident affecting a member o",
    "title": "Nov 22 · Neuroscience news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-22.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "neuroscience/2026-11-23": {
+   "bytes": 1870440,
+   "date": "2026-11-23",
+   "duration": 311,
+   "guid": "neuroscience/2026-11-23",
+   "hash": "637ce8bedf3cabb0",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-23/",
+   "published": "2026-11-23T06:30:00+05:30",
+   "show": "neuroscience",
+   "summary": "Good morning, and welcome to My Daily Clippings. Today, we're diving into some exciting new developments across neuroscience, particularly in our understanding and potential treatment of neurodegenerative conditions. We'",
+   "title": "Nov 23 · Neuroscience news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-23.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "physics/2026-08-18": {
@@ -9570,6 +9765,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/physics-2026-11-22.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "physics/2026-11-23": {
+   "bytes": 1984880,
+   "date": "2026-11-23",
+   "duration": 330,
+   "guid": "physics/2026-11-23",
+   "hash": "9e787f8362f7d142",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-11-23/",
+   "published": "2026-11-23T06:30:00+05:30",
+   "show": "physics",
+   "summary": "The past few days have delivered a fascinating array of physics news, from the deepest quantum realms to the ambitious frontiers of interstellar travel. Scientists at CERN have announced compelling evidence for an incred",
+   "title": "Nov 23 · Physics news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/physics-2026-11-23.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "questions/2026-10-19-why-sky-is-blue": {
    "bytes": 1730768,
    "date": "2026-10-19",
@@ -10410,6 +10620,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-22.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "system-design/2026-11-23": {
+   "bytes": 5166769,
+   "date": "2026-11-23",
+   "duration": 860,
+   "guid": "system-design/2026-11-23",
+   "hash": "5f321423adae6c3a",
+   "kind": "explainer",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-23/",
+   "published": "2026-11-23T06:20:00+05:30",
+   "show": "system-design",
+   "summary": "Imagine you have a team of ten highly skilled surgeons, all capable of performing the same complex operation. If they all tried to operate on the same patient simultaneously, the outcome would be disastrous. Instead, you",
+   "title": "Nov 23 · Explainer: Leader Election and Leases in Distributed Systems",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-23.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "watchlist/2026-10-19": {
    "bytes": 305318,
    "date": "2026-10-19",
@@ -10843,6 +11068,21 @@
    "summary": "Today's updates include news on the November cyclone for the Chennai–Puducherry coast.",
    "title": "Nov 22 · Watchlist news",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/watchlist-2026-11-22.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "watchlist/2026-11-23": {
+   "bytes": 287733,
+   "date": "2026-11-23",
+   "duration": 48,
+   "guid": "watchlist/2026-11-23",
+   "hash": "87c16276d0a2b2a8",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/watchlist/2026-11-23/",
+   "published": "2026-11-23T06:30:00+05:30",
+   "show": "watchlist",
+   "summary": "\"November cyclone for the Chennai–Puducherry coast\" has updates today.",
+   "title": "Nov 23 · Watchlist news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/watchlist-2026-11-23.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   }
  },

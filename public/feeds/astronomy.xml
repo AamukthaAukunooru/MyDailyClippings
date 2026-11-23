@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Nov 2026 02:50:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 03:39:33 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 23 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-11-23</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-23/</link>
+      <description><![CDATA[Good morning, fellow stargazers and cosmic adventurers! Today, November twenty-third, two thousand twenty-six, brings us a trio of truly captivating stories from across the solar system and the distant universe. We celeb<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-23/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-23.mp3" length="1815947" type="audio/mpeg"/>
+      <itunes:duration>5:02</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 23 · Explainer: The Galactic Habitable Zone: Where Life Thrives in a Galaxy</title>
+      <guid isPermaLink="false">astronomy-explained/2026-11-23</guid>
+      <pubDate>Mon, 23 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-23/</link>
+      <description><![CDATA[Imagine you are looking for a place to build a home. You would consider many factors, right? Is the climate suitable? Is it safe from natural disasters? Are there resources nearby, like water and building materials? Now,<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-23/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-23.mp3" length="3617083" type="audio/mpeg"/>
+      <itunes:duration>10:02</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 22 · Astronomy news</title>
       <guid isPermaLink="false">astronomy/2026-11-22</guid>
