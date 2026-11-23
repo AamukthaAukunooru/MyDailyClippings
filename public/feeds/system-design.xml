@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
     <description>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 03:39:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 21:22:07 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 24 · Explainer: Gossip protocols and failure detection</title>
+      <guid isPermaLink="false">system-design/2026-11-24</guid>
+      <pubDate>Tue, 24 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-24/</link>
+      <description><![CDATA[Imagine you're running a massive distributed system with hundreds, maybe even thousands, of servers. How do you know if one of them has crashed? If a server goes offline, your applications need to react quickly to route<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-24/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-24.mp3" length="3104346" type="audio/mpeg"/>
+      <itunes:duration>8:37</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 23 · Explainer: Leader Election and Leases in Distributed Systems</title>
       <guid isPermaLink="false">system-design/2026-11-23</guid>

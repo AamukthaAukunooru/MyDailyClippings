@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 03:39:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 21:22:07 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 24 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-11-24</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-24/</link>
+      <description><![CDATA[Good morning, neuroscience enthusiasts! Today, we're diving into some fascinating new discoveries that shed light on the intricate workings of the brain, from the hidden connections governing our attention to the fundame<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-24/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-24.mp3" length="3437573" type="audio/mpeg"/>
+      <itunes:duration>9:32</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 24 · Explainer: The Basal Ganglia: Your Brain's Action Selector and Habit Builder</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-11-24</guid>
+      <pubDate>Tue, 24 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-24/</link>
+      <description><![CDATA[Have you ever found yourself in front of a vending machine, staring at dozens of options, paralyzed by choice? Or, conversely, have you ever driven home on autopilot, barely remembering the turns you took? These two very<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-24/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-24.mp3" length="1585382" type="audio/mpeg"/>
+      <itunes:duration>4:24</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 23 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-11-23</guid>

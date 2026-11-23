@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/dsa.xml" rel="self" type="application/rss+xml"/>
     <description>Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 03:39:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 21:22:07 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/dsa.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 24 · Explainer: Adding Binary Strings: Simulating How Computers Do Math</title>
+      <guid isPermaLink="false">dsa-patterns/2026-11-24</guid>
+      <pubDate>Tue, 24 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-24/</link>
+      <description><![CDATA[Have you ever wondered how computers, at their most fundamental level, add numbers? We humans are used to base-10 arithmetic, where we carry over a ten. But computers operate in **binary**, a base-two system, using only<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-24/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/dsa-patterns-2026-11-24.mp3" length="4416072" type="audio/mpeg"/>
+      <itunes:duration>12:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 23 · Explainer: Longest Common Prefix: Finding the Shared Beginning</title>
       <guid isPermaLink="false">dsa-patterns/2026-11-23</guid>

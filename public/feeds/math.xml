@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 03:39:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 21:22:07 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 24 · Math news</title>
+      <guid isPermaLink="false">math/2026-11-24</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-24/</link>
+      <description><![CDATA[Here are today's clippings, offering a look at some fascinating developments in the world of mathematics. We're seeing a truly monumental, albeit controversial, claim regarding one of mathematics' most elusive problems,<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-24/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-24.mp3" length="1712730" type="audio/mpeg"/>
+      <itunes:duration>4:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 24 · Explainer: Finite Fields: The Math of Error Correction and Encryption</title>
+      <guid isPermaLink="false">math-explained/2026-11-24</guid>
+      <pubDate>Tue, 24 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-24/</link>
+      <description><![CDATA[Imagine you're listening to your favorite song on a CD, and it suddenly skips or glitches. Or you scan a QR code, and even though it's a bit smudged, your phone reads it perfectly. How do these everyday technologies mana<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-24/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-24.mp3" length="5759777" type="audio/mpeg"/>
+      <itunes:duration>15:59</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 23 · Math news</title>
       <guid isPermaLink="false">math/2026-11-23</guid>

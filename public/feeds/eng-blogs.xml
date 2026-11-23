@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/eng-blogs.xml" rel="self" type="application/rss+xml"/>
     <description>New posts from company engineering blogs (Netflix, Meta, Cloudflare, Google, Microsoft, Flipkart, Swiggy, Razorpay and more) and every public outage postmortem, explained. Only on days something new is published.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 03:39:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 21:22:07 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>New posts from company engineering blogs (Netflix, Meta, Cloudflare, Google, Microsoft, Flipkart, Swiggy, Razorpay and more) and every public outage postmortem, explained. Only on days something new is published.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/eng-blogs.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 24 · Engineering Blogs news</title>
+      <guid isPermaLink="false">eng-blogs/2026-11-24</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/eng-blogs/2026-11-24/</link>
+      <description><![CDATA[Here's your daily audio digest for My Daily Clippings. Today, we're hearing from Delta, Microsoft, Cloudflare, Azure SQL, Microsoft .NET, Meta Engineering, and AWS.<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/eng-blogs/2026-11-24/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/eng-blogs-2026-11-24.mp3" length="4600826" type="audio/mpeg"/>
+      <itunes:duration>12:46</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 23 · Engineering Blogs news</title>
       <guid isPermaLink="false">eng-blogs/2026-11-23</guid>

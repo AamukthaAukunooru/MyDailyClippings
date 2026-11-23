@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/history.xml" rel="self" type="application/rss+xml"/>
     <description>One history topic explained every day, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 03:39:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 21:22:07 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One history topic explained every day, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/history.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 24 · Explainer: The Suez Canal: Engineering a Global Shortcut</title>
+      <guid isPermaLink="false">history/2026-11-24</guid>
+      <pubDate>Tue, 24 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-24/</link>
+      <description><![CDATA[Imagine, for a moment, that you’re a software engineer in the mid-19th century, tasked with optimizing a global logistics network. Your goal: get goods from Europe to Asia, and vice-versa, as quickly and efficiently as p<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-24/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-24.mp3" length="4817930" type="audio/mpeg"/>
+      <itunes:duration>13:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 23 · Explainer: The Aztec Empire: Engineering a City on a Lake</title>
       <guid isPermaLink="false">history/2026-11-23</guid>
