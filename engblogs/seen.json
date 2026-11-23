@@ -19,7 +19,17 @@
   "https://aws.amazon.com/blogs/architecture/how-rakbank-built-centralized-observability-at-scale-with-amazon-opensearch-service",
   "https://netflixtechblog.com/engineering-ai-discover-e244944cdc38",
   "https://medium.com/airbnb-engineering/de-identifying-text-at-scale-how-airbnb-protects-personal-data-in-ai-training-32f3ff8ff7d0",
-  "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices"
+  "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices",
+  "https://news.google.com/rss/articles/cbmi4gfbvv95cuxpadfbtglwbvdvmwdrnfbkquvmrhr6lwdpcl9ishjeaf9sngczdwrwcgzyx1nhq3nnotnnvzjycmp5v05tnhm2lwdjef91dtz6agnjbmwzdtzmnzfxdlqtymdbdgvmb0djt3kynlfrexn0z08yy3mymtjvszjns25wvnnvc1z1vkrqvuy5s21joglpzvpssdnrbuvjx2rwrgo4suotsxrodwtmvfjldw5lwehoumowv1jvvm92qxbtdkf1m2xszxvdvuxwnti0akwyc2jprkrht3nluw80cxrvu25b",
+  "https://news.google.com/rss/articles/cbmiiwfbvv95cuxpn0rfz1hirzhjquxvqnhhwnzylxe5r0vxr0jkyvl0ukhlcupvy0jprddyuhbinvfcamywelj4nuz3wklsrthtawd0cmnitlq5rhlnswcxuutwahdtowtwc2hrty1htkc2tw4wr0i1wm1fegkwd3l4eddlmg4yugprb2xavurkzkrnwln3",
+  "https://news.google.com/rss/articles/cbmiqgfbvv95cuxpenpzy3fwef9wltdzwmlkqnhmcevnwwn4tkhmdlmwdxjcrujnsff3a2fwv3vtx0k3u2zsn3r2sfzrynntu3fstujsvjfprlllago1twt4vxe4x2rrdgtyv3lumfvkvepyckrloufuvduwrlgxzfpizdntylbtu1axytnmq1utqw9ttkqysmtnnk9bnu1bvjvdv29pr3psmzd5qunzdvy1aun5uq",
+  "https://news.google.com/rss/articles/cbmic0fvx3lxtfbhtldkehpuvvpfszfrtml1a0nmqjrcdfazr2pna1dkmml0ymuxswvbcgdttthrbe0tbejodjy2m09ra3jpvul3wkffngvbvxhcwdbfeuitejgyc3ctztlrx2dqdhbznzfpt2rzzhk4qu1xcle",
+  "https://blog.cloudflare.com/quad9-withdrawal-from-france",
+  "https://devblogs.microsoft.com/azure-sql/fuzzy-string-matching-is-now-generally-available-across-microsoft-sql",
+  "https://devblogs.microsoft.com/dotnet/nuget-staged-publishing",
+  "https://engineering.fb.com/2026/11/18/ml-applications/design-once-deploy-at-scale-template-driven-ml-ecosystem",
+  "https://aws.amazon.com/blogs/architecture/block-dns-threats-with-infoblox-rules-in-amazon-route-53-resolver-dns-firewall",
+  "https://www.figma.com/blog/source-material-chase-rutherford"
  ],
  "feeds": {}
 }
