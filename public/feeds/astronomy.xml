@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 21:22:07 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 20:29:09 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 25 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-11-25</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-25/</link>
+      <description><![CDATA[What a week it has been in the cosmos, offering us glimpses into the dramatic lives of stars, the ambitious reach of human exploration, and the dynamic nature of our own solar system. From the fiery "heartbeats" of dying<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-25/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-25.mp3" length="4360089" type="audio/mpeg"/>
+      <itunes:duration>12:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 25 · Explainer: Unveiling Distant Worlds: How We Find Exoplanets</title>
+      <guid isPermaLink="false">astronomy-explained/2026-11-25</guid>
+      <pubDate>Wed, 25 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-25/</link>
+      <description><![CDATA[Imagine trying to find a tiny firefly buzzing around a lighthouse, but that lighthouse is billions of miles away, and you can only see the firefly by the minuscule flicker it causes in the lighthouse's beam. This is esse<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-25/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-25.mp3" length="4741539" type="audio/mpeg"/>
+      <itunes:duration>13:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 24 · Astronomy news</title>
       <guid isPermaLink="false">astronomy/2026-11-24</guid>

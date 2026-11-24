@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 21:22:07 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 20:29:09 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 25 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-11-25</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-25/</link>
+      <description><![CDATA[Welcome to My Daily Clippings, your regular dive into the latest in neuroscience. Today, we're exploring some fascinating new insights into how our brains process food, the intricate links between mental health and neuro<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-25/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-25.mp3" length="1510945" type="audio/mpeg"/>
+      <itunes:duration>4:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 25 · Explainer: Homeostasis: Your Body's Master Control System</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-11-25</guid>
+      <pubDate>Wed, 25 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-25/</link>
+      <description><![CDATA[Imagine you're a software engineer, and your most critical application needs to run twenty-four hours a day, seven days a week, without fail. This application relies on a vast array of interconnected microservices, each<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-25/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-25.mp3" length="4547955" type="audio/mpeg"/>
+      <itunes:duration>12:37</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 24 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-11-24</guid>
