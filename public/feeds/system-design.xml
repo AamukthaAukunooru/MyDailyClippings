@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
     <description>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 20:29:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 19:34:27 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 26 · Explainer: Merkle trees and anti-entropy</title>
+      <guid isPermaLink="false">system-design/2026-11-26</guid>
+      <pubDate>Thu, 26 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-26/</link>
+      <description><![CDATA[Imagine you're managing two massive, identical libraries. Each library has millions of books, arranged identically. One day, you get a nagging feeling that a few books in one library might be missing, or perhaps a couple<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-26/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-26.mp3" length="5249632" type="audio/mpeg"/>
+      <itunes:duration>14:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 25 · Explainer: Lamport and Vector Clocks: Ordering Events in Distributed Systems</title>
       <guid isPermaLink="false">system-design/2026-11-25</guid>

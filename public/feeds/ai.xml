@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/ai.xml" rel="self" type="application/rss+xml"/>
     <description>Daily AI and technology news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 20:29:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 19:34:27 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily AI and technology news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/ai.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 26 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-11-26</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-11-26/</link>
+      <description><![CDATA[The past forty-eight hours have delivered a potent mix of infrastructural ambition, foundational AI breakthroughs, and critical industry policy shifts. From **SpaceX's** audacious plan for orbital data centers to whisper<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-11-26/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/ai-2026-11-26.mp3" length="1751962" type="audio/mpeg"/>
+      <itunes:duration>4:52</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 25 · AI and Technology news</title>
       <guid isPermaLink="false">ai/2026-11-25</guid>

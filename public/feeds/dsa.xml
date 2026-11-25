@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/dsa.xml" rel="self" type="application/rss+xml"/>
     <description>Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 20:29:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 19:34:27 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/dsa.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 26 · Explainer: Maximum Depth of Binary Tree</title>
+      <guid isPermaLink="false">dsa-patterns/2026-11-26</guid>
+      <pubDate>Thu, 26 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-26/</link>
+      <description><![CDATA[Have you ever tried to measure the height of a tall tree in your backyard? It might seem simple, but if it's not a perfectly straight trunk, you have to find the tallest branch, the one that reaches highest from the grou<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-26/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/dsa-patterns-2026-11-26.mp3" length="3894388" type="audio/mpeg"/>
+      <itunes:duration>10:48</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 25 · Explainer: Same Tree: Comparing Binary Trees Recursively</title>
       <guid isPermaLink="false">dsa-patterns/2026-11-25</guid>

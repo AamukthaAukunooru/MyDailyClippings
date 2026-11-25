@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/astronomy.xml" rel="self" type="application/rss+xml"/>
     <description>Daily astronomy news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 20:29:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 19:34:27 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily astronomy news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/astronomy.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 26 · Astronomy news</title>
+      <guid isPermaLink="false">astronomy/2026-11-26</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-26/</link>
+      <description><![CDATA[What an incredible day for space exploration and astronomical discovery! From a historic visit to an orbiting laboratory to an unprecedented close-up of humanity's first planetary defense test, and a glimpse into the uni<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy/2026-11-26/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-2026-11-26.mp3" length="1699191" type="audio/mpeg"/>
+      <itunes:duration>4:43</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 26 · Explainer: The Future of the Universe: Cosmic Endgames</title>
+      <guid isPermaLink="false">astronomy-explained/2026-11-26</guid>
+      <pubDate>Thu, 26 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-26/</link>
+      <description><![CDATA[Imagine you're a software engineer, and you've just finished writing the most complex program ever conceived: the universe. You've set the initial conditions, defined the fundamental laws, and watched it run for billions<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/astronomy-explained/2026-11-26/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/astronomy-explained-2026-11-26.mp3" length="4299300" type="audio/mpeg"/>
+      <itunes:duration>11:56</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 25 · Astronomy news</title>
       <guid isPermaLink="false">astronomy/2026-11-25</guid>

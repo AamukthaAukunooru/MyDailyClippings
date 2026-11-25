@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 20:29:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 19:34:27 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 26 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-11-26</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-26/</link>
+      <description><![CDATA[Today's neuroscience clippings bring us exciting developments across diagnostics, potential therapeutics, and early disease markers. Researchers at Stanford have leveraged artificial intelligence to uncover distinct brai<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-26/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-26.mp3" length="1885431" type="audio/mpeg"/>
+      <itunes:duration>5:14</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 26 · Explainer: The Autonomic Nervous System: Your Body's Automatic OS</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-11-26</guid>
+      <pubDate>Thu, 26 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-26/</link>
+      <description><![CDATA[Imagine this: You are driving, minding your own business, when suddenly, a car swerves into your lane. In a split second, before you even consciously register the danger, your heart leaps into your chest, your breath hit<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-26/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-26.mp3" length="5391061" type="audio/mpeg"/>
+      <itunes:duration>14:57</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 25 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-11-25</guid>

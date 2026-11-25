@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/eng-blogs.xml" rel="self" type="application/rss+xml"/>
     <description>New posts from company engineering blogs (Netflix, Meta, Cloudflare, Google, Microsoft, Flipkart, Swiggy, Razorpay and more) and every public outage postmortem, explained. Only on days something new is published.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 20:29:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 19:34:27 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>New posts from company engineering blogs (Netflix, Meta, Cloudflare, Google, Microsoft, Flipkart, Swiggy, Razorpay and more) and every public outage postmortem, explained. Only on days something new is published.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/eng-blogs.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 26 · Engineering Blogs news</title>
+      <guid isPermaLink="false">eng-blogs/2026-11-26</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/eng-blogs/2026-11-26/</link>
+      <description><![CDATA[Here's your daily audio digest from Engineering Blogs. Today, we're hearing about recent outages at GitHub and Microsoft, and deep dives into data streaming from United Airlines, AI model development at Cloudflare, obser<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/eng-blogs/2026-11-26/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/eng-blogs-2026-11-26.mp3" length="3947133" type="audio/mpeg"/>
+      <itunes:duration>10:57</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 25 · Engineering Blogs news</title>
       <guid isPermaLink="false">eng-blogs/2026-11-25</guid>
