@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/ai.xml" rel="self" type="application/rss+xml"/>
     <description>Daily AI and technology news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 19:34:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 19:13:49 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily AI and technology news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/ai.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 27 · AI and Technology news</title>
+      <guid isPermaLink="false">ai/2026-11-27</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-11-27/</link>
+      <description><![CDATA[The past forty-eight hours have underscored the dual nature of AI's rapid ascent: a relentless push for computational power and capability, juxtaposed with growing concerns over its societal and environmental implication<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/ai/2026-11-27/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/ai-2026-11-27.mp3" length="2331997" type="audio/mpeg"/>
+      <itunes:duration>6:28</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 26 · AI and Technology news</title>
       <guid isPermaLink="false">ai/2026-11-26</guid>

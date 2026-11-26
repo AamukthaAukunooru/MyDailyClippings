@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/math.xml" rel="self" type="application/rss+xml"/>
     <description>Daily math news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 19:34:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 19:13:49 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily math news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/math.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 27 · Math news</title>
+      <guid isPermaLink="false">math/2026-11-27</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-27/</link>
+      <description><![CDATA[Today's edition of My Daily Clippings brings us a truly monumental development that has sent ripples through the world of pure mathematics. It appears we are on the cusp of a potential breakthrough concerning one of the<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math/2026-11-27/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-2026-11-27.mp3" length="1633739" type="audio/mpeg"/>
+      <itunes:duration>4:32</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 27 · Explainer: FFT: The Algorithm That Made Fourier Practical</title>
+      <guid isPermaLink="false">math-explained/2026-11-27</guid>
+      <pubDate>Fri, 27 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-27/</link>
+      <description><![CDATA[Have you ever wondered how your smartphone can instantly recognize a song, or how a medical scanner can peer inside your body without cutting you open? Much of that magic, that ability to understand the hidden rhythms an<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/math-explained/2026-11-27/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/math-explained-2026-11-27.mp3" length="5276306" type="audio/mpeg"/>
+      <itunes:duration>14:38</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 26 · Math news</title>
       <guid isPermaLink="false">math/2026-11-26</guid>

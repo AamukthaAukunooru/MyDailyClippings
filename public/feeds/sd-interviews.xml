@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/sd-interviews.xml" rel="self" type="application/rss+xml"/>
     <description>A daily mock system design interview for two voices, from URL shortener to YouTube and Uber. Same answer template every time, with every pattern named out loud.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 19:34:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 19:13:49 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>A daily mock system design interview for two voices, from URL shortener to YouTube and Uber. Same answer template every time, with every pattern named out loud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/sd-interviews.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 27 · Interview: Design a Distributed Message Queue like Kafka</title>
+      <guid isPermaLink="false">system-design-interviews/2026-11-27</guid>
+      <pubDate>Fri, 27 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design-interviews/2026-11-27/</link>
+      <description><![CDATA[We need producers to be able to send messages to topics, and consumers to subscribe to topics and receive messages. Messages should be durable, meaning they aren't lost if a server crashes. We also need to support multip<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design-interviews/2026-11-27/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-interviews-2026-11-27.mp3" length="5512577" type="audio/mpeg"/>
+      <itunes:duration>15:18</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 26 · Interview: Design a Distributed Job Scheduler</title>
       <guid isPermaLink="false">system-design-interviews/2026-11-26</guid>

@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 19:34:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 19:13:49 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 27 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-11-27</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-27/</link>
+      <description><![CDATA[Hello, and welcome to "My Daily Clippings." Today, we're diving into some fascinating new insights across neuroscience, from rethinking the biological underpinnings of common disorders like ADHD and autism, to exploring<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-27/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-27.mp3" length="1724710" type="audio/mpeg"/>
+      <itunes:duration>4:47</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 27 · Explainer: Neurovascular Coupling: Your Brain's On-Demand Energy System</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-11-27</guid>
+      <pubDate>Fri, 27 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-27/</link>
+      <description><![CDATA[Have you ever pushed your computer to its limits, maybe compiling a massive codebase or running a complex simulation? You might notice the fans spin up, the CPU temperature rise, and the power draw increase. Your compute<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-27/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-27.mp3" length="5080004" type="audio/mpeg"/>
+      <itunes:duration>14:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 26 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-11-26</guid>
