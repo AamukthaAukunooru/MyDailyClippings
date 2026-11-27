@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/eng-blogs.xml" rel="self" type="application/rss+xml"/>
     <description>New posts from company engineering blogs (Netflix, Meta, Cloudflare, Google, Microsoft, Flipkart, Swiggy, Razorpay and more) and every public outage postmortem, explained. Only on days something new is published.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 19:34:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 04:33:06 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>New posts from company engineering blogs (Netflix, Meta, Cloudflare, Google, Microsoft, Flipkart, Swiggy, Razorpay and more) and every public outage postmortem, explained. Only on days something new is published.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/eng-blogs.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 27 · Engineering Blogs news</title>
+      <guid isPermaLink="false">eng-blogs/2026-11-27</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/eng-blogs/2026-11-27/</link>
+      <description><![CDATA[Today, we have important updates from Microsoft's .NET and Azure SQL teams, AWS, Cloudflare, Discord, and Grab Engineering, alongside news of recent outages at the FAA and Microsoft.<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/eng-blogs/2026-11-27/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/eng-blogs-2026-11-27.mp3" length="5454590" type="audio/mpeg"/>
+      <itunes:duration>15:08</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 26 · Engineering Blogs news</title>
       <guid isPermaLink="false">eng-blogs/2026-11-26</guid>

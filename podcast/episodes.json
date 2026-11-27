@@ -3975,6 +3975,21 @@
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/eng-blogs-2026-11-26.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
+  "eng-blogs/2026-11-27": {
+   "bytes": 5454590,
+   "date": "2026-11-27",
+   "duration": 908,
+   "guid": "eng-blogs/2026-11-27",
+   "hash": "c1c5ab1188b4b208",
+   "kind": "news",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/eng-blogs/2026-11-27/",
+   "published": "2026-11-27T06:30:00+05:30",
+   "show": "eng-blogs",
+   "summary": "Today, we have important updates from Microsoft's .NET and Azure SQL teams, AWS, Cloudflare, Discord, and Grab Engineering, alongside news of recent outages at the FAA and Microsoft.",
+   "title": "Nov 27 · Engineering Blogs news",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/eng-blogs-2026-11-27.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
   "geopolitics/2026-08-18": {
    "bytes": 1757285,
    "date": "2026-08-18",
@@ -5728,6 +5743,21 @@
    "summary": "Good morning, and welcome to My Daily Clippings on Thursday, November twenty-sixth, two thousand twenty-six.",
    "title": "Nov 26 · Headlines",
    "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/headlines-2026-11-26.mp3",
+   "voice": "en-US-AvaMultilingualNeural"
+  },
+  "headlines/2026-11-27": {
+   "bytes": 1321961,
+   "date": "2026-11-27",
+   "duration": 220,
+   "guid": "headlines/2026-11-27",
+   "hash": "f5509bb3c073d476",
+   "kind": "briefing",
+   "page": "https://aamukthaaukunooru.github.io/MyDailyClippings/headlines/2026-11-27/",
+   "published": "2026-11-27T06:40:00+05:30",
+   "show": "headlines",
+   "summary": "Good morning, and welcome to My Daily Clippings on Friday, November twenty-seventh, two thousand twenty-six.",
+   "title": "Nov 27 · Headlines",
+   "url": "https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/headlines-2026-11-27.mp3",
    "voice": "en-US-AvaMultilingualNeural"
   },
   "history/2026-10-19": {
