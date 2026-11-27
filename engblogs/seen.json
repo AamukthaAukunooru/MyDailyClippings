@@ -49,7 +49,17 @@
   "https://stripe.com/blog/give-your-agents-controlled-access-to-analyze-your-data-and-move-funds",
   "https://discord.com/blog/discord-update-november-19-2026",
   "https://www.datadoghq.com/blog/engineering/semantic-translation-otel",
-  "https://zerodha.tech/blog/high-performance-distributed-blob-storage"
+  "https://zerodha.tech/blog/high-performance-distributed-blob-storage",
+  "https://news.google.com/rss/articles/cbmiqgfbvv95cuxnohdnx3zvmuztt1rfdnlfunc1sljkuetsrjvramw2r2tqutjmzwdryulgtfi5alnvyzy5qthxu04twu14nldwnwnwae1yry1uohu5zuj2odnxcng0sznka25xz2xyqnb2sdhvcernzjjyoudlum44eg1sq18tnetnbujua0zpv0k0rfzpwvl3bfj3s2torgjdvnlswjnoyjbfuddxa05jx1nxzw",
+  "https://news.google.com/rss/articles/cbmilwfbvv95cuxpvu5jrwhkn09nnelqam41nle0mxd5cvbsazl6rkpkqnr0djrozlnlvldfrmnlouhzofbpc19azlizejzhc2ixmwdxyu85zwi4m2fkcmn3ofc2m0ntamdxrg8zzi1cahvxz3u0sjlaqmziwmdlvtfpdth4ltvtsefezws5cknmstnwofbrdjb2anz1wlawa3vn",
+  "https://devblogs.microsoft.com/dotnet/ai-cross-platform-decision-matrix",
+  "https://aws.amazon.com/blogs/architecture/how-bee-implemented-zero-operator-access-for-personal-ai-on-aws",
+  "https://blog.cloudflare.com/phpaftershell-waf-protection",
+  "https://www.figma.com/blog/workflow-lab-specs-and-the-figma-agent",
+  "https://devblogs.microsoft.com/azure-sql/how-to-chunk-documents-in-azure-sql-database-for-rag",
+  "https://stripe.com/blog/custom-software-specialized-workflows-and-other-new-growth-paths-from-saas-platform-summit",
+  "https://discord.com/blog/introducing-auto-clips",
+  "https://engineering.grab.com/part-1-ads-simulation-blogpost"
  ],
  "feeds": {}
 }
