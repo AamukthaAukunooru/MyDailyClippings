@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/history.xml" rel="self" type="application/rss+xml"/>
     <description>One history topic explained every day, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 19:13:49 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 04:52:28 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One history topic explained every day, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/history.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 28 · Explainer: Panini's Astadhyayi: Engineering Language and Algorithms</title>
+      <guid isPermaLink="false">history/2026-11-28</guid>
+      <pubDate>Sat, 28 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-28/</link>
+      <description><![CDATA[Have you ever thought about the underlying rules that govern a language? Not just vocabulary, but the intricate system that allows us to combine sounds into words, and words into meaningful sentences? Imagine if you coul<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/history/2026-11-28/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/history-2026-11-28.mp3" length="3694339" type="audio/mpeg"/>
+      <itunes:duration>10:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 27 · Explainer: The Roman Road Network: Engineering an Empire's Arteries</title>
       <guid isPermaLink="false">history/2026-11-27</guid>

@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/dsa.xml" rel="self" type="application/rss+xml"/>
     <description>Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 19:13:49 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 04:52:28 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Grind 169, one LeetCode problem a day, explained by ear: the brute force, the key insight and its pattern, the optimal approach, complexity and follow-ups.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/dsa.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 28 · Explainer: Majority Element: The Power of Voting</title>
+      <guid isPermaLink="false">dsa-patterns/2026-11-28</guid>
+      <pubDate>Sat, 28 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-28/</link>
+      <description><![CDATA[Welcome to DSA Explained, your daily dose of data structures and algorithms, designed for your commute. Today, we're tackling a classic problem that often appears in coding interviews: the **Majority Element**. It's Leet<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/dsa-patterns/2026-11-28/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/dsa-patterns-2026-11-28.mp3" length="3685244" type="audio/mpeg"/>
+      <itunes:duration>10:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 27 · Explainer: Single Number: The XOR Trick for Finding the Unique Element</title>
       <guid isPermaLink="false">dsa-patterns/2026-11-27</guid>

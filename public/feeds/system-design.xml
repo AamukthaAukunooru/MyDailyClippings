@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/system-design.xml" rel="self" type="application/rss+xml"/>
     <description>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 19:13:49 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 04:52:28 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>One system design or software engineering concept explained every day: distributed systems, databases, performance and architecture.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/system-design.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 28 · Explainer: Inverted Indexes: How Search Engines Find What You're Looking For</title>
+      <guid isPermaLink="false">system-design/2026-11-28</guid>
+      <pubDate>Sat, 28 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-28/</link>
+      <description><![CDATA[Imagine you walk into a massive library, not just with thousands, but with billions of books. And you're looking for every single book that mentions the phrase "quantum entanglement." How would you find them? You could,<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/system-design/2026-11-28/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/system-design-2026-11-28.mp3" length="5656010" type="audio/mpeg"/>
+      <itunes:duration>15:42</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 27 · Explainer: Geohashing and Quadtrees: Spatial Indexing for Geographic Data</title>
       <guid isPermaLink="false">system-design/2026-11-27</guid>

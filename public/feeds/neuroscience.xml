@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/neuroscience.xml" rel="self" type="application/rss+xml"/>
     <description>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 19:13:49 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 04:52:28 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily neuroscience news plus a daily explainer, from My Daily Clippings.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/neuroscience.png"/>
@@ -14,6 +14,26 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 28 · Neuroscience news</title>
+      <guid isPermaLink="false">neuroscience/2026-11-28</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-28/</link>
+      <description><![CDATA[Good morning, brain enthusiasts, and welcome to My Daily Clippings. Today, we're diving into some truly fascinating developments across neuroscience, from a potential paradigm shift in how we understand individual neuron<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience/2026-11-28/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-2026-11-28.mp3" length="1353684" type="audio/mpeg"/>
+      <itunes:duration>3:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Nov 28 · Explainer: The Blood-Brain Barrier: Your Brain's Exclusive Border Control</title>
+      <guid isPermaLink="false">neuroscience-explained/2026-11-28</guid>
+      <pubDate>Sat, 28 Nov 2026 06:20:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-28/</link>
+      <description><![CDATA[Imagine your brain as the most critical, high-security data center on the planet. It houses all your memories, thoughts, and the very essence of who you are. Now, imagine this data center is constantly bathed in a fluid<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/neuroscience-explained/2026-11-28/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/neuroscience-explained-2026-11-28.mp3" length="4884259" type="audio/mpeg"/>
+      <itunes:duration>13:33</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 27 · Neuroscience news</title>
       <guid isPermaLink="false">neuroscience/2026-11-27</guid>

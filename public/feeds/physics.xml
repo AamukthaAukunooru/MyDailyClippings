@@ -6,7 +6,7 @@
     <atom:link href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/physics.xml" rel="self" type="application/rss+xml"/>
     <description>Daily physics news from My Daily Clippings, read aloud.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 19:13:49 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 04:52:28 +0000</lastBuildDate>
     <itunes:author>My Daily Clippings</itunes:author>
     <itunes:summary>Daily physics news from My Daily Clippings, read aloud.</itunes:summary>
     <itunes:image href="https://aamukthaaukunooru.github.io/MyDailyClippings/feeds/art/physics.png"/>
@@ -14,6 +14,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="News"/>
+    <item>
+      <title>Nov 28 · Physics news</title>
+      <guid isPermaLink="false">physics/2026-11-28</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0530</pubDate>
+      <link>https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-11-28/</link>
+      <description><![CDATA[Greetings, physics enthusiasts, and welcome to another edition of My Daily Clippings. Today, we delve into a fascinating array of breakthroughs, from the fundamental limits of quantum computation and the miniaturization<p><a href="https://aamukthaaukunooru.github.io/MyDailyClippings/physics/2026-11-28/">Read it on the site</a></p>]]></description>
+      <enclosure url="https://github.com/AamukthaAukunooru/MyDailyClippings/releases/download/audio-2026-11/physics-2026-11-28.mp3" length="2157565" type="audio/mpeg"/>
+      <itunes:duration>5:59</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nov 27 · Physics news</title>
       <guid isPermaLink="false">physics/2026-11-27</guid>
